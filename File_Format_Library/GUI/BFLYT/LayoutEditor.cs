@@ -134,7 +134,7 @@ namespace LayoutBXLYT
             Text = $"Switch Toolbox Layout Editor [{header.FileName}]";
             /*   if (PluginRuntime.BxfntFiles.Count > 0)
                {
-                   var result = MessageBox.Show("Found font files opened. Would you like to save character images to disk? " +
+                   var result = MessageBox.Show("发现已打开的字体文件。要将字符图像保存到磁盘吗？ " +
                        "(Allows for faster loading and won't need to be reopened)", "Layout Editor", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                    if (result == DialogResult.Yes)
                    {
@@ -460,7 +460,7 @@ namespace LayoutBXLYT
                 return;
 
             LayoutPartsEditor = new LayoutPartsEditor();
-            LayoutPartsEditor.Text = "Parts Editor";
+            LayoutPartsEditor.Text = "部件编辑器";
             LayoutPartsEditor.Show(dockPanel1, DockState.DockLeft);
         }
 
@@ -536,7 +536,7 @@ namespace LayoutBXLYT
                 return;
 
             LayoutAnimList = new LayoutAnimList(this, ObjectSelected);
-            LayoutAnimList.Text = "Animation Hierarchy";
+            LayoutAnimList.Text = "动画层级";
             LayoutAnimList.Show(dockPanel1, DockState.DockLeft);
         }
 
@@ -557,7 +557,7 @@ namespace LayoutBXLYT
                 return;
 
             LayoutTextureList = new LayoutTextureList();
-            LayoutTextureList.Text = "Texture List";
+            LayoutTextureList.Text = "贴图列表";
             LayoutTextureList.LoadTextures(this, ActiveLayout, Textures);
             LayoutTextureList.Show(dockPanel1, DockState.DockRight);
         }
@@ -823,7 +823,7 @@ namespace LayoutBXLYT
                 {
                     if (TextConverter == null)
                         TextConverter = new LayoutTextDocked();
-                    TextConverter.Text = "Text Converter";
+                    TextConverter.Text = "文本转换器";
                     TextConverter.TextCompiled += OnTextCompiled;
                     TextConverter.LoadLayout((BFLYT)ActiveLayout.FileInfo);
                     if (ActiveViewport != null)
@@ -896,7 +896,7 @@ namespace LayoutBXLYT
                     fileFormat.IFileInfo.ArchiveParent != null && !ForceDialog)
                 {
                     UpdateArchiveFile?.Invoke(fileFormat, new EventArgs());
-                    MessageBox.Show($"Saved {fileFormat.FileName} to archive!");
+                    MessageBox.Show($"已将 {fileFormat.FileName} 保存到归档！");
                 }
                 else
                 {
@@ -1015,7 +1015,7 @@ namespace LayoutBXLYT
                 GamePreviewWindow.GameWindow = true;
                 GamePreviewWindow.Dock = DockStyle.Fill;
                 STForm form = new STForm();
-                form.Text = "Game Preview";
+                form.Text = "游戏预览";
                 form.AddControl(GamePreviewWindow);
                 form.Show(this);
             }

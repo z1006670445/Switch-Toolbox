@@ -24,11 +24,11 @@ namespace FirstPlugin
         public override ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Save Edited Textures", null, (o, e) => SaveEdited(), Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("保存已编辑的贴图", null, (o, e) => SaveEdited(), Keys.Control | Keys.E));
             Items.Add(new ToolStripSeparator());
             Items.AddRange(base.GetContextMenuItems());
             Items.Add(new ToolStripSeparator());
-            Items.Add(new ToolStripMenuItem("Import TXTG", null, (o, e) => AddTexture(), Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("导入 TXTG", null, (o, e) => AddTexture(), Keys.Control | Keys.E));
 
             return Items.ToArray();
         }
@@ -70,7 +70,7 @@ namespace FirstPlugin
             TXTG txtg = STFileLoader.OpenFileFormat(filePath) as TXTG;
             if (txtg == null) 
             {
-                MessageBox.Show($"File {filePath} not a valid TXTG file!");
+                MessageBox.Show($"文件 {filePath} 不是有效的 TXTG 文件！");
                 return;
             }
             this.MeshCodec.TextureList.Add(txtg);

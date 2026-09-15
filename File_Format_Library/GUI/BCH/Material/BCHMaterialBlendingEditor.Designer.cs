@@ -191,7 +191,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(82, 13);
             this.stLabel1.TabIndex = 58;
-            this.stLabel1.Text = "Compare Mode:";
+            this.stLabel1.Text = "比较模式：";
             // 
             // alphaCompareCB
             // 
@@ -355,7 +355,7 @@
             this.chkUsePolyOffset.Name = "chkUsePolyOffset";
             this.chkUsePolyOffset.Size = new System.Drawing.Size(112, 17);
             this.chkUsePolyOffset.TabIndex = 64;
-            this.chkUsePolyOffset.Text = "Use Polgon Offset";
+            this.chkUsePolyOffset.Text = "使用多边形偏移";
             this.chkUsePolyOffset.UseVisualStyleBackColor = true;
             this.chkUsePolyOffset.CheckedChanged += new System.EventHandler(this.EditBlendData);
             // 
@@ -377,7 +377,7 @@
             this.chkDepthWrite.Name = "chkDepthWrite";
             this.chkDepthWrite.Size = new System.Drawing.Size(86, 17);
             this.chkDepthWrite.TabIndex = 63;
-            this.chkDepthWrite.Text = "Depth Write:";
+            this.chkDepthWrite.Text = "深度写入：";
             this.chkDepthWrite.UseVisualStyleBackColor = true;
             this.chkDepthWrite.CheckedChanged += new System.EventHandler(this.EditBlendData);
             // 
@@ -388,7 +388,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(82, 13);
             this.stLabel3.TabIndex = 61;
-            this.stLabel3.Text = "Compare Mode:";
+            this.stLabel3.Text = "比较模式：";
             // 
             // stDropDownPanel4
             // 
@@ -441,7 +441,7 @@
             this.stLabel9.Name = "stLabel9";
             this.stLabel9.Size = new System.Drawing.Size(81, 13);
             this.stLabel9.TabIndex = 4;
-            this.stLabel9.Text = "Alpha Blending:";
+            this.stLabel9.Text = "Alpha 混合：";
             // 
             // stPanel4
             // 
@@ -529,7 +529,7 @@
             this.stLabel5.Name = "stLabel5";
             this.stLabel5.Size = new System.Drawing.Size(78, 13);
             this.stLabel5.TabIndex = 2;
-            this.stLabel5.Text = "Color Blending:";
+            this.stLabel5.Text = "颜色混合：";
             // 
             // stPanel3
             // 

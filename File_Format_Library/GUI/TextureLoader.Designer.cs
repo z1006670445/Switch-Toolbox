@@ -126,7 +126,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(63, 13);
             this.stLabel1.TabIndex = 14;
-            this.stLabel1.Text = "Thumb Size";
+            this.stLabel1.Text = "缩略图大小";
             // 
             // btnAdd
             // 

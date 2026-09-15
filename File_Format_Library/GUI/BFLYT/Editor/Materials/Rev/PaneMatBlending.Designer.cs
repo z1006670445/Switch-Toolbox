@@ -210,7 +210,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(91, 13);
             this.stLabel1.TabIndex = 54;
-            this.stLabel1.Text = "Compare Mode 1:";
+            this.stLabel1.Text = "比较模式 1：";
             // 
             // chkAlphaDefaults
             // 
@@ -219,7 +219,7 @@
             this.chkAlphaDefaults.Name = "chkAlphaDefaults";
             this.chkAlphaDefaults.Size = new System.Drawing.Size(83, 17);
             this.chkAlphaDefaults.TabIndex = 1;
-            this.chkAlphaDefaults.Text = "Use default:";
+            this.chkAlphaDefaults.Text = "使用默认：";
             this.chkAlphaDefaults.UseVisualStyleBackColor = true;
             this.chkAlphaDefaults.CheckedChanged += new System.EventHandler(this.chkAlphaDefaults_CheckedChanged);
             // 
@@ -288,7 +288,7 @@
             this.stLabel6.Name = "stLabel6";
             this.stLabel6.Size = new System.Drawing.Size(93, 13);
             this.stLabel6.TabIndex = 63;
-            this.stLabel6.Text = "Logical Operation:";
+            this.stLabel6.Text = "逻辑运算：";
             // 
             // stLabel3
             // 
@@ -363,7 +363,7 @@
             this.chkColorBlendDefaults.Name = "chkColorBlendDefaults";
             this.chkColorBlendDefaults.Size = new System.Drawing.Size(83, 17);
             this.chkColorBlendDefaults.TabIndex = 2;
-            this.chkColorBlendDefaults.Text = "Use default:";
+            this.chkColorBlendDefaults.Text = "使用默认：";
             this.chkColorBlendDefaults.UseVisualStyleBackColor = true;
             this.chkColorBlendDefaults.CheckedChanged += new System.EventHandler(this.chkColorBlendDefaults_CheckedChanged);
             // 
@@ -437,7 +437,7 @@
             this.stLabel8.Name = "stLabel8";
             this.stLabel8.Size = new System.Drawing.Size(91, 13);
             this.stLabel8.TabIndex = 58;
-            this.stLabel8.Text = "Compare Mode 2:";
+            this.stLabel8.Text = "比较模式 2：";
             // 
             // PaneMatRevBlending
             // 

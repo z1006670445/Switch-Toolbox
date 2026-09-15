@@ -857,7 +857,7 @@ namespace Bfres.Structs
         }
         public void Clear(object sender, EventArgs args)
         {
-            DialogResult dialogResult = MessageBox.Show("Are you sure you want to remove all objects? This cannot be undone!", "", MessageBoxButtons.YesNo);
+            DialogResult dialogResult = MessageBox.Show("确定要移除所有对象吗？此操作无法撤销！", "", MessageBoxButtons.YesNo);
 
             if (dialogResult == DialogResult.Yes)
             {
@@ -1142,13 +1142,13 @@ namespace Bfres.Structs
 
                 if (!shp.HasUV0())
                 {
-                    MessageBox.Show($"Error! {Text} does not have UVs!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"错误！{Text} 没有 UV！", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
                 if (!HasBiTans)
                 {
-                    DialogResult dialogResult2 = MessageBox.Show("Mesh does not have bitangents. Do you want to create them? (will make file size bigger)", "", MessageBoxButtons.YesNo);
+                    DialogResult dialogResult2 = MessageBox.Show("网格没有副切线。要创建吗？（会增大文件体积）", "", MessageBoxButtons.YesNo);
 
                     FSHP.VertexAttribute att2 = new FSHP.VertexAttribute();
                     att2.Name = "_b0";
@@ -1163,7 +1163,7 @@ namespace Bfres.Structs
 
                 if (!HasTans)
                 {
-                    DialogResult dialogResult = MessageBox.Show("Mesh does not have tangets. Do you want to create them? (will make file size bigger)", "", MessageBoxButtons.YesNo);
+                    DialogResult dialogResult = MessageBox.Show("网格没有切线。要创建吗？（会增大文件体积）", "", MessageBoxButtons.YesNo);
 
                     FSHP.VertexAttribute att = new FSHP.VertexAttribute();
                     att.Name = "_t0";
@@ -1390,7 +1390,7 @@ namespace Bfres.Structs
 
                     if (csvModel.objects.Count == 0)
                     {
-                        MessageBox.Show("No models found!");
+                        MessageBox.Show("未找到模型！");
                         return;
                     }
                     BfresModelImportSettings csvsettings = new BfresModelImportSettings();
@@ -1432,7 +1432,7 @@ namespace Bfres.Structs
 
                     if (assimp.objects.Count == 0)
                     {
-                        MessageBox.Show("No models found!");
+                        MessageBox.Show("未找到模型！");
                         return;
                     }
                     BfresModelImportSettings settings = new BfresModelImportSettings();
@@ -2126,7 +2126,7 @@ namespace Bfres.Structs
         }
         private void Remove(object sender, EventArgs args)
         {
-            DialogResult dialogResult = MessageBox.Show("Are you sure you want to remove this object? This cannot be undone!", "", MessageBoxButtons.YesNo);
+            DialogResult dialogResult = MessageBox.Show("确定要移除此对象吗？此操作无法撤销！", "", MessageBoxButtons.YesNo);
 
             if (dialogResult == DialogResult.Yes)
             {
@@ -2164,7 +2164,7 @@ namespace Bfres.Structs
                 }
                 catch
                 {
-                    MessageBox.Show($"Failed to generate tangents for mesh {Text}");
+                    MessageBox.Show($"为网格 {Text} 生成切线失败");
                 }
             }
             if (settings.SetDefaultParamData)
@@ -2215,13 +2215,13 @@ namespace Bfres.Structs
 
             if (!HasUV0())
             {
-                MessageBox.Show($"Error! {Text} does not have UVs!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"错误！{Text} 没有 UV！", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             if (!HasBiTans)
             {
-                DialogResult dialogResult2 = MessageBox.Show("Mesh does not have bitangents. Do you want to create them? (will make file size bigger)", "", MessageBoxButtons.YesNo);
+                DialogResult dialogResult2 = MessageBox.Show("网格没有副切线。要创建吗？（会增大文件体积）", "", MessageBoxButtons.YesNo);
 
                 VertexAttribute att2 = new VertexAttribute();
                 att2.Name = "_b0";
@@ -2236,7 +2236,7 @@ namespace Bfres.Structs
 
             if (!HasTans)
             {
-                DialogResult dialogResult = MessageBox.Show("Mesh does not have tangets. Do you want to create them? (will make file size bigger)", "", MessageBoxButtons.YesNo);
+                DialogResult dialogResult = MessageBox.Show("网格没有切线。要创建吗？（会增大文件体积）", "", MessageBoxButtons.YesNo);
 
                 VertexAttribute att = new VertexAttribute();
                 att.Name = "_t0";
@@ -2271,7 +2271,7 @@ namespace Bfres.Structs
         {
             if (!HasUV0())
             {
-                MessageBox.Show($"Error! {Text} does not have UVs!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"错误！{Text} 没有 UV！", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -2283,7 +2283,7 @@ namespace Bfres.Structs
         {
             if (!HasUV0())
             {
-                MessageBox.Show($"Error! {Text} does not have UVs!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"错误！{Text} 没有 UV！", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -2382,7 +2382,7 @@ namespace Bfres.Structs
                         {
                             if (assimp.objects.Count == 0)
                             {
-                                MessageBox.Show("No models found!");
+                                MessageBox.Show("未找到模型！");
                                 return;
                             }
                             BfresModelImportSettings settings = new BfresModelImportSettings();
@@ -2676,7 +2676,7 @@ namespace Bfres.Structs
             }
             if (atrib.Count == 0)
             {
-                MessageBox.Show("Attributes are empty?");
+                MessageBox.Show("属性为空？");
                 return;
             }
             helpernx.Attributes = atrib;

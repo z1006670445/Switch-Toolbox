@@ -175,7 +175,7 @@ namespace Toolbox.Library
             {
                 if (useEditDebugMode == false)
                 {
-                  var result =  MessageBox.Show("This feature is experimental and could lead to potential crashes. Are you sure you want to continue?",
+                  var result =  MessageBox.Show("此功能为实验性，可能导致崩溃。确定要继续吗？",
                         "", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2, MessageBoxOptions.DefaultDesktopOnly);
 
                     if (result == DialogResult.Yes)

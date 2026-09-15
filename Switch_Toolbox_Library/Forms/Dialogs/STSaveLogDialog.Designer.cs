@@ -98,7 +98,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Save Notification";
+            this.Text = "保存通知";
             this.ResumeLayout(false);
             this.PerformLayout();
 

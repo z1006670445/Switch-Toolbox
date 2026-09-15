@@ -160,7 +160,7 @@ namespace UKing.Actors
         public BotwActorLoader()
         {
             editor = new ObjectEditor();
-            editor.Text = "Actor Editor BOTW";
+            editor.Text = "角色编辑器（旷野之息）";
             LibraryGUI.CreateMdiWindow(editor);
             editor.SortTreeAscending();
 
@@ -295,7 +295,7 @@ namespace UKing.Actors
         {
             string dir = "";
 
-            var result = MessageBox.Show("Please set your game path for botw", "Actor Loader", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            var result = MessageBox.Show("请设置旷野之息的游戏路径", "Actor Loader", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             if (result == DialogResult.OK)
             {
                 FolderSelectDialog folderSelect = new FolderSelectDialog();

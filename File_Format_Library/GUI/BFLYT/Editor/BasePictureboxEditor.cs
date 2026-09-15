@@ -151,7 +151,7 @@ namespace LayoutBXLYT
             if (ActivePane.Material == null) return;
 
             if (ActivePane.Material.TextureMaps.Length <= ActivePane.TexCoords.Length) {
-                MessageBox.Show($"You should have atleast {ActivePane.Material.TextureMaps.Length + 1} " +
+                MessageBox.Show($"你至少需要有 {ActivePane.Material.TextureMaps.Length + 1} " +
                                  "textures to add new texture coordinates!");
                 return;
             }
@@ -164,7 +164,7 @@ namespace LayoutBXLYT
             int index = texCoordIndexCB.SelectedIndex;
             if (index == -1 || ActivePane.Material == null) return;
 
-            var result = MessageBox.Show($"Are you sure you want to remove texture coordinate {index}? This will make any texture mapped to this to the first one.", 
+            var result = MessageBox.Show($"确定要移除贴图坐标 {index} 吗？这会使映射到它的贴图全部改用第一个坐标。", 
                                     "Layout Editor", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes) {

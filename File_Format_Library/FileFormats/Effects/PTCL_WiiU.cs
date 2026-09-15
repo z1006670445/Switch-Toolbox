@@ -53,7 +53,7 @@ namespace FirstPlugin
                 uint ShaderParamTableOffset = reader.ReadUInt32();
                 uint ShaderParamTableSize = reader.ReadUInt32();
 
-                var groupEmitterSets = new TreeNode("Emitter Sets");
+                var groupEmitterSets = new TreeNode("发射器组");
                 var textureFolder = new PTCL.Header.TextureFolder("Textures");
                 pctl.Nodes.Add(textureFolder);
                 pctl.Nodes.Add(groupEmitterSets);
@@ -348,7 +348,7 @@ namespace FirstPlugin
                         ImageData = Utils.CombineByteArray(ftex.texture.Data, ftex.texture.MipData);
 
                     if (ImageData.Length != size)
-                        MessageBox.Show($"Image size does not match! Make sure mip map count, format, height and width are all the same! Original Size {size} Import {ImageData.Length}");
+                        MessageBox.Show($"图像尺寸不匹配！请确认 mipmap 数量、格式、高度与宽度均一致！原始尺寸 {size}，导入 {ImageData.Length}");
 
                     Swizzle = (byte)ftex.texture.Swizzle;
 

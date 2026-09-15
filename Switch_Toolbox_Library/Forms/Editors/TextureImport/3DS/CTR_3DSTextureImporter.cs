@@ -283,7 +283,7 @@ namespace Toolbox.Library.Forms
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 13);
             this.label3.TabIndex = 39;
-            this.label3.Text = "Image Dimension";
+            this.label3.Text = "图像尺寸";
             // 
             // label2
             // 
@@ -301,7 +301,7 @@ namespace Toolbox.Library.Forms
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 13);
             this.label1.TabIndex = 37;
-            this.label1.Text = "Number MipMaps";
+            this.label1.Text = "Mipmap 数量";
             // 
             // MipmapNum
             // 
@@ -413,14 +413,14 @@ namespace Toolbox.Library.Forms
             this.dataSizeLbl.Name = "dataSizeLbl";
             this.dataSizeLbl.Size = new System.Drawing.Size(56, 13);
             this.dataSizeLbl.TabIndex = 41;
-            this.dataSizeLbl.Text = "Data Size:";
+            this.dataSizeLbl.Text = "数据大小：";
             // 
             // CTR_3DSTextureImporter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(986, 516);
-            this.Text = "CTR Texture Importer";
+            this.Text = "CTR 贴图导入器";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MipmapNum)).EndInit();

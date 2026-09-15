@@ -119,7 +119,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(58, 13);
             this.stLabel4.TabIndex = 21;
-            this.stLabel4.Text = "Mip Count:";
+            this.stLabel4.Text = "Mipmap 数量：";
             // 
             // stLabel5
             // 

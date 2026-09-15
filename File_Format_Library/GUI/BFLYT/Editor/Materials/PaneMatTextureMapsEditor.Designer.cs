@@ -288,7 +288,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(65, 13);
             this.stLabel3.TabIndex = 13;
-            this.stLabel3.Text = "Filter Shrink:";
+            this.stLabel3.Text = "过滤收缩：";
             // 
             // expandCB
             // 
@@ -310,7 +310,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(71, 13);
             this.stLabel4.TabIndex = 11;
-            this.stLabel4.Text = "Filter Expand:";
+            this.stLabel4.Text = "过滤扩展：";
             // 
             // wrapModeVCB
             // 
@@ -332,7 +332,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(76, 13);
             this.stLabel2.TabIndex = 9;
-            this.stLabel2.Text = "Wrap Mode V:";
+            this.stLabel2.Text = "V 方向环绕模式：";
             // 
             // wrapModeUCB
             // 
@@ -354,7 +354,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(77, 13);
             this.stLabel1.TabIndex = 7;
-            this.stLabel1.Text = "Wrap Mode U:";
+            this.stLabel1.Text = "U 方向环绕模式：";
             // 
             // stDropDownPanel3
             // 
@@ -404,7 +404,7 @@
             this.stLabel11.Name = "stLabel11";
             this.stLabel11.Size = new System.Drawing.Size(95, 13);
             this.stLabel11.TabIndex = 62;
-            this.stLabel11.Text = "Projection Params:";
+            this.stLabel11.Text = "投影参数：";
             // 
             // barSlider5
             // 

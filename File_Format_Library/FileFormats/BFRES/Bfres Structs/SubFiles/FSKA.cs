@@ -57,7 +57,7 @@ namespace Bfres.Structs
             List<ToolStripItem> Items = new List<ToolStripItem>();
             Items.AddRange(base.GetContextMenuItems());
             Items.Add(new ToolStripMenuItem("Copy", null, CopyAction, Keys.Control | Keys.C));
-            Items.Add(new ToolStripMenuItem("New Bone Target", null, NewAction, Keys.Control | Keys.W));
+            Items.Add(new ToolStripMenuItem("新建骨骼目标", null, NewAction, Keys.Control | Keys.W));
             return Items.ToArray();
         }
 

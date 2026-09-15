@@ -125,7 +125,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(283, 13);
             this.stLabel1.TabIndex = 15;
-            this.stLabel1.Text = "Updates are found! Would you like to update to the latest?";
+            this.stLabel1.Text = "发现更新！是否更新到最新版？";
             // 
             // stLabel2
             // 
@@ -143,7 +143,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 398);
             this.Name = "GithubUpdateDialog";
-            this.Text = "Github Update";
+            this.Text = "GitHub 更新";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             this.ResumeLayout(false);

@@ -127,7 +127,7 @@
             this.stLabel10.Name = "stLabel10";
             this.stLabel10.Size = new System.Drawing.Size(83, 13);
             this.stLabel10.TabIndex = 61;
-            this.stLabel10.Text = "Text Box Name:";
+            this.stLabel10.Text = "文本框名称：";
             // 
             // textBoxTB
             // 
@@ -145,7 +145,7 @@
             this.chkSizeRestrict.Name = "chkSizeRestrict";
             this.chkSizeRestrict.Size = new System.Drawing.Size(99, 17);
             this.chkSizeRestrict.TabIndex = 59;
-            this.chkSizeRestrict.Text = "Size Restriction";
+            this.chkSizeRestrict.Text = "大小限制";
             this.chkSizeRestrict.UseVisualStyleBackColor = true;
             this.chkSizeRestrict.CheckedChanged += new System.EventHandler(this.chkSizeRestrict_CheckedChanged);
             // 
@@ -202,7 +202,7 @@
             this.stLabel6.Name = "stLabel6";
             this.stLabel6.Size = new System.Drawing.Size(81, 13);
             this.stLabel6.TabIndex = 58;
-            this.stLabel6.Text = "Linel Alignment:";
+            this.stLabel6.Text = "行对齐：";
             // 
             // stTextBox1
             // 
@@ -253,7 +253,7 @@
             this.stLabel5.Name = "stLabel5";
             this.stLabel5.Size = new System.Drawing.Size(94, 13);
             this.stLabel5.TabIndex = 56;
-            this.stLabel5.Text = "Vertical Alignment:";
+            this.stLabel5.Text = "垂直对齐：";
             // 
             // stLabel4
             // 
@@ -263,7 +263,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(106, 13);
             this.stLabel4.TabIndex = 54;
-            this.stLabel4.Text = "Horizontal Alignment:";
+            this.stLabel4.Text = "水平对齐：";
             // 
             // alighmentVCB
             // 
@@ -433,7 +433,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(50, 13);
             this.stLabel1.TabIndex = 2;
-            this.stLabel1.Text = "Font File:";
+            this.stLabel1.Text = "字体文件：";
             // 
             // scaleYUD
             // 
@@ -601,7 +601,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(62, 13);
             this.stLabel3.TabIndex = 51;
-            this.stLabel3.Text = "Italic Angle:";
+            this.stLabel3.Text = "倾斜角度：";
             // 
             // stDropDownPanel4
             // 
@@ -708,7 +708,7 @@
             this.stLabel13.Name = "stLabel13";
             this.stLabel13.Size = new System.Drawing.Size(62, 13);
             this.stLabel13.TabIndex = 54;
-            this.stLabel13.Text = "Italic Angle:";
+            this.stLabel13.Text = "倾斜角度：";
             // 
             // shadowOffseYUD
             // 

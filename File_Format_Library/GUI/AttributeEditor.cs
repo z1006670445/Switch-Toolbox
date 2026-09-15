@@ -95,7 +95,7 @@ namespace FirstPlugin
 
             string SelectedText = attributeCB.GetItemText(attributeCB.SelectedItem);
 
-            DialogResult dialogResult = MessageBox.Show($"Are you sure you want to remove all {SelectedText} from" +
+            DialogResult dialogResult = MessageBox.Show($"确定要移除所有 {SelectedText} 吗，来自" +
                 $" FMDL {ActiveFMDL}? )", "", MessageBoxButtons.YesNo);
 
 

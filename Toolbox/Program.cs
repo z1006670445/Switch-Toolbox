@@ -43,7 +43,7 @@ namespace Toolbox
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Failed to load config file! {ex}");
+                MessageBox.Show($"配置文件加载失败！{ex}");
             }
 
             var domain = AppDomain.CurrentDomain;
@@ -52,7 +52,7 @@ namespace Toolbox
             bool LoadedDX = TryLoadDirectXTex();
             if (!LoadedDX && !Toolbox.Library.Runtime.UseDirectXTexDecoder)
             {
-                var result = MessageBox.Show("Direct X Tex Failed to load! Make sure to install Visual C++ and Direct X Tex. Do you want to go to the install sites?", "", MessageBoxButtons.YesNo);
+                var result = MessageBox.Show("DirectXTex 加载失败！请确认已安装 Visual C++ 与 DirectXTex。要前往下载页面吗？", "", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
                     System.Diagnostics.Process.Start("https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads");

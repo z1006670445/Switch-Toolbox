@@ -137,15 +137,15 @@ namespace Bfres.Structs
             {
                 return new ToolStripItem[]
                 {
-                    new ToolStripMenuItem("New Bone", null, NewBoneAction, Keys.Control | Keys.N),
-                    new ToolStripMenuItem("Import Bone", null, ImportAction, Keys.Control | Keys.I),
-                    new ToolStripMenuItem("Export All Bones", null, ExportAllAction, Keys.Control | Keys.B),
+                    new ToolStripMenuItem("新建骨骼", null, NewBoneAction, Keys.Control | Keys.N),
+                    new ToolStripMenuItem("导入骨骼", null, ImportAction, Keys.Control | Keys.I),
+                    new ToolStripMenuItem("导出所有骨骼", null, ExportAllAction, Keys.Control | Keys.B),
                     new ToolStripSeparator(),
-                    new ToolStripMenuItem("Replace Matching Bones (From Skeleton)", null, ReplaceMatchingFileAction, Keys.Control | Keys.S),
-                    new ToolStripMenuItem("Replace Matching Bones (From Folder)", null, ReplaceMatchingFolderAction, Keys.Control | Keys.F),
+                    new ToolStripMenuItem("替换匹配的骨骼（从骨架）", null, ReplaceMatchingFileAction, Keys.Control | Keys.S),
+                    new ToolStripMenuItem("替换匹配的骨骼（从文件夹）", null, ReplaceMatchingFolderAction, Keys.Control | Keys.F),
                     new ToolStripSeparator(),
-                    new ToolStripMenuItem("Export Skeleton", null, ExportAction, Keys.Control | Keys.E),
-                    new ToolStripMenuItem("Replace Skeleton", null, ReplaceAction, Keys.Control | Keys.R),
+                    new ToolStripMenuItem("导出骨架", null, ExportAction, Keys.Control | Keys.E),
+                    new ToolStripMenuItem("替换骨架", null, ReplaceAction, Keys.Control | Keys.R),
                 };
             }
 
@@ -506,7 +506,7 @@ namespace Bfres.Structs
 
             public override void Clear()
             {
-                DialogResult dialogResult = MessageBox.Show("Are you sure you want to remove all bones? This cannot be undone!", "", MessageBoxButtons.YesNo);
+                DialogResult dialogResult = MessageBox.Show("确定要移除所有骨骼吗？此操作无法撤销！", "", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
                 {
                     Nodes.Clear();
@@ -630,13 +630,13 @@ namespace Bfres.Structs
             List<ToolStripItem> Items = new List<ToolStripItem>();
             Items.Add(new ToolStripMenuItem("Rename", null, RenameAction, Keys.Control | Keys.R));
             Items.Add(new ToolStripSeparator());
-            Items.Add(new ToolStripMenuItem("New Child Bone", null, NewAction, Keys.Control | Keys.N));
-            Items.Add(new ToolStripMenuItem("Import Child Bone", null, ImportAction, Keys.Control | Keys.I));
+            Items.Add(new ToolStripMenuItem("新建子骨骼", null, NewAction, Keys.Control | Keys.N));
+            Items.Add(new ToolStripMenuItem("导入子骨骼", null, ImportAction, Keys.Control | Keys.I));
             Items.Add(new ToolStripSeparator());
-            Items.Add(new ToolStripMenuItem("Export Bone", null, ExportAction, Keys.Control | Keys.E));
-            Items.Add(new ToolStripMenuItem("Replace Bone", null, ReplaceAction, Keys.Control | Keys.R));
+            Items.Add(new ToolStripMenuItem("导出骨骼", null, ExportAction, Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("替换骨骼", null, ReplaceAction, Keys.Control | Keys.R));
             Items.Add(new ToolStripSeparator());
-            Items.Add(new ToolStripMenuItem("Delete Bone", null, DeleteAction, Keys.Delete));
+            Items.Add(new ToolStripMenuItem("删除骨骼", null, DeleteAction, Keys.Delete));
             return Items.ToArray();
         }
 
@@ -664,7 +664,7 @@ namespace Bfres.Structs
 
                 if (Skeleton.Bones.ContainsKey(Name))
                 {
-                    MessageBox.Show("A bone with the same name exits! Make sure to use a unique name!", 
+                    MessageBox.Show("已存在同名的骨骼！请使用唯一的名称！", 
                         "Bone Rename", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                     return;
@@ -833,7 +833,7 @@ namespace Bfres.Structs
 
             if (model.Skeleton.bones.Count == 1)
             {
-                MessageBox.Show("A single bone must exist in every model!", "Bone Delete",
+                MessageBox.Show("每个模型必须至少有一个骨骼！", "Bone Delete",
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }

@@ -68,7 +68,7 @@
             this.stageCounterLbl.Name = "stageCounterLbl";
             this.stageCounterLbl.Size = new System.Drawing.Size(87, 18);
             this.stageCounterLbl.TabIndex = 2;
-            this.stageCounterLbl.Text = "Stage 0 of 5";
+            this.stageCounterLbl.Text = "第 0 阶段，共 5 阶段";
             // 
             // btnAdd
             // 

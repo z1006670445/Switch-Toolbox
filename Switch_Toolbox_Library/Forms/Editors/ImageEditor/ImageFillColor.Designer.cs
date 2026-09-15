@@ -57,7 +57,7 @@
             this.stCheckBox1.Name = "stCheckBox1";
             this.stCheckBox1.Size = new System.Drawing.Size(90, 17);
             this.stCheckBox1.TabIndex = 11;
-            this.stCheckBox1.Text = "Resize to 1x1";
+            this.stCheckBox1.Text = "缩放为 1x1";
             this.stCheckBox1.UseVisualStyleBackColor = true;
             this.stCheckBox1.CheckedChanged += new System.EventHandler(this.stCheckBox1_CheckedChanged);
             // 
@@ -110,7 +110,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(141, 133);
             this.Name = "ImageFillColor";
-            this.Text = "Fill Color";
+            this.Text = "填充色";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             this.ResumeLayout(false);

@@ -66,7 +66,7 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Defeault Extensions";
+            this.columnHeader1.Text = "默认扩展名";
             this.columnHeader1.Width = 246;
             // 
             // chkAll
@@ -77,7 +77,7 @@
             this.chkAll.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.chkAll.Size = new System.Drawing.Size(71, 17);
             this.chkAll.TabIndex = 12;
-            this.chkAll.Text = "Check All";
+            this.chkAll.Text = "全选";
             this.chkAll.UseVisualStyleBackColor = true;
             this.chkAll.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -114,7 +114,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(295, 354);
             this.Name = "FileAssociationForm";
-            this.Text = "File Association";
+            this.Text = "文件关联";
             this.Load += new System.EventHandler(this.FileAssociationForm_Load);
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();

@@ -25,7 +25,7 @@ namespace FirstPlugin.LuigisMansion.DarkMoon
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Export All", null, ExportModelAction, Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("全部导出", null, ExportModelAction, Keys.Control | Keys.E));
             return Items.ToArray();
         }
 

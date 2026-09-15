@@ -136,7 +136,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(77, 13);
             this.stLabel1.TabIndex = 7;
-            this.stLabel1.Text = "Texture Name:";
+            this.stLabel1.Text = "贴图名称：";
             // 
             // tableLayoutPanel1
             // 
@@ -169,7 +169,7 @@
             this.Controls.Add(this.addTextureBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Texture_Selector";
-            this.Text = "Texture Selector";
+            this.Text = "贴图选择器";
             this.Load += new System.EventHandler(this.Texture_Selector_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCustom1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);

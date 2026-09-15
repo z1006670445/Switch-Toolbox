@@ -307,7 +307,7 @@
             this.stLabel17.Name = "stLabel17";
             this.stLabel17.Size = new System.Drawing.Size(65, 13);
             this.stLabel17.TabIndex = 20;
-            this.stLabel17.Text = "Reflection B";
+            this.stLabel17.Text = "反射 B";
             // 
             // reflectionGSamplerCB
             // 
@@ -328,7 +328,7 @@
             this.stLabel15.Name = "stLabel15";
             this.stLabel15.Size = new System.Drawing.Size(66, 13);
             this.stLabel15.TabIndex = 18;
-            this.stLabel15.Text = "Reflection G";
+            this.stLabel15.Text = "反射 G";
             // 
             // reflectionRSamplerCB
             // 
@@ -349,7 +349,7 @@
             this.stLabel16.Name = "stLabel16";
             this.stLabel16.Size = new System.Drawing.Size(66, 13);
             this.stLabel16.TabIndex = 16;
-            this.stLabel16.Text = "Reflection R";
+            this.stLabel16.Text = "反射 R";
             // 
             // dist1SamplerCB
             // 
@@ -401,7 +401,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(114, 13);
             this.stLabel4.TabIndex = 11;
-            this.stLabel4.Text = "Layer  terms activated:";
+            this.stLabel4.Text = "已激活的 Layer 项：";
             // 
             // activatedTermList
             // 
@@ -435,7 +435,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(81, 13);
             this.stLabel3.TabIndex = 8;
-            this.stLabel3.Text = "Lookup Tables:";
+            this.stLabel3.Text = "查找表：";
             // 
             // layerCB
             // 
@@ -531,7 +531,7 @@
             this.stLabel6.Name = "stLabel6";
             this.stLabel6.Size = new System.Drawing.Size(84, 13);
             this.stLabel6.TabIndex = 0;
-            this.stLabel6.Text = "Alpha Combiner:";
+            this.stLabel6.Text = "Alpha 组合器：";
             // 
             // stLabel20
             // 
@@ -846,7 +846,7 @@
             this.stLabel5.Name = "stLabel5";
             this.stLabel5.Size = new System.Drawing.Size(81, 13);
             this.stLabel5.TabIndex = 0;
-            this.stLabel5.Text = "Color Combiner:";
+            this.stLabel5.Text = "颜色组合器：";
             // 
             // btnDupeTevStage
             // 

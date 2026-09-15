@@ -137,7 +137,7 @@
             // 
             this.newFromFileToolStripMenuItem.Name = "newFromFileToolStripMenuItem";
             this.newFromFileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.newFromFileToolStripMenuItem.Text = "New From File";
+            this.newFromFileToolStripMenuItem.Text = "从文件新建";
             // 
             // openToolStripMenuItem
             // 
@@ -150,7 +150,7 @@
             // 
             this.openFolderToolStripMenuItem.Name = "openFolderToolStripMenuItem";
             this.openFolderToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.openFolderToolStripMenuItem.Text = "Open (Folder)";
+            this.openFolderToolStripMenuItem.Text = "打开（文件夹）";
             this.openFolderToolStripMenuItem.Click += new System.EventHandler(this.openFolderToolStripMenuItem_Click);
             // 
             // recentToolStripMenuItem
@@ -172,7 +172,7 @@
             this.saveAsToolStripMenuItem.Enabled = false;
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
             this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.saveAsToolStripMenuItem.Text = "Save As";
+            this.saveAsToolStripMenuItem.Text = "另存为";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
@@ -213,49 +213,49 @@
             // 
             this.batchToolStripMenuItem.Name = "batchToolStripMenuItem";
             this.batchToolStripMenuItem.Size = new System.Drawing.Size(316, 22);
-            this.batchToolStripMenuItem.Text = "Batch Set File Table";
+            this.batchToolStripMenuItem.Text = "批量设置文件表";
             this.batchToolStripMenuItem.Click += new System.EventHandler(this.batchToolStripMenuItem_Click);
             // 
             // hashCalculatorToolStripMenuItem
             // 
             this.hashCalculatorToolStripMenuItem.Name = "hashCalculatorToolStripMenuItem";
             this.hashCalculatorToolStripMenuItem.Size = new System.Drawing.Size(316, 22);
-            this.hashCalculatorToolStripMenuItem.Text = "Hash Calculator";
+            this.hashCalculatorToolStripMenuItem.Text = "哈希计算器";
             this.hashCalculatorToolStripMenuItem.Click += new System.EventHandler(this.hashCalculatorToolStripMenuItem_Click);
             // 
             // batchExportTexturesAllSupportedFormatsToolStripMenuItem
             // 
             this.batchExportTexturesAllSupportedFormatsToolStripMenuItem.Name = "batchExportTexturesAllSupportedFormatsToolStripMenuItem";
             this.batchExportTexturesAllSupportedFormatsToolStripMenuItem.Size = new System.Drawing.Size(316, 22);
-            this.batchExportTexturesAllSupportedFormatsToolStripMenuItem.Text = "Batch Export Textures (All Supported Formats)";
+            this.batchExportTexturesAllSupportedFormatsToolStripMenuItem.Text = "批量导出贴图（所有支持的格式）";
             this.batchExportTexturesAllSupportedFormatsToolStripMenuItem.Click += new System.EventHandler(this.batchExportTexturesAllSupportedFormatsToolStripMenuItem_Click);
             // 
             // batchExportModelsToolStripMenuItem
             // 
             this.batchExportModelsToolStripMenuItem.Name = "batchExportModelsToolStripMenuItem";
             this.batchExportModelsToolStripMenuItem.Size = new System.Drawing.Size(316, 22);
-            this.batchExportModelsToolStripMenuItem.Text = "Batch Export Models";
+            this.batchExportModelsToolStripMenuItem.Text = "批量导出模型";
             this.batchExportModelsToolStripMenuItem.Click += new System.EventHandler(this.batchExportModelsToolStripMenuItem_Click);
             // 
             // batchReplaceFTPToolStripMenuItem
             // 
             this.batchReplaceFTPToolStripMenuItem.Name = "batchReplaceFTPToolStripMenuItem";
             this.batchReplaceFTPToolStripMenuItem.Size = new System.Drawing.Size(316, 22);
-            this.batchReplaceFTPToolStripMenuItem.Text = "Batch Replace FTP";
+            this.batchReplaceFTPToolStripMenuItem.Text = "批量替换 FTP";
             this.batchReplaceFTPToolStripMenuItem.Click += new System.EventHandler(this.batchReplaceFTPToolStripMenuItem_Click);
             // 
             // batchReplaceTXTGToolStripMenuItem
             // 
             this.batchReplaceTXTGToolStripMenuItem.Name = "batchReplaceTXTGToolStripMenuItem";
             this.batchReplaceTXTGToolStripMenuItem.Size = new System.Drawing.Size(316, 22);
-            this.batchReplaceTXTGToolStripMenuItem.Text = "Batch Replace TXTG";
+            this.batchReplaceTXTGToolStripMenuItem.Text = "批量替换 TXTG";
             this.batchReplaceTXTGToolStripMenuItem.Click += new System.EventHandler(this.batchReplaceTXTGToolStripMenuItem_Click);
             // 
             // batchRenameBNTXToolStripMenuItem
             // 
             this.batchRenameBNTXToolStripMenuItem.Name = "batchRenameBNTXToolStripMenuItem";
             this.batchRenameBNTXToolStripMenuItem.Size = new System.Drawing.Size(316, 22);
-            this.batchRenameBNTXToolStripMenuItem.Text = "Batch Rename BNTX from Filename";
+            this.batchRenameBNTXToolStripMenuItem.Text = "按文件名批量重命名 BNTX";
             this.batchRenameBNTXToolStripMenuItem.Click += new System.EventHandler(this.batchRenameBNTXToolStripMenuItem_Click);
             // 
             // experimentalToolStripMenuItem
@@ -308,7 +308,7 @@
             // 
             this.closeAllToolStripMenuItem.Name = "closeAllToolStripMenuItem";
             this.closeAllToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.closeAllToolStripMenuItem.Text = "Close All";
+            this.closeAllToolStripMenuItem.Text = "全部关闭";
             this.closeAllToolStripMenuItem.Click += new System.EventHandler(this.closeAllToolStripMenuItem_Click);
             // 
             // settingsToolStripMenuItem
@@ -325,7 +325,7 @@
             // 
             this.mainSettingsToolStripMenuItem.Name = "mainSettingsToolStripMenuItem";
             this.mainSettingsToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.mainSettingsToolStripMenuItem.Text = "Main Settings";
+            this.mainSettingsToolStripMenuItem.Text = "主设置";
             this.mainSettingsToolStripMenuItem.Click += new System.EventHandler(this.mainSettingsToolStripMenuItem_Click);
             // 
             // fileAssociationsToolStripMenuItem
@@ -333,7 +333,7 @@
             this.fileAssociationsToolStripMenuItem.Enabled = false;
             this.fileAssociationsToolStripMenuItem.Name = "fileAssociationsToolStripMenuItem";
             this.fileAssociationsToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.fileAssociationsToolStripMenuItem.Text = "File Associations";
+            this.fileAssociationsToolStripMenuItem.Text = "文件关联设置";
             this.fileAssociationsToolStripMenuItem.Click += new System.EventHandler(this.fileAssociationsToolStripMenuItem_Click);
             // 
             // consoleToolStripMenuItem
@@ -374,14 +374,14 @@
             // 
             this.reportBugToolStripMenuItem.Name = "reportBugToolStripMenuItem";
             this.reportBugToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.reportBugToolStripMenuItem.Text = "Report Bug";
+            this.reportBugToolStripMenuItem.Text = "报告问题";
             this.reportBugToolStripMenuItem.Click += new System.EventHandler(this.reportBugToolStripMenuItem_Click);
             // 
             // requestFeatureToolStripMenuItem1
             // 
             this.requestFeatureToolStripMenuItem1.Name = "requestFeatureToolStripMenuItem1";
             this.requestFeatureToolStripMenuItem1.Size = new System.Drawing.Size(158, 22);
-            this.requestFeatureToolStripMenuItem1.Text = "Request Feature";
+            this.requestFeatureToolStripMenuItem1.Text = "请求新功能";
             this.requestFeatureToolStripMenuItem1.Click += new System.EventHandler(this.requestFeatureToolStripMenuItem1_Click);
             // 
             // githubToolStripMenuItem
@@ -532,7 +532,7 @@
             // 
             this.openUserFolderToolStripMenuItem.Name = "openUserFolderToolStripMenuItem";
             this.openUserFolderToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.openUserFolderToolStripMenuItem.Text = "Open User Folder";
+            this.openUserFolderToolStripMenuItem.Text = "打开用户文件夹";
             this.openUserFolderToolStripMenuItem.Click += new System.EventHandler(this.openUserFolderToolStripMenuItem_Click);
             // 
             // MainForm

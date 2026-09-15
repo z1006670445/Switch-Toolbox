@@ -95,8 +95,8 @@ namespace FirstPlugin
             public ShaderProgram()
             {
                 ContextMenuStrip = new STContextMenuStrip();
-                ContextMenuStrip.Items.Add(new ToolStripMenuItem("Export Data", null, Export, Keys.Control | Keys.E));
-                ContextMenuStrip.Items.Add(new ToolStripMenuItem("Export Raw Binary", null, ExportBinary, Keys.Control | Keys.B));
+                ContextMenuStrip.Items.Add(new ToolStripMenuItem("导出数据", null, Export, Keys.Control | Keys.E));
+                ContextMenuStrip.Items.Add(new ToolStripMenuItem("导出原始二进制", null, ExportBinary, Keys.Control | Keys.B));
             }
 
             public NSWShaderDecompile.NswShaderType ShaderType { get; set; }

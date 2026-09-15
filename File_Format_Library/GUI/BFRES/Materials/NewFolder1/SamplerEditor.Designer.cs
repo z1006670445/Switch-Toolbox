@@ -102,7 +102,7 @@
             this.stLabel17.Name = "stLabel17";
             this.stLabel17.Size = new System.Drawing.Size(68, 13);
             this.stLabel17.TabIndex = 43;
-            this.stLabel17.Text = "Wrap Modes";
+            this.stLabel17.Text = "环绕模式";
             // 
             // stPanel3
             // 
@@ -134,7 +134,7 @@
             this.wrapUCBLabel.Name = "wrapUCBLabel";
             this.wrapUCBLabel.Size = new System.Drawing.Size(47, 13);
             this.wrapUCBLabel.TabIndex = 11;
-            this.wrapUCBLabel.Text = "Wrap U:";
+            this.wrapUCBLabel.Text = "U 环绕：";
             // 
             // wrapVCB
             // 
@@ -152,7 +152,7 @@
             this.stLabel5.Name = "stLabel5";
             this.stLabel5.Size = new System.Drawing.Size(46, 13);
             this.stLabel5.TabIndex = 13;
-            this.stLabel5.Text = "Wrap V:";
+            this.stLabel5.Text = "V 环绕：";
             // 
             // wrapWCB
             // 
@@ -173,7 +173,7 @@
             this.stLabel6.Name = "stLabel6";
             this.stLabel6.Size = new System.Drawing.Size(50, 13);
             this.stLabel6.TabIndex = 15;
-            this.stLabel6.Text = "Wrap W:";
+            this.stLabel6.Text = "W 环绕：";
             // 
             // stLabel16
             // 
@@ -183,7 +183,7 @@
             this.stLabel16.Name = "stLabel16";
             this.stLabel16.Size = new System.Drawing.Size(80, 13);
             this.stLabel16.TabIndex = 48;
-            this.stLabel16.Text = "Level Of Detail:";
+            this.stLabel16.Text = "细节层级：";
             // 
             // stPanel2
             // 
@@ -344,7 +344,7 @@
             this.stLabel22.Name = "stLabel22";
             this.stLabel22.Size = new System.Drawing.Size(42, 13);
             this.stLabel22.TabIndex = 27;
-            this.stLabel22.Text = "Z Filter:";
+            this.stLabel22.Text = "Z 过滤：";
             // 
             // filterBorderCB
             // 
@@ -528,7 +528,7 @@
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Frag Sampler";
+            this.columnHeader3.Text = "片元采样器";
             this.columnHeader3.Width = 78;
             // 
             // textureBP
@@ -586,7 +586,7 @@
             this.stLabel20.Name = "stLabel20";
             this.stLabel20.Size = new System.Drawing.Size(84, 13);
             this.stLabel20.TabIndex = 11;
-            this.stLabel20.Text = "Depth Compare:";
+            this.stLabel20.Text = "深度比较：";
             // 
             // depthFuncCB
             // 

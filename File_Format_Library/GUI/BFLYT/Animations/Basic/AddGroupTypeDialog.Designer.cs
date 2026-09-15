@@ -82,7 +82,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 117);
             this.Name = "AddGroupTypeDialog";
-            this.Text = "Add Group Type";
+            this.Text = "添加组类型";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             this.ResumeLayout(false);

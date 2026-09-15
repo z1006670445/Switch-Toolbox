@@ -33,7 +33,7 @@ namespace FirstPlugin.NodeWrappers
             List<ToolStripItem> Items = new List<ToolStripItem>();
             Items.AddRange(base.GetContextMenuItems());
             SettingsToolStrip = new ToolStripMenuItem("Settings", null);
-            SettingsToolStrip.DropDownItems.Add(new ToolStripMenuItem("Remove Unused Textures on Save", null, SettingBooleanAction)
+            SettingsToolStrip.DropDownItems.Add(new ToolStripMenuItem("保存时移除未使用的贴图", null, SettingBooleanAction)
             {
                 Checked = SettingRemoveUnusedTextures,
             });

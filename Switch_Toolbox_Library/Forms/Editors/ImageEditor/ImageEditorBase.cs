@@ -67,7 +67,7 @@ namespace Toolbox.Library.Forms
             noteifcationLbl.Text = "";
 
             if (Runtime.ImageEditor.PreviewGammaFix)
-                noteifcationLbl.Text = "Note: gamma correction enabled! ";
+                noteifcationLbl.Text = "注意：已启用 Gamma 校正！ ";
             if (!Runtime.ImageEditor.DisplayAlpha)
                 noteifcationLbl.Text += "Note: alpha channel hidden in editor!";
         }
@@ -584,7 +584,7 @@ namespace Toolbox.Library.Forms
         {
             if (HasBeenEdited)
             {
-                var message = MessageBox.Show("This texture has been edited! Would you like to apply the changes made?", "Texture Editor", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1);
+                var message = MessageBox.Show("此贴图已被编辑！要应用所做的修改吗？", "Texture Editor", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1);
                 if (message == DialogResult.Yes)
                     ApplyEdit(pictureBoxCustom1.Image);
 
@@ -1087,7 +1087,7 @@ namespace Toolbox.Library.Forms
             string FileName = e.FullPath;
 
             Console.WriteLine("File: " + e.FullPath + " " + e.ChangeType);
-            var Result = MessageBox.Show("Texture has been modifed in external program! Would you like to apply the edits?", "Texture Editor",
+            var Result = MessageBox.Show("贴图已在外部程序中被修改！要应用这些修改吗？", "Texture Editor",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
 
             if (Result == DialogResult.Yes)

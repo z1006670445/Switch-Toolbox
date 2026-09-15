@@ -77,7 +77,7 @@
             this.fixedBytesToolStripMenuItem.CheckOnClick = true;
             this.fixedBytesToolStripMenuItem.Name = "fixedBytesToolStripMenuItem";
             this.fixedBytesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.fixedBytesToolStripMenuItem.Text = "Fixed Bytes";
+            this.fixedBytesToolStripMenuItem.Text = "固定字节";
             this.fixedBytesToolStripMenuItem.Click += new System.EventHandler(this.fixedBytesToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem

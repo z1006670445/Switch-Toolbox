@@ -71,7 +71,7 @@
             this.chkMatchCase.Name = "chkMatchCase";
             this.chkMatchCase.Size = new System.Drawing.Size(84, 17);
             this.chkMatchCase.TabIndex = 2;
-            this.chkMatchCase.Text = "Check Case";
+            this.chkMatchCase.Text = "区分大小写";
             this.chkMatchCase.UseVisualStyleBackColor = true;
             // 
             // btnOK

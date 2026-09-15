@@ -162,7 +162,7 @@ namespace Toolbox.Library.IO
                             string.Join("\n", failedFiles.ToArray()));
                     }
                     else
-                        MessageBox.Show("Files batched successfully!");
+                        MessageBox.Show("批处理完成！");
                 }
             }
             else
@@ -194,7 +194,7 @@ namespace Toolbox.Library.IO
                                 stream.Flush();
                                 stream.Close();
 
-                                MessageBox.Show($"File has been saved to {sfd.FileName}", "Save Notification");
+                                MessageBox.Show($"文件已保存到 {sfd.FileName}", "Save Notification");
                             }
                         }
                     }

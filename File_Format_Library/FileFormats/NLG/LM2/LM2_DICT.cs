@@ -68,9 +68,9 @@ namespace FirstPlugin.LuigisMansion.DarkMoon
 
         STTextureFolder textureFolder = new STTextureFolder("Textures");
         LM2_ModelFolder modelFolder;
-        TreeNode materialNamesFolder = new TreeNode("Material Names");
+        TreeNode materialNamesFolder = new TreeNode("材质名称");
         TreeNode chunkFolder = new TreeNode("Chunks");
-        TreeNode messageFolder = new TreeNode("Message Data");
+        TreeNode messageFolder = new TreeNode("消息数据");
 
         public byte[] GetFile003Data()
         {
@@ -101,7 +101,7 @@ namespace FirstPlugin.LuigisMansion.DarkMoon
                 reader.SeekBegin(0x2C);
                 byte[] Unknowns = reader.ReadBytes((int)FileCount);
 
-                TreeNode tableNodes = new TreeNode("File Section Entries");
+                TreeNode tableNodes = new TreeNode("文件区段条目");
 
                 long FileTablePos = reader.Position;
                 for (int i = 0; i < FileCount; i++)
@@ -121,11 +121,11 @@ namespace FirstPlugin.LuigisMansion.DarkMoon
                             ChunkTable = new LM2_ChunkTable();
                             ChunkTable.Read(tableReader);
 
-                            TreeNode debugFolder = new TreeNode("DEBUG TABLE INFO");
+                            TreeNode debugFolder = new TreeNode("调试表信息");
                             Nodes.Add(debugFolder);
 
-                            TreeNode list1 = new TreeNode("Entry List 1");
-                            TreeNode list2 = new TreeNode("Entry List 2 ");
+                            TreeNode list1 = new TreeNode("条目列表 1");
+                            TreeNode list2 = new TreeNode("条目列表 2 ");
                             debugFolder.Nodes.Add(tableNodes);
                             debugFolder.Nodes.Add(list1);
                             debugFolder.Nodes.Add(list2);

@@ -111,7 +111,7 @@ namespace FirstPlugin.Forms
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            var result = MessageBox.Show("Removing a vertex buffer could potentially break the object. This cannot be undone. Are you sure you want to remove this?",
+            var result = MessageBox.Show("移除顶点缓冲可能破坏该对象，且无法撤销。确定要移除吗？",
                 "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
@@ -119,7 +119,7 @@ namespace FirstPlugin.Forms
                 var attriubte = attributeListView.SelectedItems[0];
                 if (attriubte.Text == "_p0")
                 {
-                    MessageBox.Show("Cannot remove position attribute! You should remove a mesh instead or hide by materials.");
+                    MessageBox.Show("无法移除位置属性！应改为移除网格，或通过材质隐藏。");
                     return;
                 }
 

@@ -138,7 +138,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(278, 154);
             this.Name = "LoopEditor";
-            this.Text = "Loop Editor";
+            this.Text = "循环编辑器";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.startLoopUD)).EndInit();

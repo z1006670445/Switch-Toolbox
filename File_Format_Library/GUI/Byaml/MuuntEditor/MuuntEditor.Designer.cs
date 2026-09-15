@@ -94,7 +94,7 @@
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
             this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.saveAsToolStripMenuItem.Text = "Save As";
+            this.saveAsToolStripMenuItem.Text = "另存为";
             // 
             // editToolStripMenuItem
             // 
@@ -114,7 +114,7 @@
             // 
             this.toggle3DViewToolStripMenuItem.Name = "toggle3DViewToolStripMenuItem";
             this.toggle3DViewToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.toggle3DViewToolStripMenuItem.Text = "Toggle 3D View";
+            this.toggle3DViewToolStripMenuItem.Text = "切换 3D 视图";
             // 
             // stToolStrip1
             // 
@@ -141,7 +141,7 @@
             // 
             this.loadCollisionToolStripMenuItem.Name = "loadCollisionToolStripMenuItem";
             this.loadCollisionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.loadCollisionToolStripMenuItem.Text = "Load Collision";
+            this.loadCollisionToolStripMenuItem.Text = "加载碰撞";
             this.loadCollisionToolStripMenuItem.Click += new System.EventHandler(this.loadCollisionToolStripMenuItem_Click);
             // 
             // MuuntEditor
@@ -155,7 +155,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.stMenuStrip1;
             this.Name = "MuuntEditor";
-            this.Text = "Map Unit Editor";
+            this.Text = "映射单元编辑器";
             this.stMenuStrip1.ResumeLayout(false);
             this.stMenuStrip1.PerformLayout();
             this.stToolStrip1.ResumeLayout(false);

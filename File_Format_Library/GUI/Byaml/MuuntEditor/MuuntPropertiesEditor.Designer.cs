@@ -48,7 +48,7 @@
             this.ClientSize = new System.Drawing.Size(395, 314);
             this.Controls.Add(this.stPropertyGrid1);
             this.Name = "MuuntPropertiesEditor";
-            this.Text = "Properties Editor";
+            this.Text = "属性编辑器";
             this.ResumeLayout(false);
 
         }

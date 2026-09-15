@@ -73,7 +73,7 @@
             this.normalsShadingToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.normalsShadingToolStripMenuItem.Name = "normalsShadingToolStripMenuItem";
             this.normalsShadingToolStripMenuItem.Size = new System.Drawing.Size(204, 46);
-            this.normalsShadingToolStripMenuItem.Text = "Normals Shading";
+            this.normalsShadingToolStripMenuItem.Text = "法线着色";
             this.normalsShadingToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // resetToolStripMenuItem
@@ -89,13 +89,13 @@
             // 
             this.toOriginToolStripMenuItem1.Name = "toOriginToolStripMenuItem1";
             this.toOriginToolStripMenuItem1.Size = new System.Drawing.Size(125, 22);
-            this.toOriginToolStripMenuItem1.Text = "To Origin";
+            this.toOriginToolStripMenuItem1.Text = "到原点";
             // 
             // toCenterToolStripMenuItem
             // 
             this.toCenterToolStripMenuItem.Name = "toCenterToolStripMenuItem";
             this.toCenterToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.toCenterToolStripMenuItem.Text = "To Center";
+            this.toCenterToolStripMenuItem.Text = "到中心";
             // 
             // stPanel1
             // 
@@ -116,7 +116,7 @@
             this.chkDisplayAllModels.Name = "chkDisplayAllModels";
             this.chkDisplayAllModels.Size = new System.Drawing.Size(74, 17);
             this.chkDisplayAllModels.TabIndex = 2;
-            this.chkDisplayAllModels.Text = "Display All";
+            this.chkDisplayAllModels.Text = "显示全部";
             this.chkDisplayAllModels.UseVisualStyleBackColor = true;
             this.chkDisplayAllModels.CheckedChanged += new System.EventHandler(this.chkDisplayAllModels_CheckedChanged);
             // 
@@ -127,7 +127,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(83, 13);
             this.stLabel1.TabIndex = 1;
-            this.stLabel1.Text = "Active Model(s):";
+            this.stLabel1.Text = "当前模型：";
             // 
             // drawContainersCB
             // 
@@ -207,14 +207,14 @@
             // 
             this.toOriginToolStripMenuItem.Name = "toOriginToolStripMenuItem";
             this.toOriginToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.toOriginToolStripMenuItem.Text = "To Origin";
+            this.toOriginToolStripMenuItem.Text = "到原点";
             this.toOriginToolStripMenuItem.Click += new System.EventHandler(this.toOriginToolStripMenuItem_Click);
             // 
             // toActiveModelToolStripMenuItem
             // 
             this.toActiveModelToolStripMenuItem.Name = "toActiveModelToolStripMenuItem";
             this.toActiveModelToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.toActiveModelToolStripMenuItem.Text = "To Active Model";
+            this.toActiveModelToolStripMenuItem.Text = "到当前模型";
             this.toActiveModelToolStripMenuItem.Click += new System.EventHandler(this.toActiveModelToolStripMenuItem_Click);
             // 
             // modeToolStripMenuItem1
@@ -322,14 +322,14 @@
             // 
             this.createScreenshotToolStripMenuItem.Name = "createScreenshotToolStripMenuItem";
             this.createScreenshotToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.createScreenshotToolStripMenuItem.Text = "Create Screenshot";
+            this.createScreenshotToolStripMenuItem.Text = "创建截图";
             this.createScreenshotToolStripMenuItem.Click += new System.EventHandler(this.createScreenshotToolStripMenuItem_Click);
             // 
             // resetPoseToolStripMenuItem
             // 
             this.resetPoseToolStripMenuItem.Name = "resetPoseToolStripMenuItem";
             this.resetPoseToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
-            this.resetPoseToolStripMenuItem.Text = "Reset Pose";
+            this.resetPoseToolStripMenuItem.Text = "重置姿态";
             this.resetPoseToolStripMenuItem.Click += new System.EventHandler(this.resetPoseToolStripMenuItem_Click);
             // 
             // optionsToolStripMenuItem
@@ -344,14 +344,14 @@
             // 
             this.reloadShadersToolStripMenuItem.Name = "reloadShadersToolStripMenuItem";
             this.reloadShadersToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
-            this.reloadShadersToolStripMenuItem.Text = "Reload Shaders";
+            this.reloadShadersToolStripMenuItem.Text = "重新加载 Shader";
             this.reloadShadersToolStripMenuItem.Click += new System.EventHandler(this.reloadShadersToolStripMenuItem_Click);
             // 
             // uVViewerToolStripMenuItem
             // 
             this.uVViewerToolStripMenuItem.Name = "uVViewerToolStripMenuItem";
             this.uVViewerToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
-            this.uVViewerToolStripMenuItem.Text = "UV Viewer";
+            this.uVViewerToolStripMenuItem.Text = "UV 查看器";
             this.uVViewerToolStripMenuItem.Click += new System.EventHandler(this.uVViewerToolStripMenuItem_Click);
             // 
             // Viewport

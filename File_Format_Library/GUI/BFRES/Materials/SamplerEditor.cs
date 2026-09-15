@@ -424,7 +424,7 @@ namespace FirstPlugin.Forms
             {
                 string FirstSelecteItem = textureRefListView.SelectedItems[0].Text;
 
-                var result = MessageBox.Show("NOTE! Removing texture maps could cause issues with shaders, do you want to continue?", "Material Editor", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Exclamation);
+                var result = MessageBox.Show("注意！移除贴图映射可能导致 Shader 异常，要继续吗？", "Material Editor", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Exclamation);
 
                 if (result == DialogResult.Yes)
                 {

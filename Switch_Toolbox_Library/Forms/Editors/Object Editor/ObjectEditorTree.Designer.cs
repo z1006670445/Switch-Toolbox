@@ -206,7 +206,7 @@
             this.activeEditorChkBox.Name = "activeEditorChkBox";
             this.activeEditorChkBox.Size = new System.Drawing.Size(144, 17);
             this.activeEditorChkBox.TabIndex = 3;
-            this.activeEditorChkBox.Text = "Add Files to Active Editor";
+            this.activeEditorChkBox.Text = "添加文件到当前编辑器";
             this.activeEditorChkBox.UseVisualStyleBackColor = true;
             this.activeEditorChkBox.CheckedChanged += new System.EventHandler(this.activeEditorChkBox_CheckedChanged);
             // 
@@ -247,7 +247,7 @@
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.openToolStripMenuItem.Text = "Add File";
+            this.openToolStripMenuItem.Text = "添加文件";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem
@@ -271,7 +271,7 @@
             this.dockSearchListToolStripMenuItem.CheckOnClick = true;
             this.dockSearchListToolStripMenuItem.Name = "dockSearchListToolStripMenuItem";
             this.dockSearchListToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.dockSearchListToolStripMenuItem.Text = "Dock Search List";
+            this.dockSearchListToolStripMenuItem.Text = "停靠搜索列表";
             this.dockSearchListToolStripMenuItem.Click += new System.EventHandler(this.dockSearchListToolStripMenuItem_Click);
             // 
             // stPanel2

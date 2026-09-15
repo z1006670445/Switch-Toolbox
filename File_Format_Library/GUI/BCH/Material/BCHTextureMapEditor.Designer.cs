@@ -155,7 +155,7 @@
             this.chkRecalculateZ.Name = "chkRecalculateZ";
             this.chkRecalculateZ.Size = new System.Drawing.Size(114, 17);
             this.chkRecalculateZ.TabIndex = 32;
-            this.chkRecalculateZ.Text = "Renormalize Bump";
+            this.chkRecalculateZ.Text = "重新归一化凹凸";
             this.chkRecalculateZ.UseVisualStyleBackColor = true;
             this.chkRecalculateZ.CheckedChanged += new System.EventHandler(this.chkRecalculateZ_CheckedChanged);
             // 
@@ -167,7 +167,7 @@
             this.stLabel26.Name = "stLabel26";
             this.stLabel26.Size = new System.Drawing.Size(88, 13);
             this.stLabel26.TabIndex = 4;
-            this.stLabel26.Text = "Bump Map Type:";
+            this.stLabel26.Text = "凹凸贴图类型：";
             // 
             // bumpMapTypeCB
             // 
@@ -188,7 +188,7 @@
             this.stLabel25.Name = "stLabel25";
             this.stLabel25.Size = new System.Drawing.Size(61, 13);
             this.stLabel25.TabIndex = 2;
-            this.stLabel25.Text = "Bump Map:";
+            this.stLabel25.Text = "凹凸贴图：";
             // 
             // bumpMapCB
             // 
@@ -464,7 +464,7 @@
             this.stLabel6.Name = "stLabel6";
             this.stLabel6.Size = new System.Drawing.Size(56, 13);
             this.stLabel6.TabIndex = 41;
-            this.stLabel6.Text = "Mag Filter:";
+            this.stLabel6.Text = "放大过滤：";
             // 
             // stLabel8
             // 
@@ -473,7 +473,7 @@
             this.stLabel8.Name = "stLabel8";
             this.stLabel8.Size = new System.Drawing.Size(52, 13);
             this.stLabel8.TabIndex = 40;
-            this.stLabel8.Text = "Min Filter:";
+            this.stLabel8.Text = "缩小过滤：";
             // 
             // magFilterCB
             // 
@@ -519,7 +519,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(43, 13);
             this.stLabel2.TabIndex = 37;
-            this.stLabel2.Text = "Wrap V";
+            this.stLabel2.Text = "V 环绕";
             // 
             // rotateUD
             // 
@@ -583,7 +583,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(44, 13);
             this.stLabel1.TabIndex = 36;
-            this.stLabel1.Text = "Wrap U";
+            this.stLabel1.Text = "U 环绕";
             // 
             // stLabel3
             // 
@@ -613,7 +613,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(44, 13);
             this.stLabel4.TabIndex = 26;
-            this.stLabel4.Text = "UV Set:";
+            this.stLabel4.Text = "UV 集：";
             // 
             // transformMethodCB
             // 
@@ -837,7 +837,7 @@
             this.stCheckBox1.Name = "stCheckBox1";
             this.stCheckBox1.Size = new System.Drawing.Size(98, 17);
             this.stCheckBox1.TabIndex = 29;
-            this.stCheckBox1.Text = "Project Camera";
+            this.stCheckBox1.Text = "投影相机";
             this.stCheckBox1.UseVisualStyleBackColor = true;
             // 
             // scaleYUD

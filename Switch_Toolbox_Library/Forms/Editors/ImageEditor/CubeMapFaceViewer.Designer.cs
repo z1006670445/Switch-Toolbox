@@ -145,7 +145,7 @@
             this.arrayLevelCounterLabel.Name = "arrayLevelCounterLabel";
             this.arrayLevelCounterLabel.Size = new System.Drawing.Size(101, 13);
             this.arrayLevelCounterLabel.TabIndex = 19;
-            this.arrayLevelCounterLabel.Text = "Array Level: 00 / 00";
+            this.arrayLevelCounterLabel.Text = "数组层级：00 / 00";
             // 
             // btnRightArray
             // 
@@ -188,7 +188,7 @@
             this.chkDisplayAlpha.Name = "chkDisplayAlpha";
             this.chkDisplayAlpha.Size = new System.Drawing.Size(90, 17);
             this.chkDisplayAlpha.TabIndex = 21;
-            this.chkDisplayAlpha.Text = "Display Alpha";
+            this.chkDisplayAlpha.Text = "显示 Alpha 通道";
             this.chkDisplayAlpha.UseVisualStyleBackColor = true;
             this.chkDisplayAlpha.CheckedChanged += new System.EventHandler(this.chkDisplayAlpha_CheckedChanged);
             // 
@@ -199,7 +199,7 @@
             this.displayEncodedHDRAlphaChk.Name = "displayEncodedHDRAlphaChk";
             this.displayEncodedHDRAlphaChk.Size = new System.Drawing.Size(163, 17);
             this.displayEncodedHDRAlphaChk.TabIndex = 22;
-            this.displayEncodedHDRAlphaChk.Text = "Display Encoded HDR Alpha";
+            this.displayEncodedHDRAlphaChk.Text = "显示编码后的 HDR Alpha";
             this.displayEncodedHDRAlphaChk.UseVisualStyleBackColor = true;
             this.displayEncodedHDRAlphaChk.CheckedChanged += new System.EventHandler(this.displayEncodedHDRAlphaChk_CheckedChanged);
             // 
@@ -243,7 +243,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(836, 655);
             this.Name = "CubeMapFaceViewer";
-            this.Text = "CubeMap Face View";
+            this.Text = "立方体贴图面视图";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbTopFace)).EndInit();

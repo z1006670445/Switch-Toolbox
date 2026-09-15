@@ -137,7 +137,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(53, 13);
             this.stLabel2.TabIndex = 3;
-            this.stLabel2.Text = "User Info:";
+            this.stLabel2.Text = "用户信息：";
             // 
             // nameTB
             // 
@@ -683,7 +683,7 @@
             this.alphaChildrenChk.Name = "alphaChildrenChk";
             this.alphaChildrenChk.Size = new System.Drawing.Size(186, 17);
             this.alphaChildrenChk.TabIndex = 55;
-            this.alphaChildrenChk.Text = "Influence transparency to children";
+            this.alphaChildrenChk.Text = "透明影响子级";
             this.alphaChildrenChk.UseVisualStyleBackColor = true;
             // 
             // paneVisibleChk
@@ -693,7 +693,7 @@
             this.paneVisibleChk.Name = "paneVisibleChk";
             this.paneVisibleChk.Size = new System.Drawing.Size(88, 17);
             this.paneVisibleChk.TabIndex = 54;
-            this.paneVisibleChk.Text = "Pane visibile:";
+            this.paneVisibleChk.Text = "窗格可见：";
             this.paneVisibleChk.UseVisualStyleBackColor = true;
             this.paneVisibleChk.CheckedChanged += new System.EventHandler(this.paneVisibleChk_CheckedChanged);
             // 
@@ -790,7 +790,7 @@
             this.radioBottomLeftBtn.Size = new System.Drawing.Size(79, 17);
             this.radioBottomLeftBtn.TabIndex = 9;
             this.radioBottomLeftBtn.TabStop = true;
-            this.radioBottomLeftBtn.Text = "Bottom Left";
+            this.radioBottomLeftBtn.Text = "左下";
             this.radioBottomLeftBtn.UseVisualStyleBackColor = true;
             // 
             // radioTopLeftBtn
@@ -801,7 +801,7 @@
             this.radioTopLeftBtn.Size = new System.Drawing.Size(65, 17);
             this.radioTopLeftBtn.TabIndex = 8;
             this.radioTopLeftBtn.TabStop = true;
-            this.radioTopLeftBtn.Text = "Top Left";
+            this.radioTopLeftBtn.Text = "左上";
             this.radioTopLeftBtn.UseVisualStyleBackColor = true;
             // 
             // radioLeftBtn
@@ -823,7 +823,7 @@
             this.radioBottomRightBtn.Size = new System.Drawing.Size(86, 17);
             this.radioBottomRightBtn.TabIndex = 6;
             this.radioBottomRightBtn.TabStop = true;
-            this.radioBottomRightBtn.Text = "Bottom Right";
+            this.radioBottomRightBtn.Text = "右下";
             this.radioBottomRightBtn.UseVisualStyleBackColor = true;
             // 
             // radioTopRightBtn
@@ -834,7 +834,7 @@
             this.radioTopRightBtn.Size = new System.Drawing.Size(72, 17);
             this.radioTopRightBtn.TabIndex = 5;
             this.radioTopRightBtn.TabStop = true;
-            this.radioTopRightBtn.Text = "Top Right";
+            this.radioTopRightBtn.Text = "右上";
             this.radioTopRightBtn.UseVisualStyleBackColor = true;
             // 
             // radioRightBtn
@@ -914,7 +914,7 @@
             this.radioBottomLeftBtnParent.Size = new System.Drawing.Size(79, 17);
             this.radioBottomLeftBtnParent.TabIndex = 9;
             this.radioBottomLeftBtnParent.TabStop = true;
-            this.radioBottomLeftBtnParent.Text = "Bottom Left";
+            this.radioBottomLeftBtnParent.Text = "左下";
             this.radioBottomLeftBtnParent.UseVisualStyleBackColor = true;
             // 
             // radioTopLeftBtnParent
@@ -925,7 +925,7 @@
             this.radioTopLeftBtnParent.Size = new System.Drawing.Size(65, 17);
             this.radioTopLeftBtnParent.TabIndex = 8;
             this.radioTopLeftBtnParent.TabStop = true;
-            this.radioTopLeftBtnParent.Text = "Top Left";
+            this.radioTopLeftBtnParent.Text = "左上";
             this.radioTopLeftBtnParent.UseVisualStyleBackColor = true;
             // 
             // radioLeftBtnParent
@@ -947,7 +947,7 @@
             this.radioBottomRightBtnParent.Size = new System.Drawing.Size(86, 17);
             this.radioBottomRightBtnParent.TabIndex = 6;
             this.radioBottomRightBtnParent.TabStop = true;
-            this.radioBottomRightBtnParent.Text = "Bottom Right";
+            this.radioBottomRightBtnParent.Text = "右下";
             this.radioBottomRightBtnParent.UseVisualStyleBackColor = true;
             // 
             // radioTopRightBtnParent
@@ -958,7 +958,7 @@
             this.radioTopRightBtnParent.Size = new System.Drawing.Size(72, 17);
             this.radioTopRightBtnParent.TabIndex = 5;
             this.radioTopRightBtnParent.TabStop = true;
-            this.radioTopRightBtnParent.Text = "Top Right";
+            this.radioTopRightBtnParent.Text = "右上";
             this.radioTopRightBtnParent.UseVisualStyleBackColor = true;
             // 
             // radioRightBtnParent
@@ -1025,7 +1025,7 @@
             this.stLabel8.Name = "stLabel8";
             this.stLabel8.Size = new System.Drawing.Size(67, 13);
             this.stLabel8.TabIndex = 53;
-            this.stLabel8.Text = "Part Scaling:";
+            this.stLabel8.Text = "部件缩放：";
             // 
             // BasePaneEditor
             // 

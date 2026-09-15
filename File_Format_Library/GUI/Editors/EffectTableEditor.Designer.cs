@@ -76,7 +76,7 @@
             // 
             this.addPTCLReferenceToolStripMenuItem.Name = "addPTCLReferenceToolStripMenuItem";
             this.addPTCLReferenceToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
-            this.addPTCLReferenceToolStripMenuItem.Text = "Link PTCL";
+            this.addPTCLReferenceToolStripMenuItem.Text = "链接 PTCL";
             this.addPTCLReferenceToolStripMenuItem.Click += new System.EventHandler(this.addPTCLReferenceToolStripMenuItem_Click);
             // 
             // EffectTableEditor

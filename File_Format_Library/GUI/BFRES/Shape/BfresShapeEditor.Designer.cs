@@ -136,7 +136,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(639, 871);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Shape Data";
+            this.tabPage1.Text = "形状数据";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // stFlowLayoutPanel1
@@ -204,7 +204,7 @@
             this.stLabel11.Name = "stLabel11";
             this.stLabel11.Size = new System.Drawing.Size(62, 13);
             this.stLabel11.TabIndex = 7;
-            this.stLabel11.Text = "Skin Count:";
+            this.stLabel11.Text = "蒙皮数量：";
             // 
             // lodDisplayCB
             // 
@@ -229,7 +229,7 @@
             this.stLabel10.Name = "stLabel10";
             this.stLabel10.Size = new System.Drawing.Size(69, 13);
             this.stLabel10.TabIndex = 14;
-            this.stLabel10.Text = "Display LOD:";
+            this.stLabel10.Text = "显示 LOD：";
             // 
             // stLabel6
             // 
@@ -414,7 +414,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(54, 13);
             this.stLabel4.TabIndex = 14;
-            this.stLabel4.Text = "Bone List:";
+            this.stLabel4.Text = "骨骼列表：";
             // 
             // bonesCB
             // 
@@ -526,7 +526,7 @@
             this.stLabel13.Name = "stLabel13";
             this.stLabel13.Size = new System.Drawing.Size(71, 13);
             this.stLabel13.TabIndex = 42;
-            this.stLabel13.Text = "Vertex Count:";
+            this.stLabel13.Text = "顶点数：";
             // 
             // vertexBufferList1
             // 
@@ -569,7 +569,7 @@
             this.stLabel12.Name = "stLabel12";
             this.stLabel12.Size = new System.Drawing.Size(62, 13);
             this.stLabel12.TabIndex = 40;
-            this.stLabel12.Text = "Skin Count:";
+            this.stLabel12.Text = "蒙皮数量：";
             // 
             // stDropDownPanel8
             // 
@@ -646,7 +646,7 @@
             this.btnFacesView.Name = "btnFacesView";
             this.btnFacesView.Size = new System.Drawing.Size(103, 23);
             this.btnFacesView.TabIndex = 27;
-            this.btnFacesView.Text = "View Faces";
+            this.btnFacesView.Text = "查看面";
             this.btnFacesView.UseVisualStyleBackColor = false;
             this.btnFacesView.Click += new System.EventHandler(this.btnFacesView_Click);
             // 
@@ -676,7 +676,7 @@
             this.stLabel20.Name = "stLabel20";
             this.stLabel20.Size = new System.Drawing.Size(69, 13);
             this.stLabel20.TabIndex = 38;
-            this.stLabel20.Text = "Sub Meshes:";
+            this.stLabel20.Text = "子网格：";
             // 
             // subMeshesViewBtn
             // 
@@ -732,7 +732,7 @@
             this.stLabel22.Name = "stLabel22";
             this.stLabel22.Size = new System.Drawing.Size(80, 13);
             this.stLabel22.TabIndex = 35;
-            this.stLabel22.Text = "Primative Type:";
+            this.stLabel22.Text = "图元类型：";
             // 
             // lodVertexSkipUD
             // 
@@ -761,7 +761,7 @@
             this.stLabel23.Name = "stLabel23";
             this.stLabel23.Size = new System.Drawing.Size(65, 13);
             this.stLabel23.TabIndex = 34;
-            this.stLabel23.Text = "Face Count:";
+            this.stLabel23.Text = "面数：";
             // 
             // stLabel24
             // 
@@ -770,7 +770,7 @@
             this.stLabel24.Name = "stLabel24";
             this.stLabel24.Size = new System.Drawing.Size(64, 13);
             this.stLabel24.TabIndex = 32;
-            this.stLabel24.Text = "Vertex Skip:";
+            this.stLabel24.Text = "顶点跳过：";
             // 
             // lodFaceCountUD
             // 
@@ -844,7 +844,7 @@
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Face Count";
+            this.columnHeader3.Text = "面数";
             this.columnHeader3.Width = 90;
             // 
             // stButton12

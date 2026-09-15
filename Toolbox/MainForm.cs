@@ -157,8 +157,8 @@ namespace Toolbox
         static void MyHandler(object sender, UnhandledExceptionEventArgs args)
         {
             Exception e = (Exception)args.ExceptionObject;
-            MessageBox.Show("MyHandler caught : " + e.Message);
-            MessageBox.Show("Runtime terminating: {0}", args.IsTerminating.ToString());
+            MessageBox.Show("MyHandler 捕获到： " + e.Message);
+            MessageBox.Show("运行时终止：{0}", args.IsTerminating.ToString());
         }
 
         private void ParseGLVersion()
@@ -643,7 +643,7 @@ namespace Toolbox
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Failed to load config file! {ex}");
+                MessageBox.Show($"配置文件加载失败！{ex}");
             }
         }
 
@@ -1591,7 +1591,7 @@ namespace Toolbox
                 STErrorDialog.Show("Some files failed to export! See detail list of failed files.", "Switch Toolbox", detailList);
             }
             else
-                MessageBox.Show("Files batched successfully!");
+                MessageBox.Show("批处理完成！");
         }
 
         private void BatchExportTextures(string[] files, string outputFolder)
@@ -1636,7 +1636,7 @@ namespace Toolbox
                 STErrorDialog.Show("Some files failed to export! See detail list of failed files.", "Switch Toolbox", detailList);
             }
             else
-                MessageBox.Show("Files batched successfully!");
+                MessageBox.Show("批处理完成！");
         }
 
         private void SearchFileFormat(BatchFormatExport.Settings settings, IFileFormat fileFormat, 

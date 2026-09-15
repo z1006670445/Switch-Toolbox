@@ -115,7 +115,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(62, 13);
             this.stLabel1.TabIndex = 14;
-            this.stLabel1.Text = "Hash Type:";
+            this.stLabel1.Text = "哈希类型：";
             // 
             // stLabel2
             // 
@@ -133,7 +133,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(68, 13);
             this.stLabel3.TabIndex = 16;
-            this.stLabel3.Text = "Hash Result:";
+            this.stLabel3.Text = "哈希结果：";
             // 
             // chkUseHex
             // 
@@ -142,7 +142,7 @@
             this.chkUseHex.Name = "chkUseHex";
             this.chkUseHex.Size = new System.Drawing.Size(86, 17);
             this.chkUseHex.TabIndex = 17;
-            this.chkUseHex.Text = "Preview Hex";
+            this.chkUseHex.Text = "预览十六进制";
             this.chkUseHex.UseVisualStyleBackColor = true;
             this.chkUseHex.CheckedChanged += new System.EventHandler(this.chkUseHex_CheckedChanged);
             // 
@@ -171,7 +171,7 @@
             this.chkSearchNumbered.Name = "chkSearchNumbered";
             this.chkSearchNumbered.Size = new System.Drawing.Size(112, 17);
             this.chkSearchNumbered.TabIndex = 30;
-            this.chkSearchNumbered.Text = "Search Numbered";
+            this.chkSearchNumbered.Text = "搜索编号";
             this.chkSearchNumbered.UseVisualStyleBackColor = true;
             // 
             // characterStartTB
@@ -190,7 +190,7 @@
             this.stLabel8.Name = "stLabel8";
             this.stLabel8.Size = new System.Drawing.Size(81, 13);
             this.stLabel8.TabIndex = 29;
-            this.stLabel8.Text = "Starting String:s";
+            this.stLabel8.Text = "起始字符串：";
             // 
             // maxLengthUD
             // 
@@ -211,7 +211,7 @@
             this.stLabel7.Name = "stLabel7";
             this.stLabel7.Size = new System.Drawing.Size(116, 13);
             this.stLabel7.TabIndex = 26;
-            this.stLabel7.Text = "Max Character Search:";
+            this.stLabel7.Text = "最大字符搜索范围：";
             // 
             // searchUppercase
             // 
@@ -220,7 +220,7 @@
             this.searchUppercase.Name = "searchUppercase";
             this.searchUppercase.Size = new System.Drawing.Size(115, 17);
             this.searchUppercase.TabIndex = 24;
-            this.searchUppercase.Text = "Search Uppercase";
+            this.searchUppercase.Text = "搜索大写";
             this.searchUppercase.UseVisualStyleBackColor = true;
             // 
             // stButton1
@@ -250,7 +250,7 @@
             this.stLabel6.Name = "stLabel6";
             this.stLabel6.Size = new System.Drawing.Size(70, 13);
             this.stLabel6.TabIndex = 22;
-            this.stLabel6.Text = "String Result:";
+            this.stLabel6.Text = "字符串结果：";
             // 
             // bruteForceHashTB
             // 
@@ -277,7 +277,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(65, 13);
             this.stLabel4.TabIndex = 19;
-            this.stLabel4.Text = "Brute Force:";
+            this.stLabel4.Text = "暴力破解：";
             // 
             // chkLittleEndian
             // 
@@ -288,7 +288,7 @@
             this.chkLittleEndian.Name = "chkLittleEndian";
             this.chkLittleEndian.Size = new System.Drawing.Size(139, 17);
             this.chkLittleEndian.TabIndex = 20;
-            this.chkLittleEndian.Text = "Preview as Little Endian";
+            this.chkLittleEndian.Text = "按小端序预览";
             this.chkLittleEndian.UseVisualStyleBackColor = true;
             this.chkLittleEndian.CheckedChanged += new System.EventHandler(this.chkLittleEndian_CheckedChanged);
             // 
@@ -298,7 +298,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(710, 367);
             this.Name = "HashCalculatorForm";
-            this.Text = "Hash Calculator";
+            this.Text = "哈希计算器";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             this.stPanel1.ResumeLayout(false);

@@ -100,7 +100,7 @@
             this.wordWrapToolStripMenuItem.CheckOnClick = true;
             this.wordWrapToolStripMenuItem.Name = "wordWrapToolStripMenuItem";
             this.wordWrapToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
-            this.wordWrapToolStripMenuItem.Text = "Word Wrap";
+            this.wordWrapToolStripMenuItem.Text = "自动换行";
             this.wordWrapToolStripMenuItem.Click += new System.EventHandler(this.wordWrapToolStripMenuItem_Click);
             // 
             // searchToolStripMenuItem

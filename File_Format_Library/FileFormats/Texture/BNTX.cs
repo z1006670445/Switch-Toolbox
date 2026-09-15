@@ -413,7 +413,7 @@ namespace FirstPlugin
             BNTX bntx = new BNTX();
 
             bntx.IFileInfo = new IFileInfo();
-            bntx.Text = "Sheet " + Containers.Count;
+            bntx.Text = "表 " + Containers.Count;
 
             //Get total bntx in bytes
             reader.SeekBegin(StartPos);
@@ -449,9 +449,9 @@ namespace FirstPlugin
                 new ToolStripMenuItem("Export", null, Save, Keys.Control | Keys.E),
                 new ToolStripMenuItem("Replace", null, Import, Keys.Control | Keys.R) { Enabled = Parent != null, },
                 new ToolStripSeparator(),
-                new ToolStripMenuItem("Import Texture", null, ImportTextureAction, Keys.Control | Keys.I),
-                new ToolStripMenuItem("Replace Textures (From Folder)", null, ReplaceAll, Keys.Control | Keys.T),
-                new ToolStripMenuItem("Export All Textures", null, ExportAll, Keys.Control | Keys.A),
+                new ToolStripMenuItem("导入贴图", null, ImportTextureAction, Keys.Control | Keys.I),
+                new ToolStripMenuItem("替换贴图（从文件夹）", null, ReplaceAll, Keys.Control | Keys.T),
+                new ToolStripMenuItem("导出所有贴图", null, ExportAll, Keys.Control | Keys.A),
                 new ToolStripSeparator(),
                 new ToolStripMenuItem("Rename", null, Rename, Keys.Control | Keys.N),
                 new ToolStripMenuItem("Sort", null, SortTextures, Keys.Control | Keys.S),
@@ -739,7 +739,7 @@ namespace FirstPlugin
                 }
                 else
                 {
-                    MessageBox.Show("Something went wrong???");
+                    MessageBox.Show("出错了？？？");
                 }
             }
             return textures;
@@ -893,7 +893,7 @@ namespace FirstPlugin
         }
         private void Clear(object sender, EventArgs args)
         {
-            var result = MessageBox.Show("Are you sure you want to clear this section? This cannot be undone!",
+            var result = MessageBox.Show("确定要清空此区域吗？此操作无法撤销！",
                           "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
@@ -1789,7 +1789,7 @@ namespace FirstPlugin
             }
             catch (Exception e)
             {
-                MessageBox.Show($"Failed to swizzle texture {Text}! Exception: {e}");
+                MessageBox.Show($"贴图 {Text} 通道重排失败！异常：{e}");
                 return new byte[0];
             }
         }

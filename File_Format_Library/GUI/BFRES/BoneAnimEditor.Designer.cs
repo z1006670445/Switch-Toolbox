@@ -163,7 +163,7 @@
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(85, 23);
             this.btnRemove.TabIndex = 24;
-            this.btnRemove.Text = "Remove Key";
+            this.btnRemove.Text = "移除关键帧";
             this.btnRemove.UseVisualStyleBackColor = false;
             // 
             // frameCountLbl
@@ -182,7 +182,7 @@
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(85, 23);
             this.btnInsert.TabIndex = 23;
-            this.btnInsert.Text = "Insert Key";
+            this.btnInsert.Text = "插入关键帧";
             this.btnInsert.UseVisualStyleBackColor = false;
             // 
             // currentFrameUD

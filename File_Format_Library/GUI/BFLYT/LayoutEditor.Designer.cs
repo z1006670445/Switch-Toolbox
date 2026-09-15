@@ -107,7 +107,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(84, 13);
             this.stLabel1.TabIndex = 14;
-            this.stLabel1.Text = "Debug Shading:";
+            this.stLabel1.Text = "调试着色：";
             // 
             // debugShading
             // 
@@ -165,7 +165,7 @@
             this.toolstripOrthoBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolstripOrthoBtn.Name = "toolstripOrthoBtn";
             this.toolstripOrthoBtn.Size = new System.Drawing.Size(23, 22);
-            this.toolstripOrthoBtn.Text = "Toggle Orthographic";
+            this.toolstripOrthoBtn.Text = "切换正交投影";
             this.toolstripOrthoBtn.Click += new System.EventHandler(this.toolstripOrthoBtn_Click);
             // 
             // stMenuStrip1
@@ -209,28 +209,28 @@
             // 
             this.clearWorkspaceToolStripMenuItem.Name = "clearWorkspaceToolStripMenuItem";
             this.clearWorkspaceToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.clearWorkspaceToolStripMenuItem.Text = "Clear Files";
+            this.clearWorkspaceToolStripMenuItem.Text = "清空文件";
             this.clearWorkspaceToolStripMenuItem.Click += new System.EventHandler(this.clearWorkspaceToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem1
             // 
             this.saveToolStripMenuItem1.Name = "saveToolStripMenuItem1";
             this.saveToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.saveToolStripMenuItem1.Text = "Save Layout";
+            this.saveToolStripMenuItem1.Text = "保存布局";
             this.saveToolStripMenuItem1.Click += new System.EventHandler(this.saveToolStripMenuItem1_Click);
             // 
             // saveAnimationToolStripMenuItem
             // 
             this.saveAnimationToolStripMenuItem.Name = "saveAnimationToolStripMenuItem";
             this.saveAnimationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.saveAnimationToolStripMenuItem.Text = "Save Animation";
+            this.saveAnimationToolStripMenuItem.Text = "保存动画";
             this.saveAnimationToolStripMenuItem.Click += new System.EventHandler(this.saveAnimationToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.saveToolStripMenuItem.Text = "Save As";
+            this.saveToolStripMenuItem.Text = "另存为";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
@@ -270,7 +270,7 @@
             this.transformChildrenToolStripMenuItem.CheckOnClick = true;
             this.transformChildrenToolStripMenuItem.Name = "transformChildrenToolStripMenuItem";
             this.transformChildrenToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
-            this.transformChildrenToolStripMenuItem.Text = "Transform Children";
+            this.transformChildrenToolStripMenuItem.Text = "变换子级";
             this.transformChildrenToolStripMenuItem.Click += new System.EventHandler(this.transformChildrenToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem
@@ -296,7 +296,7 @@
             this.renderInGamePreviewToolStripMenuItem.CheckOnClick = true;
             this.renderInGamePreviewToolStripMenuItem.Name = "renderInGamePreviewToolStripMenuItem";
             this.renderInGamePreviewToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.renderInGamePreviewToolStripMenuItem.Text = "Render In Game Preview";
+            this.renderInGamePreviewToolStripMenuItem.Text = "渲染游戏内预览";
             this.renderInGamePreviewToolStripMenuItem.Click += new System.EventHandler(this.renderInGamePreviewToolStripMenuItem_Click);
             // 
             // displayGridToolStripMenuItem
@@ -304,21 +304,21 @@
             this.displayGridToolStripMenuItem.CheckOnClick = true;
             this.displayGridToolStripMenuItem.Name = "displayGridToolStripMenuItem";
             this.displayGridToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.displayGridToolStripMenuItem.Text = "Display Grid";
+            this.displayGridToolStripMenuItem.Text = "显示网格";
             this.displayGridToolStripMenuItem.Click += new System.EventHandler(this.displayGridToolStripMenuItem_Click);
             // 
             // textureListToolStripMenuItem
             // 
             this.textureListToolStripMenuItem.Name = "textureListToolStripMenuItem";
             this.textureListToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.textureListToolStripMenuItem.Text = "Texture List";
+            this.textureListToolStripMenuItem.Text = "贴图列表";
             this.textureListToolStripMenuItem.Click += new System.EventHandler(this.textureListToolStripMenuItem_Click);
             // 
             // textConverterToolStripMenuItem
             // 
             this.textConverterToolStripMenuItem.Name = "textConverterToolStripMenuItem";
             this.textConverterToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.textConverterToolStripMenuItem.Text = "Text Converter";
+            this.textConverterToolStripMenuItem.Text = "文本转换器";
             this.textConverterToolStripMenuItem.Click += new System.EventHandler(this.textConverterToolStripMenuItem_Click);
             // 
             // viewPartsAsNullPanesToolStripMenuItem
@@ -326,7 +326,7 @@
             this.viewPartsAsNullPanesToolStripMenuItem.CheckOnClick = true;
             this.viewPartsAsNullPanesToolStripMenuItem.Name = "viewPartsAsNullPanesToolStripMenuItem";
             this.viewPartsAsNullPanesToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.viewPartsAsNullPanesToolStripMenuItem.Text = "View Parts As Null Panes";
+            this.viewPartsAsNullPanesToolStripMenuItem.Text = "将部件视为空窗格查看";
             this.viewPartsAsNullPanesToolStripMenuItem.Click += new System.EventHandler(this.viewPartsAsNullPanesToolStripMenuItem_Click);
             // 
             // orthographicViewToolStripMenuItem
@@ -336,7 +336,7 @@
             this.orthographicViewToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.orthographicViewToolStripMenuItem.Name = "orthographicViewToolStripMenuItem";
             this.orthographicViewToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.orthographicViewToolStripMenuItem.Text = "Orthographic View";
+            this.orthographicViewToolStripMenuItem.Text = "正交视图";
             this.orthographicViewToolStripMenuItem.Click += new System.EventHandler(this.orthographicViewToolStripMenuItem_Click);
             // 
             // displayNullPanesToolStripMenuItem
@@ -346,7 +346,7 @@
             this.displayNullPanesToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.displayNullPanesToolStripMenuItem.Name = "displayNullPanesToolStripMenuItem";
             this.displayNullPanesToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.displayNullPanesToolStripMenuItem.Text = "Display Null Panes";
+            this.displayNullPanesToolStripMenuItem.Text = "显示空窗格";
             this.displayNullPanesToolStripMenuItem.Click += new System.EventHandler(this.displayPanesToolStripMenuItem_Click);
             // 
             // displayyBoundryPanesToolStripMenuItem
@@ -356,7 +356,7 @@
             this.displayyBoundryPanesToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.displayyBoundryPanesToolStripMenuItem.Name = "displayyBoundryPanesToolStripMenuItem";
             this.displayyBoundryPanesToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.displayyBoundryPanesToolStripMenuItem.Text = "Display Boundry Panes";
+            this.displayyBoundryPanesToolStripMenuItem.Text = "显示边界窗格";
             this.displayyBoundryPanesToolStripMenuItem.Click += new System.EventHandler(this.displayPanesToolStripMenuItem_Click);
             // 
             // displayWindowPanesToolStripMenuItem
@@ -366,7 +366,7 @@
             this.displayWindowPanesToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.displayWindowPanesToolStripMenuItem.Name = "displayWindowPanesToolStripMenuItem";
             this.displayWindowPanesToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.displayWindowPanesToolStripMenuItem.Text = "Display Window Panes";
+            this.displayWindowPanesToolStripMenuItem.Text = "显示窗口窗格";
             this.displayWindowPanesToolStripMenuItem.Click += new System.EventHandler(this.displayPanesToolStripMenuItem_Click);
             // 
             // displayPicturePanesToolStripMenuItem
@@ -376,7 +376,7 @@
             this.displayPicturePanesToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.displayPicturePanesToolStripMenuItem.Name = "displayPicturePanesToolStripMenuItem";
             this.displayPicturePanesToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.displayPicturePanesToolStripMenuItem.Text = "Display Picture Panes";
+            this.displayPicturePanesToolStripMenuItem.Text = "显示图片窗格";
             this.displayPicturePanesToolStripMenuItem.Click += new System.EventHandler(this.displayPanesToolStripMenuItem_Click);
             // 
             // displayTextPanesToolStripMenuItem
@@ -386,7 +386,7 @@
             this.displayTextPanesToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.displayTextPanesToolStripMenuItem.Name = "displayTextPanesToolStripMenuItem";
             this.displayTextPanesToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.displayTextPanesToolStripMenuItem.Text = "Display Text Panes";
+            this.displayTextPanesToolStripMenuItem.Text = "显示文本窗格";
             this.displayTextPanesToolStripMenuItem.Click += new System.EventHandler(this.displayPanesToolStripMenuItem_Click);
             // 
             // animationToolStripMenuItem
@@ -417,14 +417,14 @@
             // 
             this.showGameWindowToolStripMenuItem.Name = "showGameWindowToolStripMenuItem";
             this.showGameWindowToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
-            this.showGameWindowToolStripMenuItem.Text = "Show Game Window";
+            this.showGameWindowToolStripMenuItem.Text = "显示游戏窗口";
             this.showGameWindowToolStripMenuItem.Click += new System.EventHandler(this.showGameWindowToolStripMenuItem_Click);
             // 
             // showAnimationWindowToolStripMenuItem
             // 
             this.showAnimationWindowToolStripMenuItem.Name = "showAnimationWindowToolStripMenuItem";
             this.showAnimationWindowToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
-            this.showAnimationWindowToolStripMenuItem.Text = "Show Animation Window";
+            this.showAnimationWindowToolStripMenuItem.Text = "显示动画窗口";
             this.showAnimationWindowToolStripMenuItem.Click += new System.EventHandler(this.showAnimationWindowToolStripMenuItem_Click);
             // 
             // dockPanelsToolStripMenuItem
@@ -437,14 +437,14 @@
             this.showAnimationListToolStripMenuItem});
             this.dockPanelsToolStripMenuItem.Name = "dockPanelsToolStripMenuItem";
             this.dockPanelsToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
-            this.dockPanelsToolStripMenuItem.Text = "Dock Panels";
+            this.dockPanelsToolStripMenuItem.Text = "停靠面板";
             // 
             // showTimelineToolStripMenuItem
             // 
             this.showTimelineToolStripMenuItem.CheckOnClick = true;
             this.showTimelineToolStripMenuItem.Name = "showTimelineToolStripMenuItem";
             this.showTimelineToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.showTimelineToolStripMenuItem.Text = "Show Timeline";
+            this.showTimelineToolStripMenuItem.Text = "显示时间轴";
             this.showTimelineToolStripMenuItem.Click += new System.EventHandler(this.showDockedPanel_Click);
             // 
             // showPropertiesToolStripMenuItem
@@ -452,7 +452,7 @@
             this.showPropertiesToolStripMenuItem.CheckOnClick = true;
             this.showPropertiesToolStripMenuItem.Name = "showPropertiesToolStripMenuItem";
             this.showPropertiesToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.showPropertiesToolStripMenuItem.Text = "Show Properties";
+            this.showPropertiesToolStripMenuItem.Text = "显示属性";
             this.showPropertiesToolStripMenuItem.Click += new System.EventHandler(this.showDockedPanel_Click);
             // 
             // showPanelHiearchyToolStripMenuItem
@@ -460,7 +460,7 @@
             this.showPanelHiearchyToolStripMenuItem.CheckOnClick = true;
             this.showPanelHiearchyToolStripMenuItem.Name = "showPanelHiearchyToolStripMenuItem";
             this.showPanelHiearchyToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.showPanelHiearchyToolStripMenuItem.Text = "Show Panel Hiearchy";
+            this.showPanelHiearchyToolStripMenuItem.Text = "显示面板层级";
             this.showPanelHiearchyToolStripMenuItem.Click += new System.EventHandler(this.showDockedPanel_Click);
             // 
             // showTextureListToolStripMenuItem
@@ -468,7 +468,7 @@
             this.showTextureListToolStripMenuItem.CheckOnClick = true;
             this.showTextureListToolStripMenuItem.Name = "showTextureListToolStripMenuItem";
             this.showTextureListToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.showTextureListToolStripMenuItem.Text = "Show Texture List";
+            this.showTextureListToolStripMenuItem.Text = "显示贴图列表";
             this.showTextureListToolStripMenuItem.Click += new System.EventHandler(this.showDockedPanel_Click);
             // 
             // showAnimationListToolStripMenuItem
@@ -476,7 +476,7 @@
             this.showAnimationListToolStripMenuItem.CheckOnClick = true;
             this.showAnimationListToolStripMenuItem.Name = "showAnimationListToolStripMenuItem";
             this.showAnimationListToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.showAnimationListToolStripMenuItem.Text = "Show Animation List";
+            this.showAnimationListToolStripMenuItem.Text = "显示动画列表";
             this.showAnimationListToolStripMenuItem.Click += new System.EventHandler(this.showDockedPanel_Click);
             // 
             // stLabel2
@@ -486,7 +486,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(67, 13);
             this.stLabel2.TabIndex = 18;
-            this.stLabel2.Text = "Editor Mode:";
+            this.stLabel2.Text = "编辑器模式：";
             // 
             // editorModeCB
             // 
@@ -510,14 +510,14 @@
             this.chkAutoKey.Name = "chkAutoKey";
             this.chkAutoKey.Size = new System.Drawing.Size(69, 17);
             this.chkAutoKey.TabIndex = 19;
-            this.chkAutoKey.Text = "Auto Key";
+            this.chkAutoKey.Text = "自动关键帧";
             this.chkAutoKey.UseVisualStyleBackColor = true;
             // 
             // saveWorkspaceToolStripMenuItem
             // 
             this.saveWorkspaceToolStripMenuItem.Name = "saveWorkspaceToolStripMenuItem";
             this.saveWorkspaceToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.saveWorkspaceToolStripMenuItem.Text = "Save Workspace";
+            this.saveWorkspaceToolStripMenuItem.Text = "保存工作区";
             this.saveWorkspaceToolStripMenuItem.Click += new System.EventHandler(this.saveWorkspaceToolStripMenuItem_Click);
             // 
             // LayoutEditor

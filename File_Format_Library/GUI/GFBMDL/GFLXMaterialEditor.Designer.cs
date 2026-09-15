@@ -106,7 +106,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(567, 740);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Texture Maps";
+            this.tabPage1.Text = "贴图映射";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // stPanel1
@@ -284,7 +284,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(47, 13);
             this.stLabel3.TabIndex = 22;
-            this.stLabel3.Text = "Wrap W";
+            this.stLabel3.Text = "W 环绕";
             // 
             // stLabel2
             // 
@@ -293,7 +293,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(43, 13);
             this.stLabel2.TabIndex = 21;
-            this.stLabel2.Text = "Wrap V";
+            this.stLabel2.Text = "V 环绕";
             // 
             // stLabel1
             // 
@@ -302,7 +302,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(44, 13);
             this.stLabel1.TabIndex = 20;
-            this.stLabel1.Text = "Wrap U";
+            this.stLabel1.Text = "U 环绕";
             // 
             // wrapModeWCB
             // 
@@ -845,7 +845,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(567, 740);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Json Editor";
+            this.tabPage3.Text = "Json 编辑器";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // stPanel7

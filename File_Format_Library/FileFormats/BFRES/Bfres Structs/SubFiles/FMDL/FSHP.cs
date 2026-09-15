@@ -27,12 +27,12 @@ namespace Bfres.Structs
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Import Static Object", null, Import, Keys.Control | Keys.I));
+            Items.Add(new ToolStripMenuItem("导入静态对象", null, Import, Keys.Control | Keys.I));
             Items.Add(new ToolStripSeparator());
-            Items.Add(new ToolStripMenuItem("New Empty Object", null, CreateEmpty, Keys.Control | Keys.N));
+            Items.Add(new ToolStripMenuItem("新建空对象", null, CreateEmpty, Keys.Control | Keys.N));
             Items.Add(new ToolStripSeparator());
-            Items.Add(new ToolStripMenuItem("Export All Objects", null, ExportAll, Keys.Control | Keys.A));
-            Items.Add(new ToolStripMenuItem("Clear All Objects", null, Clear, Keys.Control | Keys.C));
+            Items.Add(new ToolStripMenuItem("导出所有对象", null, ExportAll, Keys.Control | Keys.A));
+            Items.Add(new ToolStripMenuItem("清空所有对象", null, Clear, Keys.Control | Keys.C));
             return Items.ToArray();
         }
 
@@ -90,7 +90,7 @@ namespace Bfres.Structs
 
         private void Clear(object sender, EventArgs args)
         {
-            DialogResult dialogResult = MessageBox.Show("Are you sure you want to remove all objects? This cannot be undone!", "", MessageBoxButtons.YesNo);
+            DialogResult dialogResult = MessageBox.Show("确定要移除所有对象吗？此操作无法撤销！", "", MessageBoxButtons.YesNo);
 
             if (dialogResult == DialogResult.Yes)
             {
@@ -167,45 +167,45 @@ namespace Bfres.Structs
             List<ToolStripItem> Items = new List<ToolStripItem>();
 
             Items.Add(new ToolStripMenuItem("Export", null, Export, Keys.Control | Keys.E));
-            Items.Add(new ToolStripMenuItem("Replace (Static)", null, Replace, Keys.Control | Keys.R));
+            Items.Add(new ToolStripMenuItem("替换（静态）", null, Replace, Keys.Control | Keys.R));
             Items.Add(new ToolStripSeparator());
             Items.Add(new ToolStripMenuItem("Rename", null, Rename, Keys.Control | Keys.N));
             Items.Add(new ToolStripSeparator());
 
-            ToolStripMenuItem lodMenu = new ToolStripMenuItem("Level Of Detail");
-            lodMenu.DropDownItems.Add(new ToolStripMenuItem("Clear LOD Meshes", null, ClearLODMeshes));
-            lodMenu.DropDownItems.Add(new ToolStripMenuItem("Add dummy LOD Meshes", null, GenerateDummyLODMeshesAction));
+            ToolStripMenuItem lodMenu = new ToolStripMenuItem("细节层级");
+            lodMenu.DropDownItems.Add(new ToolStripMenuItem("清空 LOD 网格", null, ClearLODMeshes));
+            lodMenu.DropDownItems.Add(new ToolStripMenuItem("添加占位 LOD 网格", null, GenerateDummyLODMeshesAction));
             Items.Add(lodMenu);
 
             ToolStripMenuItem boundingsMenu = new ToolStripMenuItem("Boundings");
-            boundingsMenu.DropDownItems.Add(new ToolStripMenuItem("Regenerate Bounding Boxes/Radius", null, GenerateBoundingBoxes));
+            boundingsMenu.DropDownItems.Add(new ToolStripMenuItem("重新生成包围盒/半径", null, GenerateBoundingBoxes));
             Items.Add(boundingsMenu);
 
             ToolStripMenuItem uvMenu = new ToolStripMenuItem("UVs");
-            uvMenu.DropDownItems.Add(new ToolStripMenuItem("Flip (Vertical)", null, FlipUvsVertical));
-            uvMenu.DropDownItems.Add(new ToolStripMenuItem("Flip (Horizontal)", null, FlipUvsHorizontal));
-            uvMenu.DropDownItems.Add(new ToolStripMenuItem("Copy Channel", null, CopyUVChannelAction));
-            //  uvMenu.DropDownItems.Add(new ToolStripMenuItem("Unwrap By Position", null, UVUnwrapPosition));
+            uvMenu.DropDownItems.Add(new ToolStripMenuItem("翻转（垂直）", null, FlipUvsVertical));
+            uvMenu.DropDownItems.Add(new ToolStripMenuItem("翻转（水平）", null, FlipUvsHorizontal));
+            uvMenu.DropDownItems.Add(new ToolStripMenuItem("复制通道", null, CopyUVChannelAction));
+            //  uvMenu.DropDownItems.Add(new ToolStripMenuItem("按位置展开", null, UVUnwrapPosition));
 
             Items.Add(uvMenu);
 
             ToolStripMenuItem normalsMenu = new ToolStripMenuItem("Normals");
-            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Smooth (Multiple Meshes)", null, MultiMeshSmoothNormals));
+            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("平滑（多个网格）", null, MultiMeshSmoothNormals));
             normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Smooth", null, SmoothNormals));
             normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Invert", null, InvertNormals));
             normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Recalculate", null, RecalculateNormals));
             Items.Add(normalsMenu);
 			
             ToolStripMenuItem colorMenu = new ToolStripMenuItem("Colors");
-            colorMenu.DropDownItems.Add(new ToolStripMenuItem("Set Color", null, SetVertexColorDialog));
-            colorMenu.DropDownItems.Add(new ToolStripMenuItem("Set As White", null, SetVertexColorWhite));
+            colorMenu.DropDownItems.Add(new ToolStripMenuItem("设置颜色", null, SetVertexColorDialog));
+            colorMenu.DropDownItems.Add(new ToolStripMenuItem("设为白色", null, SetVertexColorWhite));
             Items.Add(colorMenu);
 
-            Items.Add(new ToolStripMenuItem("Recalulate Tangents/Bitangents", null, CalcTansBitans, Keys.Control | Keys.T));
-            Items.Add(new ToolStripMenuItem("Fill Tangent Space with constant", null, FillTangentsAction, Keys.Control | Keys.W));
-            Items.Add(new ToolStripMenuItem("Fill Bitangent Space with constant", null, FillBitangentsAction, Keys.Control | Keys.B));
+            Items.Add(new ToolStripMenuItem("重新计算切线/副切线", null, CalcTansBitans, Keys.Control | Keys.T));
+            Items.Add(new ToolStripMenuItem("用常量填充切线空间", null, FillTangentsAction, Keys.Control | Keys.W));
+            Items.Add(new ToolStripMenuItem("用常量填充副切线空间", null, FillBitangentsAction, Keys.Control | Keys.B));
 
-            Items.Add(new ToolStripMenuItem("Open Material Editor", null, OpenMaterialEditor, Keys.Control | Keys.M));
+            Items.Add(new ToolStripMenuItem("打开材质编辑器", null, OpenMaterialEditor, Keys.Control | Keys.M));
 
             Items.Add(new ToolStripMenuItem("Delete", null, Remove, Keys.Control | Keys.Delete));
             return Items.ToArray();
@@ -486,7 +486,7 @@ namespace Bfres.Structs
 
             if (!vertexAttributes.Any(x => x.Name == "_u1"))
             {
-                DialogResult dialogResult = MessageBox.Show("This model has no second uv channel to copy to. Create one?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult dialogResult = MessageBox.Show("此模型没有可复制到的第二个 UV 通道。要创建一个吗？", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (dialogResult == DialogResult.Yes)
                 {
                     VertexAttribute att = new VertexAttribute();
@@ -587,7 +587,7 @@ namespace Bfres.Structs
         }
         private void Remove(object sender, EventArgs args)
         {
-            DialogResult dialogResult = MessageBox.Show("Are you sure you want to remove this object? This cannot be undone!", "", MessageBoxButtons.YesNo);
+            DialogResult dialogResult = MessageBox.Show("确定要移除此对象吗？此操作无法撤销！", "", MessageBoxButtons.YesNo);
 
             if (dialogResult == DialogResult.Yes)
             {
@@ -600,7 +600,7 @@ namespace Bfres.Structs
         {
             if (!vertexAttributes.Any(x => x.Name == "_c0"))
             {
-                DialogResult dialogResult2 = MessageBox.Show($"Mesh {Text} does not have vertex colors. Do you want to create them? (will make file size bigger)", "", MessageBoxButtons.YesNo);
+                DialogResult dialogResult2 = MessageBox.Show($"网格 {Text} 没有顶点色。要创建吗？（会增大文件体积）", "", MessageBoxButtons.YesNo);
 
                 if (dialogResult2 == DialogResult.Yes)
                 {
@@ -753,13 +753,13 @@ namespace Bfres.Structs
 
             if (!HasAttributeUV0())
             {
-                MessageBox.Show($"Error! {Text} does not have UVs!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"错误！{Text} 没有 UV！", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             if (!HasBiTans)
             {
-                DialogResult dialogResult2 = MessageBox.Show($"Mesh {Text} does not have bitangents. Do you want to create them? (will make file size bigger)", "", MessageBoxButtons.YesNo);
+                DialogResult dialogResult2 = MessageBox.Show($"网格 {Text} 没有副切线。要创建吗？（会增大文件体积）", "", MessageBoxButtons.YesNo);
 
                 VertexAttribute att2 = new VertexAttribute();
                 att2.Name = "_b0";
@@ -774,7 +774,7 @@ namespace Bfres.Structs
 
             if (!HasTans)
             {
-                DialogResult dialogResult = MessageBox.Show($"Mesh {Text} does not have tangets. Do you want to create them? (will make file size bigger)", "", MessageBoxButtons.YesNo);
+                DialogResult dialogResult = MessageBox.Show($"网格 {Text} 没有切线。要创建吗？（会增大文件体积）", "", MessageBoxButtons.YesNo);
 
                 VertexAttribute att = new VertexAttribute();
                 att.Name = "_t0";
@@ -826,7 +826,7 @@ namespace Bfres.Structs
         {
             if (!HasAttributeUV0())
             {
-                MessageBox.Show($"Error! {Text} does not have UVs!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"错误！{Text} 没有 UV！", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -838,7 +838,7 @@ namespace Bfres.Structs
         {
             if (!HasAttributeUV0())
             {
-                MessageBox.Show($"Error! {Text} does not have UVs!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"错误！{Text} 没有 UV！", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -951,7 +951,7 @@ namespace Bfres.Structs
                         {
                             if (assimp.objects.Count == 0)
                             {
-                                MessageBox.Show("No models found!");
+                                MessageBox.Show("未找到模型！");
                                 return;
                             }
 
@@ -1865,7 +1865,7 @@ namespace Bfres.Structs
             }
             if (atrib.Count == 0)
             {
-                MessageBox.Show("Attributes are empty?");
+                MessageBox.Show("属性为空？");
                 return;
             }
             helpernx.Attributes = atrib;

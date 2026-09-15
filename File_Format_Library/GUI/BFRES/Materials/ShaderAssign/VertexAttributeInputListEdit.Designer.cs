@@ -161,7 +161,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(481, 459);
             this.Name = "VertexAttributeInputListEdit";
-            this.Text = "Attribute Input List";
+            this.Text = "属性输入列表";
             this.contentContainer.ResumeLayout(false);
             this.ResumeLayout(false);
 

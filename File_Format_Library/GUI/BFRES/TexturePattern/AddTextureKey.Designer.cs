@@ -100,7 +100,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(52, 13);
             this.stLabel2.TabIndex = 4;
-            this.stLabel2.Text = "At Frame:";
+            this.stLabel2.Text = "位于帧：";
             // 
             // currentFrameCountUD
             // 
@@ -163,7 +163,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 162);
             this.Name = "AddTextureKey";
-            this.Text = "Edit Texture Key Frame";
+            this.Text = "编辑贴图关键帧";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.currentFrameCountUD)).EndInit();

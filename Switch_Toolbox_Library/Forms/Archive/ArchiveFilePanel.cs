@@ -275,20 +275,20 @@ namespace Toolbox.Library.Forms
                     ((IConvertableTextFormat)File).ConvertFromString(editor.GetText());
 
                     ArchiveFileInfo.SaveFileFormat();
-                    MessageBox.Show($"Saved {File.FileName} to archive!");
+                    MessageBox.Show($"已将 {File.FileName} 保存到归档！");
                 }
                 else
                 {
-                    MessageBox.Show($"File format does not support converting back from type: {((IConvertableTextFormat)File).TextFileType}!");
+                    MessageBox.Show($"该文件格式不支持从类型 {((IConvertableTextFormat)File).TextFileType} 转回！");
                 }
             }
             else if (File != null && File.CanSave)
             {
                 ArchiveFileInfo.SaveFileFormat();
-                MessageBox.Show($"Saved {File.FileName} to archive!");
+                MessageBox.Show($"已将 {File.FileName} 保存到归档！");
             }
             else
-                MessageBox.Show($"File format does not support saving!");
+                MessageBox.Show($"该文件格式不支持保存！");
         }
     }
 }

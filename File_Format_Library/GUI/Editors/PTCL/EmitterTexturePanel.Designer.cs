@@ -79,7 +79,7 @@
             this.showAlphaChk.Name = "showAlphaChk";
             this.showAlphaChk.Size = new System.Drawing.Size(83, 17);
             this.showAlphaChk.TabIndex = 3;
-            this.showAlphaChk.Text = "Show Alpha";
+            this.showAlphaChk.Text = "显示 Alpha";
             this.showAlphaChk.UseVisualStyleBackColor = true;
             this.showAlphaChk.CheckedChanged += new System.EventHandler(this.showAlphaChk_CheckedChanged);
             // 

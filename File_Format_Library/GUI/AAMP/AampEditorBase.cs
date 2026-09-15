@@ -43,8 +43,8 @@ namespace FirstPlugin.Forms
             STContextMenuStrip contextMenuStrip1 = new STContextMenuStrip();
             contextMenuStrip1.Items.Add(new ToolStripMenuItem("Save", null, saveAsToolStripMenuItem_Click, Keys.Control | Keys.I));
             contextMenuStrip1.Items.Add(new ToolStripSeparator());
-            contextMenuStrip1.Items.Add(new ToolStripMenuItem("Export as Yaml", null, ToYamlAction, Keys.Control | Keys.A));
-            contextMenuStrip1.Items.Add(new ToolStripMenuItem("Open as Yaml", null, OpenYamlEditorAction, Keys.Control | Keys.A));
+            contextMenuStrip1.Items.Add(new ToolStripMenuItem("导出为 Yaml", null, ToYamlAction, Keys.Control | Keys.A));
+            contextMenuStrip1.Items.Add(new ToolStripMenuItem("以 Yaml 打开", null, OpenYamlEditorAction, Keys.Control | Keys.A));
 
             this.treeView1.ContextMenuStrip = contextMenuStrip1;
 
@@ -76,11 +76,11 @@ namespace FirstPlugin.Forms
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Aamp failed to convert! " + ex.ToString());
+                    MessageBox.Show("Aamp 转换失败！ " + ex.ToString());
                     return;
                 }
 
-                MessageBox.Show("Aamp converted successfully!");
+                MessageBox.Show("Aamp 转换成功！");
             }
         }
 
@@ -89,7 +89,7 @@ namespace FirstPlugin.Forms
             string yaml = AampLibraryCSharp.YamlConverter.ToYaml(AampFile.aampFile);
 
             STForm form = new STForm();
-            form.Text = "YAML Text Editor";
+            form.Text = "YAML 文本编辑器";
             var panel = new STPanel() { Dock = DockStyle.Fill, };
             form.AddControl(panel);
             var editor = new TextEditor() { Dock = DockStyle.Fill, };
@@ -173,7 +173,7 @@ namespace FirstPlugin.Forms
             if (listViewCustom1.SelectedItems.Count <= 0 && treeView1.SelectedNode != null) 
                 return;
 
-            var result = MessageBox.Show("Are you sure you want to remove this entry? This cannot be undone!",
+            var result = MessageBox.Show("确定要移除此条目吗？此操作无法撤销！",
                 $"Entry {listViewCustom1.SelectedItems[0].Text}", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)

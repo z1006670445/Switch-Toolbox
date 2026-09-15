@@ -506,7 +506,7 @@ namespace Toolbox.Library
             Console.WriteLine(Magic);
             if (Magic != "DDS ")
             {
-                MessageBox.Show("The file does not appear to be a valid DDS file.");
+                MessageBox.Show("该文件似乎不是有效的 DDS 文件。");
             }
 
             header = new Header();

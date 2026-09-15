@@ -63,7 +63,7 @@
             this.btnAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(23, 22);
-            this.btnAdd.Text = "Add Texture";
+            this.btnAdd.Text = "添加贴图";
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnEdit
@@ -73,7 +73,7 @@
             this.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(23, 22);
-            this.btnEdit.Text = "Edit Texture";
+            this.btnEdit.Text = "编辑贴图";
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnRemove
@@ -83,7 +83,7 @@
             this.btnRemove.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(23, 22);
-            this.btnRemove.Text = "Remove Texture";
+            this.btnRemove.Text = "移除贴图";
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // listViewTpyeCB

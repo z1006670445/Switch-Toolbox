@@ -57,7 +57,7 @@ namespace FirstPlugin
                 new ToolStripMenuItem("Export", null, Export, Keys.Control | Keys.E),
                 new ToolStripMenuItem("Replace", null, Replace, Keys.Control | Keys.R),
                 new ToolStripSeparator(),
-                new ToolStripMenuItem("Big Endian Mode", null, SwapEndianess, Keys.Control | Keys.B)
+                new ToolStripMenuItem("大端序模式", null, SwapEndianess, Keys.Control | Keys.B)
                 { Checked = (KclFile.ByteOrder == Syroot.BinaryData.ByteOrder.BigEndian), CheckOnClick = true },
             };
         }

@@ -85,7 +85,7 @@ namespace FirstPlugin
             header = new Header();
             header.Read(new FileReader(stream));
 
-            var userData = new TreeNode("User Data");
+            var userData = new TreeNode("用户数据");
         //    Nodes.Add(userData);
 
             var hashes = new TreeNode("Hashes");
@@ -94,7 +94,7 @@ namespace FirstPlugin
             foreach (var hash in header.UserDataTable.CRC32Hashes)
                 hashes.Nodes.Add(new TreeNode(hash.ToString("x")));
 
-            var paramDefines = new TreeNode("Param Defines");
+            var paramDefines = new TreeNode("参数定义");
        //     Nodes.Add(paramDefines);
 
             foreach (var param in header.ParamDefineTable.UserParams)

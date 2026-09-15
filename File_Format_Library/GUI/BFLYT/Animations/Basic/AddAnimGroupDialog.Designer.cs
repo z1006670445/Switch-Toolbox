@@ -122,7 +122,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(381, 160);
             this.Name = "AddAnimGroupDialog";
-            this.Text = "Add Group";
+            this.Text = "添加组";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             this.ResumeLayout(false);

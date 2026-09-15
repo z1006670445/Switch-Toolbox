@@ -510,7 +510,7 @@ namespace FirstPlugin.NLG
 
                     List<uint> boneHashOrder = new List<uint>();
 
-                    TreeNode parentBoneList = new TreeNode("Bone List");
+                    TreeNode parentBoneList = new TreeNode("骨骼列表");
                     Nodes.Add(parentBoneList);
 
                     if (SectionLookup.ContainsKey(SectionMagic.SkeletonData))
@@ -532,7 +532,7 @@ namespace FirstPlugin.NLG
                             //Meshes index these lists for rigging
                             if ((SectionMagic)magic == SectionMagic.BoneHashes)
                             {
-                                TreeNode boneListNode = new TreeNode("Mesh Bone List");
+                                TreeNode boneListNode = new TreeNode("网格骨骼列表");
                                 parentBoneList.Nodes.Add(boneListNode);
 
                                 uint numHashes = sectionSize / 4;

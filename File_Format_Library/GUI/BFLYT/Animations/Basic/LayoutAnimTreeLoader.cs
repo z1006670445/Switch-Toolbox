@@ -54,8 +54,8 @@ namespace LayoutBXLYT
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Add Animation Group", null, AddGroup, Keys.Control | Keys.A));
-            Items.Add(new ToolStripMenuItem("Clear Groups", null, ClearGroups, Keys.Control | Keys.C));
+            Items.Add(new ToolStripMenuItem("添加动画组", null, AddGroup, Keys.Control | Keys.A));
+            Items.Add(new ToolStripMenuItem("清空组", null, ClearGroups, Keys.Control | Keys.C));
             return Items.ToArray();
         }
 
@@ -91,9 +91,9 @@ namespace LayoutBXLYT
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Add Animation Group", null, AddGroup, Keys.Control | Keys.A));
-            Items.Add(new ToolStripMenuItem("Remove Group", null, RemoveGroup, Keys.Delete));
-            Items.Add(new ToolStripMenuItem("Clear Groups", null, ClearGroups, Keys.Control | Keys.C));
+            Items.Add(new ToolStripMenuItem("添加动画组", null, AddGroup, Keys.Control | Keys.A));
+            Items.Add(new ToolStripMenuItem("移除组", null, RemoveGroup, Keys.Delete));
+            Items.Add(new ToolStripMenuItem("清空组", null, ClearGroups, Keys.Control | Keys.C));
             return Items.ToArray();
         }
 
@@ -135,9 +135,9 @@ namespace LayoutBXLYT
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Add Target", null, AddTarget, Keys.Control | Keys.A));
-            Items.Add(new ToolStripMenuItem("Remove Group", null, RemoveGroup, Keys.Delete));
-            Items.Add(new ToolStripMenuItem("Clear Targets", null, ClearTargets, Keys.Control | Keys.C));
+            Items.Add(new ToolStripMenuItem("添加目标", null, AddTarget, Keys.Control | Keys.A));
+            Items.Add(new ToolStripMenuItem("移除组", null, RemoveGroup, Keys.Delete));
+            Items.Add(new ToolStripMenuItem("清空目标", null, ClearTargets, Keys.Control | Keys.C));
             return Items.ToArray();
         }
 
@@ -184,9 +184,9 @@ namespace LayoutBXLYT
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Add Keyframe", null, AddKey, Keys.Control | Keys.A));
-            Items.Add(new ToolStripMenuItem("Remove Target", null, RemoveTarget, Keys.Delete));
-            Items.Add(new ToolStripMenuItem("Clear Keys", null, RemoveKeys, Keys.Control | Keys.C));
+            Items.Add(new ToolStripMenuItem("添加关键帧", null, AddKey, Keys.Control | Keys.A));
+            Items.Add(new ToolStripMenuItem("移除目标", null, RemoveTarget, Keys.Delete));
+            Items.Add(new ToolStripMenuItem("清空关键帧", null, RemoveKeys, Keys.Control | Keys.C));
             return Items.ToArray();
         }
 
@@ -243,7 +243,7 @@ namespace LayoutBXLYT
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Remove Key", null, RemoveKey, Keys.Delete));
+            Items.Add(new ToolStripMenuItem("移除关键帧", null, RemoveKey, Keys.Delete));
             return Items.ToArray();
         }
 

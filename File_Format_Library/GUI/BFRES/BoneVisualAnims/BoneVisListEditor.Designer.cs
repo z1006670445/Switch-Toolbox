@@ -137,7 +137,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(481, 459);
             this.Name = "BoneVisListEditor";
-            this.Text = "Bone List";
+            this.Text = "骨骼列表";
             this.contentContainer.ResumeLayout(false);
             this.ResumeLayout(false);
 

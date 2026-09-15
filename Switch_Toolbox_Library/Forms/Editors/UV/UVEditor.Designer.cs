@@ -296,7 +296,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(82, 13);
             this.stLabel1.TabIndex = 4;
-            this.stLabel1.Text = "Active Channel:";
+            this.stLabel1.Text = "当前通道：";
             // 
             // btnApplyTransform
             // 
@@ -305,7 +305,7 @@
             this.btnApplyTransform.Name = "btnApplyTransform";
             this.btnApplyTransform.Size = new System.Drawing.Size(119, 23);
             this.btnApplyTransform.TabIndex = 9;
-            this.btnApplyTransform.Text = "Apply Transform";
+            this.btnApplyTransform.Text = "应用变换";
             this.btnApplyTransform.UseVisualStyleBackColor = false;
             this.btnApplyTransform.Click += new System.EventHandler(this.btnApplyTransform_Click);
             // 

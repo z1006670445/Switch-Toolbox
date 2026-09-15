@@ -43,7 +43,7 @@ namespace LayoutBXLYT
             if (bxlan is BxlanHeader)
             {
                 var header = bxlan as BxlanHeader;
-                var pat1 = new TreeNode("Tag Info") { Tag = header.AnimationTag };
+                var pat1 = new TreeNode("标签信息") { Tag = header.AnimationTag };
                 var pai1 = new AnimInfoWrapper("Animation Info", ParentLayout) { Tag = header.AnimationInfo };
 
                 for (int i = 0; i < header.AnimationInfo.Entries.Count; i++)

@@ -1931,12 +1931,12 @@ namespace FirstPlugin
 
         private void SetDuplicateShapeName(FSHP shape)
         {
-            DialogResult dialogResult = MessageBox.Show($"A shape {shape.Text} already exists with that name", "", MessageBoxButtons.OK);
+            DialogResult dialogResult = MessageBox.Show($"已存在名为 {shape.Text} 的形状", "", MessageBoxButtons.OK);
 
             if (dialogResult == DialogResult.OK)
             {
                 RenameDialog renameDialog = new RenameDialog();
-                renameDialog.Text = "Rename Texture";
+                renameDialog.Text = "重命名贴图";
                 if (renameDialog.ShowDialog() == DialogResult.OK)
                 {
                     shape.Text = renameDialog.textBox1.Text;
@@ -1972,7 +1972,7 @@ namespace FirstPlugin
                             if (!ImportMissingTextures)
                             {
                                 string textureDetails = string.Join("\n",textureList);
-                                DialogResult result = MessageBox.Show($"Missing textures found! Would you like to use placeholders?\nTextures:\n{textureDetails}", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                                DialogResult result = MessageBox.Show($"发现缺失的贴图！要使用占位贴图吗？\n贴图：\n{textureDetails}", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                                 if (result == DialogResult.Yes)
                                 {
@@ -2005,7 +2005,7 @@ namespace FirstPlugin
                         {
                             if (!ImportMissingTextures)
                             {
-                                DialogResult result = MessageBox.Show("Missing textures found! Would you like to use placeholders?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                                DialogResult result = MessageBox.Show("发现缺失的贴图！要使用占位贴图吗？", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                                 if (result == DialogResult.Yes)
                                 {

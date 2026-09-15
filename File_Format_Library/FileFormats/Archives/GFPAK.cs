@@ -268,7 +268,7 @@ namespace FirstPlugin
             public virtual ToolStripItem[] GetContextMenuItems()
             {
                 List<ToolStripItem> Items = new List<ToolStripItem>();
-                Items.Add(new ToolStripMenuItem("Export All", null, ExportAllAction, Keys.Control | Keys.E));
+                Items.Add(new ToolStripMenuItem("全部导出", null, ExportAllAction, Keys.Control | Keys.E));
                 return Items.ToArray();
             }
 
@@ -363,8 +363,8 @@ namespace FirstPlugin
             public virtual ToolStripItem[] GetContextMenuItems()
             {
                 List<ToolStripItem> Items = new List<ToolStripItem>();
-                Items.Add(new ToolStripMenuItem("Export All", null, ExportAllAction, Keys.Control | Keys.E));
-                Items.Add(new ToolStripMenuItem("Replace Textures (From Folder)", null, ReplaceAllAction, Keys.Control | Keys.R));
+                Items.Add(new ToolStripMenuItem("全部导出", null, ExportAllAction, Keys.Control | Keys.E));
+                Items.Add(new ToolStripMenuItem("替换贴图（从文件夹）", null, ReplaceAllAction, Keys.Control | Keys.R));
                 return Items.ToArray();
             }
 
@@ -497,7 +497,7 @@ namespace FirstPlugin
         {
             if (version == 0x1000 && !File.Exists($"{Runtime.ExecutableDir}\\oo2core_6_win64.dll"))
             {
-                MessageBox.Show("It is necessary to have 'oo2core_6_win64.dll' in the executable folder.");
+                MessageBox.Show("程序目录下必须有 'oo2core_6_win64.dll'。");
                 return;
             }
             Write(new FileWriter(stream));
@@ -849,7 +849,7 @@ namespace FirstPlugin
                 {
                     if (!shownOodleError && !File.Exists($"{Runtime.ExecutableDir}\\oo2core_6_win64.dll"))
                     {
-                        MessageBox.Show("'oo2core_6_win64.dll' not found in the executable folder! User must provide their own copy!");
+                        MessageBox.Show("在程序目录下未找到 'oo2core_6_win64.dll'！需要用户自行提供该文件！");
                         shownOodleError = true;
                     }
                 }

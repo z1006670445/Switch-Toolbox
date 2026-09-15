@@ -958,7 +958,7 @@ namespace Toolbox.Library
 
         private void DeleteAction(object sender, EventArgs args)
         {
-            DialogResult result = MessageBox.Show($"Are your sure you want to remove {Text}? This cannot be undone!", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show($"确定要移除 {Text} 吗？此操作无法撤销！", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
                 bool isRemoved = ArchiveFile.DeleteFile(ArchiveFileInfo);

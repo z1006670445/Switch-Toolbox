@@ -59,7 +59,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(69, 13);
             this.stLabel2.TabIndex = 43;
-            this.stLabel2.Text = "Pane visibile:";
+            this.stLabel2.Text = "窗格可见：";
             // 
             // paneVisibleChkBox
             // 

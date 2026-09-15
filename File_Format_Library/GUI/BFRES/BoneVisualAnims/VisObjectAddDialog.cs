@@ -29,14 +29,14 @@ namespace FirstPlugin.Forms
         {
             if (BoneName == string.Empty)
             {
-                MessageBox.Show("Bone name must not be empty! Please fill in a valid name!", "Add Bone Dialog",
+                MessageBox.Show("骨骼名称不能为空！请填写有效的名称！", "Add Bone Dialog",
                     MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
 
                 DialogResult = DialogResult.None;
             }
             if (ActiveAnim.BoneNames.Contains(BoneName))
             {
-                MessageBox.Show("A bone name already eixsts with that name!  Please fill in a valid name!", "Add Bone Dialog",
+                MessageBox.Show("已存在同名的骨骼！请填写有效的名称！", "Add Bone Dialog",
                     MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
 
                 DialogResult = DialogResult.None;

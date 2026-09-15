@@ -46,9 +46,9 @@
             this.typeCB.FormattingEnabled = true;
             this.typeCB.IsReadOnly = false;
             this.typeCB.Items.AddRange(new object[] {
-            "All Directions",
+            "所有方向",
             "Horizontal",
-            "Horizontal (No Content)"});
+            "水平（无内容）"});
             this.typeCB.Location = new System.Drawing.Point(122, 37);
             this.typeCB.Name = "typeCB";
             this.typeCB.Size = new System.Drawing.Size(127, 21);
@@ -62,7 +62,7 @@
             this.frameLbl.Name = "frameLbl";
             this.frameLbl.Size = new System.Drawing.Size(130, 13);
             this.frameLbl.TabIndex = 2;
-            this.frameLbl.Text = "Selected Frame: [Content]";
+            this.frameLbl.Text = "选定帧：[Content]";
             // 
             // frameNumCB
             // 
@@ -72,9 +72,9 @@
             this.frameNumCB.FormattingEnabled = true;
             this.frameNumCB.IsReadOnly = false;
             this.frameNumCB.Items.AddRange(new object[] {
-            "1 (Top Left)",
-            "4 (Corners)",
-            "8 (Corners + Sides)"});
+            "1（左上）",
+            "4（四角）",
+            "8（四角 + 四边）"});
             this.frameNumCB.Location = new System.Drawing.Point(122, 59);
             this.frameNumCB.Name = "frameNumCB";
             this.frameNumCB.Size = new System.Drawing.Size(127, 21);
@@ -88,7 +88,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(90, 13);
             this.stLabel2.TabIndex = 4;
-            this.stLabel2.Text = "Window Settings:";
+            this.stLabel2.Text = "窗口设置：";
             // 
             // stLabel3
             // 
@@ -115,7 +115,7 @@
             this.chkRenderContent.Name = "chkRenderContent";
             this.chkRenderContent.Size = new System.Drawing.Size(88, 17);
             this.chkRenderContent.TabIndex = 7;
-            this.chkRenderContent.Text = "Hide Content";
+            this.chkRenderContent.Text = "隐藏内容";
             this.chkRenderContent.UseVisualStyleBackColor = true;
             this.chkRenderContent.CheckedChanged += new System.EventHandler(this.chkRenderContent_CheckedChanged);
             // 

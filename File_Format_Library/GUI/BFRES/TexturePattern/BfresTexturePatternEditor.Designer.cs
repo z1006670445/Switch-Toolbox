@@ -212,7 +212,7 @@
             this.addKeyFrameToolstrip.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.addKeyFrameToolstrip.Name = "addKeyFrameToolstrip";
             this.addKeyFrameToolstrip.Size = new System.Drawing.Size(21, 20);
-            this.addKeyFrameToolstrip.Text = "Add Frame";
+            this.addKeyFrameToolstrip.Text = "添加帧";
             this.addKeyFrameToolstrip.Click += new System.EventHandler(this.addKeyFrameToolstrip_Click);
             // 
             // removeKeyFrameToolstrip
@@ -222,7 +222,7 @@
             this.removeKeyFrameToolstrip.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.removeKeyFrameToolstrip.Name = "removeKeyFrameToolstrip";
             this.removeKeyFrameToolstrip.Size = new System.Drawing.Size(21, 20);
-            this.removeKeyFrameToolstrip.Text = "Remove Frame";
+            this.removeKeyFrameToolstrip.Text = "移除帧";
             this.removeKeyFrameToolstrip.Click += new System.EventHandler(this.removeKeyFrameToolstrip_Click);
             // 
             // toolstripShiftUp
@@ -232,7 +232,7 @@
             this.toolstripShiftUp.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolstripShiftUp.Name = "toolstripShiftUp";
             this.toolstripShiftUp.Size = new System.Drawing.Size(21, 20);
-            this.toolstripShiftUp.Text = "Move Up";
+            this.toolstripShiftUp.Text = "上移";
             this.toolstripShiftUp.Click += new System.EventHandler(this.toolstripShiftUp_Click);
             // 
             // toolstripShiftDown
@@ -242,7 +242,7 @@
             this.toolstripShiftDown.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolstripShiftDown.Name = "toolstripShiftDown";
             this.toolstripShiftDown.Size = new System.Drawing.Size(21, 20);
-            this.toolstripShiftDown.Text = "Move Down";
+            this.toolstripShiftDown.Text = "下移";
             this.toolstripShiftDown.Click += new System.EventHandler(this.toolstripShiftDown_Click);
             // 
             // toolStripButton2
@@ -311,7 +311,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(56, 13);
             this.stLabel1.TabIndex = 17;
-            this.stLabel1.Text = "Data View";
+            this.stLabel1.Text = "数据视图";
             // 
             // treeView1
             // 
@@ -371,7 +371,7 @@
             this.stLabel5.Name = "stLabel5";
             this.stLabel5.Size = new System.Drawing.Size(89, 13);
             this.stLabel5.TabIndex = 8;
-            this.stLabel5.Text = "Active Animation:";
+            this.stLabel5.Text = "当前动画：";
             // 
             // activeAnimCB
             // 
@@ -392,7 +392,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(70, 13);
             this.stLabel3.TabIndex = 6;
-            this.stLabel3.Text = "Frame Count:";
+            this.stLabel3.Text = "帧数：";
             // 
             // frameCountUD
             // 

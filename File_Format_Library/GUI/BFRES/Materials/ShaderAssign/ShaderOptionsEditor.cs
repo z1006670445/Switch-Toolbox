@@ -115,7 +115,7 @@ namespace FirstPlugin.Forms
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            var result = MessageBox.Show("NOTE! Shader Options are link by shaders. These are not possible to edit yet, do you want to continue?", "Material Editor", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Exclamation);
+            var result = MessageBox.Show("注意！Shader 选项与 Shader 绑定，目前无法编辑。要继续吗？", "Material Editor", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Exclamation);
             if (result == DialogResult.OK)
             {
                 var edtior = new ShaderOptionsEditBox();
@@ -135,7 +135,7 @@ namespace FirstPlugin.Forms
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            var result = MessageBox.Show("NOTE! Shader Options are link by shaders. These are not possible to edit yet, do you want to continue?", "Material Editor", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Exclamation);
+            var result = MessageBox.Show("注意！Shader 选项与 Shader 绑定，目前无法编辑。要继续吗？", "Material Editor", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Exclamation);
             if (result == DialogResult.OK)
             {
                 if (shaderOptionsListView.SelectedObject != null)

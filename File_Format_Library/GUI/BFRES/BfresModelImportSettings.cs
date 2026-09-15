@@ -40,7 +40,7 @@ namespace FirstPlugin
             else
             {
                 textBoxMaterialPath.BackColor = System.Drawing.Color.DarkRed;
-                textBoxMaterialPath.Text = "(Select Material!)";
+                textBoxMaterialPath.Text = "（选择材质！）";
                 ExternalMaterialPath = "";
             }
         }
@@ -480,7 +480,7 @@ namespace FirstPlugin
             if (!System.IO.File.Exists(ExternalMaterialPath) && textBoxMaterialPath.Visible)
             {
                 this.DialogResult = DialogResult.None;
-                MessageBox.Show("Please set a path from an exported material! You can export one by right clicking a material and export!", "",
+                MessageBox.Show("请设置一个来自已导出材质的路径！可右键材质并选择导出。", "",
                     MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 textBoxMaterialPath.BackColor = System.Drawing.Color.DarkRed;
             }

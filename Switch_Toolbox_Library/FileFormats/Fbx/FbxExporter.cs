@@ -40,7 +40,7 @@ namespace Toolbox.Library.FBX
 
             if (!FbxNativeWrapper.Exp_Initialize(FileName))
             {
-                MessageBox.Show("Failed to initialize FBX Exporter!");
+                MessageBox.Show("FBX 导出器初始化失败！");
                 FbxNativeWrapper.Exp_DestroyContext();
                 return;
             }
@@ -259,7 +259,7 @@ namespace Toolbox.Library.FBX
             FbxNativeWrapper.Exp_DestroyContext();
 
             if (result && !settings.SuppressConfirmDialog)
-                MessageBox.Show($"Exported {FileName} Successfully!");
+                MessageBox.Show($"已成功导出 {FileName}！");
         }
 
         public static Dictionary<int, string> RegisterMaterialsAndTextures(

@@ -57,12 +57,12 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "File Name";
+            this.columnHeader1.Text = "文件名";
             this.columnHeader1.Width = 255;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Compressed Size";
+            this.columnHeader2.Text = "压缩后大小";
             // 
             // stTextBox1
             // 
@@ -75,7 +75,7 @@
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Decompressed Size";
+            this.columnHeader3.Text = "解压后大小";
             // 
             // columnHeader4
             // 

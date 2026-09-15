@@ -50,7 +50,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(74, 13);
             this.stLabel1.TabIndex = 1;
-            this.stLabel1.Text = "Search Paths:";
+            this.stLabel1.Text = "搜索路径：";
             // 
             // stButton1
             // 
@@ -71,7 +71,7 @@
             this.Controls.Add(this.stLabel1);
             this.Controls.Add(this.listView1);
             this.Name = "LayoutPartsEditor";
-            this.Text = "Parts Editor";
+            this.Text = "部件编辑器";
             this.ResumeLayout(false);
             this.PerformLayout();
 

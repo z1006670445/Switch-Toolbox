@@ -136,7 +136,7 @@
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Frag Sampler";
+            this.columnHeader3.Text = "片元采样器";
             this.columnHeader3.Width = 78;
             // 
             // btnAdd

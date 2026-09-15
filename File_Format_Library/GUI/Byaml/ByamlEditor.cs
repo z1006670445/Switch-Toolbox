@@ -175,7 +175,7 @@ namespace FirstPlugin
             }
             else if (byml is List<ByamlPathPoint>)
             {
-                MessageBox.Show("Unsupported root node");
+                MessageBox.Show("不支持的根节点");
             }
             else throw new Exception($"Unsupported root node type {byml.GetType()}");
         }
@@ -472,7 +472,7 @@ namespace FirstPlugin
                 File.WriteAllText(sav.FileName, YamlByamlConverter.ToYaml(FileFormat.BymlData));
             }
 
-            MessageBox.Show("Byaml converted successfully!");
+            MessageBox.Show("Byaml 转换成功！");
         }
 
         public static void ImportFromJson()
@@ -504,7 +504,7 @@ namespace FirstPlugin
 
         static bool SupportPaths()
         {
-            return MessageBox.Show("Does this game support paths ?", "", MessageBoxButtons.YesNo) == DialogResult.Yes;
+            return MessageBox.Show("该游戏支持路径吗？", "", MessageBoxButtons.YesNo) == DialogResult.Yes;
         }
 
         public static void OpenByml(string Filename, BYAML byaml)
@@ -702,7 +702,7 @@ namespace FirstPlugin
         {
             if (treeView1.SelectedNode == null)
             {
-                MessageBox.Show("Select a node first");
+                MessageBox.Show("请先选择一个节点");
                 return;
             }
 
@@ -817,14 +817,14 @@ namespace FirstPlugin
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Byaml failed to convert! " + ex.ToString());
+                MessageBox.Show("Byaml 转换失败！ " + ex.ToString());
                 return;
             }
 
             treeView1.Nodes.Clear();
             ParseBymlFirstNode();
 
-            MessageBox.Show("Byaml converted successfully!");
+            MessageBox.Show("Byaml 转换成功！");
         }
 
         private void treeView1_MouseClick(object sender, TreeNodeMouseClickEventArgs e)

@@ -99,7 +99,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(250, 126);
             this.Name = "ShaderOptionsEditBox";
-            this.Text = "Shader Option";
+            this.Text = "Shader 选项";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             this.ResumeLayout(false);

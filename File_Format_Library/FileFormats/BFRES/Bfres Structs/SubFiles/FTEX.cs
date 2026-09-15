@@ -180,7 +180,7 @@ namespace Bfres.Structs
                 }
                 else
                 {
-                    MessageBox.Show("Something went wrong???");
+                    MessageBox.Show("出错了？？？");
                 }
             }
 
@@ -287,7 +287,7 @@ namespace Bfres.Structs
                     }
                     else
                     {
-                        MessageBox.Show("Something went wrong???");
+                        MessageBox.Show("出错了？？？");
                     }
                 }
             }

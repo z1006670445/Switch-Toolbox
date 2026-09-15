@@ -172,7 +172,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(732, 659);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "3D View";
+            this.tabPage1.Text = "3D 视图";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // stPanel4
@@ -191,7 +191,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(732, 659);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "2D View";
+            this.tabPage2.Text = "2D 视图";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // stMenuStrip1
@@ -208,7 +208,7 @@
             // 
             this.viewIntroCameraToolStripMenuItem.Name = "viewIntroCameraToolStripMenuItem";
             this.viewIntroCameraToolStripMenuItem.Size = new System.Drawing.Size(116, 20);
-            this.viewIntroCameraToolStripMenuItem.Text = "View Intro Camera";
+            this.viewIntroCameraToolStripMenuItem.Text = "查看开场相机";
             this.viewIntroCameraToolStripMenuItem.Click += new System.EventHandler(this.viewIntroCameraToolStripMenuItem_Click);
             // 
             // stPanel3

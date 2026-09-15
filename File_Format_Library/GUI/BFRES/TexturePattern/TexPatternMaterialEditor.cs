@@ -57,7 +57,7 @@ namespace FirstPlugin.Forms
 
                 string Name = activeAnim.Materials[index].Text;
 
-                var result = MessageBox.Show($"Are you sure you want to delete material {Name}? This cannot be undone!",
+                var result = MessageBox.Show($"确定要删除材质 {Name} 吗？此操作无法撤销！",
                     "", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
 
                 if (result == DialogResult.Yes)

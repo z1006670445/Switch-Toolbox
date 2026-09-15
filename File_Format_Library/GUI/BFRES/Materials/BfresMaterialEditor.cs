@@ -57,7 +57,7 @@ namespace FirstPlugin.Forms
                 if (tabPage == null)
                 {
                     tabPage = new TabPage();
-                    tabPage.Text = "Render State";
+                    tabPage.Text = "渲染状态";
                     stTabControl1.TabPages.Add(tabPage);
                     RenderStateEditor = new RenderStateEditor();
                     RenderStateEditor.Dock = DockStyle.Fill;

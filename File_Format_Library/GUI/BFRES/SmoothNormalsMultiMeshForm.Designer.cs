@@ -88,7 +88,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 398);
             this.Name = "SmoothNormalsMultiMeshForm";
-            this.Text = "Smooth Normals : Select Meshes";
+            this.Text = "平滑法线：选择网格";
             this.contentContainer.ResumeLayout(false);
             this.ResumeLayout(false);
 

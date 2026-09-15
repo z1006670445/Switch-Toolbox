@@ -79,10 +79,10 @@ namespace Toolbox.Library
                     if (ext == ".dae")
                         WriteExtraSkinningInfo(FileName, scene, Meshes);
 
-                    MessageBox.Show($"Exported {FileName} Successfuly!");
+                    MessageBox.Show($"已成功导出 {FileName}！");
                 }
                 else
-                    MessageBox.Show($"Failed to export {FileName}!");
+                    MessageBox.Show($"导出 {FileName} 失败！");
             }
 
         }

@@ -195,7 +195,7 @@ namespace FirstPlugin.CtrLibrary.Forms
 
             if (UserDataName == string.Empty)
             {
-                MessageBox.Show("Name parameter not set!", Application.ProductName,
+                MessageBox.Show("未设置名称参数！", Application.ProductName,
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 DialogResult = DialogResult.None;

@@ -87,7 +87,7 @@
             this.ClientSize = new System.Drawing.Size(224, 423);
             this.Controls.Add(this.panel1);
             this.Name = "PreviewFormatList";
-            this.Text = "Preview Format List";
+            this.Text = "预览格式列表";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

@@ -63,7 +63,7 @@ namespace FirstPlugin
             if (GetSelectedMeshes().Count == 0)
             {
                 DialogResult = DialogResult.None;
-                MessageBox.Show("Make sure there is atleast one mesh that is checked!");
+                MessageBox.Show("请确认至少勾选一个网格！");
             }
         }
 

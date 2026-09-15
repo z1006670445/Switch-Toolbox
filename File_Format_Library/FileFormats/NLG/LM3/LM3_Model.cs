@@ -26,7 +26,7 @@ namespace FirstPlugin.LuigisMansion3
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Export All", null, ExportModelAction, Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("全部导出", null, ExportModelAction, Keys.Control | Keys.E));
             return Items.ToArray();
         }
 
@@ -69,7 +69,7 @@ namespace FirstPlugin.LuigisMansion3
                 DAE.Export($"{folderPath}/{mdl.Text.Replace("/", "//")}.dae", settings, model, new List<STGenericTexture>());
             }
 
-            System.Windows.Forms.MessageBox.Show($"Exported models Successfuly!");
+            System.Windows.Forms.MessageBox.Show($"已成功导出模型！");
         }
     }
 
@@ -237,7 +237,7 @@ namespace FirstPlugin.LuigisMansion3
 
             using (var reader = new FileReader(DataDictionary.GetFileBufferData(), true))
             {
-                TreeNode texturesList = new TreeNode("Texture Maps");
+                TreeNode texturesList = new TreeNode("贴图映射");
                 TreeNode skeletonNode = new TreeNode("Skeleton");
                 for (int t = 0; t < Skeleton?.bones.Count; t++) {
                     skeletonNode.Nodes.Add(Skeleton.bones[t]);

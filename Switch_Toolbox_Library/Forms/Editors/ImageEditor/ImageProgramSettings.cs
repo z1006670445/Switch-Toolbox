@@ -20,7 +20,7 @@ namespace Toolbox.Library.Forms
             InitializeComponent();
 
             CanResize = false;
-            this.Text = "Image Program Settings";
+            this.Text = "图像程序设置";
             stButton1.Select();
         }
 

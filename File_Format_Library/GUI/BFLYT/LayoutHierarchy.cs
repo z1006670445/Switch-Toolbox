@@ -66,7 +66,7 @@ namespace LayoutBXLYT
             treeView1.Nodes.Clear();
 
             CreateQuickAccess(bxlyt);
-            treeView1.Nodes.Add(new TreeNode("File Settings") {Tag = bxlyt });
+            treeView1.Nodes.Add(new TreeNode("文件设置") {Tag = bxlyt });
             LoadTextures(bxlyt.Textures);
             LoadFonts(bxlyt.Fonts);
             LoadMaterials(bxlyt.Materials);
@@ -279,17 +279,17 @@ namespace LayoutBXLYT
             GetPanes(bxlyt.RootPane,ref panes);
             GetGroupPanes(bxlyt.RootGroup,ref groupPanes);
 
-            TreeNode node = new TreeNode("Quick Access");
+            TreeNode node = new TreeNode("快速访问");
             node.ImageKey = "QuickAcess";
             node.SelectedImageKey = "QuickAcess";
             treeView1.Nodes.Add(node);
 
-            TreeNode nullFolder = new TreeNode("Null Panes");
-            TreeNode textFolder = new TreeNode("Text Boxes");
-            TreeNode windowFolder = new TreeNode("Window Panes");
-            TreeNode pictureFolder = new TreeNode("Picture Panes");
-            TreeNode boundryFolder = new TreeNode("Boundry Panes");
-            TreeNode partsFolder = new TreeNode("Part Panes");
+            TreeNode nullFolder = new TreeNode("空窗格");
+            TreeNode textFolder = new TreeNode("文本框");
+            TreeNode windowFolder = new TreeNode("窗口窗格");
+            TreeNode pictureFolder = new TreeNode("图片窗格");
+            TreeNode boundryFolder = new TreeNode("边界窗格");
+            TreeNode partsFolder = new TreeNode("部件窗格");
             TreeNode groupFolder = new TreeNode("Groups");
 
             node.Nodes.Add(nullFolder);
@@ -525,7 +525,7 @@ namespace LayoutBXLYT
                             Form frm = new Form();
 
                             BffntEditor editor = new BffntEditor();
-                            editor.Text = "Font Editor";
+                            editor.Text = "字体编辑器";
                             editor.Dock = DockStyle.Fill;
                             editor.LoadFontFile(file);
                             editor.OnFontEdited += bxfntEditor_FontEdited;

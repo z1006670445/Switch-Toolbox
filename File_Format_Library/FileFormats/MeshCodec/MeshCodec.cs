@@ -63,7 +63,7 @@ namespace FirstPlugin
             string path = Path.Combine(Runtime.TotkGamePath, "Shader", "ExternalBinaryString.bfres.mc");
             if (!File.Exists(path))
             {
-                 MessageBox.Show("A game dump of TOTK is required to load this file. Please select the romfs folder path.");
+                 MessageBox.Show("加载此文件需要王国之泪的游戏 dump。请选择 romfs 文件夹路径。");
 
                 FolderSelectDialog dlg = new FolderSelectDialog();
                 if (dlg.ShowDialog() == DialogResult.OK)
@@ -76,7 +76,7 @@ namespace FirstPlugin
 
             if (!File.Exists(path))
             {
-                MessageBox.Show($"Given folder was not valid! Expecting file {path}");
+                MessageBox.Show($"指定的文件夹无效！期望文件 {path}");
                 return;
             }
 
@@ -188,7 +188,7 @@ namespace FirstPlugin
             if (!IsAnyTextureEdited)
                 return;
 
-            var msg = MessageBox.Show("Textures have been edited. Select the save location");
+            var msg = MessageBox.Show("贴图已被编辑。请选择保存位置");
             TextureFolder.SaveEdited();
         }
 

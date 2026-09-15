@@ -92,7 +92,7 @@ namespace Toolbox.Library
             {
                 if (e.ToString().Contains("Error loading unmanaged library from path"))
                 {
-                    MessageBox.Show($"Failed to load assimp! Make sure you have Assimp32.dll next to the program!");
+                    MessageBox.Show($"assimp 加载失败！请确认程序目录下有 Assimp32.dll！");
                 }
                 else
                     MessageBox.Show($"{e.ToString()}");

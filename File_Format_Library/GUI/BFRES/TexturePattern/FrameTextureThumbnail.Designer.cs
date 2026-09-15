@@ -71,7 +71,7 @@
             this.textureNameLbl.Name = "textureNameLbl";
             this.textureNameLbl.Size = new System.Drawing.Size(88, 13);
             this.textureNameLbl.TabIndex = 1;
-            this.textureNameLbl.Text = "Name: Basic_Alb";
+            this.textureNameLbl.Text = "名称：Basic_Alb";
             // 
             // frameCounterLbl
             // 
@@ -80,7 +80,7 @@
             this.frameCounterLbl.Name = "frameCounterLbl";
             this.frameCounterLbl.Size = new System.Drawing.Size(77, 13);
             this.frameCounterLbl.TabIndex = 0;
-            this.frameCounterLbl.Text = "Frame: 00 / 00";
+            this.frameCounterLbl.Text = "帧：00 / 00";
             this.frameCounterLbl.Resize += new System.EventHandler(this.frameCounterLbl_Resize);
             // 
             // FrameTextureThumbnail

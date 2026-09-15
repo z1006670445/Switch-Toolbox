@@ -847,7 +847,7 @@ namespace Toolbox.Library
 
             if (surfInfo.depth != 1)
             {
-                //       System.Windows.Forms.MessageBox.Show($"Unsupported Depth {surfInfo.depth} for texture {DebugTextureName}!");
+                //       System.Windows.Forms.MessageBox.Show($"贴图 {DebugTextureName} 的深度 {surfInfo.depth} 不受支持！");
                 //   return new List<List<byte[]>>();
             }
 

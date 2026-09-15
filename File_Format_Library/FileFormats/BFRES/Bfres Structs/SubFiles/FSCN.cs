@@ -37,9 +37,9 @@ namespace Bfres.Structs
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
             Items.AddRange(base.GetContextMenuItems());
-            Items.Add(new ToolStripMenuItem("New Camera Animation", null, NewCameraAction, Keys.Control | Keys.C));
-            Items.Add(new ToolStripMenuItem("New Light Animation", null, NewLightAction, Keys.Control | Keys.L));
-            Items.Add(new ToolStripMenuItem("New Fog Animation", null, NewFogAction, Keys.Control | Keys.F));
+            Items.Add(new ToolStripMenuItem("新建相机动画", null, NewCameraAction, Keys.Control | Keys.C));
+            Items.Add(new ToolStripMenuItem("新建灯光动画", null, NewLightAction, Keys.Control | Keys.L));
+            Items.Add(new ToolStripMenuItem("新建雾效动画", null, NewFogAction, Keys.Control | Keys.F));
             return Items.ToArray();
         }
 

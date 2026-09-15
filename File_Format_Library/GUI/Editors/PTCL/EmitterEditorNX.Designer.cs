@@ -62,7 +62,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(40, 13);
             this.stLabel1.TabIndex = 0;
-            this.stLabel1.Text = "Color 0";
+            this.stLabel1.Text = "颜色 0";
             // 
             // stLabel2
             // 
@@ -71,7 +71,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(40, 13);
             this.stLabel2.TabIndex = 2;
-            this.stLabel2.Text = "Color 1";
+            this.stLabel2.Text = "颜色 1";
             // 
             // hexTB
             // 
@@ -101,7 +101,7 @@
             this.tabPageData.Padding = new System.Windows.Forms.Padding(3);
             this.tabPageData.Size = new System.Drawing.Size(568, 532);
             this.tabPageData.TabIndex = 0;
-            this.tabPageData.Text = "Emitter Data";
+            this.tabPageData.Text = "发射器数据";
             this.tabPageData.UseVisualStyleBackColor = true;
             // 
             // stPanel2

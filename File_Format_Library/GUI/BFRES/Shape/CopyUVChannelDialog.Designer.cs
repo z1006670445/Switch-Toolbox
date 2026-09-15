@@ -81,7 +81,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(62, 13);
             this.stLabel2.TabIndex = 2;
-            this.stLabel2.Text = "Copy To -->";
+            this.stLabel2.Text = "复制到 -->";
             // 
             // destCB
             // 
@@ -123,7 +123,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(394, 92);
             this.Name = "CopyUVChannelDialog";
-            this.Text = "Copy UV Channel";
+            this.Text = "复制 UV 通道";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             this.ResumeLayout(false);

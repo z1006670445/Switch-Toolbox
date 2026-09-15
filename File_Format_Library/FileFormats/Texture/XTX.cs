@@ -72,7 +72,7 @@ namespace FirstPlugin
             return new ToolStripItem[]
             {
                 new ToolStripMenuItem("Save", null, Save, Keys.Control | Keys.S),
-                new ToolStripMenuItem("Export All", null, ExportAllAction, Keys.Control | Keys.E),
+                new ToolStripMenuItem("全部导出", null, ExportAllAction, Keys.Control | Keys.E),
             };
         }
 
@@ -246,7 +246,7 @@ namespace FirstPlugin
                 
                     TextureInfo textureInfo = new TextureInfo();
                     textureInfo.Read(new FileReader(blockHeader.Data));
-                    textureInfo.Text = "Texture " + ImageInfo;
+                    textureInfo.Text = "贴图 " + ImageInfo;
                     TextureInfos.Add(textureInfo);
                 }
                 if ((uint)blockHeader.BlockType == DataBlockType)

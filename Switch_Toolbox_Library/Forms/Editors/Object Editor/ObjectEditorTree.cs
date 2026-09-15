@@ -67,7 +67,7 @@ namespace Toolbox.Library.Forms
             {
                 var lookup = ((IArchiveQuickAccess)FileFormat).CategoryLookup;
 
-                TreeNode quickAcessNode = new TreeNode("Quick access");
+                TreeNode quickAcessNode = new TreeNode("快速访问");
                 AddNode(quickAcessNode);
 
                 Dictionary<string, TreeNode> folders = new Dictionary<string, TreeNode>();
@@ -412,7 +412,7 @@ namespace Toolbox.Library.Forms
 
             if (selectednode is IExportableModel)
             {
-                menuItems.Add(new ToolStripMenuItem("Export Model", null, ExportModelAction, Keys.Control | Keys.E));
+                menuItems.Add(new ToolStripMenuItem("导出模型", null, ExportModelAction, Keys.Control | Keys.E));
             }
 
             bool IsRoot = selectednode.Parent == null;
@@ -462,10 +462,10 @@ namespace Toolbox.Library.Forms
                 }
 
                 if (!HasCollpase && HasChildren)
-                    menuItems.Add(new ToolStripMenuItem("Collapse All", null, CollapseAllAction, Keys.Control | Keys.Q));
+                    menuItems.Add(new ToolStripMenuItem("全部折叠", null, CollapseAllAction, Keys.Control | Keys.Q));
 
                 if (!HasExpand && HasChildren)
-                    menuItems.Add(new ToolStripMenuItem("Expand All", null, ExpandAllAction, Keys.Control | Keys.P));
+                    menuItems.Add(new ToolStripMenuItem("全部展开", null, ExpandAllAction, Keys.Control | Keys.P));
             }
 
             if (archiveMenus.Count > 0)
@@ -490,7 +490,7 @@ namespace Toolbox.Library.Forms
             {
                 string path = fileFormat.FilePath;
                 if (File.Exists(path))
-                    menuItems.Add(new ToolStripMenuItem("Open In Explorer", null, SelectFileInExplorer, Keys.Control | Keys.Q));
+                    menuItems.Add(new ToolStripMenuItem("在资源管理器中打开", null, SelectFileInExplorer, Keys.Control | Keys.Q));
             }
 
             Keys currentKey = Keys.A;
@@ -621,7 +621,7 @@ namespace Toolbox.Library.Forms
             var node = treeViewCustom1.SelectedNode;
             if (node != null)
             {
-                var result = MessageBox.Show("If you remove this file, any unsaved progress will be lost! Continue?",
+                var result = MessageBox.Show("移除该文件将丢失所有未保存的进度！继续吗？",
                     "Remove Dialog", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                 if (result == DialogResult.Yes)
@@ -1066,7 +1066,7 @@ namespace Toolbox.Library.Forms
             var panel = new STPanel() { Dock = DockStyle.Fill };
             panel.Controls.Add(searchForm);
             form.AddControl(panel);
-            form.Text = "Search Window";
+            form.Text = "搜索窗口";
             form.Show(this);
         }
 

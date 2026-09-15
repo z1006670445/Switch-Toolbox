@@ -105,15 +105,15 @@ namespace LayoutBXLYT
             {
                 case WindowKind.Around:
                     this.frameNumCB.Items.AddRange(new object[] {
-                    "1 (Top Left)",
-                    "4 (Corners)",
-                    "8 (Corners + Sides)"});
+                    "1（左上）",
+                    "4（四角）",
+                    "8（四角 + 四边）"});
                     break;
                 case WindowKind.Horizontal:
                 case WindowKind.HorizontalNoContent:
                     this.frameNumCB.Items.AddRange(new object[] {
-                    "1 (Left)",
-                    "2 (Left and Right)" });
+                    "1（左）",
+                    "2（左右）" });
                     break;
             }
         }

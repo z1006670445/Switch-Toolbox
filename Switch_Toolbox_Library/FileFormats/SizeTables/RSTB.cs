@@ -27,7 +27,7 @@ namespace Toolbox.Library
             var size = new RSTB.SizeCalculator().CalculateFileSize(FilePath, Data, IsWiiU, IsYaz0Compressed, Force);
             if (size == 0)
             {
-                var result = MessageBox.Show("Error! Could not calculate size for resource entry! Do you want to remove it instead?", "Resource Table", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                var result = MessageBox.Show("错误！无法计算资源条目的大小！是否改为移除它？", "Resource Table", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (result == DialogResult.OK)
                 {
                     DeleteEntry(FilePath);
@@ -157,7 +157,7 @@ namespace Toolbox.Library
         public void DeleteEntry(string FileName)
         {
             if (!IsInTable(FileName))
-                MessageBox.Show("File not in table! Could not remove entry! " + FileName);
+                MessageBox.Show("文件不在表中！无法移除条目！ " + FileName);
 
             uint Crc32 = FileName.EncodeCrc32();
             if (Crc32Tables.ContainsKey(Crc32))

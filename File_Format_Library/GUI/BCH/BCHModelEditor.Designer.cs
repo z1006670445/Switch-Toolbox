@@ -684,7 +684,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(606, 484);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Model Data";
+            this.tabPage1.Text = "模型数据";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
@@ -695,7 +695,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(606, 484);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "User Data";
+            this.tabPage2.Text = "用户数据";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // bchUserDataEditor1

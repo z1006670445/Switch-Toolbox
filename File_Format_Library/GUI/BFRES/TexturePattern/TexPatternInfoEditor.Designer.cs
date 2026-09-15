@@ -161,7 +161,7 @@
             this.stCheckBox1.Name = "stCheckBox1";
             this.stCheckBox1.Size = new System.Drawing.Size(79, 17);
             this.stCheckBox1.TabIndex = 21;
-            this.stCheckBox1.Text = "Is Constant";
+            this.stCheckBox1.Text = "是否为常量";
             this.stCheckBox1.UseVisualStyleBackColor = true;
             this.stCheckBox1.CheckedChanged += new System.EventHandler(this.stCheckBox1_CheckedChanged);
             // 

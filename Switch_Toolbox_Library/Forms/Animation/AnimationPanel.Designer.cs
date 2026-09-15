@@ -82,7 +82,7 @@
             this.toggleFrameRateBtn.Name = "toggleFrameRateBtn";
             this.toggleFrameRateBtn.Size = new System.Drawing.Size(78, 30);
             this.toggleFrameRateBtn.TabIndex = 6;
-            this.toggleFrameRateBtn.Text = "30 FPS";
+            this.toggleFrameRateBtn.Text = "30 帧";
             this.toggleFrameRateBtn.UseVisualStyleBackColor = true;
             this.toggleFrameRateBtn.Click += new System.EventHandler(this.toggleFrameRateBtn_Click);
             // 

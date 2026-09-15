@@ -71,7 +71,7 @@ namespace FirstPlugin.Forms
 
             }
 
-            textPreviewTB.Text = "This is a preview!";
+            textPreviewTB.Text = "这是预览！";
 
             if (bitmapFont != null)
                 pictureBoxCustom1.Image = bitmapFont.PrintToBitmap(textPreviewTB.Text, new BitmapFont.FontRenderSettings());
@@ -116,7 +116,7 @@ namespace FirstPlugin.Forms
                 imageMenuStrip.Items.Add(new ToolStripMenuItem("Export", null, ExportImageAction, Keys.Control | Keys.E));
                 imageMenuStrip.Items.Add(new ToolStripMenuItem("Replace", null, ReplaceImageAction, Keys.Control | Keys.R));
                 imageMenuStrip.Items.Add(new ToolStripMenuItem("Copy", null, CopyImageAction, Keys.Control | Keys.C));
-                imageMenuStrip.Items.Add(new ToolStripMenuItem("Open Image Editor", null, ImageEditorAction, Keys.Control | Keys.E));
+                imageMenuStrip.Items.Add(new ToolStripMenuItem("打开图像编辑器", null, ImageEditorAction, Keys.Control | Keys.E));
                 imageMenuStrip.Show(Cursor.Position);
             }
         }

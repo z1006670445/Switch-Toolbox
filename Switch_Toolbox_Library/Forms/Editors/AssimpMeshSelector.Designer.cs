@@ -73,7 +73,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(201, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Select the mesh you want to replace with";
+            this.label1.Text = "选择要用于替换的网格";
             // 
             // OkBtn
             // 

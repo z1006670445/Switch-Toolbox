@@ -50,9 +50,9 @@ namespace FirstPlugin
 
             TreeNode clr1Node = new TreeNode("Colors");
             TreeNode ati2Node = new TreeNode("Attributes");
-            TreeNode tgg2Node = new TreeNode("Tag Groups");
+            TreeNode tgg2Node = new TreeNode("标签组");
             TreeNode syl3Node = new TreeNode("Styles");
-            TreeNode cti1Node = new TreeNode("Project Contents");
+            TreeNode cti1Node = new TreeNode("工程内容");
 
             for (int i = 0; i < header.entries.Count; i++)
             {

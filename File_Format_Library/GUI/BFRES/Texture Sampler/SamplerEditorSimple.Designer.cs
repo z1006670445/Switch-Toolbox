@@ -196,7 +196,7 @@
             // 
             this.displayVerticalToolStripMenuItem.Name = "displayVerticalToolStripMenuItem";
             this.displayVerticalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.displayVerticalToolStripMenuItem.Text = "Display Vertical";
+            this.displayVerticalToolStripMenuItem.Text = "垂直显示";
             this.displayVerticalToolStripMenuItem.Click += new System.EventHandler(this.displayVerticalToolStripMenuItem_Click);
             // 
             // SamplerEditorSimple

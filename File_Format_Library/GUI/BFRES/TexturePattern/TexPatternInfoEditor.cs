@@ -61,7 +61,7 @@ namespace FirstPlugin.Forms
 
                 string Name = activeMat.Samplers[index].Text;
 
-                var result = MessageBox.Show($"Are you sure you want to delete sampler {Name}? This cannot be undone!",
+                var result = MessageBox.Show($"确定要删除采样器 {Name} 吗？此操作无法撤销！",
                     "", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
 
                 if (result == DialogResult.Yes)

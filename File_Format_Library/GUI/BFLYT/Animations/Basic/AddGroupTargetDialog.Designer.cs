@@ -90,7 +90,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(68, 13);
             this.stLabel2.TabIndex = 15;
-            this.stLabel2.Text = "Curve Type::";
+            this.stLabel2.Text = "曲线类型：";
             // 
             // curveTypeCB
             // 
@@ -110,7 +110,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(322, 148);
             this.Name = "AddGroupTargetDialog";
-            this.Text = "Add Target";
+            this.Text = "添加目标";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             this.ResumeLayout(false);

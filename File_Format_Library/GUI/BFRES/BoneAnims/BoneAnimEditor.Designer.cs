@@ -164,52 +164,52 @@
             // olvColumn2
             // 
             this.olvColumn2.AspectName = "PosX";
-            this.olvColumn2.Text = "Pos X";
+            this.olvColumn2.Text = "位置 X";
             // 
             // olvColumn3
             // 
             this.olvColumn3.AspectName = "PosY";
-            this.olvColumn3.Text = "Pos Y";
+            this.olvColumn3.Text = "位置 Y";
             // 
             // olvColumn4
             // 
             this.olvColumn4.AspectName = "PosZ";
-            this.olvColumn4.Text = "Pos Z";
+            this.olvColumn4.Text = "位置 Z";
             // 
             // olvColumn5
             // 
             this.olvColumn5.AspectName = "RotX";
-            this.olvColumn5.Text = "Rot X";
+            this.olvColumn5.Text = "旋转 X";
             // 
             // olvColumn6
             // 
             this.olvColumn6.AspectName = "RotY";
-            this.olvColumn6.Text = "Rot Y";
+            this.olvColumn6.Text = "旋转 Y";
             // 
             // olvColumn7
             // 
             this.olvColumn7.AspectName = "RotZ";
-            this.olvColumn7.Text = "Rot Z";
+            this.olvColumn7.Text = "旋转 Z";
             // 
             // olvColumn8
             // 
             this.olvColumn8.AspectName = "RotW";
-            this.olvColumn8.Text = "Rot W";
+            this.olvColumn8.Text = "旋转 W";
             // 
             // olvColumn9
             // 
             this.olvColumn9.AspectName = "ScaX";
-            this.olvColumn9.Text = "Sca X";
+            this.olvColumn9.Text = "缩放 X";
             // 
             // olvColumn10
             // 
             this.olvColumn10.AspectName = "ScaY";
-            this.olvColumn10.Text = "Sca Y";
+            this.olvColumn10.Text = "缩放 Y";
             // 
             // olvColumn11
             // 
             this.olvColumn11.AspectName = "ScaZ";
-            this.olvColumn11.Text = "Sca Z";
+            this.olvColumn11.Text = "缩放 Z";
             // 
             // listViewCustom1
             // 
@@ -269,7 +269,7 @@
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(85, 23);
             this.btnRemove.TabIndex = 24;
-            this.btnRemove.Text = "Remove Key";
+            this.btnRemove.Text = "移除关键帧";
             this.btnRemove.UseVisualStyleBackColor = false;
             // 
             // frameCountLbl
@@ -288,7 +288,7 @@
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(85, 23);
             this.btnInsert.TabIndex = 23;
-            this.btnInsert.Text = "Insert Key";
+            this.btnInsert.Text = "插入关键帧";
             this.btnInsert.UseVisualStyleBackColor = false;
             // 
             // currentFrameUD

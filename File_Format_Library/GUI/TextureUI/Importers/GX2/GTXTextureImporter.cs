@@ -255,7 +255,7 @@ namespace FirstPlugin
 
             if (tileModeCB.SelectedIndex != 0 && IsLoaded)
             {
-                var result = MessageBox.Show("Warning! Only change the tile mode unless you know what you are doing!", "Texture Importer", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                var result = MessageBox.Show("警告！除非你清楚自己在做什么，否则只修改平铺模式！", "Texture Importer", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
                 if (result == DialogResult.Cancel)
                 {
                     tileModeCB.SelectedIndex = 0;
@@ -437,7 +437,7 @@ namespace FirstPlugin
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(82, 13);
             this.label5.TabIndex = 43;
-            this.label5.Text = "Swizzle Pattern:";
+            this.label5.Text = "通道重排模式：";
             // 
             // tileModeCB
             // 
@@ -459,7 +459,7 @@ namespace FirstPlugin
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(54, 13);
             this.label4.TabIndex = 41;
-            this.label4.Text = "Tile Mode";
+            this.label4.Text = "平铺模式";
             // 
             // ImgDimComb
             // 
@@ -480,7 +480,7 @@ namespace FirstPlugin
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 13);
             this.label3.TabIndex = 39;
-            this.label3.Text = "Image Dimension";
+            this.label3.Text = "图像尺寸";
             // 
             // label2
             // 
@@ -498,7 +498,7 @@ namespace FirstPlugin
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 37;
-            this.label1.Text = "Mip Count:";
+            this.label1.Text = "Mipmap 数量：";
             // 
             // MipmapNum
             // 
@@ -612,7 +612,7 @@ namespace FirstPlugin
             this.dataSizeLbl.Name = "dataSizeLbl";
             this.dataSizeLbl.Size = new System.Drawing.Size(56, 13);
             this.dataSizeLbl.TabIndex = 45;
-            this.dataSizeLbl.Text = "Data Size:";
+            this.dataSizeLbl.Text = "数据大小：";
             // 
             // chkBc4Alpha
             // 
@@ -633,7 +633,7 @@ namespace FirstPlugin
             this.chkOriginalMipCount.Name = "chkOriginalMipCount";
             this.chkOriginalMipCount.Size = new System.Drawing.Size(134, 17);
             this.chkOriginalMipCount.TabIndex = 47;
-            this.chkOriginalMipCount.Text = "Use Original Mip Count";
+            this.chkOriginalMipCount.Text = "使用原始 Mipmap 数量";
             this.chkOriginalMipCount.UseVisualStyleBackColor = true;
             this.chkOriginalMipCount.CheckedChanged += new System.EventHandler(this.chkOriginalMipCount_CheckedChanged);
             // 
@@ -642,7 +642,7 @@ namespace FirstPlugin
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(986, 516);
-            this.Text = "GX2 Texture Importer";
+            this.Text = "GX2 贴图导入器";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SwizzleNum)).EndInit();

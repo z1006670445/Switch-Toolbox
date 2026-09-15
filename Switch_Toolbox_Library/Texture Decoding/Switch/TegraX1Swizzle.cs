@@ -158,7 +158,7 @@ namespace Toolbox.Library
             }
             catch (Exception e)
             {
-                System.Windows.Forms.MessageBox.Show($"Failed to swizzle texture {texture.Text}!");
+                System.Windows.Forms.MessageBox.Show($"贴图 {texture.Text} 通道重排失败！");
                 Console.WriteLine(e);
 
                 return new byte[0];
@@ -220,7 +220,7 @@ namespace Toolbox.Library
                         }
                         catch (Exception e)
                         {
-                            System.Windows.Forms.MessageBox.Show($"Failed to swizzle texture {texture.Text}!");
+                            System.Windows.Forms.MessageBox.Show($"贴图 {texture.Text} 通道重排失败！");
                             Console.WriteLine(e);
 
                             return new byte[0];

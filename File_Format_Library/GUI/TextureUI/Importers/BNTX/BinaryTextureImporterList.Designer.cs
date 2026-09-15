@@ -192,7 +192,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 13);
             this.label4.TabIndex = 25;
-            this.label4.Text = "Tile Mode:";
+            this.label4.Text = "平铺模式：";
             // 
             // ImgDimComb
             // 
@@ -214,7 +214,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(99, 13);
             this.label3.TabIndex = 23;
-            this.label3.Text = "Surface Dimension:";
+            this.label3.Text = "表面尺寸：";
             // 
             // label2
             // 
@@ -232,7 +232,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 21;
-            this.label1.Text = "Mip Count:";
+            this.label1.Text = "Mipmap 数量：";
             // 
             // MipmapNum
             // 
@@ -305,7 +305,7 @@
             this.compModeLbl.Name = "compModeLbl";
             this.compModeLbl.Size = new System.Drawing.Size(100, 13);
             this.compModeLbl.TabIndex = 29;
-            this.compModeLbl.Text = "Compression Mode:";
+            this.compModeLbl.Text = "压缩模式：";
             // 
             // dataSizeLbl
             // 
@@ -314,7 +314,7 @@
             this.dataSizeLbl.Name = "dataSizeLbl";
             this.dataSizeLbl.Size = new System.Drawing.Size(56, 13);
             this.dataSizeLbl.TabIndex = 31;
-            this.dataSizeLbl.Text = "Data Size:";
+            this.dataSizeLbl.Text = "数据大小：";
             // 
             // cnkGammaFix
             // 
@@ -323,7 +323,7 @@
             this.cnkGammaFix.Name = "cnkGammaFix";
             this.cnkGammaFix.Size = new System.Drawing.Size(160, 17);
             this.cnkGammaFix.TabIndex = 32;
-            this.cnkGammaFix.Text = "Gamma Fix (Smash Ultimate)";
+            this.cnkGammaFix.Text = "Gamma 修正（任天堂明星大乱斗 特别版）";
             this.cnkGammaFix.UseVisualStyleBackColor = true;
             this.cnkGammaFix.CheckedChanged += new System.EventHandler(this.cnkGammaFix_CheckedChanged);
             // 
@@ -334,7 +334,7 @@
             this.chkMultiThreading.Name = "chkMultiThreading";
             this.chkMultiThreading.Size = new System.Drawing.Size(124, 17);
             this.chkMultiThreading.TabIndex = 33;
-            this.chkMultiThreading.Text = "Use Multi Threading ";
+            this.chkMultiThreading.Text = "使用多线程 ";
             this.chkMultiThreading.UseVisualStyleBackColor = true;
             this.chkMultiThreading.CheckedChanged += new System.EventHandler(this.chkMultiThreading_CheckedChanged);
             // 
@@ -355,7 +355,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1096, 560);
             this.KeyPreview = true;
-            this.Text = "Texture Importer";
+            this.Text = "贴图导入器";
             this.Load += new System.EventHandler(this.BinaryTextureImporterList_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BinaryTextureImporterList_KeyDown);
             this.contentContainer.ResumeLayout(false);

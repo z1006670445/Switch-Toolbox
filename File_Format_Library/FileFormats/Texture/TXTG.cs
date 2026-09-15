@@ -144,7 +144,7 @@ namespace FirstPlugin
         public override ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> items = new List<ToolStripItem>();
-            items.Add(new ToolStripMenuItem("Save File", null, (o, e) =>
+            items.Add(new ToolStripMenuItem("保存文件", null, (o, e) =>
             {
                 STFileSaver.SaveFileFormat(this, FilePath);
             }));

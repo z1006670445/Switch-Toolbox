@@ -27,12 +27,12 @@ namespace Toolbox
         public void CreateIssue()
         {
             if (titleTB.Text == String.Empty) {
-                MessageBox.Show("Title must not be empty!", "Issue Dialog", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("标题不能为空！", "Issue Dialog", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             if (titleTB.Text.Length < 5)
             {
-                MessageBox.Show("Title too short! Atleast have 5 or more characters!", "Issue Dialog", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("标题太短！至少需要 5 个字符！", "Issue Dialog", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 

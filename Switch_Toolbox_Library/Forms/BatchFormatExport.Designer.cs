@@ -46,7 +46,7 @@
             this.chkChannelComponents.Name = "chkChannelComponents";
             this.chkChannelComponents.Size = new System.Drawing.Size(161, 17);
             this.chkChannelComponents.TabIndex = 5;
-            this.chkChannelComponents.Text = "Use Texture Channel Swaps";
+            this.chkChannelComponents.Text = "使用贴图通道交换";
             this.chkChannelComponents.UseVisualStyleBackColor = true;
             // 
             // chkSeperateArchives
@@ -58,7 +58,7 @@
             this.chkSeperateArchives.Name = "chkSeperateArchives";
             this.chkSeperateArchives.Size = new System.Drawing.Size(160, 17);
             this.chkSeperateArchives.TabIndex = 4;
-            this.chkSeperateArchives.Text = "Use Folders for Archive Files";
+            this.chkSeperateArchives.Text = "归档文件使用文件夹";
             this.chkSeperateArchives.UseVisualStyleBackColor = true;
             // 
             // chkSeperateTextureContainers
@@ -70,7 +70,7 @@
             this.chkSeperateTextureContainers.Name = "chkSeperateTextureContainers";
             this.chkSeperateTextureContainers.Size = new System.Drawing.Size(219, 17);
             this.chkSeperateTextureContainers.TabIndex = 3;
-            this.chkSeperateTextureContainers.Text = "Use Folders for Models/Texture Archives";
+            this.chkSeperateTextureContainers.Text = "模型/贴图归档使用文件夹";
             this.chkSeperateTextureContainers.UseVisualStyleBackColor = true;
             // 
             // OkButton
@@ -118,7 +118,7 @@
             this.chkExportTextures.Name = "chkExportTextures";
             this.chkExportTextures.Size = new System.Drawing.Size(100, 17);
             this.chkExportTextures.TabIndex = 6;
-            this.chkExportTextures.Text = "Export Textures";
+            this.chkExportTextures.Text = "导出贴图";
             this.chkExportTextures.UseVisualStyleBackColor = true;
             // 
             // BatchFormatExport

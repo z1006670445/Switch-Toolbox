@@ -128,7 +128,7 @@
             this.chkKeepAspectRatio.Name = "chkKeepAspectRatio";
             this.chkKeepAspectRatio.Size = new System.Drawing.Size(109, 17);
             this.chkKeepAspectRatio.TabIndex = 15;
-            this.chkKeepAspectRatio.Text = "Keep aspect ratio";
+            this.chkKeepAspectRatio.Text = "保持宽高比";
             this.chkKeepAspectRatio.UseVisualStyleBackColor = true;
             this.chkKeepAspectRatio.CheckedChanged += new System.EventHandler(this.chkKeepAspectRatio_CheckedChanged);
             // 

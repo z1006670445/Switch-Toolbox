@@ -80,7 +80,7 @@
             this.stCheckBox1.Name = "stCheckBox1";
             this.stCheckBox1.Size = new System.Drawing.Size(96, 17);
             this.stCheckBox1.TabIndex = 3;
-            this.stCheckBox1.Text = "Embed Shader";
+            this.stCheckBox1.Text = "嵌入 Shader";
             this.stCheckBox1.UseVisualStyleBackColor = true;
             // 
             // stLabel2
@@ -121,7 +121,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(94, 13);
             this.stLabel3.TabIndex = 5;
-            this.stLabel3.Text = "Preview (In Game)";
+            this.stLabel3.Text = "预览（游戏内）";
             // 
             // stButton1
             // 
@@ -160,7 +160,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(651, 492);
             this.Name = "MaterialPresetDialog";
-            this.Text = "Material Presets";
+            this.Text = "材质预设";
             this.Load += new System.EventHandler(this.MaterialPresetDialog_Load);
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();

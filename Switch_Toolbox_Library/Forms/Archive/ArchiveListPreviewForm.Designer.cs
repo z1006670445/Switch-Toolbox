@@ -156,7 +156,7 @@
             this.ClientSize = new System.Drawing.Size(848, 502);
             this.MainMenuStrip = this.stMenuStrip1;
             this.Name = "ArchiveListPreviewForm";
-            this.Text = "Archive Preview";
+            this.Text = "归档预览";
             this.Controls.SetChildIndex(this.contentContainer, 0);
             this.contentContainer.ResumeLayout(false);
             this.stPanel1.ResumeLayout(false);

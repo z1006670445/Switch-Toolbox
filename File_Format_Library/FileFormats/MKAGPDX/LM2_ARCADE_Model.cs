@@ -146,7 +146,7 @@ namespace FirstPlugin
             header.Read(new FileReader(stream), this);
 
             ContextMenuStrip = new STContextMenuStrip();
-            ContextMenuStrip.Items.Add(new ToolStripMenuItem("Export Model", null, ExportAction, Keys.Control | Keys.E));
+            ContextMenuStrip.Items.Add(new ToolStripMenuItem("导出模型", null, ExportAction, Keys.Control | Keys.E));
         }
 
         private void ExportAction(object sender, EventArgs args)

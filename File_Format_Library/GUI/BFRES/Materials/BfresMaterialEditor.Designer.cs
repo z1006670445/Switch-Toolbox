@@ -100,7 +100,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 13);
             this.label3.TabIndex = 42;
-            this.label3.Text = "Shader Model";
+            this.label3.Text = "Shader 模型";
             // 
             // textBoxShaderModel
             // 
@@ -174,7 +174,7 @@
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(530, 510);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Render Info";
+            this.tabPage4.Text = "渲染信息";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // renderInfoEditor1
@@ -193,7 +193,7 @@
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(530, 510);
             this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Shader Options";
+            this.tabPage5.Text = "Shader 选项";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // shaderOptionsEditor1
@@ -212,7 +212,7 @@
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage6.Size = new System.Drawing.Size(530, 510);
             this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "User Data";
+            this.tabPage6.Text = "用户数据";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // userDataEditor
@@ -230,7 +230,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(80, 13);
             this.label2.TabIndex = 40;
-            this.label2.Text = "Shader Archive";
+            this.label2.Text = "Shader 归档";
             // 
             // textBoxShaderArchive
             // 
@@ -266,7 +266,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(67, 13);
             this.stLabel1.TabIndex = 44;
-            this.stLabel1.Text = "Violate Flags";
+            this.stLabel1.Text = "易变标志";
             // 
             // btnViotileFlags
             // 
@@ -295,7 +295,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(80, 13);
             this.stLabel2.TabIndex = 46;
-            this.stLabel2.Text = "Sampler Inputs:";
+            this.stLabel2.Text = "采样器输入：";
             // 
             // btnAttributeInputEditor
             // 
@@ -314,7 +314,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(81, 13);
             this.stLabel3.TabIndex = 48;
-            this.stLabel3.Text = "Attribute Inputs:";
+            this.stLabel3.Text = "属性输入：";
             // 
             // stButton1
             // 

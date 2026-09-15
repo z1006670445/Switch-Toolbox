@@ -26,10 +26,10 @@ namespace Bfres.Structs
 
             ContextMenuStrip = new STContextMenuStrip();
 
-            ContextMenuStrip.Items.Add(new ToolStripMenuItem("Import Material", null, ImportAction, Keys.Control | Keys.I));
+            ContextMenuStrip.Items.Add(new ToolStripMenuItem("导入材质", null, ImportAction, Keys.Control | Keys.I));
             ContextMenuStrip.Items.Add(new ToolStripSeparator());
-            ContextMenuStrip.Items.Add(new ToolStripMenuItem("Export All Materials", null, ExportAllAction, Keys.Control | Keys.A));
-            ContextMenuStrip.Items.Add(new ToolStripMenuItem("Replace (From Folder)",null, ReplaceBatchAction, Keys.Control | Keys.R));
+            ContextMenuStrip.Items.Add(new ToolStripMenuItem("导出所有材质", null, ExportAllAction, Keys.Control | Keys.A));
+            ContextMenuStrip.Items.Add(new ToolStripMenuItem("替换（从文件夹）",null, ReplaceBatchAction, Keys.Control | Keys.R));
         }
 
         public void ExportAllAction(object sender, EventArgs args) { ExportAll(); }
@@ -136,7 +136,7 @@ namespace Bfres.Structs
 
             if (model.materials.Count == 1 && model.shapes.Count > 0)
             {
-                MessageBox.Show("A single material must exist if any objects exist!", "Material Delete",
+                MessageBox.Show("只要存在对象，就必须至少有一个材质！", "Material Delete",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }

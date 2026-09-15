@@ -143,7 +143,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 21;
-            this.label1.Text = "Mip Count:";
+            this.label1.Text = "Mipmap 数量：";
             // 
             // MipmapNum
             // 
@@ -214,7 +214,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(100, 13);
             this.stLabel1.TabIndex = 29;
-            this.stLabel1.Text = "Compression Mode:";
+            this.stLabel1.Text = "压缩模式：";
             this.stLabel1.Click += new System.EventHandler(this.stLabel1_Click);
             // 
             // dataSizeLbl
@@ -224,7 +224,7 @@
             this.dataSizeLbl.Name = "dataSizeLbl";
             this.dataSizeLbl.Size = new System.Drawing.Size(56, 13);
             this.dataSizeLbl.TabIndex = 31;
-            this.dataSizeLbl.Text = "Data Size:";
+            this.dataSizeLbl.Text = "数据大小：";
             // 
             // GenericTextureImporterList
             // 
@@ -232,7 +232,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1096, 560);
             this.KeyPreview = true;
-            this.Text = "Texture Importer";
+            this.Text = "贴图导入器";
             this.Load += new System.EventHandler(this.BinaryTextureImporterList_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BinaryTextureImporterList_KeyDown);
             this.contentContainer.ResumeLayout(false);

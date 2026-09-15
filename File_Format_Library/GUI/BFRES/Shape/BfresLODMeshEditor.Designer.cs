@@ -426,7 +426,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(69, 13);
             this.label14.TabIndex = 30;
-            this.label14.Text = "Sub Meshes:";
+            this.label14.Text = "子网格：";
             // 
             // subMeshListView
             // 
@@ -478,7 +478,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(65, 13);
             this.label12.TabIndex = 26;
-            this.label12.Text = "Face Count:";
+            this.label12.Text = "面数：";
             // 
             // label11
             // 
@@ -487,7 +487,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(61, 13);
             this.label11.TabIndex = 25;
-            this.label11.Text = "Face Type:";
+            this.label11.Text = "面类型：";
             // 
             // faceTypeCB
             // 
@@ -527,7 +527,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "LOD Mesh";
+            this.label1.Text = "LOD 网格";
             // 
             // label10
             // 
@@ -536,7 +536,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(88, 13);
             this.label10.TabIndex = 2;
-            this.label10.Text = "Bounding Radius";
+            this.label10.Text = "包围球半径";
             // 
             // radiusUD
             // 
@@ -589,7 +589,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.meshListView);
             this.Name = "BfresLODMeshEditor";
-            this.Text = "LOD Meshes";
+            this.Text = "LOD 网格";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);

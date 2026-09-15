@@ -58,7 +58,7 @@ namespace FirstPlugin.Forms
         {
             if (listViewCustom1.SelectedIndices.Count > 0)
             {
-                var result = MessageBox.Show($"Are you sure you want to remove {listViewCustom1.SelectedItems[0].Text}? This could potentially break things!",
+                var result = MessageBox.Show($"确定要移除 {listViewCustom1.SelectedItems[0].Text} 吗？这可能会破坏文件！",
                 "Shader Option Editor", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
 
                 if (result == DialogResult.Yes)

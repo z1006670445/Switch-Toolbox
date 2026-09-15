@@ -1112,7 +1112,7 @@ namespace FirstPlugin
             }
             if (atrib.Count == 0)
             {
-                MessageBox.Show("Attributes are empty?");
+                MessageBox.Show("属性为空？");
                 return;
             }
             helper.Attributes = atrib;

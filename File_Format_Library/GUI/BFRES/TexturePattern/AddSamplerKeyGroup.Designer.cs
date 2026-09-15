@@ -111,7 +111,7 @@
             this.constantChkBox.Name = "constantChkBox";
             this.constantChkBox.Size = new System.Drawing.Size(79, 17);
             this.constantChkBox.TabIndex = 11;
-            this.constantChkBox.Text = "Is Constant";
+            this.constantChkBox.Text = "是否为常量";
             this.constantChkBox.UseVisualStyleBackColor = true;
             // 
             // AddSamplerKeyGroup
@@ -120,7 +120,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 129);
             this.Name = "AddSamplerKeyGroup";
-            this.Text = "Add Texture Key Frame";
+            this.Text = "添加贴图关键帧";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             this.ResumeLayout(false);

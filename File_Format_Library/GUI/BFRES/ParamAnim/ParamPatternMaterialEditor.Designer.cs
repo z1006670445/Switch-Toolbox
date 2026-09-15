@@ -157,7 +157,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(433, 234);
             this.Name = "ParamPatternMaterialEditor";
-            this.Text = "Param Material Editor";
+            this.Text = "参数材质编辑器";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             this.ResumeLayout(false);

@@ -144,7 +144,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(639, 802);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Bone Data";
+            this.tabPage1.Text = "骨骼数据";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // stFlowLayoutPanel1
@@ -655,7 +655,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(74, 13);
             this.stLabel2.TabIndex = 3;
-            this.stLabel2.Text = "Billboard Type";
+            this.stLabel2.Text = "广告牌类型";
             // 
             // billboardIndexUD
             // 
@@ -682,7 +682,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(61, 13);
             this.stLabel1.TabIndex = 1;
-            this.stLabel1.Text = "Billboard ID";
+            this.stLabel1.Text = "广告牌 ID";
             // 
             // billboardModeCB
             // 
@@ -734,7 +734,7 @@
             this.smoothSkinningChkBox.Name = "smoothSkinningChkBox";
             this.smoothSkinningChkBox.Size = new System.Drawing.Size(128, 17);
             this.smoothSkinningChkBox.TabIndex = 9;
-            this.smoothSkinningChkBox.Text = "Use Smooth Skinning";
+            this.smoothSkinningChkBox.Text = "使用平滑蒙皮";
             this.smoothSkinningChkBox.UseVisualStyleBackColor = true;
             // 
             // rigidSkinningChkBox
@@ -744,7 +744,7 @@
             this.rigidSkinningChkBox.Name = "rigidSkinningChkBox";
             this.rigidSkinningChkBox.Size = new System.Drawing.Size(116, 17);
             this.rigidSkinningChkBox.TabIndex = 8;
-            this.rigidSkinningChkBox.Text = "Use Rigid Skinning";
+            this.rigidSkinningChkBox.Text = "使用刚性蒙皮";
             this.rigidSkinningChkBox.UseVisualStyleBackColor = true;
             this.rigidSkinningChkBox.CheckedChanged += new System.EventHandler(this.rigidSkinningChkBox_CheckedChanged);
             // 
@@ -778,7 +778,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(131, 13);
             this.stLabel4.TabIndex = 6;
-            this.stLabel4.Text = "Rigid Skinning Matrix Index";
+            this.stLabel4.Text = "刚性蒙皮矩阵索引";
             // 
             // smoothIndexUD
             // 
@@ -810,7 +810,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(141, 13);
             this.stLabel3.TabIndex = 4;
-            this.stLabel3.Text = "Smooth Skinning Matrix Index";
+            this.stLabel3.Text = "平滑蒙皮矩阵索引";
             // 
             // stDropDownPanel5
             // 
@@ -861,7 +861,7 @@
             this.chkTransformTranslateZero.Name = "chkTransformTranslateZero";
             this.chkTransformTranslateZero.Size = new System.Drawing.Size(95, 17);
             this.chkTransformTranslateZero.TabIndex = 5;
-            this.chkTransformTranslateZero.Text = "Translate Zero";
+            this.chkTransformTranslateZero.Text = "平移归零";
             this.chkTransformTranslateZero.UseVisualStyleBackColor = true;
             // 
             // chkTransformScaleVolumeOne
@@ -871,7 +871,7 @@
             this.chkTransformScaleVolumeOne.Name = "chkTransformScaleVolumeOne";
             this.chkTransformScaleVolumeOne.Size = new System.Drawing.Size(114, 17);
             this.chkTransformScaleVolumeOne.TabIndex = 4;
-            this.chkTransformScaleVolumeOne.Text = "Scale Volume One";
+            this.chkTransformScaleVolumeOne.Text = "单轴体积缩放";
             this.chkTransformScaleVolumeOne.UseVisualStyleBackColor = true;
             // 
             // chkTransformScaleUniform
@@ -881,7 +881,7 @@
             this.chkTransformScaleUniform.Name = "chkTransformScaleUniform";
             this.chkTransformScaleUniform.Size = new System.Drawing.Size(92, 17);
             this.chkTransformScaleUniform.TabIndex = 3;
-            this.chkTransformScaleUniform.Text = "Scale Uniform";
+            this.chkTransformScaleUniform.Text = "等比缩放";
             this.chkTransformScaleUniform.UseVisualStyleBackColor = true;
             // 
             // chkTransformScaleOne
@@ -891,7 +891,7 @@
             this.chkTransformScaleOne.Name = "chkTransformScaleOne";
             this.chkTransformScaleOne.Size = new System.Drawing.Size(76, 17);
             this.chkTransformScaleOne.TabIndex = 2;
-            this.chkTransformScaleOne.Text = "Scale One";
+            this.chkTransformScaleOne.Text = "单轴缩放";
             this.chkTransformScaleOne.UseVisualStyleBackColor = true;
             // 
             // chkTransformRotateZero
@@ -901,7 +901,7 @@
             this.chkTransformRotateZero.Name = "chkTransformRotateZero";
             this.chkTransformRotateZero.Size = new System.Drawing.Size(83, 17);
             this.chkTransformRotateZero.TabIndex = 1;
-            this.chkTransformRotateZero.Text = "Rotate Zero";
+            this.chkTransformRotateZero.Text = "旋转归零";
             this.chkTransformRotateZero.UseVisualStyleBackColor = true;
             // 
             // chkTransformRotateTranslateZero
@@ -911,7 +911,7 @@
             this.chkTransformRotateTranslateZero.Name = "chkTransformRotateTranslateZero";
             this.chkTransformRotateTranslateZero.Size = new System.Drawing.Size(130, 17);
             this.chkTransformRotateTranslateZero.TabIndex = 0;
-            this.chkTransformRotateTranslateZero.Text = "Rotate Translate Zero";
+            this.chkTransformRotateTranslateZero.Text = "旋转平移归零";
             this.chkTransformRotateTranslateZero.UseVisualStyleBackColor = true;
             // 
             // stDropDownPanel6
@@ -962,7 +962,7 @@
             this.chkTransformCuTranslateZero.Name = "chkTransformCuTranslateZero";
             this.chkTransformCuTranslateZero.Size = new System.Drawing.Size(95, 17);
             this.chkTransformCuTranslateZero.TabIndex = 5;
-            this.chkTransformCuTranslateZero.Text = "Translate Zero";
+            this.chkTransformCuTranslateZero.Text = "平移归零";
             this.chkTransformCuTranslateZero.UseVisualStyleBackColor = true;
             // 
             // chkTransformCuScaleVolumeOne
@@ -972,7 +972,7 @@
             this.chkTransformCuScaleVolumeOne.Name = "chkTransformCuScaleVolumeOne";
             this.chkTransformCuScaleVolumeOne.Size = new System.Drawing.Size(114, 17);
             this.chkTransformCuScaleVolumeOne.TabIndex = 4;
-            this.chkTransformCuScaleVolumeOne.Text = "Scale Volume One";
+            this.chkTransformCuScaleVolumeOne.Text = "单轴体积缩放";
             this.chkTransformCuScaleVolumeOne.UseVisualStyleBackColor = true;
             // 
             // chkTransformCuScaleUniform
@@ -982,7 +982,7 @@
             this.chkTransformCuScaleUniform.Name = "chkTransformCuScaleUniform";
             this.chkTransformCuScaleUniform.Size = new System.Drawing.Size(92, 17);
             this.chkTransformCuScaleUniform.TabIndex = 3;
-            this.chkTransformCuScaleUniform.Text = "Scale Uniform";
+            this.chkTransformCuScaleUniform.Text = "等比缩放";
             this.chkTransformCuScaleUniform.UseVisualStyleBackColor = true;
             // 
             // chkTransformCuScaleOne
@@ -992,7 +992,7 @@
             this.chkTransformCuScaleOne.Name = "chkTransformCuScaleOne";
             this.chkTransformCuScaleOne.Size = new System.Drawing.Size(76, 17);
             this.chkTransformCuScaleOne.TabIndex = 2;
-            this.chkTransformCuScaleOne.Text = "Scale One";
+            this.chkTransformCuScaleOne.Text = "单轴缩放";
             this.chkTransformCuScaleOne.UseVisualStyleBackColor = true;
             // 
             // chkTransformCuRotateZero
@@ -1002,7 +1002,7 @@
             this.chkTransformCuRotateZero.Name = "chkTransformCuRotateZero";
             this.chkTransformCuRotateZero.Size = new System.Drawing.Size(83, 17);
             this.chkTransformCuRotateZero.TabIndex = 1;
-            this.chkTransformCuRotateZero.Text = "Rotate Zero";
+            this.chkTransformCuRotateZero.Text = "旋转归零";
             this.chkTransformCuRotateZero.UseVisualStyleBackColor = true;
             // 
             // chkTransformCuRotateTrnaslateZero
@@ -1012,7 +1012,7 @@
             this.chkTransformCuRotateTrnaslateZero.Name = "chkTransformCuRotateTrnaslateZero";
             this.chkTransformCuRotateTrnaslateZero.Size = new System.Drawing.Size(130, 17);
             this.chkTransformCuRotateTrnaslateZero.TabIndex = 0;
-            this.chkTransformCuRotateTrnaslateZero.Text = "Rotate Translate Zero";
+            this.chkTransformCuRotateTrnaslateZero.Text = "旋转平移归零";
             this.chkTransformCuRotateTrnaslateZero.UseVisualStyleBackColor = true;
             // 
             // tabPage2
@@ -1023,7 +1023,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(639, 802);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "User Data";
+            this.tabPage2.Text = "用户数据";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // userDataEditor1

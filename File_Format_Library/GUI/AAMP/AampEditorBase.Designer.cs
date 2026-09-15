@@ -78,7 +78,7 @@
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
             this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
-            this.saveAsToolStripMenuItem.Text = "Save as..";
+            this.saveAsToolStripMenuItem.Text = "另存为……";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
@@ -177,7 +177,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(659, 468);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Text Editor";
+            this.tabPage2.Text = "文本编辑器";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // stPanel2
@@ -192,7 +192,7 @@
             // 
             this.addItemToolStripMenuItem.Name = "addItemToolStripMenuItem";
             this.addItemToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
-            this.addItemToolStripMenuItem.Text = "Add Item";
+            this.addItemToolStripMenuItem.Text = "添加项";
             this.addItemToolStripMenuItem.Click += new System.EventHandler(this.addNodeToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem

@@ -26,7 +26,7 @@ namespace Toolbox.Library.Animations
             bool hasBones = GetActiveSkeleton() != null;
 
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Export Animation", null, ExportAction, Keys.Control | Keys.E)
+            Items.Add(new ToolStripMenuItem("导出动画", null, ExportAction, Keys.Control | Keys.E)
             { Enabled = hasBones });
 
             return Items.ToArray();

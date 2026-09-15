@@ -319,7 +319,7 @@ namespace FirstPlugin.Forms
                                     System.IO.File.ReadAllText(ofd.FileName));
 
                 if (mat == null) {
-                    MessageBox.Show("Invalid material file!", "GFBMDL Importer");
+                    MessageBox.Show("无效的材质文件！", "GFBMDL Importer");
                     return;
                 }
 

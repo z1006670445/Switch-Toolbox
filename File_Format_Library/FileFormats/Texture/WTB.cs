@@ -314,7 +314,7 @@ namespace FirstPlugin
                 {
                     if (!hasShownDialog)
                     {
-                        MessageBox.Show("No image data found! Put this next to it's data file (.wtp)");
+                        MessageBox.Show("未找到图像数据！请将其与对应的数据文件（.wtp）放在一起");
                         hasShownDialog = true;
                     }
                     return new byte[Texture.Info.ImageSize];

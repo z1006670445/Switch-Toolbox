@@ -107,7 +107,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(91, 13);
             this.stLabel1.TabIndex = 16;
-            this.stLabel1.Text = "Table of Contents";
+            this.stLabel1.Text = "目录";
             // 
             // stLabel2
             // 
@@ -116,7 +116,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(68, 13);
             this.stLabel2.TabIndex = 17;
-            this.stLabel2.Text = "Help Section";
+            this.stLabel2.Text = "帮助区";
             // 
             // treeViewCustom1
             // 
@@ -133,7 +133,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 398);
             this.Name = "HintHelpDialog";
-            this.Text = "Help Dialog";
+            this.Text = "帮助对话";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             this.ResumeLayout(false);

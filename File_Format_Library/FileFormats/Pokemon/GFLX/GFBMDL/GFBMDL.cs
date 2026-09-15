@@ -116,7 +116,7 @@ namespace FirstPlugin
 
             TreeNode SkeletonWrapper = new TreeNode("Skeleton");
             TreeNode MaterialFolderWrapper = new TreeNode("Materials");
-            TreeNode VisualGroupWrapper = new TreeNode("Visual Groups");
+            TreeNode VisualGroupWrapper = new TreeNode("可视组");
             TreeNode Textures = new TreeNode("Textures");
 
             if (Model.Skeleton.bones.Count > 0)
@@ -174,8 +174,8 @@ namespace FirstPlugin
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
             Items.Add(new ToolStripMenuItem("Save", null, SaveAction, Keys.Control | Keys.S));
-            Items.Add(new ToolStripMenuItem("Export Model", null, ExportAction, Keys.Control | Keys.E));
-            Items.Add(new ToolStripMenuItem("Replace Model", null, ReplaceAction, Keys.Control | Keys.R));
+            Items.Add(new ToolStripMenuItem("导出模型", null, ExportAction, Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("替换模型", null, ReplaceAction, Keys.Control | Keys.R));
             return Items.ToArray();
         }
 

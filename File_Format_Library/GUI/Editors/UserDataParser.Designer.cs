@@ -117,7 +117,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(134, 13);
             this.stLabel3.TabIndex = 16;
-            this.stLabel3.Text = "Values: (Enter one per line)";
+            this.stLabel3.Text = "值：（每行一个）";
             // 
             // btnCancel
             // 
@@ -149,7 +149,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(320, 416);
             this.Name = "UserDataParser";
-            this.Text = "User Data";
+            this.Text = "用户数据";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             this.ResumeLayout(false);

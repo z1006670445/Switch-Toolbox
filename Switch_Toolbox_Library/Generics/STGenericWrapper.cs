@@ -64,8 +64,8 @@ namespace Toolbox.Library.NodeWrappers
                 return new ToolStripItem[]
                 {
                     new ToolStripMenuItem("Import", null, ImportAction, Keys.Control | Keys.I) {Enabled = CanReplace },
-                    new ToolStripMenuItem("Export All", null, ExportAllAction, Keys.Control | Keys.E)  {Enabled = CanExport },
-                    new ToolStripMenuItem("Replace All", null, ReplaceAllAction, Keys.Control | Keys.R) {Enabled = CanReplace },
+                    new ToolStripMenuItem("全部导出", null, ExportAllAction, Keys.Control | Keys.E)  {Enabled = CanExport },
+                    new ToolStripMenuItem("全部替换", null, ReplaceAllAction, Keys.Control | Keys.R) {Enabled = CanReplace },
                     new ToolStripSeparator(),
                     new ToolStripMenuItem("Sort", null, SortAction, Keys.Control | Keys.N),
                     new ToolStripSeparator(),
@@ -238,7 +238,7 @@ namespace Toolbox.Library.NodeWrappers
 
         public virtual void Clear()
         {
-            var result = MessageBox.Show("Are you sure you want to clear this section? This cannot be undone!",
+            var result = MessageBox.Show("确定要清空此区域吗？此操作无法撤销！",
                 "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)

@@ -121,7 +121,7 @@
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage7.Size = new System.Drawing.Size(541, 711);
             this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "User Data";
+            this.tabPage7.Text = "用户数据";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // BCHMaterialEditor

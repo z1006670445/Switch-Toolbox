@@ -96,7 +96,7 @@ namespace FirstPlugin
                     {
                         if (!shownOodleError && !System.IO.File.Exists($"{Runtime.ExecutableDir}\\oo2core_6_win64.dll"))
                         {
-                            MessageBox.Show("'oo2core_6_win64.dll' not found in the executable folder! User must provide their own copy!");
+                            MessageBox.Show("在程序目录下未找到 'oo2core_6_win64.dll'！需要用户自行提供该文件！");
                             shownOodleError = true;
                         }
                         byte[] FileDatadecompressed = Toolbox.Library.Compression.Oodle.Decompress(FileData, (long)file.Value.DecompressedSize);
@@ -284,7 +284,7 @@ namespace FirstPlugin
             public virtual ToolStripItem[] GetContextMenuItems()
             {
                 List<ToolStripItem> Items = new List<ToolStripItem>();
-                Items.Add(new ToolStripMenuItem("Export All", null, ExportAllAction, Keys.Control | Keys.E));
+                Items.Add(new ToolStripMenuItem("全部导出", null, ExportAllAction, Keys.Control | Keys.E));
                 return Items.ToArray();
             }
 

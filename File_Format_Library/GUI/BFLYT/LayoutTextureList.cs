@@ -272,7 +272,7 @@ namespace LayoutBXLYT
 
         private void RemoveSelectedTextures()
         {
-            var result = MessageBox.Show("Are you sure you want to remove these textures?",
+            var result = MessageBox.Show("确定要移除这些贴图吗？",
                 "Layout Edtior", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)

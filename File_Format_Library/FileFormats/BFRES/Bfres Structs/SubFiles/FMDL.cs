@@ -84,22 +84,22 @@ namespace Bfres.Structs
             List<ToolStripItem> Items = new List<ToolStripItem>();
             Items.AddRange(base.GetContextMenuItems());
             Items.Add(new ToolStripMenuItem("Transform", null, TransformToolAction, Keys.Control | Keys.T));
-            Items.Add(new ToolStripMenuItem("Calculate Tangents/Bitangents", null, CalcTansBitansAllShapesAction, Keys.Control | Keys.C));
+            Items.Add(new ToolStripMenuItem("计算切线/副切线", null, CalcTansBitansAllShapesAction, Keys.Control | Keys.C));
             Items.Add(new ToolStripMenuItem("Normals", null,
-             new ToolStripMenuItem("Smooth (Multiple Meshes)", null, MultiMeshSmoothNormals),
+             new ToolStripMenuItem("平滑（多个网格）", null, MultiMeshSmoothNormals),
              new ToolStripMenuItem("Smooth", null, SmoothNormalsAction),
              new ToolStripMenuItem("Recalculate", null, RecalculateNormalsAction)
             ));
 
             Items.Add(new ToolStripMenuItem("UVs", null,
-              new ToolStripMenuItem("Flip Vertical", null, FlipUvsVerticalAction),
-              new ToolStripMenuItem("Flip Horizontal", null, FlipUvsHorizontalAction),
-              new ToolStripMenuItem("Copy UV Channel", null, CopyUVChannels)
+              new ToolStripMenuItem("垂直翻转", null, FlipUvsVerticalAction),
+              new ToolStripMenuItem("水平翻转", null, FlipUvsHorizontalAction),
+              new ToolStripMenuItem("复制 UV 通道", null, CopyUVChannels)
             ));
 
             Items.Add(new ToolStripMenuItem("Colors", null,
-              new ToolStripMenuItem("  Set Color", null, SetVertexColorDialogAction),
-              new ToolStripMenuItem("Set White Color", null, SetVertexColorWhiteAction)
+              new ToolStripMenuItem("  设置颜色", null, SetVertexColorDialogAction),
+              new ToolStripMenuItem("设置白色", null, SetVertexColorWhiteAction)
             ));
             return Items.ToArray();
         }
@@ -116,7 +116,7 @@ namespace Bfres.Structs
 
         public override void Delete()
         {
-            DialogResult dialogResult = MessageBox.Show("Are you sure you want to remove this model? This cannot be undone!", "", MessageBoxButtons.YesNo);
+            DialogResult dialogResult = MessageBox.Show("确定要移除此模型吗？此操作无法撤销！", "", MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)
             {
                 Skeleton.bones.Clear();
@@ -161,7 +161,7 @@ namespace Bfres.Structs
                         //Only show the dialog once for creating UV channels
                         if (!CanCreateUV && !ShownDialog)
                         {
-                            DialogResult dialogResult = MessageBox.Show($"Some of the objects are missing the destenation uv channel ({dest}) to copy to. Create one?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                            DialogResult dialogResult = MessageBox.Show($"部分对象缺少要复制到的目标 UV 通道（{dest}）。要创建一个吗？", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                             if (dialogResult == DialogResult.Yes)
                             {
                                 CanCreateUV = true;
@@ -215,7 +215,7 @@ namespace Bfres.Structs
             {
                 if (!shape.HasAttributeUV0())
                 {
-                    MessageBox.Show($"Error! {Text} does not have UVs!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"错误！{Text} 没有 UV！", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
@@ -231,7 +231,7 @@ namespace Bfres.Structs
             {
                 if (!shape.HasAttributeUV0())
                 {
-                    MessageBox.Show($"Error! {Text} does not have UVs!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"错误！{Text} 没有 UV！", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
                 shape.FlipUvsHorizontal();
@@ -348,13 +348,13 @@ namespace Bfres.Structs
 
                 if (!shp.HasAttributeUV0())
                 {
-                    MessageBox.Show($"Error! {Text} does not have UVs!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"错误！{Text} 没有 UV！", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
                 if (!HasBiTans)
                 {
-                    DialogResult dialogResult2 = MessageBox.Show("Mesh does not have bitangents. Do you want to create them? (will make file size bigger)", "", MessageBoxButtons.YesNo);
+                    DialogResult dialogResult2 = MessageBox.Show("网格没有副切线。要创建吗？（会增大文件体积）", "", MessageBoxButtons.YesNo);
 
                     FSHP.VertexAttribute att2 = new FSHP.VertexAttribute();
                     att2.Name = "_b0";
@@ -369,7 +369,7 @@ namespace Bfres.Structs
 
                 if (!HasTans)
                 {
-                    DialogResult dialogResult = MessageBox.Show("Mesh does not have tangets. Do you want to create them? (will make file size bigger)", "", MessageBoxButtons.YesNo);
+                    DialogResult dialogResult = MessageBox.Show("网格没有切线。要创建吗？（会增大文件体积）", "", MessageBoxButtons.YesNo);
 
                     FSHP.VertexAttribute att = new FSHP.VertexAttribute();
                     att.Name = "_t0";
@@ -726,7 +726,7 @@ namespace Bfres.Structs
 
                     if (csvModel.objects.Count == 0)
                     {
-                        MessageBox.Show("No models found!");
+                        MessageBox.Show("未找到模型！");
                         return;
                     }
                     BfresModelImportSettings csvsettings = new BfresModelImportSettings();
@@ -887,7 +887,7 @@ namespace Bfres.Structs
 
                     if (ImportedObjects.Count == 0)
                     {
-                        MessageBox.Show("No models found!");
+                        MessageBox.Show("未找到模型！");
                         return;
                     }
 
@@ -905,7 +905,7 @@ namespace Bfres.Structs
                     if (settings.ShowDialog() == DialogResult.OK)
                     {
                         STProgressBar progressBar = new STProgressBar();
-                        progressBar.Text = "Model Importing";
+                        progressBar.Text = "模型导入";
                         progressBar.Task = "Importing DAE...";
                         progressBar.Value = 0;
                         progressBar.StartPosition = FormStartPosition.CenterScreen;

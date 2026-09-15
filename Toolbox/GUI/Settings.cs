@@ -229,7 +229,7 @@ namespace Toolbox
         {
             if (formThemeCB.SelectedIndex >= 0 && !IsStartup)
             {
-               var result = MessageBox.Show("Changing themes will require to restart the program. Do you want to restart now?", "Toolbox Settings", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+               var result = MessageBox.Show("更改主题需要重启程序。现在重启吗？", "Toolbox Settings", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                FormThemes.ActivePreset =  (FormThemes.Preset)formThemeCB.SelectedItem;
 
@@ -505,7 +505,7 @@ namespace Toolbox
                     UpdateViewportSettings();
                 }
                 else
-                    MessageBox.Show("Invalid cube map file. Make sure it is a DDS with a cube map.");
+                    MessageBox.Show("无效的立方体贴图文件。请确认是带立方体贴图的 DDS 文件。");
             }
         }
 
@@ -522,7 +522,7 @@ namespace Toolbox
                     UpdateViewportSettings();
                 }
                 else
-                    MessageBox.Show("Invalid cube map file. Make sure it is a DDS with a cube map.");
+                    MessageBox.Show("无效的立方体贴图文件。请确认是带立方体贴图的 DDS 文件。");
             }
         }
 
@@ -732,7 +732,7 @@ namespace Toolbox
         }
 
         private void btnReset_Click(object sender, EventArgs e) {
-            var result = MessageBox.Show("Resetting the settings will require to restart the program. Do you want to restart now?", "Toolbox Settings", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            var result = MessageBox.Show("重置设置需要重启程序。现在重启吗？", "Toolbox Settings", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
                 if (System.IO.File.Exists($"{Runtime.ExecutableDir}\\config.xml"))

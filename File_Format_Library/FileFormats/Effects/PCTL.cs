@@ -233,7 +233,7 @@ namespace FirstPlugin
                             bool HasImage = TextureList.Any(item => item.data == tex.data);
                             if (!HasImage)
                             {
-                                tex.Text = "Texture " + index++;
+                                tex.Text = "贴图 " + index++;
                                 textureFolder.Nodes.Add(tex);
                             }
                             TextureList.Add(tex);
@@ -285,7 +285,7 @@ namespace FirstPlugin
                 {
                     return new ToolStripItem[]
                     {
-                        new ToolStripMenuItem("Export All Textures", null, ExportAll, Keys.Control | Keys.A),
+                        new ToolStripMenuItem("导出所有贴图", null, ExportAll, Keys.Control | Keys.A),
                     };
                 }
 
@@ -523,7 +523,7 @@ namespace FirstPlugin
                 switch (section.Signature)
                 {
                     case "TEXR":
-                        section.Text = "Texture Info";
+                        section.Text = "贴图信息";
                         BinaryData = new TEXR();
 
                         if (SubSectionCount > 0)
@@ -559,7 +559,7 @@ namespace FirstPlugin
                         ((Emitter)BinaryData).Read(reader, ptclHeader);
                         break;
                     case "ESTA":
-                        section.Text = "Emitter Sets";
+                        section.Text = "发射器组";
                         break;
                     case "ESET":
                         byte[] Padding = reader.ReadBytes(16);
@@ -597,7 +597,7 @@ namespace FirstPlugin
                         }
                         break;
                     case "GRSC":
-                        section.Text = "Shaders 2";
+                        section.Text = "Shader 2";
                         if (section.BinaryDataOffset != NullOffset)
                         {
                             reader.Seek(section.BinaryDataOffset + section.Position, SeekOrigin.Begin);

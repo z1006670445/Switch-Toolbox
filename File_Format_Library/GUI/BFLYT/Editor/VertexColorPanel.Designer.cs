@@ -800,7 +800,7 @@
             this.btnResetColors.Name = "btnResetColors";
             this.btnResetColors.Size = new System.Drawing.Size(129, 23);
             this.btnResetColors.TabIndex = 74;
-            this.btnResetColors.Text = "Reset Colors";
+            this.btnResetColors.Text = "重置颜色";
             this.btnResetColors.UseVisualStyleBackColor = false;
             // 
             // vertexColorBox1

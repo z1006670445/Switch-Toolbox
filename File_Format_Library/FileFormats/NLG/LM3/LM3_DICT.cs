@@ -98,7 +98,7 @@ namespace FirstPlugin.LuigisMansion3
 
         STTextureFolder textureFolder = new STTextureFolder("Textures");
         LM3_ModelFolder modelFolder;
-        TreeNode materialNamesFolder = new TreeNode("Material Names");
+        TreeNode materialNamesFolder = new TreeNode("材质名称");
         TreeNode chunkFolder = new TreeNode("Chunks");
 
         public List<string> StringList = new List<string>();
@@ -150,8 +150,8 @@ namespace FirstPlugin.LuigisMansion3
                     ChunkInfos.Add(chunk);
                 }
 
-                TreeNode tableNodes = new TreeNode("File Section Entries");
-                TreeNode chunkLookupNodes = new TreeNode("Chunk Lookup Files");
+                TreeNode tableNodes = new TreeNode("文件区段条目");
+                TreeNode chunkLookupNodes = new TreeNode("块查找文件");
                 tableNodes.Nodes.Add(chunkLookupNodes);
 
                 Nodes.Add(tableNodes);
@@ -188,11 +188,11 @@ namespace FirstPlugin.LuigisMansion3
 
                             if (DebugMode)
                             {
-                                TreeNode debugFolder = new TreeNode("DEBUG TABLE INFO");
+                                TreeNode debugFolder = new TreeNode("调试表信息");
                                 Nodes.Add(debugFolder);
 
-                                TreeNode list1 = new TreeNode("Entry List 1");
-                                TreeNode list2 = new TreeNode("Entry List 2 ");
+                                TreeNode list1 = new TreeNode("条目列表 1");
+                                TreeNode list2 = new TreeNode("条目列表 2 ");
                                 debugFolder.Nodes.Add(list1);
                                 debugFolder.Nodes.Add(list2);
                                 debugFolder.Nodes.Add(chunkFolder);
@@ -216,7 +216,7 @@ namespace FirstPlugin.LuigisMansion3
                     stringFolder.Nodes.Add(StringList[i]);
                 }
 
-                TreeNode havokFolder = new TreeNode("Havok Physics");
+                TreeNode havokFolder = new TreeNode("Havok 物理");
 
                 //Model data block
                 //Contains texture hash refs and model headers

@@ -103,7 +103,7 @@ namespace FirstPlugin
                 for (int i = 0; i < VariationCount; i++)
                 {
                     ShaderVariation var = new ShaderVariation();
-                    var.Text = "Shader Variation" + i;
+                    var.Text = "Shader 变体" + i;
                     var.Read(reader);
                     ShaderVariations.Add(var);
                     node.Nodes.Add(var);
@@ -129,32 +129,32 @@ namespace FirstPlugin
 
                     if (shaderProgram.VertexShader != null)
                     {
-                        shaderProgram.VertexShader.Text = "Vertex Shader";
+                        shaderProgram.VertexShader.Text = "顶点 Shader";
                         Nodes.Add(shaderProgram.VertexShader);
                     }
                     if (shaderProgram.GeometryShader != null)
                     {
-                        shaderProgram.GeometryShader.Text = "Geometry Shader";
+                        shaderProgram.GeometryShader.Text = "几何 Shader";
                         Nodes.Add(shaderProgram.GeometryShader);
                     }
                     if (shaderProgram.FragmentShader != null)
                     {
-                        shaderProgram.FragmentShader.Text = "Fragment Shader";
+                        shaderProgram.FragmentShader.Text = "片元 Shader";
                         Nodes.Add(shaderProgram.FragmentShader);
                     }
                     if (shaderProgram.UnkShader != null)
                     {
-                        shaderProgram.UnkShader.Text = "Unk Shader";
+                        shaderProgram.UnkShader.Text = "未知 Shader";
                         Nodes.Add(shaderProgram.UnkShader);
                     }
                     if (shaderProgram.Unk2Shader != null)
                     {
-                        shaderProgram.Unk2Shader.Text = "Unk2 Shader";
+                        shaderProgram.Unk2Shader.Text = "未知 Shader 2";
                         Nodes.Add(shaderProgram.Unk2Shader);
                     }
                     if (shaderProgram.ComputeShader != null)
                     {
-                        shaderProgram.ComputeShader.Text = "Compute Shader";
+                        shaderProgram.ComputeShader.Text = "计算 Shader";
                         Nodes.Add(shaderProgram.ComputeShader);
                     }
                 }

@@ -393,7 +393,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(65, 13);
             this.stLabel1.TabIndex = 60;
-            this.stLabel1.Text = "Face Count:";
+            this.stLabel1.Text = "面数：";
             // 
             // stLabel2
             // 

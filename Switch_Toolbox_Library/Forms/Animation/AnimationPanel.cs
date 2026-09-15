@@ -531,12 +531,12 @@ namespace Toolbox.Library
             if (AnimationSpeed == 60)
             {
                 AnimationSpeed = 30; 
-                toggleFrameRateBtn.Text = "30 FPS"; 
+                toggleFrameRateBtn.Text = "30 帧"; 
             }
             else
             {
                 AnimationSpeed = 60; 
-                toggleFrameRateBtn.Text = "60 FPS"; 
+                toggleFrameRateBtn.Text = "60 帧"; 
             }
 
             UpdateAnimationUpdateInterval();

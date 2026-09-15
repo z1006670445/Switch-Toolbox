@@ -165,7 +165,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(481, 459);
             this.Name = "SamplerInputListEdit";
-            this.Text = "Sampler Input List";
+            this.Text = "采样器输入列表";
             this.contentContainer.ResumeLayout(false);
             this.ResumeLayout(false);
 

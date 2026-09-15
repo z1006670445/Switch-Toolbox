@@ -88,7 +88,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(81, 13);
             this.stLabel2.TabIndex = 19;
-            this.stLabel2.Text = "Material Target:";
+            this.stLabel2.Text = "材质目标：";
             // 
             // materialCB
             // 
@@ -121,7 +121,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(74, 13);
             this.stLabel1.TabIndex = 17;
-            this.stLabel1.Text = "Param Target:";
+            this.stLabel1.Text = "参数目标：";
             // 
             // AnimParamEditor
             // 

@@ -82,7 +82,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 13);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Batch Operations";
+            this.label3.Text = "批处理操作";
             // 
             // button1
             // 
@@ -92,7 +92,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(201, 41);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Remove Selected Attribute";
+            this.button1.Text = "移除选定属性";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -179,7 +179,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(107, 23);
             this.button3.TabIndex = 8;
-            this.button3.Text = "Remove Attribute";
+            this.button3.Text = "移除属性";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 

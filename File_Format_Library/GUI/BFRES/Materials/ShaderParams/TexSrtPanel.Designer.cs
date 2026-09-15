@@ -60,7 +60,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(75, 13);
             this.stLabel1.TabIndex = 1;
-            this.stLabel1.Text = "Scaling Mode:";
+            this.stLabel1.Text = "缩放模式：";
             // 
             // scaYUD
             // 

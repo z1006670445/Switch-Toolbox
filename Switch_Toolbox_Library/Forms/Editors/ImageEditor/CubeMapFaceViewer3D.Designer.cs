@@ -65,7 +65,7 @@
             this.encodeHDRAlphaChk.Name = "encodeHDRAlphaChk";
             this.encodeHDRAlphaChk.Size = new System.Drawing.Size(125, 17);
             this.encodeHDRAlphaChk.TabIndex = 12;
-            this.encodeHDRAlphaChk.Text = "View Encoded Alpha";
+            this.encodeHDRAlphaChk.Text = "查看编码后的 Alpha";
             this.encodeHDRAlphaChk.UseVisualStyleBackColor = true;
             this.encodeHDRAlphaChk.CheckedChanged += new System.EventHandler(this.encodeHDRAlphaChk_CheckedChanged);
             // 

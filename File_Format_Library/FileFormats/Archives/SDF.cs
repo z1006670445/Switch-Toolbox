@@ -149,7 +149,7 @@ namespace FirstPlugin
 
                 if (FilteredExtensions.Count > 0)
                 {
-                    MessageBox.Show($"File extensions have a very large amount of nodes used." +
+                    MessageBox.Show($"该文件扩展名使用了非常多的节点。" +
                         $" This will be filtered out to prevent slow booting. {ExtsToString(FilteredExtensions.ToArray())}");
                 }
                 //Remove unused data

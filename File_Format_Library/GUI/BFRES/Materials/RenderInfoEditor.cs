@@ -129,7 +129,7 @@ namespace FirstPlugin.Forms
         {
             if (renderInfoListView.SelectedItems.Count > 0)
             {
-               var result = MessageBox.Show($"Are you sure you want to remove {renderInfoListView.SelectedItems[0].Text}? This could potentially break things!",
+               var result = MessageBox.Show($"确定要移除 {renderInfoListView.SelectedItems[0].Text} 吗？这可能会破坏文件！",
                "Render Info Editor", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
 
                 if (result == DialogResult.OK)

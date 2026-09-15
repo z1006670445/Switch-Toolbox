@@ -102,7 +102,7 @@
             this.chkLoopPlayer.Name = "chkLoopPlayer";
             this.chkLoopPlayer.Size = new System.Drawing.Size(82, 17);
             this.chkLoopPlayer.TabIndex = 13;
-            this.chkLoopPlayer.Text = "Loop Player";
+            this.chkLoopPlayer.Text = "循环播放器";
             this.chkLoopPlayer.UseVisualStyleBackColor = true;
             // 
             // trackbarVolume
@@ -414,7 +414,7 @@
             // 
             this.loopingToolStripMenuItem.Name = "loopingToolStripMenuItem";
             this.loopingToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
-            this.loopingToolStripMenuItem.Text = "Loop Editor";
+            this.loopingToolStripMenuItem.Text = "循环编辑器";
             this.loopingToolStripMenuItem.Click += new System.EventHandler(this.loopingToolStripMenuItem_Click);
             // 
             // pictureBox1

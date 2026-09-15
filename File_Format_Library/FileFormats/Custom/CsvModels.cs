@@ -74,7 +74,7 @@ namespace FirstPlugin
         {
             if (!IsModel)
             {
-                MessageBox.Show("Not valid model csv");
+                MessageBox.Show("不是有效的模型 csv");
                 return;
             }
 

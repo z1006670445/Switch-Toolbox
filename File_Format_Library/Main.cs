@@ -113,7 +113,7 @@ namespace FirstPlugin
             {
                 if (!System.IO.Directory.Exists(Runtime.PkSwShGamePath))
                 {
-                    var result = MessageBox.Show("Please set your Pokemon Sword/Shield game path!");
+                    var result = MessageBox.Show("请设置宝可梦 剑/盾的游戏路径！");
                     if (result == DialogResult.OK)
                     {
                         FolderSelectDialog ofd = new FolderSelectDialog();
@@ -176,7 +176,7 @@ namespace FirstPlugin
                 }
                 else
                 {
-                    var result = MessageBox.Show("Please set your Mario Odyssey game path!");
+                    var result = MessageBox.Show("请设置超级马力欧 奥德赛的游戏路径！");
                     if (result == DialogResult.OK)
                     {
                         FolderSelectDialog ofd = new FolderSelectDialog();

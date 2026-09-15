@@ -75,7 +75,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(66, 13);
             this.stLabel1.TabIndex = 12;
-            this.stLabel1.Text = "Bone Target";
+            this.stLabel1.Text = "骨骼目标";
             // 
             // boneListCB
             // 
@@ -96,7 +96,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(44, 13);
             this.stLabel2.TabIndex = 14;
-            this.stLabel2.Text = "Scale X";
+            this.stLabel2.Text = "缩放 X";
             // 
             // stLabel3
             // 
@@ -105,7 +105,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(44, 13);
             this.stLabel3.TabIndex = 15;
-            this.stLabel3.Text = "Scale Y";
+            this.stLabel3.Text = "缩放 Y";
             // 
             // stLabel4
             // 
@@ -114,7 +114,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(44, 13);
             this.stLabel4.TabIndex = 16;
-            this.stLabel4.Text = "Scale Z";
+            this.stLabel4.Text = "缩放 Z";
             // 
             // scaleXUD
             // 
@@ -171,7 +171,7 @@
             this.scaleCompChk.Name = "scaleCompChk";
             this.scaleCompChk.Size = new System.Drawing.Size(160, 17);
             this.scaleCompChk.TabIndex = 21;
-            this.scaleCompChk.Text = "Segment Scale Compensate";
+            this.scaleCompChk.Text = "骨段缩放补偿";
             this.scaleCompChk.UseVisualStyleBackColor = true;
             // 
             // BatchEditBaseAnimDataForm

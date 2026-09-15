@@ -28,7 +28,7 @@ namespace Toolbox.Library
             }
             if (dllFileNames == null)
             {
-                System.Windows.Forms.MessageBox.Show($"Could not find any plugins in {path}", "",
+                System.Windows.Forms.MessageBox.Show($"在 {path} 中未找到任何插件", "",
                     System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
                 return new List<IPlugin>();
             }

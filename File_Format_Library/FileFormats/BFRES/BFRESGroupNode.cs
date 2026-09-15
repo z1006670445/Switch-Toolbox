@@ -65,8 +65,8 @@ namespace Bfres.Structs
 
             Items.Add(new STToolStipMenuItem("New", null, NewAction, Keys.Control | Keys.N) { Enabled = ShowNewContextMenu });
             Items.Add(new STToolStipMenuItem("Import", null, ImportAction, Keys.Control | Keys.I));
-            Items.Add(new ToolStripMenuItem("Export All", null, ExportAllAction, Keys.Control | Keys.E));
-            Items.Add(new ToolStripMenuItem("Replace (From Folder)", null, ReplaceAllAction, Keys.Control | Keys.R));
+            Items.Add(new ToolStripMenuItem("全部导出", null, ExportAllAction, Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("替换（从文件夹）", null, ReplaceAllAction, Keys.Control | Keys.R));
             Items.Add(new STToolStripSeparator());
             Items.Add(new STToolStipMenuItem("Sort", null, SortAction, Keys.Control | Keys.S));
             Items.Add(new STToolStipMenuItem("Clear", null, ClearAction, Keys.Control | Keys.C));
@@ -245,7 +245,7 @@ namespace Bfres.Structs
                                         }
                                         else
                                         {
-                                            MessageBox.Show("Something went wrong???");
+                                            MessageBox.Show("出错了？？？");
                                         }
                                     }
                                 }
@@ -626,7 +626,7 @@ namespace Bfres.Structs
 
         public override void Clear()
         {
-            var result = MessageBox.Show("Are you sure you want to clear this section? This cannot be undone!",
+            var result = MessageBox.Show("确定要清空此区域吗？此操作无法撤销！",
                 "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
@@ -821,7 +821,7 @@ namespace Bfres.Structs
                 }
                 else
                 {
-                    MessageBox.Show("Something went wrong???");
+                    MessageBox.Show("出错了？？？");
                 }
             }
         }

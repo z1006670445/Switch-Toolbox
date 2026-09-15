@@ -120,7 +120,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(281, 141);
             this.Name = "VertexBufferEncodeEditor";
-            this.Text = "Buffer Encoder";
+            this.Text = "缓冲区编码器";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             this.ResumeLayout(false);

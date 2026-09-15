@@ -44,12 +44,12 @@ namespace FirstPlugin
             Items.Add(uvMenu);
             Items.Add(normalsMenu);
 
-            Items.Add(new ToolStripMenuItem("Recalculate Bitangents", null, CalculateTangentBitangenAction, Keys.Control | Keys.T));
-            uvMenu.DropDownItems.Add(new ToolStripMenuItem("Flip Vertical", null, FlipVerticalAction, Keys.Control | Keys.V));
-            uvMenu.DropDownItems.Add(new ToolStripMenuItem("Flip Horizontal", null, FlipHorizontalAction, Keys.Control | Keys.H));
-            var colorMenu = new ToolStripMenuItem("Vertex Colors");
-            colorMenu.DropDownItems.Add(new ToolStripMenuItem("Set Color", null, SetVertexColorDialog, Keys.Control | Keys.C));
-            colorMenu.DropDownItems.Add(new ToolStripMenuItem("Convert Normals", null, SetVertexColorNormals, Keys.Control | Keys.N));
+            Items.Add(new ToolStripMenuItem("重新计算副切线", null, CalculateTangentBitangenAction, Keys.Control | Keys.T));
+            uvMenu.DropDownItems.Add(new ToolStripMenuItem("垂直翻转", null, FlipVerticalAction, Keys.Control | Keys.V));
+            uvMenu.DropDownItems.Add(new ToolStripMenuItem("水平翻转", null, FlipHorizontalAction, Keys.Control | Keys.H));
+            var colorMenu = new ToolStripMenuItem("顶点色");
+            colorMenu.DropDownItems.Add(new ToolStripMenuItem("设置颜色", null, SetVertexColorDialog, Keys.Control | Keys.C));
+            colorMenu.DropDownItems.Add(new ToolStripMenuItem("转换法线", null, SetVertexColorNormals, Keys.Control | Keys.N));
             normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Recalculate", null, RecalculateNormals, Keys.Control | Keys.R));
             normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Smooth", null, SmoothNormals, Keys.Control | Keys.S));
 

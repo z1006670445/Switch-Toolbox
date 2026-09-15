@@ -75,10 +75,10 @@ namespace FirstPlugin
             ListViewItem item = new ListViewItem();
             item.Text = VertexID.ToString();
 
-            columnHeader2.Text = "Bone 1";
-            columnHeader3.Text = "Bone 2";
-            columnHeader4.Text = "Bone 3";
-            columnHeader5.Text = "Bone 4";
+            columnHeader2.Text = "骨骼 1";
+            columnHeader3.Text = "骨骼 2";
+            columnHeader4.Text = "骨骼 3";
+            columnHeader5.Text = "骨骼 4";
 
             if (value.Count > 1)
                 item.SubItems.Add(value[0].ToString() + $"({index[0]})");

@@ -49,7 +49,7 @@
             this.chkFilterDefaults.Name = "chkFilterDefaults";
             this.chkFilterDefaults.Size = new System.Drawing.Size(120, 17);
             this.chkFilterDefaults.TabIndex = 31;
-            this.chkFilterDefaults.Text = "Filter Default Values";
+            this.chkFilterDefaults.Text = "过滤默认值";
             this.chkFilterDefaults.UseVisualStyleBackColor = true;
             this.chkFilterDefaults.CheckedChanged += new System.EventHandler(this.chkFilterDefaults_CheckedChanged);
             // 

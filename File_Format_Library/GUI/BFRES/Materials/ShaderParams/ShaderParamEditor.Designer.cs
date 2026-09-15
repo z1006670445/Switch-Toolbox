@@ -143,7 +143,7 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Color (If Used)";
+            this.columnHeader1.Text = "颜色（若使用）";
             this.columnHeader1.Width = 120;
             // 
             // columnHeader2

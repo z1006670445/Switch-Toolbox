@@ -248,7 +248,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(55, 13);
             this.stLabel3.TabIndex = 4;
-            this.stLabel3.Text = "Hex View:";
+            this.stLabel3.Text = "十六进制视图：";
             // 
             // stMenuStrip1
             // 
@@ -271,7 +271,7 @@
             // 
             this.loadFontToolStripMenuItem.Name = "loadFontToolStripMenuItem";
             this.loadFontToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
-            this.loadFontToolStripMenuItem.Text = "Load Font";
+            this.loadFontToolStripMenuItem.Text = "加载字体";
             this.loadFontToolStripMenuItem.Click += new System.EventHandler(this.loadFontToolStripMenuItem_Click);
             // 
             // stContextMenuStrip1

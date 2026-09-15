@@ -125,7 +125,7 @@ namespace FirstPlugin
             return new ToolStripItem[]
             {
                 new ToolStripMenuItem("Save", null, Save, Keys.Control | Keys.S),
-                new ToolStripMenuItem("Export All", null, ExportAllAction, Keys.Control | Keys.E),
+                new ToolStripMenuItem("全部导出", null, ExportAllAction, Keys.Control | Keys.E),
             };
         }
 
