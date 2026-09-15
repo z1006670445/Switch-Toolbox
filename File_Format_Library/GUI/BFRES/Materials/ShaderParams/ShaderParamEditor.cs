@@ -26,6 +26,136 @@ namespace FirstPlugin.Forms
 
         FMAT material;
 
+        /// <summary>
+        /// 材质参数名的中文说明，只用于鼠标悬停提示（tooltip）。
+        /// 参数名本身是 bfres 文件里的数据，同时被当作 matparam 字典的 key
+        /// （见 shaderParamListView_DoubleClick），所以名字不能翻译、不能改名 ——
+        /// 中文只走这张表，身份与显示分离。
+        /// 主表按 ACNH 实际材质文件整理（mAccessoryAlpha.MatParams.xml 等，
+        /// 39 个 Float + 9 个 Float4 + 3 个 TexSrt 全覆盖）。
+        /// ⚠️ key 必须与文件里的参数名逐字一致，包括上游的拼写错误
+        /// （lgiht / instensity / hair_shift11 等）—— 那是数据里的真实字符串。
+        /// </summary>
+        static readonly Dictionary<string, string> ParamDescriptions =
+            new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+        {
+            // ===== 光照 / PBR =====
+            { "material_indirect_scale",                        "间接光强度缩放（环境光贡献）" },
+            { "material_tc_ambient",                            "材质环境光强度（TEV 环境光）" },
+            { "material_roughness",                             "粗糙度（越大越哑光）" },
+            { "material_metalness",                             "金属度" },
+            { "material_metallic",                              "金属度（旧版写法）" },
+            { "material_occlusion",                             "环境光遮蔽（AO）" },
+            { "material_fresnel_offset",                        "菲涅尔偏移（边缘反射偏移）" },
+            { "material_thickness",                             "材质厚度（透光/次表面用）" },
+            { "material_anisotropy",                            "各向异性（拉丝高光）" },
+            { "material_emission_intensity",                    "自发光强度" },
+            { "material_emission_color",                        "自发光颜色" },
+            { "material_specular_intensity",                    "高光强度" },
+            { "material_specular_color",                        "高光颜色" },
+            { "material_base_color",                            "基础色" },
+            { "material_force_alpha",                           "强制 Alpha（忽略贴图透明度）" },
+            { "indirect_scale",                                 "间接光缩放（二维）" },
+            { "ibl_const_albedo_brightness",                    "IBL 反射率亮度" },
+            { "model_env_instance_intensity",                   "环境反射（实例）强度" },
+            { "material_game_fill_ratio",                       "补充色（FILL）混合比例" },
+            { "material_game_fill_color",                       "补充色（FILL）颜色" },
+
+            // ===== 法线 / 遮罩 =====
+            { "material_normal_scale_max",                      "法线贴图最大缩放" },
+            { "material_normal_scale_mask",                     "法线缩放遮罩（逐通道）" },
+            { "gsys_normalmap2_intensity",                      "法线贴图 2 强度" },
+            { "gsys_normalmap2_base_intensity",                 "法线贴图 2 基础强度" },
+
+            // ===== 描边 / Edge Light =====
+            { "material_edge_width",                            "描边宽度" },
+            { "material_edge_light_intensity",                  "描边光强度" },
+            { "enable_edge_light_coordinate_color_constant",    "启用描边光坐标色常量" },
+            { "material_edge_lgiht_coordinate_color_brightness","描边光坐标色亮度" },
+            { "material_edge_light_specular_width",             "描边光高光宽度" },
+            { "material_edge_light_specular_instensity",        "描边光高光强度" },
+            { "material_edge_light_coord",                      "描边光坐标" },
+            { "material_edge_light_color",                      "描边光颜色" },
+            { "enable_edge_light_coord",                        "启用描边光坐标" },
+            { "emission_edge_gradation_sharpness",              "自发光描边渐变锐度" },
+            { "emission_edge_intensity",                        "自发光描边强度" },
+
+            // ===== 纹理坐标 / 视差 =====
+            { "tex_coord0_parallax_shift_value",                "纹理坐标 0 视差偏移" },
+            { "tex_coord1_parallax_shift_value",                "纹理坐标 1 视差偏移" },
+            { "tex_coord2_parallax_shift_value",                "纹理坐标 2 视差偏移" },
+            { "tex_coord1_scale",                               "纹理坐标 1 缩放" },
+            { "tex_coord2_scale",                               "纹理坐标 2 缩放" },
+            { "tex_srt0",                                       "纹理变换 0（缩放/旋转/平移）" },
+            { "tex_srt1",                                       "纹理变换 1（缩放/旋转/平移）" },
+            { "tex_srt2",                                       "纹理变换 2（缩放/旋转/平移）" },
+
+            // ===== 摆动动画（植被 / 布料）=====
+            { "tree_wave_anim_rotate_x",                        "树木摆动旋转 X（左右摇）" },
+            { "tree_wave_anim_rotate_z",                        "树木摆动旋转 Z（前后摇）" },
+            { "tree_wave_anim_speed",                           "树木摆动速度" },
+            { "tree_wave_anim_distance",                        "树木摆动幅度" },
+            { "free_wave_anim_rotate_x",                        "自由摆动旋转 X" },
+            { "free_wave_anim_rotate_y",                        "自由摆动旋转 Y" },
+            { "free_wave_anim_rotate_z",                        "自由摆动旋转 Z" },
+            { "free_wave_anim_scale",                           "自由摆动幅度" },
+            { "free_wave_anim_speed",                           "自由摆动速度" },
+
+            // ===== 环境光遮蔽 / 软网格 =====
+            { "inside_ao_multiply_intensity",                   "内部 AO 倍增强度" },
+            { "soft_mesh_far_range",                            "软网格淡出距离（近镜头透视）" },
+
+            // ===== 水体 =====
+            { "water_fog_start_depth",                          "水下雾起始深度" },
+            { "water_fog_limit_depth",                          "水下雾极限深度" },
+            { "water_fog_limit_alpha",                          "水下雾极限透明度" },
+            { "water_edge_limit_depth",                         "水面边缘极限深度" },
+
+            // ===== 透明 / Alpha =====
+            { "gsys_alpha_test_ref_value",                      "Alpha 测试参考阈值" },
+            { "gsys_xlu_zprepass_alpha",                        "半透明 Z 预通道 Alpha" },
+            { "enable_alpha_test",                              "启用透明度测试" },
+            { "alpha_test_threshold",                           "透明度测试阈值" },
+
+            // ===== 角色（皮肤 / 头发）=====
+            { "material_skin_up_param",                         "皮肤向上渐变参数" },
+            { "material_hair_exp0",                             "头发 exp0（发丝参数）" },
+            { "material_hair_exp1",                             "头发 exp1（发丝参数）" },
+            { "material_hair_shift0",                           "头发 shift0（发丝偏移）" },
+            { "material_hair_shift11",                          "头发 shift11（发丝偏移）" },
+
+            // ===== 贴图开关 =====
+            { "enable_normal_map",                              "启用法线贴图" },
+            { "enable_ao_map",                                  "启用 AO 贴图" },
+
+            // ===== 通用常量槽位（用途由 shader 决定）=====
+            { "const_float0",                                   "通用常量浮点 0" },
+            { "const_float1",                                   "通用常量浮点 1" },
+            { "const_float2",                                   "通用常量浮点 2" },
+            { "const_float3",                                   "通用常量浮点 3" },
+            { "const_float4",                                   "通用常量浮点 4" },
+            { "const_float5",                                   "通用常量浮点 5" },
+            { "const_float6",                                   "通用常量浮点 6" },
+            { "const_float7",                                   "通用常量浮点 7" },
+            { "const_color0",                                   "通用常量颜色 0" },
+            { "const_color1",                                   "通用常量颜色 1" },
+            { "const_color2",                                   "通用常量颜色 2" },
+            { "const_color3",                                   "通用常量颜色 3" },
+            { "const_color4",                                   "通用常量颜色 4" },
+            { "const_color5",                                   "通用常量颜色 5" },
+            { "tev_color0",                                     "TEV 颜色 0" },
+            { "tev_color1",                                     "TEV 颜色 1" },
+        };
+
+        static string GetParamDescription(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+                return "";
+
+            string desc;
+            return ParamDescriptions.TryGetValue(name, out desc) ? desc : "";
+        }
+
         public void InitializeShaderParamList(FMAT mat)
         {
             material = mat;
@@ -33,6 +163,12 @@ namespace FirstPlugin.Forms
             int CurParam = 0;
 
             shaderParamListView.Items.Clear();
+
+            // 开启逐项 tooltip：参数的中文说明走悬停显示，不额外占用列宽。
+            // 显式设一次（虽然 ListView 该属性默认为 true，但 Designer 里没写，
+            // 且 ToolTipText 只有在它为 true 时才会被使用）——避免依赖默认值。
+            shaderParamListView.ShowItemToolTips = true;
+
             foreach (BfresShaderParam prm in mat.matparam.Values)
             {
                 var item = new ListViewItem(prm.Name);
@@ -102,6 +238,13 @@ namespace FirstPlugin.Forms
             item.SubItems.Add(DisplayValue);
             item.SubItems.Add("");
             item.SubItems[2].BackColor = GetColor(prm);
+
+            // 中文说明走鼠标悬停提示（需配合 shaderParamListView.ShowItemToolTips = true）。
+            // 参数名不可改名（是文件数据 + matparam 的 key），所以身份与显示分离：
+            // 名称列照旧显示原文，中文只在悬停时给出。
+            // 未收录的参数名只提示完整参数名 —— 名称列宽 94px，长参数名会被截断。
+            string desc = GetParamDescription(prm.Name);
+            item.ToolTipText = desc.Length > 0 ? prm.Name + "\n" + desc : prm.Name;
         }
 
         private Color GetColor(BfresShaderParam prm)

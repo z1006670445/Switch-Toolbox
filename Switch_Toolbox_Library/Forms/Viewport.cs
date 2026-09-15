@@ -67,12 +67,12 @@ namespace Toolbox.Library
             foreach (var type in Enum.GetValues(typeof(Runtime.ViewportShading)).Cast<Runtime.ViewportShading>())
             {
                 if (type == Runtime.viewportShading)
-                    shadingToolStripMenuItem.DropDownItems.Add(new ToolStripMenuItem(type.ToString()) { Checked = true });
+                    shadingToolStripMenuItem.DropDownItems.Add(new ToolStripMenuItem(GetShadingDisplayName(type)) { Checked = true });
                 else
-                    shadingToolStripMenuItem.DropDownItems.Add(new ToolStripMenuItem(type.ToString()));
+                    shadingToolStripMenuItem.DropDownItems.Add(new ToolStripMenuItem(GetShadingDisplayName(type)));
             }
 
-            shadingToolStripMenuItem.Text = $"Shading: [{Runtime.viewportShading.ToString()}]";
+            shadingToolStripMenuItem.Text = $"着色：[{GetShadingDisplayName(Runtime.viewportShading)}]";
 
 
             if (LoadDrawables)
@@ -146,6 +146,42 @@ namespace Toolbox.Library
                 return scene.staticObjects.Contains(Drawable);
         }
 
+        /// <summary>
+        /// 视口着色模式的中文显示名。
+        /// 枚举名必须保持 ASCII：Config.cs 会把 Runtime.viewportShading.ToString()
+        /// 写进 config.xml，再用 Enum.TryParse 读回，改枚举成员名会让旧配置读不出来。
+        /// 所以中文只做一层显示映射，枚举本身一个字都不动。
+        /// </summary>
+        static readonly Dictionary<Runtime.ViewportShading, string> ShadingDisplayNames =
+            new Dictionary<Runtime.ViewportShading, string>()
+        {
+            { Runtime.ViewportShading.Default,                  "默认" },
+            { Runtime.ViewportShading.Normal,                   "法线" },
+            { Runtime.ViewportShading.Lighting,                 "光照" },
+            { Runtime.ViewportShading.Diffuse,                  "漫反射" },
+            { Runtime.ViewportShading.NormalMap,                "法线贴图" },
+            { Runtime.ViewportShading.VertColor,                "顶点色" },
+            { Runtime.ViewportShading.AmbientOcclusion,         "环境光遮蔽" },
+            { Runtime.ViewportShading.UVCoords,                 "UV 坐标" },
+            { Runtime.ViewportShading.UVTestPattern,            "UV 测试图" },
+            { Runtime.ViewportShading.Tangents,                 "切线" },
+            { Runtime.ViewportShading.Bitangents,               "副切线" },
+            { Runtime.ViewportShading.LightMap,                 "光照贴图" },
+            { Runtime.ViewportShading.SelectedBoneWeights,      "选中骨骼权重" },
+            { Runtime.ViewportShading.SpecularMap,              "高光贴图" },
+            { Runtime.ViewportShading.ShadowMap,                "阴影贴图" },
+            { Runtime.ViewportShading.MetalnessMap,             "金属度贴图" },
+            { Runtime.ViewportShading.RoughnessMap,             "粗糙度贴图" },
+            { Runtime.ViewportShading.SubSurfaceScatteringMap,  "次表面散射贴图" },
+            { Runtime.ViewportShading.EmmissionMap,             "自发光贴图" },
+        };
+
+        static string GetShadingDisplayName(Runtime.ViewportShading shading)
+        {
+            string name;
+            return ShadingDisplayNames.TryGetValue(shading, out name) ? name : shading.ToString();
+        }
+
         private void shadingToolStripMenuItem_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
             int i = 0;
@@ -157,7 +193,7 @@ namespace Toolbox.Library
 
                     Runtime.viewportShading = (Runtime.ViewportShading)i;
 
-                    shadingToolStripMenuItem.Text = $"Shading: [{item.Text}]";
+                    shadingToolStripMenuItem.Text = $"着色：[{item.Text}]";
 
                     UpdateViewport();
                 }
