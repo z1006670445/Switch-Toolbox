@@ -74,18 +74,18 @@ namespace Bfres.Structs
             if (Type == BRESGroupType.Textures)
             {
                 Items.Add(new STToolStripSeparator());
-                Items.Add(new STToolStipMenuItem("Batch Generate Mipmaps", null, BatchGenerateMipmapsAction, Keys.Control | Keys.M));
+                Items.Add(new STToolStipMenuItem("批量生成 Mipmap", null, BatchGenerateMipmapsAction, Keys.Control | Keys.M));
             }
             if (Type == BRESGroupType.Models)
             {
                 Items.Add(new STToolStripSeparator());
-                Items.Add(new STToolStipMenuItem("Show All Models", null, ShowAllModelsAction, Keys.Control | Keys.A));
-                Items.Add(new STToolStipMenuItem("Hide All Models", null, HideAllModelsAction, Keys.Control | Keys.H));
+                Items.Add(new STToolStipMenuItem("显示所有模型", null, ShowAllModelsAction, Keys.Control | Keys.A));
+                Items.Add(new STToolStipMenuItem("隐藏所有模型", null, HideAllModelsAction, Keys.Control | Keys.H));
             }
             if (Type == BRESGroupType.SkeletalAnim)
             {
                 Items.Add(new STToolStripSeparator());
-                Items.Add(new STToolStipMenuItem("Batch Edit Base Data", null, BatchEditBaseAnimDataAction, Keys.Control | Keys.A));
+                Items.Add(new STToolStipMenuItem("批量编辑基础数据", null, BatchEditBaseAnimDataAction, Keys.Control | Keys.A));
             }
 
             return Items.ToArray();

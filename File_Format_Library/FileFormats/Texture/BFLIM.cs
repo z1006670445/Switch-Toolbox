@@ -136,8 +136,8 @@ namespace FirstPlugin
             public MenuExt()
             {
                 toolExt[0] = new STToolStripItem("Textures");
-                toolExt[0].DropDownItems.Add(new STToolStripItem("Batch Export (Wii U Textures)", Export));
-                newFileExt[0] = new STToolStripItem("BFLIM From Image", CreateNew);
+                toolExt[0].DropDownItems.Add(new STToolStripItem("批量导出（Wii U 贴图）", Export));
+                newFileExt[0] = new STToolStripItem("由图像生成 BFLIM", CreateNew);
             }
             private void Export(object sender, EventArgs args)
             {

@@ -67,7 +67,7 @@ namespace FirstPlugin
             {
                 experimentalMenu[0] = new STToolStripItem("BEA");
 
-                STToolStripItem batchLUA = new STToolStripItem("Batch Extract LUA");
+                STToolStripItem batchLUA = new STToolStripItem("批量提取 LUA");
                 batchLUA.Click += BatchExtractLUA;
 
 

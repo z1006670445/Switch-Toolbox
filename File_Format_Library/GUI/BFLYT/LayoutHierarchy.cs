@@ -460,15 +460,15 @@ namespace LayoutBXLYT
                 if (e.Node.Tag is BasePane)
                 {
                     ContexMenu.Items.Clear();
-                    ContexMenu.Items.Add(new STToolStipMenuItem("Display Panes", null, TogglePane, Keys.Control | Keys.H));
-                //    ContexMenu.Items.Add(new STToolStipMenuItem("Display Children Panes", null, TogglePane, Keys.Control | Keys.H));
+                    ContexMenu.Items.Add(new STToolStipMenuItem("显示窗格", null, TogglePane, Keys.Control | Keys.H));
+                //    ContexMenu.Items.Add(new STToolStipMenuItem("显示子窗格", null, TogglePane, Keys.Control | Keys.H));
                     ContexMenu.Show(Cursor.Position);
                 }
 
                 //Check fonts to open editor if possible
                 if (e.Node.ImageKey == "font") {
                     ContexMenu.Items.Clear();
-                    ContexMenu.Items.Add(new STToolStipMenuItem("Load Font File", null, loadFontFile, Keys.Control | Keys.L));
+                    ContexMenu.Items.Add(new STToolStipMenuItem("加载字体文件", null, loadFontFile, Keys.Control | Keys.L));
                     ContexMenu.Show(Cursor.Position);
                 }
             }

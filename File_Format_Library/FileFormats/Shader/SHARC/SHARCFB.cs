@@ -288,7 +288,7 @@ namespace FirstPlugin
                 reader.Seek(SectionSize + pos, System.IO.SeekOrigin.Begin);
 
                 ContextMenu = new ContextMenu();
-                ContextMenu.MenuItems.Add(new MenuItem("Export Shader", ExportShader));
+                ContextMenu.MenuItems.Add(new MenuItem("导出着色器", ExportShader));
             }
 
             public void Write(FileWriter reader)

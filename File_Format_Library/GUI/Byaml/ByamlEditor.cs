@@ -124,7 +124,7 @@ namespace FirstPlugin
             textEditor.AddContextMenu("Decompile", TextEditorToYaml);
             textEditor.AddContextMenu("Compile", TextEditorFromYaml);
 
-            var formatMenu = new STToolStripItem("Change Formatting");
+            var formatMenu = new STToolStripItem("更改格式");
             formatMenu.DropDownItems.Add(xmlOldToolstrip);
             formatMenu.DropDownItems.Add(xmlToolstrip);
             formatMenu.DropDownItems.Add(yamlToolstrip);

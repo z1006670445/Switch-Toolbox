@@ -336,10 +336,10 @@ namespace FirstPlugin
                     data.Add(reader.ReadBytes(ShaderSize));
 
                 ContextMenu = new ContextMenu();
-                MenuItem export = new MenuItem("Export Shader0");
+                MenuItem export = new MenuItem("导出着色器 0");
                 ContextMenu.MenuItems.Add(export);
                 export.Click += ExportShader0;
-                MenuItem export2 = new MenuItem("Export Shader1");
+                MenuItem export2 = new MenuItem("导出着色器 1");
                 ContextMenu.MenuItems.Add(export2);
                 export2.Click += ExportShader1;
             }

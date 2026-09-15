@@ -125,7 +125,7 @@ namespace FirstPlugin
                 newFileExt[0] = new STToolStripItem("KCL (Switch)", CreateNew);
                 newFileExt[1] = new STToolStripItem("KCL (Wii U)", CreateNew);
 
-                toolExt[0] = new STToolStripItem("KCL (Monoscript MKT) to OBJ", MontoscriptToOBJ);
+                toolExt[0] = new STToolStripItem("KCL (Monoscript MKT) 转 OBJ", MontoscriptToOBJ);
             }
 
             public void MontoscriptToOBJ(object sender, EventArgs args)

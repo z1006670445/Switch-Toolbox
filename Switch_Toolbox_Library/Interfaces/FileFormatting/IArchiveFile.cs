@@ -311,12 +311,12 @@ namespace Toolbox.Library
 {
                     new STToolStripItem("保存", SaveAction) { Enabled = ((IFileFormat)ArchiveFile).CanSave},
                     new STToolStripSeparator(),
-                    new STToolStripItem("Repack", RepackAction){ Enabled = ArchiveFile.CanAddFiles },
-                    new STToolStripItem("Extract All", ExtractAllAction),
+                    new STToolStripItem("重新打包", RepackAction){ Enabled = ArchiveFile.CanAddFiles },
+                    new STToolStripItem("全部提取", ExtractAllAction),
                     new STToolStripSeparator(),
-                    new STToolStripItem("Preview Archive", PreviewAction),
+                    new STToolStripItem("预览归档", PreviewAction),
                     new STToolStripSeparator(),
-                    new STToolStripItem("Add Folder", AddFolderAction) { Enabled = ArchiveFile.CanAddFiles},
+                    new STToolStripItem("添加文件夹", AddFolderAction) { Enabled = ArchiveFile.CanAddFiles},
                     new STToolStripItem("添加文件", AddFileAction) { Enabled = ArchiveFile.CanAddFiles},
                     new STToolStripItem("清空文件", ClearAction) { Enabled = ArchiveFile.CanDeleteFiles},
             };
@@ -688,11 +688,11 @@ namespace Toolbox.Library
             return new ToolStripItem[]
             {
                 new STToolStripItem("重命名", RenameAction) { Enabled = ArchiveFile.CanRenameFiles },
-                new STToolStripItem("Extract Folder", ExtractAction),
-                new STToolStripItem("Replace Folder", ReplaceAction) { Enabled = ArchiveFile.CanReplaceFiles && ArchiveFile.CanAddFiles },
-                new STToolStripItem("Delete Folder", DeleteAction) { Enabled = ArchiveFile.CanDeleteFiles },
+                new STToolStripItem("提取文件夹", ExtractAction),
+                new STToolStripItem("替换文件夹", ReplaceAction) { Enabled = ArchiveFile.CanReplaceFiles && ArchiveFile.CanAddFiles },
+                new STToolStripItem("删除文件夹", DeleteAction) { Enabled = ArchiveFile.CanDeleteFiles },
                 new STToolStripSeparator(),
-                new STToolStripItem("Add Folder", AddFolderAction) { Enabled = ArchiveFile.CanAddFiles },
+                new STToolStripItem("添加文件夹", AddFolderAction) { Enabled = ArchiveFile.CanAddFiles },
                 new STToolStripItem("添加文件", AddFileAction) { Enabled = ArchiveFile.CanAddFiles },
                 new STToolStripItem("清空文件", ClearAction) { Enabled = ArchiveFile.CanDeleteFiles },
             };
@@ -913,11 +913,11 @@ namespace Toolbox.Library
             return new ToolStripItem[]
             {
                 new STToolStripItem("重命名", RenameAction) { Enabled = ArchiveFile.CanRenameFiles },
-                new STToolStripItem("Export Raw Data", ExtractAction),
-                new STToolStipMenuItem("Export Raw Data to File Location", null, ExportToFileLocAction, Keys.Control | Keys.F),
-                new STToolStripItem("Replace Raw Data", ReplaceAction) { Enabled = ArchiveFile.CanReplaceFiles },
+                new STToolStripItem("导出原始数据", ExtractAction),
+                new STToolStipMenuItem("导出原始数据到文件位置", null, ExportToFileLocAction, Keys.Control | Keys.F),
+                new STToolStripItem("替换原始数据", ReplaceAction) { Enabled = ArchiveFile.CanReplaceFiles },
                 new STToolStripSeparator(),
-                new STToolStipMenuItem("Open With Text Editor", null, OpenTextEditorAction, Keys.Control | Keys.T),
+                new STToolStipMenuItem("用文本编辑器打开", null, OpenTextEditorAction, Keys.Control | Keys.T),
                 new STToolStripSeparator(),
                 new STToolStripItem("删除", DeleteAction) { Enabled = ArchiveFile.CanDeleteFiles },
             };

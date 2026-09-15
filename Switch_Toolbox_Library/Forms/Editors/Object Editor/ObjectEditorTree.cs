@@ -472,7 +472,7 @@ namespace Toolbox.Library.Forms
             {
                 if (menuItems.Count > 0)
                 {
-                    STToolStipMenuItem archiveItem = new STToolStipMenuItem("Archive");
+                    STToolStipMenuItem archiveItem = new STToolStipMenuItem("归档");
                     treeNodeContextMenu.Items.Add(archiveItem);
 
                     foreach (var item in archiveMenus)

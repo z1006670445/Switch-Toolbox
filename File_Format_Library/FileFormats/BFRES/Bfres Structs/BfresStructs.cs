@@ -66,12 +66,12 @@ namespace Bfres.Structs
             {
                 MenuItem model = new MenuItem("模型");
                 MenuItem fska = new MenuItem("骨骼动画");
-                MenuItem fmaa = new MenuItem("Material Animation");
-                MenuItem bonevis = new MenuItem("Bone Visual Animation");
+                MenuItem fmaa = new MenuItem("材质动画");
+                MenuItem bonevis = new MenuItem("骨骼可视化动画");
                 MenuItem shape = new MenuItem("形状动画");
                 MenuItem scene = new MenuItem("场景动画");
-                MenuItem embedded = new MenuItem("Embedded File");
-                MenuItem texture = new MenuItem("Texture File");
+                MenuItem embedded = new MenuItem("内嵌文件");
+                MenuItem texture = new MenuItem("贴图文件");
                 texture.Click += NewTextureFile;
                 newMenu.MenuItems.Add(model);
                 newMenu .MenuItems.Add(fska);
@@ -84,12 +84,12 @@ namespace Bfres.Structs
 
                 MenuItem importmodel = new MenuItem("模型");
                 MenuItem importfska = new MenuItem("骨骼动画");
-                MenuItem importfmaa = new MenuItem("Material Animation");
-                MenuItem importbonevis = new MenuItem("Bone Visual Animation");
+                MenuItem importfmaa = new MenuItem("材质动画");
+                MenuItem importbonevis = new MenuItem("骨骼可视化动画");
                 MenuItem importshape = new MenuItem("形状动画");
                 MenuItem importscene = new MenuItem("场景动画");
-                MenuItem importembedded = new MenuItem("Embedded File");
-                MenuItem importtexture = new MenuItem("Texture File");
+                MenuItem importembedded = new MenuItem("内嵌文件");
+                MenuItem importtexture = new MenuItem("贴图文件");
                 import.MenuItems.Add(importmodel);
                 import.MenuItems.Add(importfska);
                 import.MenuItems.Add(importfmaa);

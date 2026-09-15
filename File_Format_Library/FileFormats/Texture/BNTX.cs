@@ -106,10 +106,10 @@ namespace FirstPlugin
             public MenuExt()
             {
                 toolExt[0] = new STToolStripItem("Textures");
-                toolExt[0].DropDownItems.Add(new STToolStripItem("Batch All (BNTX)", Export));
+                toolExt[0].DropDownItems.Add(new STToolStripItem("批量全部（BNTX）", Export));
 
                 newFileExt[0] = new STToolStripItem("BNTX", New);
-                newFromFileExt[0] = new STToolStripItem("BNTX From Image", NewFromFile);
+                newFromFileExt[0] = new STToolStripItem("由图像生成 BNTX", NewFromFile);
             }
 
             private void New(object sender, EventArgs args)

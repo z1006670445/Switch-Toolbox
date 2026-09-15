@@ -843,14 +843,14 @@ namespace LayoutBXLYT
                 GL.PopMatrix();
 
                 //Add a content menu 
-                var selectOverlapping = new STToolStripItem("Select Overlapping");
-                var createPanes = new STToolStripItem("Create Pane");
-                createPanes.DropDownItems.Add(new STToolStripItem("Null Pane", CreateNullPaneAction));
-                createPanes.DropDownItems.Add(new STToolStripItem("Picture Pane", CreatePicturePaneAction));
-                createPanes.DropDownItems.Add(new STToolStripItem("Part Pane", CreatePartPaneAction));
-                createPanes.DropDownItems.Add(new STToolStripItem("Text Box Pane", CreateTextPaneAction));
-                createPanes.DropDownItems.Add(new STToolStripItem("Window Pane", CreateWindowPaneAction));
-                createPanes.DropDownItems.Add(new STToolStripItem("Boundry Pane", CreateBoundryPaneAction));
+                var selectOverlapping = new STToolStripItem("选择重叠项");
+                var createPanes = new STToolStripItem("创建窗格");
+                createPanes.DropDownItems.Add(new STToolStripItem("空窗格", CreateNullPaneAction));
+                createPanes.DropDownItems.Add(new STToolStripItem("图片窗格", CreatePicturePaneAction));
+                createPanes.DropDownItems.Add(new STToolStripItem("部件窗格", CreatePartPaneAction));
+                createPanes.DropDownItems.Add(new STToolStripItem("文本框窗格", CreateTextPaneAction));
+                createPanes.DropDownItems.Add(new STToolStripItem("窗口窗格", CreateWindowPaneAction));
+                createPanes.DropDownItems.Add(new STToolStripItem("边界窗格", CreateBoundryPaneAction));
                 var hitPanes = GetHitPanes(LayoutFile.RootPane, coords.X, coords.Y, new List<BasePane>());
                 for (int i = 0; i < hitPanes.Count; i++)
                     selectOverlapping.DropDownItems.Add(
@@ -859,16 +859,16 @@ namespace LayoutBXLYT
                 stContextMenuStrip1.Items.Clear();
                 stContextMenuStrip1.Items.Add(createPanes);
                 stContextMenuStrip1.Items.Add(selectOverlapping);
-                stContextMenuStrip1.Items.Add(new STToolStripItem("Show All Hidden Panes", ShowAllPaneAction));
-                stContextMenuStrip1.Items.Add(new STToolStripItem("Paste (Experimental)", PastePaneAction) { Enabled = CopiedPanes.Count > 0 });
+                stContextMenuStrip1.Items.Add(new STToolStripItem("显示所有隐藏窗格", ShowAllPaneAction));
+                stContextMenuStrip1.Items.Add(new STToolStripItem("粘贴（实验性）", PastePaneAction) { Enabled = CopiedPanes.Count > 0 });
 
                 if (SelectedPanes.Count > 0)
                 {
                     stContextMenuStrip1.Items.Add(new STToolStripSeparator());
-                    stContextMenuStrip1.Items.Add(new STToolStripItem("Copy (Experimental)", CopyPaneAction));
-                    stContextMenuStrip1.Items.Add(new STToolStripItem("Edit Group"));
-                    stContextMenuStrip1.Items.Add(new STToolStripItem("Delete Selected Panes", DeletePaneAction));
-                    stContextMenuStrip1.Items.Add(new STToolStripItem("Hide Selected Panes", HidePaneAction));
+                    stContextMenuStrip1.Items.Add(new STToolStripItem("复制（实验性）", CopyPaneAction));
+                    stContextMenuStrip1.Items.Add(new STToolStripItem("编辑组"));
+                    stContextMenuStrip1.Items.Add(new STToolStripItem("删除选中窗格", DeletePaneAction));
+                    stContextMenuStrip1.Items.Add(new STToolStripItem("隐藏选中窗格", HidePaneAction));
                 }
 
                 stContextMenuStrip1.Show(Cursor.Position);

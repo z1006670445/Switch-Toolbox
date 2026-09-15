@@ -60,7 +60,7 @@ namespace LayoutBXLYT.Cafe
 
             public MenuExt()
             {
-                newFileExt[0] = new STToolStripItem("Layout Editor");
+                newFileExt[0] = new STToolStripItem("布局编辑器");
                 newFileExt[0].Click += LoadNewLayoutEditor;
             }
 

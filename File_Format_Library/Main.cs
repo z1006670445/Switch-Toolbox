@@ -95,18 +95,18 @@ namespace FirstPlugin
 
             public MenuExt()
             {
-                toolsExt[0] = new STToolStripItem("Super Mario Odyssey");
-                toolsExt[0].DropDownItems.Add(new STToolStripItem(" Kingdom Selector", OpenKingdomSelector));
-                toolsExt[0].DropDownItems.Add(new STToolStripItem(" Costume Selector", OpenSelector));
+                toolsExt[0] = new STToolStripItem("超级马力欧 奥德赛");
+                toolsExt[0].DropDownItems.Add(new STToolStripItem(" 王国选择器", OpenKingdomSelector));
+                toolsExt[0].DropDownItems.Add(new STToolStripItem(" 服装选择器", OpenSelector));
 
                 toolsExt[1] = new STToolStripItem("马力欧卡丁车8");
-                toolsExt[1].DropDownItems.Add(new STToolStripItem("Probe Light Converter", GenerateProbeLightBounds));
+                toolsExt[1].DropDownItems.Add(new STToolStripItem("探照灯转换器", GenerateProbeLightBounds));
 
                 toolsExt[2] = new STToolStripItem("塞尔达传说 旷野之息");
-                toolsExt[2].DropDownItems.Add(new STToolStripItem("Actor Editor", ActorEditor));
+                toolsExt[2].DropDownItems.Add(new STToolStripItem("角色编辑器", ActorEditor));
 
                 toolsExt[1] = new STToolStripItem("宝可梦 剑/盾");
-                toolsExt[1].DropDownItems.Add(new STToolStripItem("Pokemon Loader", PokemonLoaderSwSh));
+                toolsExt[1].DropDownItems.Add(new STToolStripItem("宝可梦加载器", PokemonLoaderSwSh));
             }
 
             private void PokemonLoaderSwSh(object sender, EventArgs args)

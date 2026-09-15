@@ -581,7 +581,7 @@ namespace FirstPlugin.LuigisMansion3
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new STToolStipMenuItem("Export Raw Data", null, Export, Keys.Control | Keys.E));
+            Items.Add(new STToolStipMenuItem("导出原始数据", null, Export, Keys.Control | Keys.E));
             return Items.ToArray();
         }
 

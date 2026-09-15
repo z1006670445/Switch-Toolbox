@@ -61,8 +61,8 @@ namespace FirstPlugin
             public MenuExt()
             {
                 toolExt[0] = new STToolStripItem("Models");
-                toolExt[0].DropDownItems.Add(new STToolStripItem("Batch Export (LM2A .bin)", BatchExport));
-                toolExt[0].DropDownItems.Add(new STToolStripItem("Batch Export as Combined (LM2A .bin)", BatchExportCombined));
+                toolExt[0].DropDownItems.Add(new STToolStripItem("批量导出（LM2A .bin）", BatchExport));
+                toolExt[0].DropDownItems.Add(new STToolStripItem("批量合并导出（LM2A .bin）", BatchExportCombined));
             }
 
             public void BatchExportCombined(object sender, EventArgs args)

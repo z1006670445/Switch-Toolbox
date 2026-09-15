@@ -537,12 +537,12 @@ namespace FirstPlugin
         public override ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new STToolStipMenuItem("Use Size Restrictions", null, UseSizeRestrictionsAction, Keys.Control | Keys.U)
+            Items.Add(new STToolStipMenuItem("使用大小限制", null, UseSizeRestrictionsAction, Keys.Control | Keys.U)
             { Checked = Runtime.NUTEXBSettings.LimitFileSize, CheckOnClick = true });
 
             Items.Add(new STToolStipMenuItem("保存", null, SaveAction, Keys.Control | Keys.T));
 
-            Items.Add(new STToolStipMenuItem("Force padding for smaller file sizes", null, PaddingToggle, Keys.Control | Keys.P)
+            Items.Add(new STToolStipMenuItem("为更小的文件强制填充", null, PaddingToggle, Keys.Control | Keys.P)
             { Checked = Runtime.NUTEXBSettings.PadFileSize, CheckOnClick = true });
 
             Items.AddRange(base.GetContextMenuItems());
