@@ -195,7 +195,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(37, 13);
             this.stLabel2.TabIndex = 55;
-            this.stLabel2.Text = "Value:";
+            this.stLabel2.Text = "值：";
             // 
             // stLabel1
             // 
@@ -258,7 +258,7 @@
             this.stCheckBox1.Name = "stCheckBox1";
             this.stCheckBox1.Size = new System.Drawing.Size(61, 17);
             this.stCheckBox1.TabIndex = 57;
-            this.stCheckBox1.Text = "Disable";
+            this.stCheckBox1.Text = "禁用";
             this.stCheckBox1.UseVisualStyleBackColor = true;
             this.stCheckBox1.Click += new System.EventHandler(this.colorBlend_ValueChanged);
             // 
@@ -291,7 +291,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(44, 13);
             this.stLabel3.TabIndex = 56;
-            this.stLabel3.Text = "Source:";
+            this.stLabel3.Text = "源：";
             // 
             // colorBlendLogicCB
             // 
@@ -326,7 +326,7 @@
             this.stLabel5.Name = "stLabel5";
             this.stLabel5.Size = new System.Drawing.Size(63, 13);
             this.stLabel5.TabIndex = 61;
-            this.stLabel5.Text = "Destination:";
+            this.stLabel5.Text = "目标：";
             // 
             // stLabel4
             // 
@@ -335,7 +335,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(56, 13);
             this.stLabel4.TabIndex = 59;
-            this.stLabel4.Text = "Operation:";
+            this.stLabel4.Text = "操作：";
             // 
             // colorBlendDestCB
             // 

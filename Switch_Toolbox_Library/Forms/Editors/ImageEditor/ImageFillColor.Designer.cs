@@ -78,7 +78,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(31, 13);
             this.stLabel1.TabIndex = 13;
-            this.stLabel1.Text = "Color";
+            this.stLabel1.Text = "颜色";
             // 
             // stButton2
             // 
@@ -88,7 +88,7 @@
             this.stButton2.Name = "stButton2";
             this.stButton2.Size = new System.Drawing.Size(53, 23);
             this.stButton2.TabIndex = 14;
-            this.stButton2.Text = "Cancel";
+            this.stButton2.Text = "取消";
             this.stButton2.UseVisualStyleBackColor = false;
             this.stButton2.Click += new System.EventHandler(this.stButton2_Click);
             // 
@@ -100,7 +100,7 @@
             this.stButton3.Name = "stButton3";
             this.stButton3.Size = new System.Drawing.Size(53, 23);
             this.stButton3.TabIndex = 15;
-            this.stButton3.Text = "Ok";
+            this.stButton3.Text = "确定";
             this.stButton3.UseVisualStyleBackColor = false;
             this.stButton3.Click += new System.EventHandler(this.stButton3_Click);
             // 

@@ -104,7 +104,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(40, 13);
             this.stLabel1.TabIndex = 12;
-            this.stLabel1.Text = "Preset:";
+            this.stLabel1.Text = "预设：";
             // 
             // chkUseNormals
             // 
@@ -273,7 +273,7 @@
             this.stCheckBox8.Name = "stCheckBox8";
             this.stCheckBox8.Size = new System.Drawing.Size(63, 17);
             this.stCheckBox8.TabIndex = 28;
-            this.stCheckBox8.Text = "Position";
+            this.stCheckBox8.Text = "位置";
             this.stCheckBox8.UseVisualStyleBackColor = true;
             // 
             // stLabel2
@@ -283,7 +283,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(47, 13);
             this.stLabel2.TabIndex = 31;
-            this.stLabel2.Text = "Material:";
+            this.stLabel2.Text = "材质：";
             // 
             // materiialPresetCB
             // 
@@ -553,7 +553,7 @@
             this.stButton2.Name = "stButton2";
             this.stButton2.Size = new System.Drawing.Size(75, 23);
             this.stButton2.TabIndex = 42;
-            this.stButton2.Text = "Ok";
+            this.stButton2.Text = "确定";
             this.stButton2.UseVisualStyleBackColor = false;
             // 
             // chkResetTexTransforms

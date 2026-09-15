@@ -315,25 +315,25 @@
             // olvColumn1
             // 
             this.olvColumn1.AspectName = "Status";
-            this.olvColumn1.Text = "Status";
+            this.olvColumn1.Text = "状态";
             this.olvColumn1.Width = 71;
             // 
             // olvColumn2
             // 
             this.olvColumn2.AspectName = "Title";
-            this.olvColumn2.Text = "Title";
+            this.olvColumn2.Text = "标题";
             this.olvColumn2.Width = 122;
             // 
             // olvColumn3
             // 
             this.olvColumn3.AspectName = "Artist";
-            this.olvColumn3.Text = "Artist";
+            this.olvColumn3.Text = "作者";
             this.olvColumn3.Width = 132;
             // 
             // olvColumn4
             // 
             this.olvColumn4.AspectName = "Duration";
-            this.olvColumn4.Text = "Duration";
+            this.olvColumn4.Text = "时长";
             this.olvColumn4.Width = 206;
             // 
             // splitter1
@@ -400,7 +400,7 @@
             this.exportToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.Text = "文件";
             // 
             // editToolStripMenuItem
             // 
@@ -408,7 +408,7 @@
             this.loopingToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.editToolStripMenuItem.Text = "Edit";
+            this.editToolStripMenuItem.Text = "编辑";
             // 
             // loopingToolStripMenuItem
             // 
@@ -438,7 +438,7 @@
             // 
             this.exportToolStripMenuItem.Name = "exportToolStripMenuItem";
             this.exportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exportToolStripMenuItem.Text = "Export";
+            this.exportToolStripMenuItem.Text = "导出";
             this.exportToolStripMenuItem.Click += new System.EventHandler(this.exportToolStripMenuItem_Click);
             // 
             // AudioPlayer
@@ -447,7 +447,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(537, 446);
             this.Name = "AudioPlayer";
-            this.Text = "AudioPlayer";
+            this.Text = "音频播放器";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AudioPlayer_FormClosed);
             this.contentContainer.ResumeLayout(false);
             this.audioBarPanel.ResumeLayout(false);

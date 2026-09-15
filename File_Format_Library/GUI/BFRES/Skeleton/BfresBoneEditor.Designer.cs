@@ -248,7 +248,7 @@
             this.stLabel5.Name = "stLabel5";
             this.stLabel5.Size = new System.Drawing.Size(50, 13);
             this.stLabel5.TabIndex = 8;
-            this.stLabel5.Text = "Rotation:";
+            this.stLabel5.Text = "旋转：";
             // 
             // rotModeCB
             // 
@@ -372,7 +372,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(37, 13);
             this.label9.TabIndex = 26;
-            this.label9.Text = "Scale:";
+            this.label9.Text = "缩放：";
             // 
             // label10
             // 
@@ -480,7 +480,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 19;
-            this.label1.Text = "Rotation:";
+            this.label1.Text = "旋转：";
             // 
             // label6
             // 
@@ -588,7 +588,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 9;
-            this.label2.Text = "Position";
+            this.label2.Text = "位置";
             // 
             // label3
             // 
@@ -850,7 +850,7 @@
             this.chkTransformIdentity.Name = "chkTransformIdentity";
             this.chkTransformIdentity.Size = new System.Drawing.Size(60, 17);
             this.chkTransformIdentity.TabIndex = 7;
-            this.chkTransformIdentity.Text = "Identity";
+            this.chkTransformIdentity.Text = "单位矩阵";
             this.chkTransformIdentity.UseVisualStyleBackColor = true;
             this.chkTransformIdentity.CheckedChanged += new System.EventHandler(this.chkTransformIdentity_CheckedChanged);
             // 
@@ -952,7 +952,7 @@
             this.chkTransformCuIdenity.Name = "chkTransformCuIdenity";
             this.chkTransformCuIdenity.Size = new System.Drawing.Size(60, 17);
             this.chkTransformCuIdenity.TabIndex = 6;
-            this.chkTransformCuIdenity.Text = "Identity";
+            this.chkTransformCuIdenity.Text = "单位矩阵";
             this.chkTransformCuIdenity.UseVisualStyleBackColor = true;
             // 
             // chkTransformCuTranslateZero

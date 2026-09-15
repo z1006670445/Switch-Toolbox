@@ -77,8 +77,8 @@ namespace FirstPlugin.CtrLibrary
             Model = model;
             Text = model.Name;
 
-            var MaterialFolder = new TreeNode("Materials");
-            var MeshFolder = new TreeNode("Meshes");
+            var MaterialFolder = new TreeNode("材质");
+            var MeshFolder = new TreeNode("网格");
             Skeleton = new H3DSkeletonWrapper();
             Skeleton.Text = "Skeleton";
             Checked = true;

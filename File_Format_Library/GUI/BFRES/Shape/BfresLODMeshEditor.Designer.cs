@@ -98,7 +98,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Remove";
+            this.button1.Text = "移除";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -109,7 +109,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 2;
-            this.button2.Text = "Add";
+            this.button2.Text = "添加";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // panel2
@@ -165,7 +165,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(57, 13);
             this.label15.TabIndex = 0;
-            this.label15.Text = "Boundings";
+            this.label15.Text = "包围盒";
             // 
             // label2
             // 
@@ -174,7 +174,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Center:";
+            this.label2.Text = "中心：";
             // 
             // centXUD
             // 
@@ -291,7 +291,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(40, 13);
             this.label9.TabIndex = 9;
-            this.label9.Text = "Extent:";
+            this.label9.Text = "范围：";
             // 
             // extXUD
             // 
@@ -445,12 +445,12 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Offset";
+            this.columnHeader1.Text = "偏移";
             this.columnHeader1.Width = 93;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Count";
+            this.columnHeader2.Text = "数量";
             this.columnHeader2.Width = 81;
             // 
             // formatCB
@@ -469,7 +469,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(42, 13);
             this.label13.TabIndex = 27;
-            this.label13.Text = "Format:";
+            this.label13.Text = "格式：";
             // 
             // label12
             // 
@@ -573,7 +573,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 28;
-            this.button5.Text = "Ok";
+            this.button5.Text = "确定";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // BfresLODMeshEditor

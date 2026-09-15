@@ -206,7 +206,7 @@
             this.stLabel11.Name = "stLabel11";
             this.stLabel11.Size = new System.Drawing.Size(51, 13);
             this.stLabel11.TabIndex = 25;
-            this.stLabel11.Text = "Minimum:";
+            this.stLabel11.Text = "最小值：";
             // 
             // lodMinUD
             // 
@@ -263,7 +263,7 @@
             this.stLabel12.Name = "stLabel12";
             this.stLabel12.Size = new System.Drawing.Size(54, 13);
             this.stLabel12.TabIndex = 27;
-            this.stLabel12.Text = "Maximum:";
+            this.stLabel12.Text = "最大值：";
             // 
             // stLabel13
             // 
@@ -272,7 +272,7 @@
             this.stLabel13.Name = "stLabel13";
             this.stLabel13.Size = new System.Drawing.Size(30, 13);
             this.stLabel13.TabIndex = 29;
-            this.stLabel13.Text = "Bias:";
+            this.stLabel13.Text = "偏移：";
             // 
             // biasUD
             // 
@@ -306,7 +306,7 @@
             this.stLabel15.Name = "stLabel15";
             this.stLabel15.Size = new System.Drawing.Size(29, 13);
             this.stLabel15.TabIndex = 44;
-            this.stLabel15.Text = "Filter";
+            this.stLabel15.Text = "过滤";
             // 
             // stPanel1
             // 
@@ -362,7 +362,7 @@
             this.stLabel18.Name = "stLabel18";
             this.stLabel18.Size = new System.Drawing.Size(41, 13);
             this.stLabel18.TabIndex = 25;
-            this.stLabel18.Text = "Border:";
+            this.stLabel18.Text = "边框：";
             // 
             // stLabel9
             // 
@@ -371,7 +371,7 @@
             this.stLabel9.Name = "stLabel9";
             this.stLabel9.Size = new System.Drawing.Size(46, 13);
             this.stLabel9.TabIndex = 17;
-            this.stLabel9.Text = "Expand:";
+            this.stLabel9.Text = "扩展：";
             // 
             // filterExpandCB
             // 
@@ -398,7 +398,7 @@
             this.stLabel8.Name = "stLabel8";
             this.stLabel8.Size = new System.Drawing.Size(40, 13);
             this.stLabel8.TabIndex = 19;
-            this.stLabel8.Text = "Shrink:";
+            this.stLabel8.Text = "收缩：";
             // 
             // filterMipmapCB
             // 
@@ -416,7 +416,7 @@
             this.stLabel7.Name = "stLabel7";
             this.stLabel7.Size = new System.Drawing.Size(47, 13);
             this.stLabel7.TabIndex = 21;
-            this.stLabel7.Text = "Mipmap:";
+            this.stLabel7.Text = "Mipmap：";
             // 
             // filterAntitropicCB
             // 
@@ -434,7 +434,7 @@
             this.stLabel10.Name = "stLabel10";
             this.stLabel10.Size = new System.Drawing.Size(54, 13);
             this.stLabel10.TabIndex = 23;
-            this.stLabel10.Text = "Antitropic:";
+            this.stLabel10.Text = "各向异性：";
             // 
             // stLabel14
             // 
@@ -443,7 +443,7 @@
             this.stLabel14.Name = "stLabel14";
             this.stLabel14.Size = new System.Drawing.Size(39, 13);
             this.stLabel14.TabIndex = 45;
-            this.stLabel14.Text = "Image:";
+            this.stLabel14.Text = "图像：";
             // 
             // textureNameTB
             // 
@@ -460,7 +460,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(38, 13);
             this.stLabel3.TabIndex = 41;
-            this.stLabel3.Text = "Name:";
+            this.stLabel3.Text = "名称：";
             // 
             // samplerHintTB
             // 
@@ -478,7 +478,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(29, 13);
             this.stLabel2.TabIndex = 39;
-            this.stLabel2.Text = "Hint:";
+            this.stLabel2.Text = "提示：";
             // 
             // stLabel1
             // 
@@ -487,7 +487,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(48, 13);
             this.stLabel1.TabIndex = 38;
-            this.stLabel1.Text = "Sampler:";
+            this.stLabel1.Text = "采样器：";
             // 
             // samplerCB
             // 
@@ -518,12 +518,12 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Texture";
+            this.columnHeader1.Text = "贴图";
             this.columnHeader1.Width = 254;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Sampler";
+            this.columnHeader2.Text = "采样器";
             this.columnHeader2.Width = 77;
             // 
             // columnHeader3
@@ -555,7 +555,7 @@
             this.stLabel19.Name = "stLabel19";
             this.stLabel19.Size = new System.Drawing.Size(36, 13);
             this.stLabel19.TabIndex = 50;
-            this.stLabel19.Text = "Depth";
+            this.stLabel19.Text = "深度";
             // 
             // stPanel4
             // 
@@ -604,7 +604,7 @@
             this.stLabel21.Name = "stLabel21";
             this.stLabel21.Size = new System.Drawing.Size(51, 13);
             this.stLabel21.TabIndex = 13;
-            this.stLabel21.Text = "Function:";
+            this.stLabel21.Text = "函数：";
             // 
             // btnAdd
             // 
@@ -613,7 +613,7 @@
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 52;
-            this.btnAdd.Text = "Add";
+            this.btnAdd.Text = "添加";
             this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
@@ -624,7 +624,7 @@
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(75, 23);
             this.btnRemove.TabIndex = 53;
-            this.btnRemove.Text = "Remove";
+            this.btnRemove.Text = "移除";
             this.btnRemove.UseVisualStyleBackColor = false;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
@@ -636,7 +636,7 @@
             this.btnSamplerEdit.Name = "btnSamplerEdit";
             this.btnSamplerEdit.Size = new System.Drawing.Size(38, 23);
             this.btnSamplerEdit.TabIndex = 54;
-            this.btnSamplerEdit.Text = "Edit";
+            this.btnSamplerEdit.Text = "编辑";
             this.btnSamplerEdit.UseVisualStyleBackColor = false;
             this.btnSamplerEdit.Click += new System.EventHandler(this.btnSamplerEdit_Click);
             // 
@@ -648,7 +648,7 @@
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(75, 23);
             this.btnEdit.TabIndex = 55;
-            this.btnEdit.Text = "Edit";
+            this.btnEdit.Text = "编辑";
             this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.textureRefListView_DoubleClick);
             // 

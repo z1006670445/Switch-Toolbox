@@ -42,7 +42,7 @@
             this.stCheckBox1.Name = "stCheckBox1";
             this.stCheckBox1.Size = new System.Drawing.Size(59, 17);
             this.stCheckBox1.TabIndex = 2;
-            this.stCheckBox1.Text = "Value2";
+            this.stCheckBox1.Text = "值2";
             this.stCheckBox1.UseVisualStyleBackColor = true;
             // 
             // stCheckBox2
@@ -52,7 +52,7 @@
             this.stCheckBox2.Name = "stCheckBox2";
             this.stCheckBox2.Size = new System.Drawing.Size(59, 17);
             this.stCheckBox2.TabIndex = 3;
-            this.stCheckBox2.Text = "Value1";
+            this.stCheckBox2.Text = "值1";
             this.stCheckBox2.UseVisualStyleBackColor = true;
             // 
             // stCheckBox3
@@ -62,7 +62,7 @@
             this.stCheckBox3.Name = "stCheckBox3";
             this.stCheckBox3.Size = new System.Drawing.Size(59, 17);
             this.stCheckBox3.TabIndex = 5;
-            this.stCheckBox3.Text = "Value3";
+            this.stCheckBox3.Text = "值3";
             this.stCheckBox3.UseVisualStyleBackColor = true;
             // 
             // stCheckBox4
@@ -72,7 +72,7 @@
             this.stCheckBox4.Name = "stCheckBox4";
             this.stCheckBox4.Size = new System.Drawing.Size(59, 17);
             this.stCheckBox4.TabIndex = 4;
-            this.stCheckBox4.Text = "Value4";
+            this.stCheckBox4.Text = "值4";
             this.stCheckBox4.UseVisualStyleBackColor = true;
             // 
             // stTextBox1

@@ -75,9 +75,9 @@ namespace FirstPlugin
         {
             return new ToolStripItem[]
             {
-                new ToolStripMenuItem("Save", null, Save, Keys.Control | Keys.S),
+                new ToolStripMenuItem("保存", null, Save, Keys.Control | Keys.S),
                 new ToolStripMenuItem("全部导出", null, ExportAllAction, Keys.Control | Keys.E),
-                new ToolStripMenuItem("Import", null, ImportAction, Keys.Control | Keys.I),
+                new ToolStripMenuItem("导入", null, ImportAction, Keys.Control | Keys.I),
             };
         }
 

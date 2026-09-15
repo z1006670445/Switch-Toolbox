@@ -50,7 +50,7 @@ namespace FirstPlugin.Forms
 
                 for (int i = 0; i < stTabControl1.TabPages.Count; i++)
                 {
-                    if (stTabControl1.TabPages[i].Text == "Render State")
+                    if (stTabControl1.TabPages[i].Text == "渲染状态")
                         tabPage = stTabControl1.TabPages[i];
                 }
 

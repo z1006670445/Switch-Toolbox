@@ -163,7 +163,7 @@
             // 
             this.dockToolStripMenuItem.Name = "dockToolStripMenuItem";
             this.dockToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-            this.dockToolStripMenuItem.Text = "Dock";
+            this.dockToolStripMenuItem.Text = "停靠";
             this.dockToolStripMenuItem.Click += new System.EventHandler(this.dockToolStripMenuItem_Click);
             // 
             // stPanel4

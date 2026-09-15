@@ -175,7 +175,7 @@
             this.chkIsAbsoluteReflectB.Name = "chkIsAbsoluteReflectB";
             this.chkIsAbsoluteReflectB.Size = new System.Drawing.Size(44, 17);
             this.chkIsAbsoluteReflectB.TabIndex = 32;
-            this.chkIsAbsoluteReflectB.Text = "Abs";
+            this.chkIsAbsoluteReflectB.Text = "绝对值";
             this.chkIsAbsoluteReflectB.UseVisualStyleBackColor = true;
             this.chkIsAbsoluteReflectB.CheckedChanged += new System.EventHandler(this.stCheckBox5_CheckedChanged);
             // 
@@ -186,7 +186,7 @@
             this.chkIsAbsoluteReflectG.Name = "chkIsAbsoluteReflectG";
             this.chkIsAbsoluteReflectG.Size = new System.Drawing.Size(44, 17);
             this.chkIsAbsoluteReflectG.TabIndex = 31;
-            this.chkIsAbsoluteReflectG.Text = "Abs";
+            this.chkIsAbsoluteReflectG.Text = "绝对值";
             this.chkIsAbsoluteReflectG.UseVisualStyleBackColor = true;
             // 
             // chkIsAbsoluteReflectR
@@ -196,7 +196,7 @@
             this.chkIsAbsoluteReflectR.Name = "chkIsAbsoluteReflectR";
             this.chkIsAbsoluteReflectR.Size = new System.Drawing.Size(44, 17);
             this.chkIsAbsoluteReflectR.TabIndex = 30;
-            this.chkIsAbsoluteReflectR.Text = "Abs";
+            this.chkIsAbsoluteReflectR.Text = "绝对值";
             this.chkIsAbsoluteReflectR.UseVisualStyleBackColor = true;
             // 
             // chkIsAbsoluteDist1
@@ -206,7 +206,7 @@
             this.chkIsAbsoluteDist1.Name = "chkIsAbsoluteDist1";
             this.chkIsAbsoluteDist1.Size = new System.Drawing.Size(44, 17);
             this.chkIsAbsoluteDist1.TabIndex = 29;
-            this.chkIsAbsoluteDist1.Text = "Abs";
+            this.chkIsAbsoluteDist1.Text = "绝对值";
             this.chkIsAbsoluteDist1.UseVisualStyleBackColor = true;
             // 
             // chkIsAbsoluteDist0
@@ -216,7 +216,7 @@
             this.chkIsAbsoluteDist0.Name = "chkIsAbsoluteDist0";
             this.chkIsAbsoluteDist0.Size = new System.Drawing.Size(44, 17);
             this.chkIsAbsoluteDist0.TabIndex = 28;
-            this.chkIsAbsoluteDist0.Text = "Abs";
+            this.chkIsAbsoluteDist0.Text = "绝对值";
             this.chkIsAbsoluteDist0.UseVisualStyleBackColor = true;
             // 
             // reflectionBInputCB
@@ -286,7 +286,7 @@
             this.stLabel18.Name = "stLabel18";
             this.stLabel18.Size = new System.Drawing.Size(53, 13);
             this.stLabel18.TabIndex = 22;
-            this.stLabel18.Text = "Samplers:";
+            this.stLabel18.Text = "采样器：";
             // 
             // reflectionBSamplerCB
             // 
@@ -371,7 +371,7 @@
             this.stLabel14.Name = "stLabel14";
             this.stLabel14.Size = new System.Drawing.Size(65, 13);
             this.stLabel14.TabIndex = 14;
-            this.stLabel14.Text = "Distribution1";
+            this.stLabel14.Text = "分布 1";
             // 
             // dist0SamplerCB
             // 
@@ -392,7 +392,7 @@
             this.stLabel13.Name = "stLabel13";
             this.stLabel13.Size = new System.Drawing.Size(65, 13);
             this.stLabel13.TabIndex = 12;
-            this.stLabel13.Text = "Distribution0";
+            this.stLabel13.Text = "分布 0";
             // 
             // stLabel4
             // 
@@ -457,7 +457,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(36, 13);
             this.stLabel2.TabIndex = 1;
-            this.stLabel2.Text = "Layer:";
+            this.stLabel2.Text = "图层：";
             // 
             // stDropDownPanel2
             // 
@@ -522,7 +522,7 @@
             this.stLabel19.Name = "stLabel19";
             this.stLabel19.Size = new System.Drawing.Size(49, 13);
             this.stLabel19.TabIndex = 33;
-            this.stLabel19.Text = "Sources:";
+            this.stLabel19.Text = "源：";
             // 
             // stLabel6
             // 
@@ -540,7 +540,7 @@
             this.stLabel20.Name = "stLabel20";
             this.stLabel20.Size = new System.Drawing.Size(17, 13);
             this.stLabel20.TabIndex = 32;
-            this.stLabel20.Text = "B:";
+            this.stLabel20.Text = "B：";
             // 
             // alphaSource0CB
             // 
@@ -561,7 +561,7 @@
             this.stLabel21.Name = "stLabel21";
             this.stLabel21.Size = new System.Drawing.Size(18, 13);
             this.stLabel21.TabIndex = 31;
-            this.stLabel21.Text = "G:";
+            this.stLabel21.Text = "G：";
             // 
             // alphaCombinerCB
             // 
@@ -582,7 +582,7 @@
             this.stLabel22.Name = "stLabel22";
             this.stLabel22.Size = new System.Drawing.Size(56, 13);
             this.stLabel22.TabIndex = 30;
-            this.stLabel22.Text = "Operands:";
+            this.stLabel22.Text = "操作数：";
             // 
             // alphaSource1CB
             // 
@@ -603,7 +603,7 @@
             this.stLabel23.Name = "stLabel23";
             this.stLabel23.Size = new System.Drawing.Size(18, 13);
             this.stLabel23.TabIndex = 29;
-            this.stLabel23.Text = "R:";
+            this.stLabel23.Text = "R：";
             // 
             // alphaSource2CB
             // 
@@ -694,7 +694,7 @@
             this.stLabel12.Name = "stLabel12";
             this.stLabel12.Size = new System.Drawing.Size(49, 13);
             this.stLabel12.TabIndex = 20;
-            this.stLabel12.Text = "Sources:";
+            this.stLabel12.Text = "源：";
             // 
             // stLabel11
             // 
@@ -703,7 +703,7 @@
             this.stLabel11.Name = "stLabel11";
             this.stLabel11.Size = new System.Drawing.Size(17, 13);
             this.stLabel11.TabIndex = 19;
-            this.stLabel11.Text = "B:";
+            this.stLabel11.Text = "B：";
             // 
             // stLabel10
             // 
@@ -712,7 +712,7 @@
             this.stLabel10.Name = "stLabel10";
             this.stLabel10.Size = new System.Drawing.Size(18, 13);
             this.stLabel10.TabIndex = 18;
-            this.stLabel10.Text = "G:";
+            this.stLabel10.Text = "G：";
             // 
             // stLabel9
             // 
@@ -721,7 +721,7 @@
             this.stLabel9.Name = "stLabel9";
             this.stLabel9.Size = new System.Drawing.Size(56, 13);
             this.stLabel9.TabIndex = 17;
-            this.stLabel9.Text = "Operands:";
+            this.stLabel9.Text = "操作数：";
             // 
             // stLabel8
             // 
@@ -730,7 +730,7 @@
             this.stLabel8.Name = "stLabel8";
             this.stLabel8.Size = new System.Drawing.Size(37, 13);
             this.stLabel8.TabIndex = 16;
-            this.stLabel8.Text = "Scale:";
+            this.stLabel8.Text = "缩放：";
             // 
             // stLabel7
             // 
@@ -739,7 +739,7 @@
             this.stLabel7.Name = "stLabel7";
             this.stLabel7.Size = new System.Drawing.Size(18, 13);
             this.stLabel7.TabIndex = 15;
-            this.stLabel7.Text = "R:";
+            this.stLabel7.Text = "R：";
             // 
             // colorScaleCB
             // 
@@ -855,7 +855,7 @@
             this.btnDupeTevStage.Name = "btnDupeTevStage";
             this.btnDupeTevStage.Size = new System.Drawing.Size(75, 23);
             this.btnDupeTevStage.TabIndex = 5;
-            this.btnDupeTevStage.Text = "Dupe";
+            this.btnDupeTevStage.Text = "复制副本";
             this.btnDupeTevStage.UseVisualStyleBackColor = false;
             // 
             // btnRemoveTevStage
@@ -865,7 +865,7 @@
             this.btnRemoveTevStage.Name = "btnRemoveTevStage";
             this.btnRemoveTevStage.Size = new System.Drawing.Size(75, 23);
             this.btnRemoveTevStage.TabIndex = 4;
-            this.btnRemoveTevStage.Text = "Remove";
+            this.btnRemoveTevStage.Text = "移除";
             this.btnRemoveTevStage.UseVisualStyleBackColor = false;
             // 
             // btnAddTevStage
@@ -875,7 +875,7 @@
             this.btnAddTevStage.Name = "btnAddTevStage";
             this.btnAddTevStage.Size = new System.Drawing.Size(75, 23);
             this.btnAddTevStage.TabIndex = 3;
-            this.btnAddTevStage.Text = "Add";
+            this.btnAddTevStage.Text = "添加";
             this.btnAddTevStage.UseVisualStyleBackColor = false;
             // 
             // stLabel1
@@ -885,7 +885,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(38, 13);
             this.stLabel1.TabIndex = 2;
-            this.stLabel1.Text = "Stage:";
+            this.stLabel1.Text = "阶段：";
             // 
             // tevStagesCB
             // 
@@ -907,7 +907,7 @@
             this.chkIsAbsoluteFresnel.Name = "chkIsAbsoluteFresnel";
             this.chkIsAbsoluteFresnel.Size = new System.Drawing.Size(44, 17);
             this.chkIsAbsoluteFresnel.TabIndex = 36;
-            this.chkIsAbsoluteFresnel.Text = "Abs";
+            this.chkIsAbsoluteFresnel.Text = "绝对值";
             this.chkIsAbsoluteFresnel.UseVisualStyleBackColor = true;
             // 
             // fresneInputCB
@@ -941,7 +941,7 @@
             this.stLabel24.Name = "stLabel24";
             this.stLabel24.Size = new System.Drawing.Size(41, 13);
             this.stLabel24.TabIndex = 33;
-            this.stLabel24.Text = "Fresnel";
+            this.stLabel24.Text = "菲涅尔";
             // 
             // BCHMaterialFragmentEditor
             // 

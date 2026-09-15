@@ -107,17 +107,17 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Name";
+            this.columnHeader1.Text = "名称";
             this.columnHeader1.Width = 114;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Type";
+            this.columnHeader2.Text = "类型";
             this.columnHeader2.Width = 93;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Data";
+            this.columnHeader3.Text = "数据";
             this.columnHeader3.Width = 225;
             // 
             // splitContainer1
@@ -166,7 +166,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(659, 468);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Editor";
+            this.tabPage1.Text = "编辑器";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
@@ -199,21 +199,21 @@
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
-            this.editToolStripMenuItem.Text = "Edit";
+            this.editToolStripMenuItem.Text = "编辑";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editValueNodeMenuItem_Click);
             // 
             // renameToolStripMenuItem
             // 
             this.renameToolStripMenuItem.Name = "renameToolStripMenuItem";
             this.renameToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
-            this.renameToolStripMenuItem.Text = "Rename";
+            this.renameToolStripMenuItem.Text = "重命名";
             this.renameToolStripMenuItem.Click += new System.EventHandler(this.renameToolStripMenuItem_Click);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
             this.deleteToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
-            this.deleteToolStripMenuItem.Text = "Delete";
+            this.deleteToolStripMenuItem.Text = "删除";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // stContextMenuStrip1

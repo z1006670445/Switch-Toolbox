@@ -83,21 +83,21 @@ namespace Bfres.Structs
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
             Items.AddRange(base.GetContextMenuItems());
-            Items.Add(new ToolStripMenuItem("Transform", null, TransformToolAction, Keys.Control | Keys.T));
+            Items.Add(new ToolStripMenuItem("变换", null, TransformToolAction, Keys.Control | Keys.T));
             Items.Add(new ToolStripMenuItem("计算切线/副切线", null, CalcTansBitansAllShapesAction, Keys.Control | Keys.C));
-            Items.Add(new ToolStripMenuItem("Normals", null,
+            Items.Add(new ToolStripMenuItem("法线", null,
              new ToolStripMenuItem("平滑（多个网格）", null, MultiMeshSmoothNormals),
-             new ToolStripMenuItem("Smooth", null, SmoothNormalsAction),
-             new ToolStripMenuItem("Recalculate", null, RecalculateNormalsAction)
+             new ToolStripMenuItem("平滑", null, SmoothNormalsAction),
+             new ToolStripMenuItem("重新计算", null, RecalculateNormalsAction)
             ));
 
-            Items.Add(new ToolStripMenuItem("UVs", null,
+            Items.Add(new ToolStripMenuItem("UV", null,
               new ToolStripMenuItem("垂直翻转", null, FlipUvsVerticalAction),
               new ToolStripMenuItem("水平翻转", null, FlipUvsHorizontalAction),
               new ToolStripMenuItem("复制 UV 通道", null, CopyUVChannels)
             ));
 
-            Items.Add(new ToolStripMenuItem("Colors", null,
+            Items.Add(new ToolStripMenuItem("颜色", null,
               new ToolStripMenuItem("  设置颜色", null, SetVertexColorDialogAction),
               new ToolStripMenuItem("设置白色", null, SetVertexColorWhiteAction)
             ));
@@ -1381,7 +1381,7 @@ namespace Bfres.Structs
                         {
                             //Force material creation if there is none present
                             FMAT fmat = new FMAT();
-                            fmat.Text = "NewMaterial";
+                            fmat.Text = "新建材质";
                             materials.Add(fmat.Text, fmat);
                             Nodes["FmatFolder"].Nodes.Add(fmat);
 

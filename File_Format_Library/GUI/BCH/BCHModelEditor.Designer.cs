@@ -115,7 +115,7 @@
             this.stCheckBox1.Name = "stCheckBox1";
             this.stCheckBox1.Size = new System.Drawing.Size(46, 17);
             this.stCheckBox1.TabIndex = 67;
-            this.stCheckBox1.Text = "Link";
+            this.stCheckBox1.Text = "链接";
             this.stCheckBox1.UseVisualStyleBackColor = true;
             // 
             // scaleZUD
@@ -503,7 +503,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(37, 13);
             this.stLabel4.TabIndex = 54;
-            this.stLabel4.Text = "Scale:";
+            this.stLabel4.Text = "缩放：";
             // 
             // stLabel3
             // 
@@ -512,7 +512,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(42, 13);
             this.stLabel3.TabIndex = 53;
-            this.stLabel3.Text = "Rotate:";
+            this.stLabel3.Text = "旋转：";
             // 
             // stLabel6
             // 
@@ -521,7 +521,7 @@
             this.stLabel6.Name = "stLabel6";
             this.stLabel6.Size = new System.Drawing.Size(54, 13);
             this.stLabel6.TabIndex = 52;
-            this.stLabel6.Text = "Translate:";
+            this.stLabel6.Text = "平移：";
             // 
             // stDropDownPanel2
             // 
@@ -551,7 +551,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(41, 13);
             this.stLabel2.TabIndex = 69;
-            this.stLabel2.Text = "Priority:";
+            this.stLabel2.Text = "优先级：";
             // 
             // renderPriorityUD
             // 
@@ -603,7 +603,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(36, 13);
             this.stLabel1.TabIndex = 3;
-            this.stLabel1.Text = "Layer:";
+            this.stLabel1.Text = "图层：";
             // 
             // meshLayerCB
             // 
@@ -642,26 +642,26 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Order";
+            this.columnHeader1.Text = "顺序";
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Material";
+            this.columnHeader2.Text = "材质";
             this.columnHeader2.Width = 76;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Mesh";
+            this.columnHeader3.Text = "网格";
             this.columnHeader3.Width = 106;
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Layer";
+            this.columnHeader4.Text = "图层";
             this.columnHeader4.Width = 108;
             // 
             // columnHeader5
             // 
-            this.columnHeader5.Text = "Priority";
+            this.columnHeader5.Text = "优先级";
             this.columnHeader5.Width = 244;
             // 
             // stTabControl1

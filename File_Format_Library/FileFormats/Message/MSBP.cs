@@ -48,10 +48,10 @@ namespace FirstPlugin
             header = new Header();
             header.Read(new FileReader(stream));
 
-            TreeNode clr1Node = new TreeNode("Colors");
-            TreeNode ati2Node = new TreeNode("Attributes");
+            TreeNode clr1Node = new TreeNode("颜色");
+            TreeNode ati2Node = new TreeNode("属性");
             TreeNode tgg2Node = new TreeNode("标签组");
-            TreeNode syl3Node = new TreeNode("Styles");
+            TreeNode syl3Node = new TreeNode("样式");
             TreeNode cti1Node = new TreeNode("工程内容");
 
             for (int i = 0; i < header.entries.Count; i++)

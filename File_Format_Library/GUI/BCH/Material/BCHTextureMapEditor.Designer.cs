@@ -133,7 +133,7 @@
             this.stLabel7.Name = "stLabel7";
             this.stLabel7.Size = new System.Drawing.Size(51, 13);
             this.stLabel7.TabIndex = 34;
-            this.stLabel7.Text = "Mapping:";
+            this.stLabel7.Text = "映射：";
             // 
             // stComboBox5
             // 
@@ -234,7 +234,7 @@
             this.texInfoLabel.Name = "texInfoLabel";
             this.texInfoLabel.Size = new System.Drawing.Size(28, 13);
             this.texInfoLabel.TabIndex = 35;
-            this.texInfoLabel.Text = "Info:";
+            this.texInfoLabel.Text = "信息：";
             // 
             // addbtn
             // 
@@ -243,7 +243,7 @@
             this.addbtn.Name = "addbtn";
             this.addbtn.Size = new System.Drawing.Size(59, 23);
             this.addbtn.TabIndex = 1;
-            this.addbtn.Text = "Add";
+            this.addbtn.Text = "添加";
             this.addbtn.UseVisualStyleBackColor = false;
             // 
             // stPanel3
@@ -292,7 +292,7 @@
             this.removebtn.Name = "removebtn";
             this.removebtn.Size = new System.Drawing.Size(59, 23);
             this.removebtn.TabIndex = 2;
-            this.removebtn.Text = "Remove";
+            this.removebtn.Text = "移除";
             this.removebtn.UseVisualStyleBackColor = false;
             // 
             // arrowRight
@@ -312,7 +312,7 @@
             this.editBtn.Name = "editBtn";
             this.editBtn.Size = new System.Drawing.Size(59, 23);
             this.editBtn.TabIndex = 3;
-            this.editBtn.Text = "Edit";
+            this.editBtn.Text = "编辑";
             this.editBtn.UseVisualStyleBackColor = false;
             // 
             // arrowLeft
@@ -592,7 +592,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(37, 13);
             this.stLabel3.TabIndex = 23;
-            this.stLabel3.Text = "Mode:";
+            this.stLabel3.Text = "模式：";
             // 
             // wrapModeVCB
             // 
@@ -697,7 +697,7 @@
             this.stLabel5.Name = "stLabel5";
             this.stLabel5.Size = new System.Drawing.Size(46, 13);
             this.stLabel5.TabIndex = 28;
-            this.stLabel5.Text = "Method:";
+            this.stLabel5.Text = "方式：";
             // 
             // scaleXUD
             // 

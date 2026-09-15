@@ -124,7 +124,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(37, 13);
             this.stLabel2.TabIndex = 15;
-            this.stLabel2.Text = "String:";
+            this.stLabel2.Text = "字符串：";
             // 
             // stLabel3
             // 
@@ -230,7 +230,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 23;
-            this.stButton1.Text = "Start";
+            this.stButton1.Text = "开始";
             this.stButton1.UseVisualStyleBackColor = false;
             this.stButton1.Click += new System.EventHandler(this.stButton1_Click);
             // 
@@ -268,7 +268,7 @@
             this.stLabel5.Name = "stLabel5";
             this.stLabel5.Size = new System.Drawing.Size(46, 13);
             this.stLabel5.TabIndex = 20;
-            this.stLabel5.Text = "Hashes:";
+            this.stLabel5.Text = "哈希：";
             // 
             // stLabel4
             // 

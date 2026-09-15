@@ -63,7 +63,7 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Shape";
+            this.columnHeader1.Text = "网格";
             this.columnHeader1.Width = 129;
             // 
             // panel1
@@ -103,7 +103,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Attribute";
+            this.label1.Text = "属性";
             // 
             // label2
             // 
@@ -112,7 +112,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Format";
+            this.label2.Text = "格式";
             // 
             // formatCB
             // 
@@ -149,7 +149,7 @@
             this.hintLabel.Name = "hintLabel";
             this.hintLabel.Size = new System.Drawing.Size(26, 13);
             this.hintLabel.TabIndex = 7;
-            this.hintLabel.Text = "Hint";
+            this.hintLabel.Text = "提示";
             // 
             // attributeCB
             // 
@@ -169,7 +169,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 7;
-            this.button2.Text = "Ok";
+            this.button2.Text = "确定";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -195,7 +195,7 @@
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "AttributeEditor";
-            this.Text = "AttributeEditor";
+            this.Text = "属性编辑器";
             this.Load += new System.EventHandler(this.AttributeEditor_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

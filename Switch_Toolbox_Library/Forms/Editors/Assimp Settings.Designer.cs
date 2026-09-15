@@ -172,7 +172,7 @@
             this.triangulateChk.Name = "triangulateChk";
             this.triangulateChk.Size = new System.Drawing.Size(79, 17);
             this.triangulateChk.TabIndex = 8;
-            this.triangulateChk.Text = "Triangulate";
+            this.triangulateChk.Text = "三角化";
             this.triangulateChk.UseVisualStyleBackColor = true;
             // 
             // joinDupedVertsSk
@@ -220,7 +220,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 12;
-            this.stButton1.Text = "Cancel";
+            this.stButton1.Text = "取消";
             this.stButton1.UseVisualStyleBackColor = false;
             // 
             // stButton2
@@ -231,7 +231,7 @@
             this.stButton2.Name = "stButton2";
             this.stButton2.Size = new System.Drawing.Size(75, 23);
             this.stButton2.TabIndex = 13;
-            this.stButton2.Text = "Ok";
+            this.stButton2.Text = "确定";
             this.stButton2.UseVisualStyleBackColor = false;
             // 
             // rotateBones

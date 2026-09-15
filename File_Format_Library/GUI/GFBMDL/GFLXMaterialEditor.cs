@@ -155,7 +155,7 @@ namespace FirstPlugin.Forms
                 }
 
                 if (tex.Type == STGenericMatTexture.TextureType.Diffuse) {
-                    transformParamTB.Text = "ColorUV";
+                    transformParamTB.Text = "颜色 UV";
                 }
                 else
                     transformParamTB.Text = "";

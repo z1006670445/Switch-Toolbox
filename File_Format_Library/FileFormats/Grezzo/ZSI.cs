@@ -111,7 +111,7 @@ namespace FirstPlugin
 
         private void LoadRooms(RoomSetup roomSetup, TreeNode parentNode)
         {
-            TreeNode RoomNode = new TreeNode("Room");
+            TreeNode RoomNode = new TreeNode("房间");
             parentNode.Nodes.Add(RoomNode);
 
             foreach (var mesh in roomSetup.Meshes)

@@ -92,7 +92,7 @@ namespace FirstPlugin.NLG
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Export", null, ExportModelAction, Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("导出", null, ExportModelAction, Keys.Control | Keys.E));
             return Items.ToArray();
         }
 
@@ -623,7 +623,7 @@ namespace FirstPlugin.NLG
                     skeleton.reset();
                     skeleton.update();
 
-                    TreeNode skeletonNode = new TreeNode("Skeleton");
+                    TreeNode skeletonNode = new TreeNode("骨骼");
                     Nodes.Add(skeletonNode);
                     foreach (var bone in skeleton.bones)
                     {

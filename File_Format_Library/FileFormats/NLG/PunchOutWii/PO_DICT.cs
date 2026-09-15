@@ -84,8 +84,8 @@ namespace FirstPlugin.PunchOutWii
                 {
                     reader.SetByteOrder(true);
 
-                    TreeNode blocks = new TreeNode("Blocks");
-                    TreeNode chunks = new TreeNode("Chunks");
+                    TreeNode blocks = new TreeNode("数据块");
+                    TreeNode chunks = new TreeNode("数据块");
                     TreeNode modelFolder = new TreeNode("Models");
 
                     foreach (var blockInfo in HeaderFile.Blocks)

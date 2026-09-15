@@ -97,7 +97,7 @@ namespace DKCTF
             public ToolStripItem[] GetContextMenuItems()
             {
                 List<ToolStripItem> Items = new List<ToolStripItem>();
-                Items.Add(new STToolStipMenuItem("Export", null, ExportAction, Keys.Control | Keys.E));
+                Items.Add(new STToolStipMenuItem("导出", null, ExportAction, Keys.Control | Keys.E));
                 return Items.ToArray();
             }
 

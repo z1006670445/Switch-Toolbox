@@ -136,7 +136,7 @@
             this.stButton2.Name = "stButton2";
             this.stButton2.Size = new System.Drawing.Size(57, 23);
             this.stButton2.TabIndex = 2;
-            this.stButton2.Text = "Remove";
+            this.stButton2.Text = "移除";
             this.stButton2.UseVisualStyleBackColor = false;
             // 
             // stButton1
@@ -147,7 +147,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(43, 23);
             this.stButton1.TabIndex = 1;
-            this.stButton1.Text = "Add";
+            this.stButton1.Text = "添加";
             this.stButton1.UseVisualStyleBackColor = false;
             // 
             // stTabControl1

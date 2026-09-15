@@ -152,7 +152,7 @@ namespace Toolbox.Library
             return;
 
             RenameDialog search = new RenameDialog();
-            search.Text = "Search";
+            search.Text = "搜索";
             search.LoadTree(treeView1);
             if (search.ShowDialog() == DialogResult.OK)
             {

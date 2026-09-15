@@ -501,7 +501,7 @@ namespace LayoutBXLYT
             else if (LayoutPaneEditor.IsDisposed)
                 LayoutPaneEditor = new PaneEditor();
 
-            LayoutPaneEditor.Text = "Properties";
+            LayoutPaneEditor.Text = "属性";
             LayoutPaneEditor.PropertyChanged += OnPanePropertyChanged;
 
             if (LayoutHierarchy != null && !LayoutHierarchy.IsDisposed)
@@ -513,7 +513,7 @@ namespace LayoutBXLYT
                      return;
 
                  LayoutProperties = new LayoutProperties();
-                 LayoutProperties.Text = "Properties";
+                 LayoutProperties.Text = "属性";
                  if (LayoutHierarchy != null)
                      LayoutProperties.Show(LayoutHierarchy.Pane, DockAlignment.Bottom, 0.5);
                  else
@@ -546,7 +546,7 @@ namespace LayoutBXLYT
                 return;
 
             LayoutHierarchy = new LayoutHierarchy(this);
-            LayoutHierarchy.Text = "Hierarchy";
+            LayoutHierarchy.Text = "层级";
             LayoutHierarchy.LoadLayout(ActiveLayout, ObjectSelected);
             LayoutHierarchy.Show(dockPanel1, DockState.DockLeft);
         }

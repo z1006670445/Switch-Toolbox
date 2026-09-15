@@ -55,7 +55,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(378, 398);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Animation";
+            this.tabPage1.Text = "动画";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2

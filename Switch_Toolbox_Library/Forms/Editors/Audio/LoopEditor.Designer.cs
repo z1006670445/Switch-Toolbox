@@ -89,7 +89,7 @@
             this.chkCanLoop.Name = "chkCanLoop";
             this.chkCanLoop.Size = new System.Drawing.Size(50, 17);
             this.chkCanLoop.TabIndex = 12;
-            this.chkCanLoop.Text = "Loop";
+            this.chkCanLoop.Text = "循环";
             this.chkCanLoop.UseVisualStyleBackColor = true;
             // 
             // stLabel1
@@ -99,7 +99,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(29, 13);
             this.stLabel1.TabIndex = 13;
-            this.stLabel1.Text = "Start";
+            this.stLabel1.Text = "开始";
             // 
             // stLabel2
             // 
@@ -108,7 +108,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(26, 13);
             this.stLabel2.TabIndex = 14;
-            this.stLabel2.Text = "End";
+            this.stLabel2.Text = "结束";
             // 
             // stButton1
             // 
@@ -118,7 +118,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 15;
-            this.stButton1.Text = "Cancel";
+            this.stButton1.Text = "取消";
             this.stButton1.UseVisualStyleBackColor = false;
             // 
             // btnOk
@@ -129,7 +129,7 @@
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(75, 23);
             this.btnOk.TabIndex = 16;
-            this.btnOk.Text = "Ok";
+            this.btnOk.Text = "确定";
             this.btnOk.UseVisualStyleBackColor = false;
             // 
             // LoopEditor

@@ -89,7 +89,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(50, 30);
             this.stButton1.TabIndex = 4;
-            this.stButton1.Text = "Apply";
+            this.stButton1.Text = "应用";
             this.stButton1.UseVisualStyleBackColor = false;
             this.stButton1.Click += new System.EventHandler(this.stButton1_Click);
             // 

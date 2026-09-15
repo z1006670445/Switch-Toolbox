@@ -115,7 +115,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(79, 33);
             this.button2.TabIndex = 5;
-            this.button2.Text = "Cancel";
+            this.button2.Text = "取消";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
@@ -126,7 +126,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(79, 33);
             this.button1.TabIndex = 4;
-            this.button1.Text = "Ok";
+            this.button1.Text = "确定";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -171,7 +171,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(45, 13);
             this.label5.TabIndex = 27;
-            this.label5.Text = "Swizzle:";
+            this.label5.Text = "重排：";
             // 
             // tileModeCB
             // 
@@ -223,7 +223,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 13);
             this.label2.TabIndex = 22;
-            this.label2.Text = "Format:";
+            this.label2.Text = "格式：";
             // 
             // label1
             // 
@@ -249,7 +249,7 @@
             this.WidthLabel.Name = "WidthLabel";
             this.WidthLabel.Size = new System.Drawing.Size(38, 13);
             this.WidthLabel.TabIndex = 19;
-            this.WidthLabel.Text = "Width:";
+            this.WidthLabel.Text = "宽度：";
             // 
             // HeightLabel
             // 
@@ -258,7 +258,7 @@
             this.HeightLabel.Name = "HeightLabel";
             this.HeightLabel.Size = new System.Drawing.Size(41, 13);
             this.HeightLabel.TabIndex = 18;
-            this.HeightLabel.Text = "Height:";
+            this.HeightLabel.Text = "高度：";
             // 
             // pictureBox1
             // 

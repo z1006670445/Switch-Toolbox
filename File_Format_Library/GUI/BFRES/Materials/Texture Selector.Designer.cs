@@ -79,7 +79,7 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Texture";
+            this.columnHeader1.Text = "贴图";
             this.columnHeader1.Width = 400;
             // 
             // addTextureBtn
@@ -91,7 +91,7 @@
             this.addTextureBtn.Name = "addTextureBtn";
             this.addTextureBtn.Size = new System.Drawing.Size(75, 23);
             this.addTextureBtn.TabIndex = 3;
-            this.addTextureBtn.Text = "Add";
+            this.addTextureBtn.Text = "添加";
             this.addTextureBtn.UseVisualStyleBackColor = true;
             this.addTextureBtn.Click += new System.EventHandler(this.addTextureBtn_Click);
             // 
@@ -104,7 +104,7 @@
             this.RemoveTextureBtn.Name = "RemoveTextureBtn";
             this.RemoveTextureBtn.Size = new System.Drawing.Size(75, 23);
             this.RemoveTextureBtn.TabIndex = 4;
-            this.RemoveTextureBtn.Text = "Remove";
+            this.RemoveTextureBtn.Text = "移除";
             this.RemoveTextureBtn.UseVisualStyleBackColor = true;
             this.RemoveTextureBtn.Click += new System.EventHandler(this.RemoveTextureBtn_Click);
             // 
@@ -118,7 +118,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(139, 23);
             this.button3.TabIndex = 5;
-            this.button3.Text = "Save";
+            this.button3.Text = "保存";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // stTextBox1

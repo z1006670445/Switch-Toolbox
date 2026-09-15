@@ -56,7 +56,7 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Frame";
+            this.columnHeader1.Text = "帧";
             this.columnHeader1.Width = 424;
             // 
             // btnEditSamplers
@@ -66,7 +66,7 @@
             this.btnEditSamplers.Name = "btnEditSamplers";
             this.btnEditSamplers.Size = new System.Drawing.Size(47, 23);
             this.btnEditSamplers.TabIndex = 21;
-            this.btnEditSamplers.Text = "Edit";
+            this.btnEditSamplers.Text = "编辑";
             this.btnEditSamplers.UseVisualStyleBackColor = false;
             this.btnEditSamplers.Click += new System.EventHandler(this.btnEditSamplers_Click);
             // 
@@ -77,7 +77,7 @@
             this.btnEditMaterial.Name = "btnEditMaterial";
             this.btnEditMaterial.Size = new System.Drawing.Size(47, 23);
             this.btnEditMaterial.TabIndex = 20;
-            this.btnEditMaterial.Text = "Edit";
+            this.btnEditMaterial.Text = "编辑";
             this.btnEditMaterial.UseVisualStyleBackColor = false;
             this.btnEditMaterial.Click += new System.EventHandler(this.btnEditMaterial_Click);
             // 

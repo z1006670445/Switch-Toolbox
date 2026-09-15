@@ -73,7 +73,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(57, 13);
             this.stLabel2.TabIndex = 3;
-            this.stLabel2.Text = "Properties:";
+            this.stLabel2.Text = "属性：";
             // 
             // PartPaneEditor
             // 

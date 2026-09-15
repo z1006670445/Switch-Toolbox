@@ -49,7 +49,7 @@ namespace FirstPlugin
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Save", null, SaveAction, Keys.Control | Keys.S));
+            Items.Add(new ToolStripMenuItem("保存", null, SaveAction, Keys.Control | Keys.S));
             return Items.ToArray();
         }
 
@@ -133,9 +133,9 @@ namespace FirstPlugin
             if (cmb.TexturesChunk != null)
             {
                 texFolder = new TextureFolder("Texture");
-                TreeNode meshFolder = new TreeNode("Meshes");
-                TreeNode materialFolder = new TreeNode("Materials");
-                TreeNode skeletonFolder = new TreeNode("Skeleton");
+                TreeNode meshFolder = new TreeNode("网格");
+                TreeNode materialFolder = new TreeNode("材质");
+                TreeNode skeletonFolder = new TreeNode("骨骼");
 
                 bool HasTextures = cmb.TexturesChunk.Textures != null &&
                      cmb.TexturesChunk.Textures.Count != 0;

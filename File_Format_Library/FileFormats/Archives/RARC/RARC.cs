@@ -54,7 +54,7 @@ namespace FirstPlugin
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Save", null, SaveAction, Keys.Control | Keys.S));
+            Items.Add(new ToolStripMenuItem("保存", null, SaveAction, Keys.Control | Keys.S));
             Items.Add(new ToolStripMenuItem("批量重命名 Galaxy（马力欧银河）", null, BatchRenameGalaxy, Keys.Control | Keys.S));
             return Items.ToArray();
         }

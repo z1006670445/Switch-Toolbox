@@ -94,8 +94,8 @@ namespace FirstPlugin
             public ToolStripItem[] GetContextMenuItems()
             {
                 List<ToolStripItem> Items = new List<ToolStripItem>();
-                Items.Add(new ToolStripMenuItem("Export", null, ExportAction, Keys.Control | Keys.E));
-                Items.Add(new ToolStripMenuItem("Replace", null, ReplaceAction, Keys.Control | Keys.R));
+                Items.Add(new ToolStripMenuItem("导出", null, ExportAction, Keys.Control | Keys.E));
+                Items.Add(new ToolStripMenuItem("替换", null, ReplaceAction, Keys.Control | Keys.R));
                 return Items.ToArray();
             }
 
@@ -287,7 +287,7 @@ namespace FirstPlugin
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Save", null, SaveAction, Keys.Control | Keys.S));
+            Items.Add(new ToolStripMenuItem("保存", null, SaveAction, Keys.Control | Keys.S));
             return Items.ToArray();
         }
 

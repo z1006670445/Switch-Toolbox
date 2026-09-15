@@ -240,7 +240,7 @@
             this.stLabel5.Name = "stLabel5";
             this.stLabel5.Size = new System.Drawing.Size(38, 13);
             this.stLabel5.TabIndex = 51;
-            this.stLabel5.Text = "Down:";
+            this.stLabel5.Text = "下：";
             // 
             // stLabel4
             // 
@@ -249,7 +249,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(24, 13);
             this.stLabel4.TabIndex = 50;
-            this.stLabel4.Text = "Up:";
+            this.stLabel4.Text = "上：";
             // 
             // stLabel1
             // 
@@ -258,7 +258,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(35, 13);
             this.stLabel1.TabIndex = 57;
-            this.stLabel1.Text = "Right:";
+            this.stLabel1.Text = "右：";
             // 
             // stLabel2
             // 
@@ -267,7 +267,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(28, 13);
             this.stLabel2.TabIndex = 56;
-            this.stLabel2.Text = "Left:";
+            this.stLabel2.Text = "左：";
             // 
             // stFlowLayoutPanel1
             // 

@@ -46,7 +46,7 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
             this.btnClose.TabIndex = 0;
-            this.btnClose.Text = "No";
+            this.btnClose.Text = "否";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
@@ -60,7 +60,7 @@
             this.btnDetails.Name = "btnDetails";
             this.btnDetails.Size = new System.Drawing.Size(75, 23);
             this.btnDetails.TabIndex = 1;
-            this.btnDetails.Text = "Details";
+            this.btnDetails.Text = "详细信息";
             this.btnDetails.UseVisualStyleBackColor = true;
             this.btnDetails.Click += new System.EventHandler(this.btnDetails_Click);
             // 
@@ -108,7 +108,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 8;
-            this.stButton1.Text = "Yes";
+            this.stButton1.Text = "是";
             this.stButton1.UseVisualStyleBackColor = true;
             // 
             // STOptionsDialog

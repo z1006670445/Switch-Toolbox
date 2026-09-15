@@ -53,9 +53,9 @@ namespace FirstPlugin
         {
             return new ToolStripItem[]
             {
-                new ToolStripMenuItem("Save", null, Save, Keys.Control | Keys.S),
-                new ToolStripMenuItem("Export", null, Export, Keys.Control | Keys.E),
-                new ToolStripMenuItem("Replace", null, Replace, Keys.Control | Keys.R),
+                new ToolStripMenuItem("保存", null, Save, Keys.Control | Keys.S),
+                new ToolStripMenuItem("导出", null, Export, Keys.Control | Keys.E),
+                new ToolStripMenuItem("替换", null, Replace, Keys.Control | Keys.R),
                 new ToolStripSeparator(),
                 new ToolStripMenuItem("大端序模式", null, SwapEndianess, Keys.Control | Keys.B)
                 { Checked = (KclFile.ByteOrder == Syroot.BinaryData.ByteOrder.BigEndian), CheckOnClick = true },

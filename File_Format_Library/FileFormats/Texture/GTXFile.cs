@@ -124,7 +124,7 @@ namespace FirstPlugin
         {
             return new ToolStripItem[]
             {
-                new ToolStripMenuItem("Save", null, Save, Keys.Control | Keys.S),
+                new ToolStripMenuItem("保存", null, Save, Keys.Control | Keys.S),
                 new ToolStripMenuItem("全部导出", null, ExportAllAction, Keys.Control | Keys.E),
             };
         }
@@ -357,7 +357,7 @@ namespace FirstPlugin
                     textureData.surface = surface;
                     textureData.MipCount = surface.numMips;
                     textureData.ArrayCount = surface.depth;
-                    textureData.Text = "Texture" + ImageInfo;
+                    textureData.Text = "贴图" + ImageInfo;
                     Nodes.Add(textureData);
                     textures.Add(textureData);
                 }

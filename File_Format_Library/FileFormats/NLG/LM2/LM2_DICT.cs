@@ -69,7 +69,7 @@ namespace FirstPlugin.LuigisMansion.DarkMoon
         STTextureFolder textureFolder = new STTextureFolder("Textures");
         LM2_ModelFolder modelFolder;
         TreeNode materialNamesFolder = new TreeNode("材质名称");
-        TreeNode chunkFolder = new TreeNode("Chunks");
+        TreeNode chunkFolder = new TreeNode("数据块");
         TreeNode messageFolder = new TreeNode("消息数据");
 
         public byte[] GetFile003Data()

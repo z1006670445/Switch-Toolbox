@@ -441,10 +441,10 @@ namespace Toolbox.Library.Forms
                 {
                     foreach (var item in node.GetContextMenuItems())
                     {
-                        if (item.Text != "Delete" && item.Text != "Remove")
+                        if (item.Text != "删除" && item.Text != "移除")
                             menuItems.Add(item);
                     }
-                    menuItems.Add(new ToolStripMenuItem("Delete", null, DeleteAction, Keys.Delete));
+                    menuItems.Add(new ToolStripMenuItem("删除", null, DeleteAction, Keys.Delete));
                 }
                 else
                 {
@@ -455,9 +455,9 @@ namespace Toolbox.Library.Forms
                 bool HasExpand = false;
                 foreach (var item in node.GetContextMenuItems())
                 {
-                    if (item.Text == "Collapse All")
+                    if (item.Text == "全部折叠")
                         HasCollpase = true;
-                    if (item.Text == "Expand All")
+                    if (item.Text == "全部展开")
                         HasExpand = true;
                 }
 

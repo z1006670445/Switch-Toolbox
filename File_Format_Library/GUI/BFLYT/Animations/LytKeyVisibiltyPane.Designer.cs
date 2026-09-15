@@ -50,7 +50,7 @@
             this.stLabel6.Name = "stLabel6";
             this.stLabel6.Size = new System.Drawing.Size(37, 13);
             this.stLabel6.TabIndex = 44;
-            this.stLabel6.Text = "Alpha:";
+            this.stLabel6.Text = "透明度：";
             // 
             // stLabel2
             // 

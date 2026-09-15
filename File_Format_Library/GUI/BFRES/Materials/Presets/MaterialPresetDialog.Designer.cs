@@ -90,7 +90,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(289, 122);
             this.stLabel2.TabIndex = 2;
-            this.stLabel2.Text = "Description:";
+            this.stLabel2.Text = "描述：";
             // 
             // stLabel1
             // 
@@ -99,7 +99,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(38, 13);
             this.stLabel1.TabIndex = 1;
-            this.stLabel1.Text = "Name:";
+            this.stLabel1.Text = "名称：";
             // 
             // treeViewCustom1
             // 
@@ -131,7 +131,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 11;
-            this.stButton1.Text = "Cancel";
+            this.stButton1.Text = "取消";
             this.stButton1.UseVisualStyleBackColor = false;
             // 
             // stButton2
@@ -142,7 +142,7 @@
             this.stButton2.Name = "stButton2";
             this.stButton2.Size = new System.Drawing.Size(75, 23);
             this.stButton2.TabIndex = 12;
-            this.stButton2.Text = "Ok";
+            this.stButton2.Text = "确定";
             this.stButton2.UseVisualStyleBackColor = false;
             // 
             // stLabel4
@@ -152,7 +152,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(44, 13);
             this.stLabel4.TabIndex = 13;
-            this.stLabel4.Text = "Shader:";
+            this.stLabel4.Text = "着色器：";
             // 
             // MaterialPresetDialog
             // 

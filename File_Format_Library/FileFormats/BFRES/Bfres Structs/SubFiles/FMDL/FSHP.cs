@@ -40,7 +40,7 @@ namespace Bfres.Structs
         {
             FMDL fmdl = (FMDL)Parent;
             FSHP mesh = new FSHP();
-            mesh.Text = "EmptyShape";
+            mesh.Text = "空网格";
             CreateEmptyMesh((FMDL)Parent, mesh);
         }
 
@@ -166,10 +166,10 @@ namespace Bfres.Structs
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
 
-            Items.Add(new ToolStripMenuItem("Export", null, Export, Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("导出", null, Export, Keys.Control | Keys.E));
             Items.Add(new ToolStripMenuItem("替换（静态）", null, Replace, Keys.Control | Keys.R));
             Items.Add(new ToolStripSeparator());
-            Items.Add(new ToolStripMenuItem("Rename", null, Rename, Keys.Control | Keys.N));
+            Items.Add(new ToolStripMenuItem("重命名", null, Rename, Keys.Control | Keys.N));
             Items.Add(new ToolStripSeparator());
 
             ToolStripMenuItem lodMenu = new ToolStripMenuItem("细节层级");
@@ -177,11 +177,11 @@ namespace Bfres.Structs
             lodMenu.DropDownItems.Add(new ToolStripMenuItem("添加占位 LOD 网格", null, GenerateDummyLODMeshesAction));
             Items.Add(lodMenu);
 
-            ToolStripMenuItem boundingsMenu = new ToolStripMenuItem("Boundings");
+            ToolStripMenuItem boundingsMenu = new ToolStripMenuItem("包围盒");
             boundingsMenu.DropDownItems.Add(new ToolStripMenuItem("重新生成包围盒/半径", null, GenerateBoundingBoxes));
             Items.Add(boundingsMenu);
 
-            ToolStripMenuItem uvMenu = new ToolStripMenuItem("UVs");
+            ToolStripMenuItem uvMenu = new ToolStripMenuItem("UV");
             uvMenu.DropDownItems.Add(new ToolStripMenuItem("翻转（垂直）", null, FlipUvsVertical));
             uvMenu.DropDownItems.Add(new ToolStripMenuItem("翻转（水平）", null, FlipUvsHorizontal));
             uvMenu.DropDownItems.Add(new ToolStripMenuItem("复制通道", null, CopyUVChannelAction));
@@ -189,14 +189,14 @@ namespace Bfres.Structs
 
             Items.Add(uvMenu);
 
-            ToolStripMenuItem normalsMenu = new ToolStripMenuItem("Normals");
+            ToolStripMenuItem normalsMenu = new ToolStripMenuItem("法线");
             normalsMenu.DropDownItems.Add(new ToolStripMenuItem("平滑（多个网格）", null, MultiMeshSmoothNormals));
-            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Smooth", null, SmoothNormals));
-            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Invert", null, InvertNormals));
-            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Recalculate", null, RecalculateNormals));
+            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("平滑", null, SmoothNormals));
+            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("反转", null, InvertNormals));
+            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("重新计算", null, RecalculateNormals));
             Items.Add(normalsMenu);
 			
-            ToolStripMenuItem colorMenu = new ToolStripMenuItem("Colors");
+            ToolStripMenuItem colorMenu = new ToolStripMenuItem("颜色");
             colorMenu.DropDownItems.Add(new ToolStripMenuItem("设置颜色", null, SetVertexColorDialog));
             colorMenu.DropDownItems.Add(new ToolStripMenuItem("设为白色", null, SetVertexColorWhite));
             Items.Add(colorMenu);
@@ -207,7 +207,7 @@ namespace Bfres.Structs
 
             Items.Add(new ToolStripMenuItem("打开材质编辑器", null, OpenMaterialEditor, Keys.Control | Keys.M));
 
-            Items.Add(new ToolStripMenuItem("Delete", null, Remove, Keys.Control | Keys.Delete));
+            Items.Add(new ToolStripMenuItem("删除", null, Remove, Keys.Control | Keys.Delete));
             return Items.ToArray();
         }
 

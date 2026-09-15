@@ -44,8 +44,8 @@ namespace Toolbox.Library.IO
         private ToolStripItem[] FunctionItems(bool canCompress)
         {
             var items = new List<ToolStripItem>();
-            items.Add(new ToolStripMenuItem("Decompress", null, Decompress));
-            items.Add(new ToolStripMenuItem("Compress", null, Compress) { Enabled = canCompress });
+            items.Add(new ToolStripMenuItem("解压", null, Decompress));
+            items.Add(new ToolStripMenuItem("压缩", null, Compress) { Enabled = canCompress });
             return items.ToArray();
         }
 

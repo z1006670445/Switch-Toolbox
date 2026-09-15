@@ -100,13 +100,13 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(46, 13);
             this.stLabel1.TabIndex = 14;
-            this.stLabel1.Text = "Gamma:";
+            this.stLabel1.Text = "伽马：";
             // 
             // CubeMapFaceViewer3D
             // 
             this.ClientSize = new System.Drawing.Size(589, 460);
             this.Name = "CubeMapFaceViewer3D";
-            this.Text = "CubeMapFaceViewer3D";
+            this.Text = "立方体贴图面查看器";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gammaUD)).EndInit();

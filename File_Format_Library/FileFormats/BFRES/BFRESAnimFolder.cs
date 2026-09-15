@@ -57,7 +57,7 @@ namespace Bfres.Structs
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("New", null,
+            Items.Add(new ToolStripMenuItem("新建", null,
                            new ToolStripMenuItem("骨骼动画", null, NewSkeletalAnimAction),
                            new ToolStripMenuItem("Shader 参数动画", null, NewShaderParamAnimAction),
                            new ToolStripMenuItem("颜色动画", null, NewColorAnimAction),
@@ -69,7 +69,7 @@ namespace Bfres.Structs
                            new ToolStripMenuItem("场景动画", null, NewSceneAnimAction)
                        ));
 
-            Items.Add(new ToolStripMenuItem("Import", null,
+            Items.Add(new ToolStripMenuItem("导入", null,
               new ToolStripMenuItem("骨骼动画", null, ImportSkeletalAnimAction),
               new ToolStripMenuItem("Shader 参数动画", null, ImportShaderParamAnimAction),
               new ToolStripMenuItem("颜色动画", null, ImportColorAnimAction),
@@ -81,7 +81,7 @@ namespace Bfres.Structs
               new ToolStripMenuItem("场景动画", null, ImportSceneAnimAction)
               ));
 
-            Items.Add(new ToolStripMenuItem("Clear", null, ClearAction, Keys.Control | Keys.C));
+            Items.Add(new ToolStripMenuItem("清除", null, ClearAction, Keys.Control | Keys.C));
 
             return Items.ToArray();
         }

@@ -214,8 +214,8 @@
             this.lodDisplayCB.FormattingEnabled = true;
             this.lodDisplayCB.IsReadOnly = false;
             this.lodDisplayCB.Items.AddRange(new object[] {
-            "Euler",
-            "Quaternion"});
+            "欧拉角",
+            "四元数"});
             this.lodDisplayCB.Location = new System.Drawing.Point(83, 89);
             this.lodDisplayCB.Name = "lodDisplayCB";
             this.lodDisplayCB.Size = new System.Drawing.Size(121, 21);
@@ -238,7 +238,7 @@
             this.stLabel6.Name = "stLabel6";
             this.stLabel6.Size = new System.Drawing.Size(36, 13);
             this.stLabel6.TabIndex = 13;
-            this.stLabel6.Text = "Index:";
+            this.stLabel6.Text = "索引：";
             // 
             // shapeIndexUD
             // 
@@ -271,7 +271,7 @@
             this.stLabel7.Name = "stLabel7";
             this.stLabel7.Size = new System.Drawing.Size(38, 13);
             this.stLabel7.TabIndex = 11;
-            this.stLabel7.Text = "Name:";
+            this.stLabel7.Text = "名称：";
             // 
             // nameTB
             // 
@@ -316,7 +316,7 @@
             this.stLabel8.Name = "stLabel8";
             this.stLabel8.Size = new System.Drawing.Size(36, 13);
             this.stLabel8.TabIndex = 15;
-            this.stLabel8.Text = "Index:";
+            this.stLabel8.Text = "索引：";
             // 
             // stLabel2
             // 
@@ -325,7 +325,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(38, 13);
             this.stLabel2.TabIndex = 3;
-            this.stLabel2.Text = "Name:";
+            this.stLabel2.Text = "名称：";
             // 
             // materialIndexUD
             // 
@@ -438,7 +438,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(36, 13);
             this.stLabel1.TabIndex = 17;
-            this.stLabel1.Text = "Index:";
+            this.stLabel1.Text = "索引：";
             // 
             // boneIndexUD
             // 
@@ -471,7 +471,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(38, 13);
             this.stLabel3.TabIndex = 15;
-            this.stLabel3.Text = "Name:";
+            this.stLabel3.Text = "名称：";
             // 
             // vertexBufferDropDownPanel
             // 
@@ -636,7 +636,7 @@
             this.stButton3.Name = "stButton3";
             this.stButton3.Size = new System.Drawing.Size(67, 23);
             this.stButton3.TabIndex = 26;
-            this.stButton3.Text = "Remove";
+            this.stButton3.Text = "移除";
             this.stButton3.UseVisualStyleBackColor = false;
             // 
             // btnFacesView
@@ -695,7 +695,7 @@
             this.stLabel21.Name = "stLabel21";
             this.stLabel21.Size = new System.Drawing.Size(42, 13);
             this.stLabel21.TabIndex = 29;
-            this.stLabel21.Text = "Format:";
+            this.stLabel21.Text = "格式：";
             // 
             // lodPrimativeTypeCB
             // 
@@ -799,7 +799,7 @@
             this.stButton10.Name = "stButton10";
             this.stButton10.Size = new System.Drawing.Size(67, 23);
             this.stButton10.TabIndex = 25;
-            this.stButton10.Text = "Add";
+            this.stButton10.Text = "添加";
             this.stButton10.UseVisualStyleBackColor = false;
             // 
             // stButton11
@@ -834,12 +834,12 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Name";
+            this.columnHeader1.Text = "名称";
             this.columnHeader1.Width = 85;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Format";
+            this.columnHeader2.Text = "格式";
             this.columnHeader2.Width = 79;
             // 
             // columnHeader3

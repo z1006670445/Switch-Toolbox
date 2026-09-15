@@ -628,7 +628,7 @@ namespace Bfres.Structs
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Rename", null, RenameAction, Keys.Control | Keys.R));
+            Items.Add(new ToolStripMenuItem("重命名", null, RenameAction, Keys.Control | Keys.R));
             Items.Add(new ToolStripSeparator());
             Items.Add(new ToolStripMenuItem("新建子骨骼", null, NewAction, Keys.Control | Keys.N));
             Items.Add(new ToolStripMenuItem("导入子骨骼", null, ImportAction, Keys.Control | Keys.I));

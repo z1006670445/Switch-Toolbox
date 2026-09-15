@@ -110,7 +110,7 @@
             this.stComboBox1.ButtonColor = System.Drawing.Color.Empty;
             this.stComboBox1.FormattingEnabled = true;
             this.stComboBox1.Items.AddRange(new object[] {
-            "static"});
+            "静态"});
             this.stComboBox1.Location = new System.Drawing.Point(22, 56);
             this.stComboBox1.Name = "stComboBox1";
             this.stComboBox1.Size = new System.Drawing.Size(121, 21);
@@ -124,7 +124,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 18;
-            this.stButton1.Text = "Ok";
+            this.stButton1.Text = "确定";
             this.stButton1.UseVisualStyleBackColor = false;
             // 
             // BMDModelImportSettings

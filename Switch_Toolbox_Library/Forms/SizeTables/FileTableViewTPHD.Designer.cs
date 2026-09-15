@@ -79,7 +79,7 @@
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Precentage";
+            this.columnHeader4.Text = "百分比";
             // 
             // FileTableViewTPHD
             // 

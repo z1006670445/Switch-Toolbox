@@ -764,7 +764,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(25, 13);
             this.stLabel3.TabIndex = 56;
-            this.stLabel3.Text = "BR:";
+            this.stLabel3.Text = "右下：";
             // 
             // stLabel4
             // 
@@ -773,7 +773,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(23, 13);
             this.stLabel4.TabIndex = 55;
-            this.stLabel4.Text = "BL:";
+            this.stLabel4.Text = "左下：";
             // 
             // stLabel2
             // 
@@ -782,7 +782,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(25, 13);
             this.stLabel2.TabIndex = 54;
-            this.stLabel2.Text = "TR:";
+            this.stLabel2.Text = "右上：";
             // 
             // stLabel1
             // 
@@ -791,7 +791,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(23, 13);
             this.stLabel1.TabIndex = 53;
-            this.stLabel1.Text = "TL:";
+            this.stLabel1.Text = "左上：";
             // 
             // btnResetColors
             // 

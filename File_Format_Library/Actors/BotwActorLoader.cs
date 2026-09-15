@@ -170,10 +170,10 @@ namespace UKing.Actors
         private void LoadActors()
         {
             //Setup a list of nodes based on category
-            TreeNode ArmourFolder = new TreeNode("Armours");
-            TreeNode WeaponsFolder = new TreeNode("Weapons");
-            TreeNode ItemsFolder = new TreeNode("Items");
-            TreeNode EnemyFolder = new TreeNode("Enemies");
+            TreeNode ArmourFolder = new TreeNode("防具");
+            TreeNode WeaponsFolder = new TreeNode("武器");
+            TreeNode ItemsFolder = new TreeNode("道具");
+            TreeNode EnemyFolder = new TreeNode("敌人");
 
             if (!Directory.Exists(Runtime.BotwGamePath))
             {

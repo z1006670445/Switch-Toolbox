@@ -195,14 +195,14 @@
             this.saveWorkspaceToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.Text = "文件";
             this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.openToolStripMenuItem.Text = "Open";
+            this.openToolStripMenuItem.Text = "打开";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // clearWorkspaceToolStripMenuItem
@@ -241,20 +241,20 @@
             this.panesToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.editToolStripMenuItem.Text = "Edit";
+            this.editToolStripMenuItem.Text = "编辑";
             // 
             // undoToolStripMenuItem
             // 
             this.undoToolStripMenuItem.Name = "undoToolStripMenuItem";
             this.undoToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.undoToolStripMenuItem.Text = "Undo";
+            this.undoToolStripMenuItem.Text = "撤销";
             this.undoToolStripMenuItem.Click += new System.EventHandler(this.undoToolStripMenuItem_Click);
             // 
             // redoToolStripMenuItem
             // 
             this.redoToolStripMenuItem.Name = "redoToolStripMenuItem";
             this.redoToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.redoToolStripMenuItem.Text = "Redo";
+            this.redoToolStripMenuItem.Text = "重做";
             this.redoToolStripMenuItem.Click += new System.EventHandler(this.redoToolStripMenuItem_Click);
             // 
             // panesToolStripMenuItem
@@ -263,7 +263,7 @@
             this.transformChildrenToolStripMenuItem});
             this.panesToolStripMenuItem.Name = "panesToolStripMenuItem";
             this.panesToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.panesToolStripMenuItem.Text = "Panes";
+            this.panesToolStripMenuItem.Text = "窗格";
             // 
             // transformChildrenToolStripMenuItem
             // 
@@ -289,7 +289,7 @@
             this.displayTextPanesToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.viewToolStripMenuItem.Text = "View";
+            this.viewToolStripMenuItem.Text = "视图";
             // 
             // renderInGamePreviewToolStripMenuItem
             // 
@@ -395,13 +395,13 @@
             this.resetToolStripMenuItem});
             this.animationToolStripMenuItem.Name = "animationToolStripMenuItem";
             this.animationToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
-            this.animationToolStripMenuItem.Text = "Animation";
+            this.animationToolStripMenuItem.Text = "动画";
             // 
             // resetToolStripMenuItem
             // 
             this.resetToolStripMenuItem.Name = "resetToolStripMenuItem";
             this.resetToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
-            this.resetToolStripMenuItem.Text = "Reset";
+            this.resetToolStripMenuItem.Text = "重置";
             this.resetToolStripMenuItem.Click += new System.EventHandler(this.resetToolStripMenuItem_Click);
             // 
             // windowToolStripMenuItem
@@ -411,7 +411,7 @@
             this.showAnimationWindowToolStripMenuItem});
             this.windowToolStripMenuItem.Name = "windowToolStripMenuItem";
             this.windowToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
-            this.windowToolStripMenuItem.Text = "Window";
+            this.windowToolStripMenuItem.Text = "窗口";
             // 
             // showGameWindowToolStripMenuItem
             // 

@@ -88,7 +88,7 @@ namespace FirstPlugin
             var userData = new TreeNode("用户数据");
         //    Nodes.Add(userData);
 
-            var hashes = new TreeNode("Hashes");
+            var hashes = new TreeNode("哈希");
             userData.Nodes.Add(hashes);
 
             foreach (var hash in header.UserDataTable.CRC32Hashes)

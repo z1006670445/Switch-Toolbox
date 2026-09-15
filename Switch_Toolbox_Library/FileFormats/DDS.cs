@@ -86,7 +86,7 @@ namespace Toolbox.Library
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Save", null, SaveAction, Keys.Control | Keys.S));
+            Items.Add(new ToolStripMenuItem("保存", null, SaveAction, Keys.Control | Keys.S));
             Items.AddRange(base.GetContextMenuItems());
             return Items.ToArray();
         }

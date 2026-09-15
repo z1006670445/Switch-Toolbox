@@ -71,7 +71,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Name";
+            this.label1.Text = "名称";
             // 
             // label2
             // 
@@ -80,7 +80,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Value";
+            this.label2.Text = "值";
             // 
             // button1
             // 
@@ -90,7 +90,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(51, 23);
             this.button1.TabIndex = 4;
-            this.button1.Text = "Ok";
+            this.button1.Text = "确定";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // ShaderOptionsEditBox

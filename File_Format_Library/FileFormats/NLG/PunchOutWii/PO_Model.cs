@@ -78,7 +78,7 @@ namespace FirstPlugin.PunchOutWii
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Export", null, ExportModelAction, Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("导出", null, ExportModelAction, Keys.Control | Keys.E));
             return Items.ToArray();
         }
 

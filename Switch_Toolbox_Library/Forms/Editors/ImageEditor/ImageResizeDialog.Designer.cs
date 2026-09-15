@@ -92,7 +92,7 @@
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(75, 23);
             this.btnOk.TabIndex = 12;
-            this.btnOk.Text = "Ok";
+            this.btnOk.Text = "确定";
             this.btnOk.UseVisualStyleBackColor = false;
             // 
             // btnCancel
@@ -103,7 +103,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 13;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "取消";
             this.btnCancel.UseVisualStyleBackColor = false;
             // 
             // widthUD
@@ -153,7 +153,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(65, 13);
             this.stLabel1.TabIndex = 17;
-            this.stLabel1.Text = "Resampling:";
+            this.stLabel1.Text = "重采样：";
             // 
             // stLabel2
             // 
@@ -163,7 +163,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(38, 13);
             this.stLabel2.TabIndex = 18;
-            this.stLabel2.Text = "Width:";
+            this.stLabel2.Text = "宽度：";
             // 
             // stLabel3
             // 
@@ -173,7 +173,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(41, 13);
             this.stLabel3.TabIndex = 19;
-            this.stLabel3.Text = "Height:";
+            this.stLabel3.Text = "高度：";
             // 
             // heightUD
             // 
@@ -195,7 +195,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(735, 461);
             this.Name = "ImageResizeDialog";
-            this.Text = "ImageResizeDialog";
+            this.Text = "图像缩放";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCustom1)).EndInit();

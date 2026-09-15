@@ -161,7 +161,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 20;
-            this.stButton1.Text = "Ok";
+            this.stButton1.Text = "确定";
             this.stButton1.UseVisualStyleBackColor = false;
             // 
             // scaleCompChk
@@ -180,7 +180,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(415, 264);
             this.Name = "BatchEditBaseAnimDataForm";
-            this.Text = "BatchEditBaseAnimDataForm";
+            this.Text = "批量编辑基础动画数据";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.scaleXUD)).EndInit();

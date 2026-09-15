@@ -39,19 +39,19 @@ namespace Bfres.Structs
             FileHandler = handler;
 
             ContextMenu = new ContextMenu();
-            MenuItem save = new MenuItem("Save");
+            MenuItem save = new MenuItem("保存");
             ContextMenu.MenuItems.Add(save);
             save.Click += Save;
 
-            MenuItem newMenu = new MenuItem("New");
-            MenuItem import = new MenuItem("Import");
+            MenuItem newMenu = new MenuItem("新建");
+            MenuItem import = new MenuItem("导入");
      //       ContextMenu.MenuItems.Add(newMenu);
      //       ContextMenu.MenuItems.Add(import);
 
-            MenuItem rename = new MenuItem("Rename");
+            MenuItem rename = new MenuItem("重命名");
             ContextMenu.MenuItems.Add(rename);
             rename.Click += Rename;
-            MenuItem remove = new MenuItem("Remove");
+            MenuItem remove = new MenuItem("移除");
             ContextMenu.MenuItems.Add(remove);
             remove.Click += Remove;
 
@@ -64,12 +64,12 @@ namespace Bfres.Structs
             }
             else
             {
-                MenuItem model = new MenuItem("Model");
-                MenuItem fska = new MenuItem("Skeletal Animation");
+                MenuItem model = new MenuItem("模型");
+                MenuItem fska = new MenuItem("骨骼动画");
                 MenuItem fmaa = new MenuItem("Material Animation");
                 MenuItem bonevis = new MenuItem("Bone Visual Animation");
-                MenuItem shape = new MenuItem("Shape Animation");
-                MenuItem scene = new MenuItem("Scene Animation");
+                MenuItem shape = new MenuItem("形状动画");
+                MenuItem scene = new MenuItem("场景动画");
                 MenuItem embedded = new MenuItem("Embedded File");
                 MenuItem texture = new MenuItem("Texture File");
                 texture.Click += NewTextureFile;
@@ -82,12 +82,12 @@ namespace Bfres.Structs
                 newMenu.MenuItems.Add(embedded);
                 newMenu.MenuItems.Add(texture);
 
-                MenuItem importmodel = new MenuItem("Model");
-                MenuItem importfska = new MenuItem("Skeletal Animation");
+                MenuItem importmodel = new MenuItem("模型");
+                MenuItem importfska = new MenuItem("骨骼动画");
                 MenuItem importfmaa = new MenuItem("Material Animation");
                 MenuItem importbonevis = new MenuItem("Bone Visual Animation");
-                MenuItem importshape = new MenuItem("Shape Animation");
-                MenuItem importscene = new MenuItem("Scene Animation");
+                MenuItem importshape = new MenuItem("形状动画");
+                MenuItem importscene = new MenuItem("场景动画");
                 MenuItem importembedded = new MenuItem("Embedded File");
                 MenuItem importtexture = new MenuItem("Texture File");
                 import.MenuItems.Add(importmodel);
@@ -459,10 +459,10 @@ namespace Bfres.Structs
             Data = data;
 
             ContextMenu = new ContextMenu();
-            MenuItem export = new MenuItem("Export");
+            MenuItem export = new MenuItem("导出");
             ContextMenu.MenuItems.Add(export);
             export.Click += Export;
-            MenuItem replace = new MenuItem("Replace");
+            MenuItem replace = new MenuItem("替换");
             ContextMenu.MenuItems.Add(replace);
             replace.Click += Import;
         }
@@ -503,10 +503,10 @@ namespace Bfres.Structs
             Data = data;
 
             ContextMenu = new ContextMenu();
-            MenuItem export = new MenuItem("Export");
+            MenuItem export = new MenuItem("导出");
             ContextMenu.MenuItems.Add(export);
             export.Click += Export;
-            MenuItem replace = new MenuItem("Replace");
+            MenuItem replace = new MenuItem("替换");
             ContextMenu.MenuItems.Add(replace);
             replace.Click += Import;
         }
@@ -561,10 +561,10 @@ namespace Bfres.Structs
             SelectedImageKey = "skeletonAnimation";
 
             ContextMenu = new ContextMenu();
-            MenuItem export = new MenuItem("Export");
+            MenuItem export = new MenuItem("导出");
             ContextMenu.MenuItems.Add(export);
             export.Click += Export;
-            MenuItem replace = new MenuItem("Replace");
+            MenuItem replace = new MenuItem("替换");
             ContextMenu.MenuItems.Add(replace);
             replace.Click += Replace;
         }
@@ -576,10 +576,10 @@ namespace Bfres.Structs
             SelectedImageKey = "skeletonAnimation";
 
             ContextMenu = new ContextMenu();
-            MenuItem export = new MenuItem("Export");
+            MenuItem export = new MenuItem("导出");
             ContextMenu.MenuItems.Add(export);
             export.Click += Export;
-            MenuItem replace = new MenuItem("Replace");
+            MenuItem replace = new MenuItem("替换");
             ContextMenu.MenuItems.Add(replace);
             replace.Click += Replace;
         }
@@ -848,10 +848,10 @@ namespace Bfres.Structs
             MenuItem import = new MenuItem("Add Object");
             ContextMenu.MenuItems.Add(import);
             import.Click += Import;
-            MenuItem exportAll = new MenuItem("Export All Objects");
+            MenuItem exportAll = new MenuItem("导出所有对象");
             ContextMenu.MenuItems.Add(exportAll);
             exportAll.Click += ExportAll;
-            MenuItem clear = new MenuItem("Clear All Objects");
+            MenuItem clear = new MenuItem("清空所有对象");
             ContextMenu.MenuItems.Add(clear);
             clear.Click += Clear;
         }
@@ -940,10 +940,10 @@ namespace Bfres.Structs
 
 
                 ContextMenu = new ContextMenu();
-                MenuItem export = new MenuItem("Export");
+                MenuItem export = new MenuItem("导出");
                 ContextMenu.MenuItems.Add(export);
                 export.Click += Export;
-                MenuItem replace = new MenuItem("Replace");
+                MenuItem replace = new MenuItem("替换");
                 ContextMenu.MenuItems.Add(replace);
                 replace.Click += Replace;
             }
@@ -1013,10 +1013,10 @@ namespace Bfres.Structs
 
 
             ContextMenu = new ContextMenu();
-            MenuItem export = new MenuItem("Export");
+            MenuItem export = new MenuItem("导出");
             ContextMenu.MenuItems.Add(export);
             export.Click += Export;
-            MenuItem replace = new MenuItem("Replace");
+            MenuItem replace = new MenuItem("替换");
             ContextMenu.MenuItems.Add(replace);
             replace.Click += Replace;
         }
@@ -1072,25 +1072,25 @@ namespace Bfres.Structs
             Nodes.Add(new FMATFolder());
 
             ContextMenu = new ContextMenu();
-            MenuItem export = new MenuItem("Export Model");
+            MenuItem export = new MenuItem("导出模型");
             ContextMenu.MenuItems.Add(export);
             export.Click += Export;
-            MenuItem replace = new MenuItem("Replace Model");
+            MenuItem replace = new MenuItem("替换模型");
             ContextMenu.MenuItems.Add(replace);
             replace.Click += Replace;
-            MenuItem calcTansBitans = new MenuItem("Calculate Tangents/Bitangents");
+            MenuItem calcTansBitans = new MenuItem("计算切线/副切线");
             ContextMenu.MenuItems.Add(calcTansBitans);
             calcTansBitans.Click += CalcTansBitansAllShapes;
-            MenuItem normals = new MenuItem("Normals");
+            MenuItem normals = new MenuItem("法线");
             ContextMenu.MenuItems.Add(normals);
-            MenuItem smoothNormals = new MenuItem("Smooth");
+            MenuItem smoothNormals = new MenuItem("平滑");
             normals.MenuItems.Add(smoothNormals);
             smoothNormals.Click += SmoothNormals;
-            MenuItem recalculateNormals = new MenuItem("Recalculate");
+            MenuItem recalculateNormals = new MenuItem("重新计算");
             normals.MenuItems.Add(recalculateNormals);
             recalculateNormals.Click += RecalculateNormals;
 
-            MenuItem rename = new MenuItem("Rename");
+            MenuItem rename = new MenuItem("重命名");
             ContextMenu.MenuItems.Add(rename);
             rename.Click += Rename;
         }
@@ -1669,16 +1669,16 @@ namespace Bfres.Structs
             SelectedImageKey = "material";
 
             ContextMenu = new ContextMenu();
-            MenuItem export = new MenuItem("Export");
+            MenuItem export = new MenuItem("导出");
             ContextMenu.MenuItems.Add(export);
             export.Click += Export;
-            MenuItem replace = new MenuItem("Replace");
+            MenuItem replace = new MenuItem("替换");
             ContextMenu.MenuItems.Add(replace);
             replace.Click += Replace;
-            MenuItem copy = new MenuItem("Copy");
+            MenuItem copy = new MenuItem("复制");
             ContextMenu.MenuItems.Add(copy);
             copy.Click += Copy;
-            MenuItem rename = new MenuItem("Rename");
+            MenuItem rename = new MenuItem("重命名");
             ContextMenu.MenuItems.Add(rename);
             rename.Click += Rename;
         }
@@ -2049,7 +2049,7 @@ namespace Bfres.Structs
             MenuItem remove = new MenuItem("Delete Mesh");
             ContextMenu.MenuItems.Add(remove);
             remove.Click += Remove;
-            MenuItem calcTansBitans = new MenuItem("Recalulate Tangents/Bitangents");
+            MenuItem calcTansBitans = new MenuItem("重新计算切线/副切线");
             ContextMenu.MenuItems.Add(calcTansBitans);
             calcTansBitans.Click += CalcTansBitans;
             MenuItem flipUVsY = new MenuItem("Flip UVs (Vertical)");
@@ -2058,20 +2058,20 @@ namespace Bfres.Structs
             MenuItem flipUVsX = new MenuItem("Flip UVs (Horizontal)");
             ContextMenu.MenuItems.Add(flipUVsX);
             flipUVsX.Click += FlipUvsHorizontal;
-            MenuItem normals = new MenuItem("Normals");
+            MenuItem normals = new MenuItem("法线");
             ContextMenu.MenuItems.Add(normals);
-            MenuItem smoothNormals = new MenuItem("Smooth");
+            MenuItem smoothNormals = new MenuItem("平滑");
             normals.MenuItems.Add(smoothNormals);
             smoothNormals.Click += SmoothNormals;
-            MenuItem recalculateNormals = new MenuItem("Recalculate");
+            MenuItem recalculateNormals = new MenuItem("重新计算");
             normals.MenuItems.Add(recalculateNormals);
             recalculateNormals.Click += RecalculateNormals;
 
-            MenuItem matEditor = new MenuItem("Open Material Editor");
+            MenuItem matEditor = new MenuItem("打开材质编辑器");
             ContextMenu.MenuItems.Add(matEditor);
             matEditor.Click += OpenMaterialEditor;
 
-            MenuItem rename = new MenuItem("Rename");
+            MenuItem rename = new MenuItem("重命名");
             ContextMenu.MenuItems.Add(rename);
             rename.Click += Rename;
         }

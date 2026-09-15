@@ -190,7 +190,7 @@ namespace FirstPlugin.Forms
             public MapCameraWrapper()
             {
                 ContextMenuStrip = new STContextMenuStrip();
-                ContextMenuStrip.Items.Add(new STToolStipMenuItem("Save", null, Save, Keys.Control | Keys.S));
+                ContextMenuStrip.Items.Add(new STToolStipMenuItem("保存", null, Save, Keys.Control | Keys.S));
             }
 
             private void Save(object sender, EventArgs args)

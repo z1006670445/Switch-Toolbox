@@ -358,7 +358,7 @@
             this.stLabel9.Name = "stLabel9";
             this.stLabel9.Size = new System.Drawing.Size(49, 13);
             this.stLabel9.TabIndex = 61;
-            this.stLabel9.Text = "Spacing:";
+            this.stLabel9.Text = "间距：";
             // 
             // spacingXTB
             // 
@@ -410,7 +410,7 @@
             this.stLabel7.Name = "stLabel7";
             this.stLabel7.Size = new System.Drawing.Size(31, 13);
             this.stLabel7.TabIndex = 60;
-            this.stLabel7.Text = "Color";
+            this.stLabel7.Text = "颜色";
             this.stLabel7.Click += new System.EventHandler(this.stLabel7_Click);
             // 
             // fontFileCB
@@ -498,7 +498,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(37, 13);
             this.stLabel2.TabIndex = 4;
-            this.stLabel2.Text = "Scale:";
+            this.stLabel2.Text = "缩放：";
             // 
             // scaleXUD
             // 
@@ -638,7 +638,7 @@
             this.stLabel8.Name = "stLabel8";
             this.stLabel8.Size = new System.Drawing.Size(31, 13);
             this.stLabel8.TabIndex = 61;
-            this.stLabel8.Text = "Color";
+            this.stLabel8.Text = "颜色";
             // 
             // sliderShadowItalicTilt
             // 
@@ -655,7 +655,7 @@
             this.chkEnableShadows.Name = "chkEnableShadows";
             this.chkEnableShadows.Size = new System.Drawing.Size(62, 17);
             this.chkEnableShadows.TabIndex = 60;
-            this.chkEnableShadows.Text = "Enable:";
+            this.chkEnableShadows.Text = "启用：";
             this.chkEnableShadows.UseVisualStyleBackColor = true;
             // 
             // shadowItalicTiltUD
@@ -759,7 +759,7 @@
             this.stLabel12.Name = "stLabel12";
             this.stLabel12.Size = new System.Drawing.Size(38, 13);
             this.stLabel12.TabIndex = 57;
-            this.stLabel12.Text = "Offset:";
+            this.stLabel12.Text = "偏移：";
             // 
             // shadowOffseXUD
             // 
@@ -853,7 +853,7 @@
             this.stLabel11.Name = "stLabel11";
             this.stLabel11.Size = new System.Drawing.Size(37, 13);
             this.stLabel11.TabIndex = 54;
-            this.stLabel11.Text = "Scale:";
+            this.stLabel11.Text = "缩放：";
             // 
             // shadowScaleXUD
             // 

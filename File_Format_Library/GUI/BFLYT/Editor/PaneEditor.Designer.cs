@@ -46,7 +46,7 @@
             // 
             // miniToolStrip
             // 
-            this.miniToolStrip.AccessibleName = "New item selection";
+            this.miniToolStrip.AccessibleName = "新项目选择";
             this.miniToolStrip.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonDropDown;
             this.miniToolStrip.AutoSize = false;
             this.miniToolStrip.CanOverflow = false;

@@ -540,7 +540,7 @@ namespace FirstPlugin
             Items.Add(new STToolStipMenuItem("Use Size Restrictions", null, UseSizeRestrictionsAction, Keys.Control | Keys.U)
             { Checked = Runtime.NUTEXBSettings.LimitFileSize, CheckOnClick = true });
 
-            Items.Add(new STToolStipMenuItem("Save", null, SaveAction, Keys.Control | Keys.T));
+            Items.Add(new STToolStipMenuItem("保存", null, SaveAction, Keys.Control | Keys.T));
 
             Items.Add(new STToolStipMenuItem("Force padding for smaller file sizes", null, PaddingToggle, Keys.Control | Keys.P)
             { Checked = Runtime.NUTEXBSettings.PadFileSize, CheckOnClick = true });

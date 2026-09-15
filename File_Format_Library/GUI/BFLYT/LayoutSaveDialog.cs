@@ -15,8 +15,8 @@ namespace LayoutBXLYT
     public partial class LayoutSaveDialog : STForm
     {
         private TreeNode AnimationFolder = new TreeNode("Animations");
-        private TreeNode LayoutFolder = new TreeNode("Layouts");
-        private TreeNode ShaderFolder = new TreeNode("Shaders");
+        private TreeNode LayoutFolder = new TreeNode("布局");
+        private TreeNode ShaderFolder = new TreeNode("着色器");
         private TreeNode TexturesFolder = new TreeNode("Textures");
 
         public LayoutSaveDialog()

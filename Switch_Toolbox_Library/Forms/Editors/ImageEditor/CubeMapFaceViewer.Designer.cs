@@ -234,7 +234,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(46, 13);
             this.stLabel1.TabIndex = 24;
-            this.stLabel1.Text = "Gamma:";
+            this.stLabel1.Text = "伽马：";
             // 
             // CubeMapFaceViewer
             // 

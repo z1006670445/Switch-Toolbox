@@ -81,7 +81,7 @@
             this.OkButton.Name = "OkButton";
             this.OkButton.Size = new System.Drawing.Size(63, 23);
             this.OkButton.TabIndex = 2;
-            this.OkButton.Text = "Ok";
+            this.OkButton.Text = "确定";
             this.OkButton.UseVisualStyleBackColor = true;
             this.OkButton.Click += new System.EventHandler(this.OkButton_Click);
             // 
@@ -93,7 +93,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(63, 23);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Cancel";
+            this.button1.Text = "取消";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // comboBox1
@@ -134,7 +134,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Name = "BatchFormatExport";
-            this.Text = "TextureFormatExport";
+            this.Text = "贴图格式导出";
             this.ResumeLayout(false);
             this.PerformLayout();
 

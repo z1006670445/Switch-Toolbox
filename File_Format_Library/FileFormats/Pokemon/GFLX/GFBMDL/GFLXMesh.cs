@@ -39,8 +39,8 @@ namespace FirstPlugin
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            var uvMenu = new ToolStripMenuItem("UVs");
-            var normalsMenu = new ToolStripMenuItem("Normals");
+            var uvMenu = new ToolStripMenuItem("UV");
+            var normalsMenu = new ToolStripMenuItem("法线");
             Items.Add(uvMenu);
             Items.Add(normalsMenu);
 
@@ -50,8 +50,8 @@ namespace FirstPlugin
             var colorMenu = new ToolStripMenuItem("顶点色");
             colorMenu.DropDownItems.Add(new ToolStripMenuItem("设置颜色", null, SetVertexColorDialog, Keys.Control | Keys.C));
             colorMenu.DropDownItems.Add(new ToolStripMenuItem("转换法线", null, SetVertexColorNormals, Keys.Control | Keys.N));
-            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Recalculate", null, RecalculateNormals, Keys.Control | Keys.R));
-            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("Smooth", null, SmoothNormals, Keys.Control | Keys.S));
+            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("重新计算", null, RecalculateNormals, Keys.Control | Keys.R));
+            normalsMenu.DropDownItems.Add(new ToolStripMenuItem("平滑", null, SmoothNormals, Keys.Control | Keys.S));
 
             
             Items.Add(colorMenu);

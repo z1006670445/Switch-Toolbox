@@ -72,7 +72,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(41, 13);
             this.stLabel1.TabIndex = 1;
-            this.stLabel1.Text = "Source";
+            this.stLabel1.Text = "源";
             // 
             // stLabel2
             // 
@@ -103,7 +103,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 4;
-            this.stButton1.Text = "Cancel";
+            this.stButton1.Text = "取消";
             this.stButton1.UseVisualStyleBackColor = false;
             // 
             // stButton2
@@ -114,7 +114,7 @@
             this.stButton2.Name = "stButton2";
             this.stButton2.Size = new System.Drawing.Size(75, 23);
             this.stButton2.TabIndex = 5;
-            this.stButton2.Text = "Ok";
+            this.stButton2.Text = "确定";
             this.stButton2.UseVisualStyleBackColor = false;
             // 
             // CopyUVChannelDialog

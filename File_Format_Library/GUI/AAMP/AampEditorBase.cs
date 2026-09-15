@@ -41,7 +41,7 @@ namespace FirstPlugin.Forms
             Text = $"{AampFile.FileName} Type [{AampFile.aampFile.EffectType}]";
 
             STContextMenuStrip contextMenuStrip1 = new STContextMenuStrip();
-            contextMenuStrip1.Items.Add(new ToolStripMenuItem("Save", null, saveAsToolStripMenuItem_Click, Keys.Control | Keys.I));
+            contextMenuStrip1.Items.Add(new ToolStripMenuItem("保存", null, saveAsToolStripMenuItem_Click, Keys.Control | Keys.I));
             contextMenuStrip1.Items.Add(new ToolStripSeparator());
             contextMenuStrip1.Items.Add(new ToolStripMenuItem("导出为 Yaml", null, ToYamlAction, Keys.Control | Keys.A));
             contextMenuStrip1.Items.Add(new ToolStripMenuItem("以 Yaml 打开", null, OpenYamlEditorAction, Keys.Control | Keys.A));

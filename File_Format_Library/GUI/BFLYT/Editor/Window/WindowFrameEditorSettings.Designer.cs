@@ -47,7 +47,7 @@
             this.typeCB.IsReadOnly = false;
             this.typeCB.Items.AddRange(new object[] {
             "所有方向",
-            "Horizontal",
+            "水平",
             "水平（无内容）"});
             this.typeCB.Location = new System.Drawing.Point(122, 37);
             this.typeCB.Name = "typeCB";
@@ -97,7 +97,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(34, 13);
             this.stLabel3.TabIndex = 5;
-            this.stLabel3.Text = "Type:";
+            this.stLabel3.Text = "类型：";
             // 
             // stLabel4
             // 
@@ -106,7 +106,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(44, 13);
             this.stLabel4.TabIndex = 6;
-            this.stLabel4.Text = "Frames:";
+            this.stLabel4.Text = "帧：";
             // 
             // chkRenderContent
             // 

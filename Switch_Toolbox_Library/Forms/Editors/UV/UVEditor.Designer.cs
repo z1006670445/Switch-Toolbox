@@ -136,7 +136,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(51, 13);
             this.stLabel4.TabIndex = 5;
-            this.stLabel4.Text = "Translate";
+            this.stLabel4.Text = "平移";
             // 
             // stLabel3
             // 
@@ -145,7 +145,7 @@
             this.stLabel3.Name = "stLabel3";
             this.stLabel3.Size = new System.Drawing.Size(34, 13);
             this.stLabel3.TabIndex = 4;
-            this.stLabel3.Text = "Scale";
+            this.stLabel3.Text = "缩放";
             // 
             // scaleXUD
             // 
@@ -257,7 +257,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(56, 13);
             this.stLabel2.TabIndex = 2;
-            this.stLabel2.Text = "Brightness";
+            this.stLabel2.Text = "亮度";
             // 
             // textureCB
             // 

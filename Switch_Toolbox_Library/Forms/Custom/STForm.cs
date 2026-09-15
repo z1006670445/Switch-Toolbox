@@ -147,7 +147,7 @@ namespace Toolbox.Library.Forms
             this.LblTitle.Name = "LblTitle";
             this.LblTitle.Size = new System.Drawing.Size(33, 17);
             this.LblTitle.TabIndex = 5;
-            this.LblTitle.Text = "Title";
+            this.LblTitle.Text = "标题";
             this.LblTitle.DoubleClick += new System.EventHandler(this.LblTitle_DoubleClick);
             this.LblTitle.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TitleBar_MouseDown);
             // 

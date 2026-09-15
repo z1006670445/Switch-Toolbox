@@ -200,8 +200,8 @@ namespace LayoutBXLYT
             if (e.Button == MouseButtons.Right)
             {
                 STContextMenuStrip menu = new STContextMenuStrip();
-                menu.Items.Add(new STToolStipMenuItem("Export", null, ActionExportTexture));
-                menu.Items.Add(new STToolStipMenuItem("Replace", null, ActionReplaceTexture));
+                menu.Items.Add(new STToolStipMenuItem("导出", null, ActionExportTexture));
+                menu.Items.Add(new STToolStipMenuItem("替换", null, ActionReplaceTexture));
 
                 menu.Show(Cursor.Position);
             }

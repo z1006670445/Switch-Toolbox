@@ -57,7 +57,7 @@ namespace FirstPlugin.LuigisMansion3
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new STToolStipMenuItem("Save", null, SaveAction, Keys.Control | Keys.S));
+            Items.Add(new STToolStipMenuItem("保存", null, SaveAction, Keys.Control | Keys.S));
             return Items.ToArray();
         }
 
@@ -99,7 +99,7 @@ namespace FirstPlugin.LuigisMansion3
         STTextureFolder textureFolder = new STTextureFolder("Textures");
         LM3_ModelFolder modelFolder;
         TreeNode materialNamesFolder = new TreeNode("材质名称");
-        TreeNode chunkFolder = new TreeNode("Chunks");
+        TreeNode chunkFolder = new TreeNode("数据块");
 
         public List<string> StringList = new List<string>();
         
@@ -156,9 +156,9 @@ namespace FirstPlugin.LuigisMansion3
 
                 Nodes.Add(tableNodes);
 
-                TreeNode stringFolder = new TreeNode("Strings");
-                TreeNode chunkTexFolder = new TreeNode("Texture");
-                TreeNode chunkModelFolder = new TreeNode("Model");
+                TreeNode stringFolder = new TreeNode("字符串");
+                TreeNode chunkTexFolder = new TreeNode("贴图");
+                TreeNode chunkModelFolder = new TreeNode("模型");
 
                 long FileTablePos = reader.Position;
                 for (int i = 0; i < numFiles; i++)

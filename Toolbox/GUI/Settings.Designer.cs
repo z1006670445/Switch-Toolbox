@@ -681,7 +681,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 16);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Camera";
+            this.label3.Text = "相机";
             //
             // camMoveComboBox
             //
@@ -803,7 +803,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(139, 33);
             this.btnSave.TabIndex = 6;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "保存";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             //
@@ -916,7 +916,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage1.Size = new System.Drawing.Size(724, 489);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Main";
+            this.tabPage1.Text = "主";
             this.tabPage1.UseVisualStyleBackColor = true;
             //
             // tabPage2
@@ -943,7 +943,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage2.Size = new System.Drawing.Size(724, 489);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Editor";
+            this.tabPage2.Text = "编辑器";
             this.tabPage2.UseVisualStyleBackColor = true;
             //
             // chkAlwaysSaveAll
@@ -1165,7 +1165,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage3.Size = new System.Drawing.Size(724, 489);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Paths";
+            this.tabPage3.Text = "路径";
             this.tabPage3.UseVisualStyleBackColor = true;
             //
             // stLabel19
@@ -1489,7 +1489,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximumSize = new System.Drawing.Size(2560, 1280);
             this.Name = "Settings";
-            this.Text = "Settings";
+            this.Text = "设置";
             this.Load += new System.EventHandler(this.Settings_Load);
             this.Controls.SetChildIndex(this.contentContainer, 0);
             this.contentContainer.ResumeLayout(false);

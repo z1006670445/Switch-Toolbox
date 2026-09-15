@@ -87,7 +87,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 14;
-            this.stButton1.Text = "Ok";
+            this.stButton1.Text = "确定";
             this.stButton1.UseVisualStyleBackColor = false;
             // 
             // stPanel1

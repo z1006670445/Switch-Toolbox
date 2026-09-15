@@ -99,13 +99,13 @@ namespace FirstPlugin
                 toolsExt[0].DropDownItems.Add(new STToolStripItem(" Kingdom Selector", OpenKingdomSelector));
                 toolsExt[0].DropDownItems.Add(new STToolStripItem(" Costume Selector", OpenSelector));
 
-                toolsExt[1] = new STToolStripItem("Mario Kart 8");
+                toolsExt[1] = new STToolStripItem("马力欧卡丁车8");
                 toolsExt[1].DropDownItems.Add(new STToolStripItem("Probe Light Converter", GenerateProbeLightBounds));
 
-                toolsExt[2] = new STToolStripItem("Breath Of The Wild");
+                toolsExt[2] = new STToolStripItem("塞尔达传说 旷野之息");
                 toolsExt[2].DropDownItems.Add(new STToolStripItem("Actor Editor", ActorEditor));
 
-                toolsExt[1] = new STToolStripItem("Pokemon Sword/Shield");
+                toolsExt[1] = new STToolStripItem("宝可梦 剑/盾");
                 toolsExt[1].DropDownItems.Add(new STToolStripItem("Pokemon Loader", PokemonLoaderSwSh));
             }
 

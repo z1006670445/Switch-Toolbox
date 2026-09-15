@@ -112,7 +112,7 @@ namespace FirstPlugin
 
             TextureList = ModelData.Textures;
 
-            TreeNode meshFolder = new TreeNode("Meshes");
+            TreeNode meshFolder = new TreeNode("网格");
             Nodes.Add(meshFolder);
 
             TreeNode texFolder = new STTextureFolder("Textures");

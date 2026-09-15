@@ -241,7 +241,7 @@
             this.openToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 22);
-            this.fileToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.Text = "文件";
             // 
             // openToolStripMenuItem
             // 
@@ -257,13 +257,13 @@
             this.dockSearchListToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 22);
-            this.viewToolStripMenuItem.Text = "View";
+            this.viewToolStripMenuItem.Text = "视图";
             // 
             // sortToolStripMenuItem
             // 
             this.sortToolStripMenuItem.Name = "sortToolStripMenuItem";
             this.sortToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.sortToolStripMenuItem.Text = "Sort";
+            this.sortToolStripMenuItem.Text = "排序";
             this.sortToolStripMenuItem.Click += new System.EventHandler(this.sortToolStripMenuItem_Click);
             // 
             // dockSearchListToolStripMenuItem

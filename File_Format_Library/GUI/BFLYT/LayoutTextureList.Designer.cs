@@ -125,25 +125,25 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Name";
+            this.columnHeader1.Text = "名称";
             this.columnHeader1.Width = 118;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Format";
+            this.columnHeader2.Text = "格式";
             this.columnHeader2.Width = 101;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Width";
+            this.columnHeader3.Text = "宽度";
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Hieght";
+            this.columnHeader4.Text = "高度";
             // 
             // columnHeader5
             // 
-            this.columnHeader5.Text = "Size";
+            this.columnHeader5.Text = "尺寸";
             this.columnHeader5.Width = 194;
             // 
             // LayoutTextureList

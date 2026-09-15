@@ -122,7 +122,7 @@
             this.Controls.Add(this.checkBox1);
             this.ForeColor = System.Drawing.Color.White;
             this.Name = "Startup_Window";
-            this.Text = "Startup";
+            this.Text = "启动";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -58,7 +58,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 0;
-            this.stButton1.Text = "Ok";
+            this.stButton1.Text = "确定";
             this.stButton1.UseVisualStyleBackColor = false;
             // 
             // STConsoleForm
@@ -67,7 +67,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 398);
             this.Name = "STConsoleForm";
-            this.Text = "STConsoleForm";
+            this.Text = "控制台";
             this.contentContainer.ResumeLayout(false);
             this.ResumeLayout(false);
 

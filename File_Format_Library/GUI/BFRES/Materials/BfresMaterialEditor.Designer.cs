@@ -67,17 +67,17 @@
             // 
             // columnHeader7
             // 
-            this.columnHeader7.Text = "Name";
+            this.columnHeader7.Text = "名称";
             this.columnHeader7.Width = 267;
             // 
             // columnHeader8
             // 
-            this.columnHeader8.Text = "Value";
+            this.columnHeader8.Text = "值";
             this.columnHeader8.Width = 169;
             // 
             // columnHeader9
             // 
-            this.columnHeader9.Text = "Format";
+            this.columnHeader9.Text = "格式";
             this.columnHeader9.Width = 44;
             // 
             // chkboxVisible
@@ -89,7 +89,7 @@
             this.chkboxVisible.Name = "chkboxVisible";
             this.chkboxVisible.Size = new System.Drawing.Size(56, 17);
             this.chkboxVisible.TabIndex = 43;
-            this.chkboxVisible.Text = "Visible";
+            this.chkboxVisible.Text = "可见";
             this.chkboxVisible.UseVisualStyleBackColor = true;
             this.chkboxVisible.CheckedChanged += new System.EventHandler(this.chkboxVisible_CheckedChanged);
             // 
@@ -155,7 +155,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(530, 510);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Parameters";
+            this.tabPage3.Text = "参数";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // shaderParamEditor1
@@ -248,7 +248,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 38;
-            this.label1.Text = "Name";
+            this.label1.Text = "名称";
             // 
             // textBoxMaterialName
             // 
@@ -333,7 +333,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(42, 13);
             this.stLabel4.TabIndex = 50;
-            this.stLabel4.Text = "Presets";
+            this.stLabel4.Text = "预设";
             // 
             // FMATEditor
             // 

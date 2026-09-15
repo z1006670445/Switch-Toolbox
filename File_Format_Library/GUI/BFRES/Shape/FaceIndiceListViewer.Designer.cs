@@ -55,7 +55,7 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Faces";
+            this.columnHeader1.Text = "面";
             this.columnHeader1.Width = 236;
             // 
             // FaceIndiceListViewer
@@ -64,7 +64,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(269, 398);
             this.Name = "FaceIndiceListViewer";
-            this.Text = "FaceIndiceListViewer";
+            this.Text = "面索引查看器";
             this.contentContainer.ResumeLayout(false);
             this.ResumeLayout(false);
 

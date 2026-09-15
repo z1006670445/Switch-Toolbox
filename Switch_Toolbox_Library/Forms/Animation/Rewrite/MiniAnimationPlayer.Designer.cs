@@ -67,7 +67,7 @@
             this.loopChkBox.Name = "loopChkBox";
             this.loopChkBox.Size = new System.Drawing.Size(50, 17);
             this.loopChkBox.TabIndex = 17;
-            this.loopChkBox.Text = "Loop";
+            this.loopChkBox.Text = "循环";
             this.loopChkBox.UseVisualStyleBackColor = true;
             // 
             // animationTrackBar

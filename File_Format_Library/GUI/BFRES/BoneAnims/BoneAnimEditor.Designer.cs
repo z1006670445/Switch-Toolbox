@@ -159,7 +159,7 @@
             // olvColumn1
             // 
             this.olvColumn1.AspectName = "Frame";
-            this.olvColumn1.Text = "Frame";
+            this.olvColumn1.Text = "帧";
             // 
             // olvColumn2
             // 
@@ -310,7 +310,7 @@
             this.stLabel8.Name = "stLabel8";
             this.stLabel8.Size = new System.Drawing.Size(39, 13);
             this.stLabel8.TabIndex = 20;
-            this.stLabel8.Text = "Frame:";
+            this.stLabel8.Text = "帧：";
             // 
             // numericUpDownFloat11
             // 
@@ -420,7 +420,7 @@
             this.stLabel6.Name = "stLabel6";
             this.stLabel6.Size = new System.Drawing.Size(37, 13);
             this.stLabel6.TabIndex = 7;
-            this.stLabel6.Text = "Scale:";
+            this.stLabel6.Text = "缩放：";
             // 
             // numericUpDownFloat7
             // 
@@ -452,7 +452,7 @@
             this.stLabel5.Name = "stLabel5";
             this.stLabel5.Size = new System.Drawing.Size(50, 13);
             this.stLabel5.TabIndex = 6;
-            this.stLabel5.Text = "Rotation:";
+            this.stLabel5.Text = "旋转：";
             // 
             // numericUpDownFloat5
             // 
@@ -484,7 +484,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(54, 13);
             this.stLabel4.TabIndex = 5;
-            this.stLabel4.Text = "Translate:";
+            this.stLabel4.Text = "平移：";
             // 
             // stLabel3
             // 

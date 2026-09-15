@@ -116,7 +116,7 @@
             this.searchLbl.Name = "searchLbl";
             this.searchLbl.Size = new System.Drawing.Size(41, 13);
             this.searchLbl.TabIndex = 2;
-            this.searchLbl.Text = "Search";
+            this.searchLbl.Text = "搜索";
             // 
             // searchImgPB
             // 
@@ -160,7 +160,7 @@
             this.openToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.Text = "文件";
             // 
             // openToolStripMenuItem
             // 
@@ -175,13 +175,13 @@
             this.sortToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.viewToolStripMenuItem.Text = "View";
+            this.viewToolStripMenuItem.Text = "视图";
             // 
             // sortToolStripMenuItem
             // 
             this.sortToolStripMenuItem.Name = "sortToolStripMenuItem";
             this.sortToolStripMenuItem.Size = new System.Drawing.Size(95, 22);
-            this.sortToolStripMenuItem.Text = "Sort";
+            this.sortToolStripMenuItem.Text = "排序";
             this.sortToolStripMenuItem.Click += new System.EventHandler(this.sortToolStripMenuItem_Click);
             // 
             // stPanel2
@@ -212,22 +212,22 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Name";
+            this.columnHeader1.Text = "名称";
             this.columnHeader1.Width = 268;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Size";
+            this.columnHeader2.Text = "尺寸";
             this.columnHeader2.Width = 89;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Type";
+            this.columnHeader3.Text = "类型";
             this.columnHeader3.Width = 74;
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "State";
+            this.columnHeader4.Text = "状态";
             this.columnHeader4.Width = 154;
             // 
             // splitter1

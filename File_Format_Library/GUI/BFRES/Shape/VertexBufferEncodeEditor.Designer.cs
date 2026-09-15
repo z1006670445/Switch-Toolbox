@@ -73,7 +73,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 1;
-            this.stButton1.Text = "Ok";
+            this.stButton1.Text = "确定";
             this.stButton1.UseVisualStyleBackColor = false;
             // 
             // stButton2
@@ -84,7 +84,7 @@
             this.stButton2.Name = "stButton2";
             this.stButton2.Size = new System.Drawing.Size(75, 23);
             this.stButton2.TabIndex = 2;
-            this.stButton2.Text = "Cancel";
+            this.stButton2.Text = "取消";
             this.stButton2.UseVisualStyleBackColor = false;
             // 
             // stLabel1
@@ -94,7 +94,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(42, 13);
             this.stLabel1.TabIndex = 3;
-            this.stLabel1.Text = "Format:";
+            this.stLabel1.Text = "格式：";
             // 
             // nameTB
             // 
@@ -112,7 +112,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(38, 13);
             this.stLabel2.TabIndex = 5;
-            this.stLabel2.Text = "Name:";
+            this.stLabel2.Text = "名称：";
             // 
             // VertexBufferEncodeEditor
             // 

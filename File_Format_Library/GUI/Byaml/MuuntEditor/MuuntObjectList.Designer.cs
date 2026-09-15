@@ -64,7 +64,7 @@
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.stComboBox1);
             this.Name = "MuuntObjectList";
-            this.Text = "MuuntObjectList";
+            this.Text = "Muunt 对象列表";
             this.ResumeLayout(false);
 
         }

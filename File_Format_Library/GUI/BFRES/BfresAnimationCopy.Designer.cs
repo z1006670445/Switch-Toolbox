@@ -142,7 +142,7 @@
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(75, 23);
             this.btnOk.TabIndex = 4;
-            this.btnOk.Text = "Ok";
+            this.btnOk.Text = "确定";
             this.btnOk.UseVisualStyleBackColor = false;
             // 
             // BfresAnimationCopy

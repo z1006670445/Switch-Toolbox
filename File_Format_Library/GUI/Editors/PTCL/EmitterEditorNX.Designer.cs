@@ -173,7 +173,7 @@
             this.stLabel5.Name = "stLabel5";
             this.stLabel5.Size = new System.Drawing.Size(33, 13);
             this.stLabel5.TabIndex = 43;
-            this.stLabel5.Text = "Time:";
+            this.stLabel5.Text = "时间：";
             // 
             // stPanel6
             // 

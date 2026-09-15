@@ -98,7 +98,7 @@
             this.loopChkBox.Name = "loopChkBox";
             this.loopChkBox.Size = new System.Drawing.Size(70, 22);
             this.loopChkBox.TabIndex = 5;
-            this.loopChkBox.Text = "Loop";
+            this.loopChkBox.Text = "循环";
             this.loopChkBox.UseVisualStyleBackColor = true;
             // 
             // totalFrame

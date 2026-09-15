@@ -308,7 +308,7 @@ namespace FirstPlugin.Forms
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Name:";
+            this.label1.Text = "名称：";
             // 
             // label2
             // 
@@ -317,7 +317,7 @@ namespace FirstPlugin.Forms
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Type:";
+            this.label2.Text = "类型：";
             // 
             // button1
             // 
@@ -327,7 +327,7 @@ namespace FirstPlugin.Forms
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 5;
-            this.button1.Text = "Save";
+            this.button1.Text = "保存";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // dataTB
@@ -365,7 +365,7 @@ namespace FirstPlugin.Forms
             this.Controls.Add(this.typeCB);
             this.Controls.Add(this.nameTB);
             this.Name = "EditBox";
-            this.Text = "EditBox";
+            this.Text = "编辑框";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

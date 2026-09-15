@@ -94,7 +94,7 @@ namespace FirstPlugin
             }
 
             ContextMenuStrip = new STContextMenuStrip();
-            ContextMenuStrip.Items.Add(new ToolStripMenuItem("Save", null, Save, Keys.Control | Keys.S));
+            ContextMenuStrip.Items.Add(new ToolStripMenuItem("保存", null, Save, Keys.Control | Keys.S));
         }
 
         public void Unload()
@@ -588,7 +588,7 @@ namespace FirstPlugin
                         section.Text = reader.ReadString(StringSize, Encoding.ASCII);
                         break;
                     case "GRSN":
-                        section.Text = "Shaders";
+                        section.Text = "着色器";
 
                         if (section.BinaryDataOffset != NullOffset)
                         {
@@ -597,7 +597,7 @@ namespace FirstPlugin
                         }
                         break;
                     case "GRSC":
-                        section.Text = "Shader 2";
+                        section.Text = "着色器 2";
                         if (section.BinaryDataOffset != NullOffset)
                         {
                             reader.Seek(section.BinaryDataOffset + section.Position, SeekOrigin.Begin);

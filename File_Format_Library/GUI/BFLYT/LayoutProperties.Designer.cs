@@ -66,7 +66,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(344, 270);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Properties";
+            this.tabPage1.Text = "属性";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2

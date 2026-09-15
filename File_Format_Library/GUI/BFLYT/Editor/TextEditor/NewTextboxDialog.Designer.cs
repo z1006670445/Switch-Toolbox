@@ -90,7 +90,7 @@
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 3;
-            this.btnAdd.Text = "Add";
+            this.btnAdd.Text = "添加";
             this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
@@ -102,7 +102,7 @@
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(75, 23);
             this.btnOk.TabIndex = 11;
-            this.btnOk.Text = "Ok";
+            this.btnOk.Text = "确定";
             this.btnOk.UseVisualStyleBackColor = false;
             // 
             // stLabel2

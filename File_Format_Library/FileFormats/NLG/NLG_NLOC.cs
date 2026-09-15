@@ -86,7 +86,7 @@ namespace FirstPlugin
         {
             return new ToolStripItem[]
             {
-                 new ToolStripMenuItem("Save", null, SaveAction, Keys.Control | Keys.S),
+                 new ToolStripMenuItem("保存", null, SaveAction, Keys.Control | Keys.S),
             };
         }
 

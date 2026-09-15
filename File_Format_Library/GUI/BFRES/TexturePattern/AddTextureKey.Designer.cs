@@ -80,7 +80,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(46, 13);
             this.stLabel1.TabIndex = 1;
-            this.stLabel1.Text = "Texture:";
+            this.stLabel1.Text = "贴图：";
             // 
             // btnEdit
             // 
@@ -89,7 +89,7 @@
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(75, 23);
             this.btnEdit.TabIndex = 2;
-            this.btnEdit.Text = "Edit";
+            this.btnEdit.Text = "编辑";
             this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
@@ -143,7 +143,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 9;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "取消";
             this.btnCancel.UseVisualStyleBackColor = false;
             // 
             // btnOK
@@ -154,7 +154,7 @@
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 10;
-            this.btnOK.Text = "Ok";
+            this.btnOK.Text = "确定";
             this.btnOK.UseVisualStyleBackColor = false;
             // 
             // AddTextureKey

@@ -171,7 +171,7 @@ namespace FirstPlugin
                 SelectedImageKey = "fileBlank";
 
                 ContextMenu = new ContextMenu();
-                MenuItem export = new MenuItem("Export");
+                MenuItem export = new MenuItem("导出");
                 ContextMenu.MenuItems.Add(export);
                 export.Click += Export;
 

@@ -58,7 +58,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(43, 13);
             this.stLabel1.TabIndex = 2;
-            this.stLabel1.Text = "Stages:";
+            this.stLabel1.Text = "阶段：";
             // 
             // tevColorModeCB
             // 

@@ -75,7 +75,7 @@
             this.ClientSize = new System.Drawing.Size(292, 356);
             this.Controls.Add(this.listView1);
             this.Name = "PluginManager";
-            this.Text = "PluginManager";
+            this.Text = "插件管理器";
             this.ResumeLayout(false);
 
         }

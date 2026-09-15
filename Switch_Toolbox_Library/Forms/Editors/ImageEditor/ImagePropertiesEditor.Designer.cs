@@ -63,7 +63,7 @@
             // 
             // ChannelsColumn
             // 
-            this.ChannelsColumn.Text = "Channels";
+            this.ChannelsColumn.Text = "通道";
             this.ChannelsColumn.Width = 219;
             // 
             // stTabControl1
@@ -86,7 +86,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(225, 514);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Properties";
+            this.tabPage2.Text = "属性";
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
@@ -109,7 +109,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(225, 514);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Channels";
+            this.tabPage1.Text = "通道";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // stChannelToolstripMenu

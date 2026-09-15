@@ -292,7 +292,7 @@ namespace Toolbox.Library.Forms
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 38;
-            this.label2.Text = "Format";
+            this.label2.Text = "格式";
             // 
             // label1
             // 
@@ -323,7 +323,7 @@ namespace Toolbox.Library.Forms
             this.WidthLabel.Name = "WidthLabel";
             this.WidthLabel.Size = new System.Drawing.Size(35, 13);
             this.WidthLabel.TabIndex = 35;
-            this.WidthLabel.Text = "Width";
+            this.WidthLabel.Text = "宽度";
             // 
             // HeightLabel
             // 
@@ -332,7 +332,7 @@ namespace Toolbox.Library.Forms
             this.HeightLabel.Name = "HeightLabel";
             this.HeightLabel.Size = new System.Drawing.Size(38, 13);
             this.HeightLabel.TabIndex = 34;
-            this.HeightLabel.Text = "Height";
+            this.HeightLabel.Text = "高度";
             // 
             // formatComboBox
             // 
@@ -380,7 +380,7 @@ namespace Toolbox.Library.Forms
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(79, 33);
             this.button2.TabIndex = 30;
-            this.button2.Text = "Cancel";
+            this.button2.Text = "取消";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
@@ -391,7 +391,7 @@ namespace Toolbox.Library.Forms
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(79, 33);
             this.button1.TabIndex = 29;
-            this.button1.Text = "Ok";
+            this.button1.Text = "确定";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // pictureBox1

@@ -109,7 +109,7 @@ namespace FirstPlugin.LuigisMansion.DarkMoon
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Export", null, ExportAction, Keys.Control | Keys.E));
+            Items.Add(new ToolStripMenuItem("导出", null, ExportAction, Keys.Control | Keys.E));
             return Items.ToArray();
         }
 
@@ -152,7 +152,7 @@ namespace FirstPlugin.LuigisMansion.DarkMoon
         {
             Nodes.Clear();
 
-            TreeNode skeletonNode = new TreeNode("Skeleton");
+            TreeNode skeletonNode = new TreeNode("骨骼");
             for (int t = 0; t < Skeleton?.bones.Count; t++) {
                 if (Skeleton.bones[t].Parent == null)
                     skeletonNode.Nodes.Add(Skeleton.bones[t]);

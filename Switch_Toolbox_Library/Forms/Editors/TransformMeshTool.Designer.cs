@@ -73,7 +73,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Ok";
+            this.button1.Text = "确定";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // label2
@@ -83,7 +83,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 16;
-            this.label2.Text = "Position:";
+            this.label2.Text = "位置：";
             // 
             // label3
             // 
@@ -122,7 +122,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(50, 13);
             this.label9.TabIndex = 23;
-            this.label9.Text = "Rotation:";
+            this.label9.Text = "旋转：";
             // 
             // label8
             // 
@@ -161,7 +161,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(37, 13);
             this.label1.TabIndex = 30;
-            this.label1.Text = "Scale:";
+            this.label1.Text = "缩放：";
             // 
             // label10
             // 

@@ -114,8 +114,8 @@ namespace FirstPlugin
             Model = new GFLXModel();
             Model.LoadFile(model, this, Renderer);
 
-            TreeNode SkeletonWrapper = new TreeNode("Skeleton");
-            TreeNode MaterialFolderWrapper = new TreeNode("Materials");
+            TreeNode SkeletonWrapper = new TreeNode("骨骼");
+            TreeNode MaterialFolderWrapper = new TreeNode("材质");
             TreeNode VisualGroupWrapper = new TreeNode("可视组");
             TreeNode Textures = new TreeNode("Textures");
 
@@ -173,7 +173,7 @@ namespace FirstPlugin
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            Items.Add(new ToolStripMenuItem("Save", null, SaveAction, Keys.Control | Keys.S));
+            Items.Add(new ToolStripMenuItem("保存", null, SaveAction, Keys.Control | Keys.S));
             Items.Add(new ToolStripMenuItem("导出模型", null, ExportAction, Keys.Control | Keys.E));
             Items.Add(new ToolStripMenuItem("替换模型", null, ReplaceAction, Keys.Control | Keys.R));
             return Items.ToArray();

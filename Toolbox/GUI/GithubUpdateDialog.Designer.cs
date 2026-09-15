@@ -63,7 +63,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 11;
-            this.stButton1.Text = "No";
+            this.stButton1.Text = "否";
             this.stButton1.UseVisualStyleBackColor = false;
             // 
             // stButton2
@@ -75,7 +75,7 @@
             this.stButton2.Name = "stButton2";
             this.stButton2.Size = new System.Drawing.Size(75, 23);
             this.stButton2.TabIndex = 12;
-            this.stButton2.Text = "Yes";
+            this.stButton2.Text = "是";
             this.stButton2.UseVisualStyleBackColor = false;
             // 
             // listViewCustom1
@@ -99,12 +99,12 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Message";
+            this.columnHeader1.Text = "消息";
             this.columnHeader1.Width = 172;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Date";
+            this.columnHeader2.Text = "日期";
             this.columnHeader2.Width = 368;
             // 
             // stTextBox1
@@ -135,7 +135,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(39, 13);
             this.stLabel2.TabIndex = 16;
-            this.stLabel2.Text = "Details";
+            this.stLabel2.Text = "详细信息";
             // 
             // GithubUpdateDialog
             // 

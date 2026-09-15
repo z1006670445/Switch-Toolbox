@@ -62,7 +62,7 @@
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.Size = new System.Drawing.Size(75, 23);
             this.CancelBtn.TabIndex = 2;
-            this.CancelBtn.Text = "Cancel";
+            this.CancelBtn.Text = "取消";
             this.CancelBtn.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -84,7 +84,7 @@
             this.OkBtn.Name = "OkBtn";
             this.OkBtn.Size = new System.Drawing.Size(75, 23);
             this.OkBtn.TabIndex = 4;
-            this.OkBtn.Text = "Ok";
+            this.OkBtn.Text = "确定";
             this.OkBtn.UseVisualStyleBackColor = true;
             // 
             // Meshes
@@ -104,7 +104,7 @@
             this.Controls.Add(this.listView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "AssimpMeshSelector";
-            this.Text = "AssimpMeshSelector";
+            this.Text = "Assimp 网格选择";
             this.ResumeLayout(false);
             this.PerformLayout();
 

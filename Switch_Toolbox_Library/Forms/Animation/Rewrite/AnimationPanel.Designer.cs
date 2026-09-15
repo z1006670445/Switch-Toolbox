@@ -81,7 +81,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(27, 13);
             this.stLabel1.TabIndex = 7;
-            this.stLabel1.Text = "FPS";
+            this.stLabel1.Text = "帧率";
             // 
             // frameSpeedUD
             // 
@@ -105,7 +105,7 @@
             this.loopChkBox.Name = "loopChkBox";
             this.loopChkBox.Size = new System.Drawing.Size(50, 17);
             this.loopChkBox.TabIndex = 5;
-            this.loopChkBox.Text = "Loop";
+            this.loopChkBox.Text = "循环";
             this.loopChkBox.UseVisualStyleBackColor = true;
             // 
             // totalFrame

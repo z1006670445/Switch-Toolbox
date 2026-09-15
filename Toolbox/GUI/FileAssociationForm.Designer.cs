@@ -89,7 +89,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 13;
-            this.stButton1.Text = "Save";
+            this.stButton1.Text = "保存";
             this.stButton1.UseVisualStyleBackColor = false;
             this.stButton1.Click += new System.EventHandler(this.stButton1_Click);
             // 
@@ -101,7 +101,7 @@
             this.stButton2.Name = "stButton2";
             this.stButton2.Size = new System.Drawing.Size(75, 23);
             this.stButton2.TabIndex = 14;
-            this.stButton2.Text = "Cancel";
+            this.stButton2.Text = "取消";
             this.stButton2.UseVisualStyleBackColor = false;
             // 
             // columnHeader2

@@ -44,7 +44,7 @@ namespace FirstPlugin
         {
             return new ToolStripItem[]
             {
-                new ToolStripMenuItem("Save", null, Save, Keys.Control | Keys.S),
+                new ToolStripMenuItem("保存", null, Save, Keys.Control | Keys.S),
             };
         }
 

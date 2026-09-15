@@ -148,7 +148,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Positions";
+            this.label2.Text = "位置";
             // 
             // comboBoxFormatPositions
             // 
@@ -169,7 +169,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Format";
+            this.label1.Text = "格式";
             // 
             // panel2
             // 
@@ -188,7 +188,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(45, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Normals";
+            this.label3.Text = "法线";
             // 
             // comboBoxFormatNormals
             // 
@@ -209,7 +209,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 13);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Format";
+            this.label4.Text = "格式";
             // 
             // panel3
             // 
@@ -228,7 +228,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(27, 13);
             this.label5.TabIndex = 2;
-            this.label5.Text = "UVs";
+            this.label5.Text = "UV";
             // 
             // comboBoxFormatUvs
             // 
@@ -249,7 +249,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(39, 13);
             this.label6.TabIndex = 0;
-            this.label6.Text = "Format";
+            this.label6.Text = "格式";
             // 
             // panel4
             // 
@@ -290,7 +290,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(39, 13);
             this.label8.TabIndex = 0;
-            this.label8.Text = "Format";
+            this.label8.Text = "格式";
             // 
             // panel5
             // 
@@ -309,7 +309,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(52, 13);
             this.label9.TabIndex = 2;
-            this.label9.Text = "Tangents";
+            this.label9.Text = "切线";
             // 
             // comboBoxFormatTangents
             // 
@@ -330,7 +330,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(39, 13);
             this.label10.TabIndex = 0;
-            this.label10.Text = "Format";
+            this.label10.Text = "格式";
             // 
             // panel6
             // 
@@ -349,7 +349,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(57, 13);
             this.label11.TabIndex = 2;
-            this.label11.Text = "Bitangents";
+            this.label11.Text = "副切线";
             // 
             // comboBoxFormatBitans
             // 
@@ -370,7 +370,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(39, 13);
             this.label12.TabIndex = 0;
-            this.label12.Text = "Format";
+            this.label12.Text = "格式";
             // 
             // panel7
             // 
@@ -716,7 +716,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 17;
-            this.button1.Text = "Save";
+            this.button1.Text = "保存";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -795,7 +795,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(39, 13);
             this.label18.TabIndex = 4;
-            this.label18.Text = "Format";
+            this.label18.Text = "格式";
             // 
             // label17
             // 
@@ -804,7 +804,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(36, 13);
             this.label17.TabIndex = 15;
-            this.label17.Text = "Faces";
+            this.label17.Text = "面";
             // 
             // tabControl1
             // 
@@ -922,7 +922,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(41, 13);
             this.stLabel2.TabIndex = 43;
-            this.stLabel2.Text = "Current";
+            this.stLabel2.Text = "当前";
             // 
             // stLabel1
             // 
@@ -931,7 +931,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(42, 13);
             this.stLabel1.TabIndex = 42;
-            this.stLabel1.Text = "Original";
+            this.stLabel1.Text = "原始";
             // 
             // objectNameTB
             // 

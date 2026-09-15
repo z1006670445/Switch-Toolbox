@@ -63,13 +63,13 @@ namespace Bfres.Structs
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
 
-            Items.Add(new STToolStipMenuItem("New", null, NewAction, Keys.Control | Keys.N) { Enabled = ShowNewContextMenu });
-            Items.Add(new STToolStipMenuItem("Import", null, ImportAction, Keys.Control | Keys.I));
+            Items.Add(new STToolStipMenuItem("新建", null, NewAction, Keys.Control | Keys.N) { Enabled = ShowNewContextMenu });
+            Items.Add(new STToolStipMenuItem("导入", null, ImportAction, Keys.Control | Keys.I));
             Items.Add(new ToolStripMenuItem("全部导出", null, ExportAllAction, Keys.Control | Keys.E));
             Items.Add(new ToolStripMenuItem("替换（从文件夹）", null, ReplaceAllAction, Keys.Control | Keys.R));
             Items.Add(new STToolStripSeparator());
-            Items.Add(new STToolStipMenuItem("Sort", null, SortAction, Keys.Control | Keys.S));
-            Items.Add(new STToolStipMenuItem("Clear", null, ClearAction, Keys.Control | Keys.C));
+            Items.Add(new STToolStipMenuItem("排序", null, SortAction, Keys.Control | Keys.S));
+            Items.Add(new STToolStipMenuItem("清除", null, ClearAction, Keys.Control | Keys.C));
 
             if (Type == BRESGroupType.Textures)
             {

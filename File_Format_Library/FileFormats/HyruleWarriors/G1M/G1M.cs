@@ -183,7 +183,7 @@ namespace HyruleWarriors.G1M
                     Renderer.Skeleton = G1MSkeleton.GenericSkeleton;
                     DrawableContainer.Drawables.Add(G1MSkeleton.GenericSkeleton);
 
-                    TreeNode skeleton = new TreeNode("Skeleton");
+                    TreeNode skeleton = new TreeNode("骨骼");
                     Nodes.Add(skeleton);
                     foreach (var bn in G1MSkeleton.GenericSkeleton.bones)
                         if (bn.Parent == null)
@@ -200,7 +200,7 @@ namespace HyruleWarriors.G1M
                     Model = new G1MG(reader);
                     Renderer.Meshes.AddRange(Model.GenericMeshes);
 
-                    meshNode = new TreeNode("Meshes");
+                    meshNode = new TreeNode("网格");
                     Nodes.Add(meshNode);
                     foreach (var mesh in Model.GenericMeshes)
                         meshNode.Nodes.Add(mesh);

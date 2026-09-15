@@ -156,7 +156,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(40, 13);
             this.label22.TabIndex = 57;
-            this.label22.Text = "Radius";
+            this.label22.Text = "半径";
             // 
             // extendZUD
             // 
@@ -234,7 +234,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(37, 13);
             this.label18.TabIndex = 50;
-            this.label18.Text = "Extent";
+            this.label18.Text = "范围";
             // 
             // label19
             // 
@@ -342,7 +342,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(38, 13);
             this.label14.TabIndex = 43;
-            this.label14.Text = "Center";
+            this.label14.Text = "居中";
             // 
             // label15
             // 
@@ -402,7 +402,7 @@
             this.stLabel2.Name = "stLabel2";
             this.stLabel2.Size = new System.Drawing.Size(38, 13);
             this.stLabel2.TabIndex = 61;
-            this.stLabel2.Text = "Offset:";
+            this.stLabel2.Text = "偏移：";
             // 
             // offsetUD
             // 
@@ -424,7 +424,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 63;
-            this.stButton1.Text = "Cancel";
+            this.stButton1.Text = "取消";
             this.stButton1.UseVisualStyleBackColor = false;
             // 
             // btnOk
@@ -435,7 +435,7 @@
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(75, 23);
             this.btnOk.TabIndex = 64;
-            this.btnOk.Text = "Ok";
+            this.btnOk.Text = "确定";
             this.btnOk.UseVisualStyleBackColor = false;
             // 
             // btnRemove
@@ -446,7 +446,7 @@
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(75, 23);
             this.btnRemove.TabIndex = 69;
-            this.btnRemove.Text = "Remove";
+            this.btnRemove.Text = "移除";
             this.btnRemove.UseVisualStyleBackColor = false;
             // 
             // btnAdd
@@ -456,7 +456,7 @@
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 68;
-            this.btnAdd.Text = "Add";
+            this.btnAdd.Text = "添加";
             this.btnAdd.UseVisualStyleBackColor = false;
             // 
             // listViewCustom1
@@ -477,7 +477,7 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Samplers";
+            this.columnHeader1.Text = "采样器";
             this.columnHeader1.Width = 154;
             // 
             // btnScrollUp
@@ -506,7 +506,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(696, 265);
             this.Name = "SubMeshEditor";
-            this.Text = "SubMeshEditor";
+            this.Text = "子网格编辑器";
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radiusUD)).EndInit();

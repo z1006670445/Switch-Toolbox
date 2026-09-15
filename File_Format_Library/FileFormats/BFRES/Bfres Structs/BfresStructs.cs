@@ -39,19 +39,19 @@ namespace Bfres.Structs
             FileHandler = handler;
 
             ContextMenu = new ContextMenu();
-            MenuItem save = new MenuItem("Save");
+            MenuItem save = new MenuItem("保存");
             ContextMenu.MenuItems.Add(save);
             save.Click += Save;
 
-            MenuItem newMenu = new MenuItem("New");
-            MenuItem import = new MenuItem("Import");
+            MenuItem newMenu = new MenuItem("新建");
+            MenuItem import = new MenuItem("导入");
      //       ContextMenu.MenuItems.Add(newMenu);
      //       ContextMenu.MenuItems.Add(import);
 
-            MenuItem rename = new MenuItem("Rename");
+            MenuItem rename = new MenuItem("重命名");
             ContextMenu.MenuItems.Add(rename);
             rename.Click += Rename;
-            MenuItem remove = new MenuItem("Remove");
+            MenuItem remove = new MenuItem("移除");
             ContextMenu.MenuItems.Add(remove);
             remove.Click += Remove;
 
@@ -64,12 +64,12 @@ namespace Bfres.Structs
             }
             else
             {
-                MenuItem model = new MenuItem("Model");
-                MenuItem fska = new MenuItem("Skeletal Animation");
+                MenuItem model = new MenuItem("模型");
+                MenuItem fska = new MenuItem("骨骼动画");
                 MenuItem fmaa = new MenuItem("Material Animation");
                 MenuItem bonevis = new MenuItem("Bone Visual Animation");
-                MenuItem shape = new MenuItem("Shape Animation");
-                MenuItem scene = new MenuItem("Scene Animation");
+                MenuItem shape = new MenuItem("形状动画");
+                MenuItem scene = new MenuItem("场景动画");
                 MenuItem embedded = new MenuItem("Embedded File");
                 MenuItem texture = new MenuItem("Texture File");
                 texture.Click += NewTextureFile;
@@ -82,12 +82,12 @@ namespace Bfres.Structs
                 newMenu.MenuItems.Add(embedded);
                 newMenu.MenuItems.Add(texture);
 
-                MenuItem importmodel = new MenuItem("Model");
-                MenuItem importfska = new MenuItem("Skeletal Animation");
+                MenuItem importmodel = new MenuItem("模型");
+                MenuItem importfska = new MenuItem("骨骼动画");
                 MenuItem importfmaa = new MenuItem("Material Animation");
                 MenuItem importbonevis = new MenuItem("Bone Visual Animation");
-                MenuItem importshape = new MenuItem("Shape Animation");
-                MenuItem importscene = new MenuItem("Scene Animation");
+                MenuItem importshape = new MenuItem("形状动画");
+                MenuItem importscene = new MenuItem("场景动画");
                 MenuItem importembedded = new MenuItem("Embedded File");
                 MenuItem importtexture = new MenuItem("Texture File");
                 import.MenuItems.Add(importmodel);

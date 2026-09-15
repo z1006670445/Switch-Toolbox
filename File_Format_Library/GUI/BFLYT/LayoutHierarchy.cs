@@ -173,7 +173,7 @@ namespace LayoutBXLYT
             ActiveLayout.TextureFolder = new TreeNode("Textures");
             treeView1.Nodes.Add(ActiveLayout.TextureFolder);
             ActiveLayout.TextureFolder.ContextMenuStrip = new ContextMenuStrip();
-            ActiveLayout.TextureFolder.ContextMenuStrip.Items.Add(new STToolStipMenuItem("Add", null, (o, e) =>
+            ActiveLayout.TextureFolder.ContextMenuStrip.Items.Add(new STToolStipMenuItem("添加", null, (o, e) =>
             {
                 ActiveLayout.Textures.Add("NewTexture");
                 AddTextureNode("NewTexture", ActiveLayout.Textures.Count - 1);
@@ -187,11 +187,11 @@ namespace LayoutBXLYT
         {
             TreeNode matNode = new TreeNode(tex);
             matNode.ContextMenuStrip = new ContextMenuStrip();
-            matNode.ContextMenuStrip.Items.Add(new STToolStipMenuItem("Rename", null, (o, e) =>
+            matNode.ContextMenuStrip.Items.Add(new STToolStipMenuItem("重命名", null, (o, e) =>
             {
                 RenameTextureAction(matNode, i);
             }));
-            matNode.ContextMenuStrip.Items.Add(new STToolStipMenuItem("Remove", null, (o, e) =>
+            matNode.ContextMenuStrip.Items.Add(new STToolStipMenuItem("移除", null, (o, e) =>
             {
                 ActiveLayout.TextureFolder.Nodes.Remove(matNode);
                 ActiveLayout.Textures.Remove(matNode.Text);
@@ -214,9 +214,9 @@ namespace LayoutBXLYT
 
         private void LoadFonts(List<string> fonts)
         {
-            ActiveLayout.FontFolder = new TreeNode("Fonts");
+            ActiveLayout.FontFolder = new TreeNode("字体");
             ActiveLayout.FontFolder.ContextMenuStrip = new ContextMenuStrip();
-            ActiveLayout.FontFolder.ContextMenuStrip.Items.Add(new STToolStipMenuItem("Add", null, (o, e) =>
+            ActiveLayout.FontFolder.ContextMenuStrip.Items.Add(new STToolStipMenuItem("添加", null, (o, e) =>
             {
                 ActiveLayout.Fonts.Add("NewFont");
                 AddFontNode("NewFont", ActiveLayout.Fonts.Count - 1);
@@ -231,11 +231,11 @@ namespace LayoutBXLYT
         {
             TreeNode matNode = new TreeNode(font);
             matNode.ContextMenuStrip = new ContextMenuStrip();
-            matNode.ContextMenuStrip.Items.Add(new STToolStipMenuItem("Rename", null, (o, e) =>
+            matNode.ContextMenuStrip.Items.Add(new STToolStipMenuItem("重命名", null, (o, e) =>
             {
                 RenameFont(matNode, i);
             }));
-            matNode.ContextMenuStrip.Items.Add(new STToolStipMenuItem("Remove", null, (o, e) =>
+            matNode.ContextMenuStrip.Items.Add(new STToolStipMenuItem("移除", null, (o, e) =>
             {
                 ActiveLayout.FontFolder.Nodes.Remove(matNode);
                 ActiveLayout.Fonts.Remove(matNode.Text);
@@ -257,7 +257,7 @@ namespace LayoutBXLYT
 
         private void LoadMaterials(List<BxlytMaterial> materials)
         {
-            ActiveLayout.MaterialFolder = new TreeNode("Materials");
+            ActiveLayout.MaterialFolder = new TreeNode("材质");
             treeView1.Nodes.Add(ActiveLayout.MaterialFolder);
             for (int i = 0; i < materials.Count; i++)
             {
@@ -290,7 +290,7 @@ namespace LayoutBXLYT
             TreeNode pictureFolder = new TreeNode("图片窗格");
             TreeNode boundryFolder = new TreeNode("边界窗格");
             TreeNode partsFolder = new TreeNode("部件窗格");
-            TreeNode groupFolder = new TreeNode("Groups");
+            TreeNode groupFolder = new TreeNode("组");
 
             node.Nodes.Add(nullFolder);
             node.Nodes.Add(textFolder);

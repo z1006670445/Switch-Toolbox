@@ -287,7 +287,7 @@
             this.stLabel4.Name = "stLabel4";
             this.stLabel4.Size = new System.Drawing.Size(39, 13);
             this.stLabel4.TabIndex = 15;
-            this.stLabel4.Text = "Frame:";
+            this.stLabel4.Text = "帧：";
             // 
             // textureFrameUD
             // 
@@ -479,7 +479,7 @@
             this.loopChkBox.Name = "loopChkBox";
             this.loopChkBox.Size = new System.Drawing.Size(50, 17);
             this.loopChkBox.TabIndex = 17;
-            this.loopChkBox.Text = "Loop";
+            this.loopChkBox.Text = "循环";
             this.loopChkBox.UseVisualStyleBackColor = true;
             // 
             // animationTrackBar
@@ -628,39 +628,39 @@
             this.editToolStripMenuItem.Enabled = false;
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.editToolStripMenuItem.Text = "Edit";
+            this.editToolStripMenuItem.Text = "编辑";
             // 
             // exportToolStripMenuItem
             // 
             this.exportToolStripMenuItem.Name = "exportToolStripMenuItem";
             this.exportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exportToolStripMenuItem.Text = "Export";
+            this.exportToolStripMenuItem.Text = "导出";
             this.exportToolStripMenuItem.Click += new System.EventHandler(this.exportToolStripMenuItem_Click);
             // 
             // replaceToolStripMenuItem
             // 
             this.replaceToolStripMenuItem.Name = "replaceToolStripMenuItem";
             this.replaceToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.replaceToolStripMenuItem.Text = "Replace";
+            this.replaceToolStripMenuItem.Text = "替换";
             this.replaceToolStripMenuItem.Click += new System.EventHandler(this.replaceToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem
             // 
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.viewToolStripMenuItem.Text = "View";
+            this.viewToolStripMenuItem.Text = "视图";
             // 
             // imageToolStripMenuItem
             // 
             this.imageToolStripMenuItem.Name = "imageToolStripMenuItem";
             this.imageToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.imageToolStripMenuItem.Text = "Image";
+            this.imageToolStripMenuItem.Text = "图像";
             // 
             // adjustmentsToolStripMenuItem
             // 
             this.adjustmentsToolStripMenuItem.Name = "adjustmentsToolStripMenuItem";
             this.adjustmentsToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
-            this.adjustmentsToolStripMenuItem.Text = "Adjustments";
+            this.adjustmentsToolStripMenuItem.Text = "调整";
             // 
             // splitter4
             // 

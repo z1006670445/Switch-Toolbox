@@ -65,7 +65,7 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Node";
+            this.columnHeader1.Text = "节点";
             this.columnHeader1.Width = 304;
             // 
             // searchTB
@@ -105,7 +105,7 @@
             this.searchBtn.Name = "searchBtn";
             this.searchBtn.Size = new System.Drawing.Size(75, 23);
             this.searchBtn.TabIndex = 15;
-            this.searchBtn.Text = "Search";
+            this.searchBtn.Text = "搜索";
             this.searchBtn.UseVisualStyleBackColor = false;
             this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
             // 
@@ -116,7 +116,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(38, 13);
             this.stLabel1.TabIndex = 16;
-            this.stLabel1.Text = "Name:";
+            this.stLabel1.Text = "名称：";
             // 
             // chkAutoSearch
             // 

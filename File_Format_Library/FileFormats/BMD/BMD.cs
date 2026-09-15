@@ -143,9 +143,9 @@ namespace FirstPlugin
         {
             Nodes.Clear();
 
-            ShapeFolder = new TreeNode("Shapes");
-            SkeletonFolder = new TreeNode("Skeleton");
-            MaterialFolder = new TreeNode("Materials");
+            ShapeFolder = new TreeNode("网格");
+            SkeletonFolder = new TreeNode("骨骼");
+            MaterialFolder = new TreeNode("材质");
             TextureFolder = new BMDTextureFolder("Textures");
             Nodes.Add(ShapeFolder);
             Nodes.Add(MaterialFolder);
@@ -335,10 +335,10 @@ namespace FirstPlugin
         public ToolStripItem[] GetContextMenuItems()
         {
             List<ToolStripItem> Items = new List<ToolStripItem>();
-            //Items.Add(new STToolStipMenuItem("Save", null, SaveAction, Keys.Control | Keys.S));
+            //Items.Add(new STToolStipMenuItem("保存", null, SaveAction, Keys.Control | Keys.S));
             //Items.Add(new STToolStripSeparator());
-            Items.Add(new STToolStipMenuItem("Export", null, ExportAction, Keys.Control | Keys.E) );
-            Items.Add(new STToolStipMenuItem("Replace", null, ReplaceAction, Keys.Control | Keys.R) { Enabled = false});
+            Items.Add(new STToolStipMenuItem("导出", null, ExportAction, Keys.Control | Keys.E) );
+            Items.Add(new STToolStipMenuItem("替换", null, ReplaceAction, Keys.Control | Keys.R) { Enabled = false});
             return Items.ToArray();
         }
 

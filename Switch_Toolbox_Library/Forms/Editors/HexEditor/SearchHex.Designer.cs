@@ -82,7 +82,7 @@
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 3;
-            this.btnOK.Text = "Ok";
+            this.btnOK.Text = "确定";
             this.btnOK.UseVisualStyleBackColor = false;
             this.btnOK.Click += new System.EventHandler(this.stButton1_Click);
             // 
@@ -103,7 +103,7 @@
             this.radioBtnText.Size = new System.Drawing.Size(46, 17);
             this.radioBtnText.TabIndex = 5;
             this.radioBtnText.TabStop = true;
-            this.radioBtnText.Text = "Text";
+            this.radioBtnText.Text = "文本";
             this.radioBtnText.UseVisualStyleBackColor = true;
             this.radioBtnText.CheckedChanged += new System.EventHandler(this.radioBtn_CheckedChanged);
             this.radioBtnText.Enter += new System.EventHandler(this.radioBtnText_Enter);
@@ -116,7 +116,7 @@
             this.raditnHex.Size = new System.Drawing.Size(44, 17);
             this.raditnHex.TabIndex = 6;
             this.raditnHex.TabStop = true;
-            this.raditnHex.Text = "Hex";
+            this.raditnHex.Text = "十六进制";
             this.raditnHex.UseVisualStyleBackColor = true;
             this.raditnHex.CheckedChanged += new System.EventHandler(this.radioBtn_CheckedChanged);
             this.raditnHex.Enter += new System.EventHandler(this.raditnHex_Enter);
@@ -131,7 +131,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(398, 272);
             this.Name = "SearchHex";
-            this.Text = "Find";
+            this.Text = "查找";
             this.Activated += new System.EventHandler(this.SearchHex_Activated);
             this.contentContainer.ResumeLayout(false);
             this.contentContainer.PerformLayout();

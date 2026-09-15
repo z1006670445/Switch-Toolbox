@@ -63,7 +63,7 @@
             this.stLabel1.Name = "stLabel1";
             this.stLabel1.Size = new System.Drawing.Size(34, 13);
             this.stLabel1.TabIndex = 12;
-            this.stLabel1.Text = "Type:";
+            this.stLabel1.Text = "类型：";
             // 
             // stButton1
             // 
@@ -73,7 +73,7 @@
             this.stButton1.Name = "stButton1";
             this.stButton1.Size = new System.Drawing.Size(75, 23);
             this.stButton1.TabIndex = 13;
-            this.stButton1.Text = "Ok";
+            this.stButton1.Text = "确定";
             this.stButton1.UseVisualStyleBackColor = false;
             // 
             // AddGroupTypeDialog
